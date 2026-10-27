@@ -1,0 +1,4 @@
+These original V2.2 models and the generator are dedicated under CC0 1.0 Universal.
+Authoring: Low Altitude Squad V2.2 project, 2026-10-14.
+https://creativecommons.org/publicdomain/zero/1.0/
+No external model, image, font, or texture inputs.

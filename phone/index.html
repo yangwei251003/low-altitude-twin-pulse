@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN" data-ws-port="__WS_PORT__" data-session="__SESSION_ID__">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#142a3b">
+  <title>低空小队 · 手机手柄</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main id="controller">
+    <header class="topbar">
+      <strong>低空小队</strong>
+      <span id="status" role="status">尚未连接</span>
+      <span id="rtt">RTT --</span>
+      <button id="fullscreen" class="icon" title="全屏" aria-label="全屏">&#x26F6;</button>
+      <button id="settings-open" class="icon" title="手柄设置" aria-label="手柄设置">&#x2699;</button>
+    </header>
+    <section class="flight-status" aria-live="polite">
+      <span id="altitude">高度 --</span><span id="health">机况 --</span>
+      <span id="mode">辅助操控</span><span id="heat">热量 --</span>
+    </section>
+    <section id="sticks" class="sticks">
+      <div class="stick-group" id="left-group">
+        <div class="stick" id="left-stick" role="slider" tabindex="0" aria-label="左摇杆：上下升降，左右偏航" aria-valuemin="-1" aria-valuemax="1" aria-valuenow="0">
+          <span class="axis-line horizontal"></span><span class="axis-line vertical"></span>
+          <span class="thumb"></span>
+          <span class="axis-label top">上升</span><span class="axis-label bottom">下降</span>
+        </div>
+        <span class="stick-name" id="left-label">升降 · 偏航</span>
+      </div>
+      <div class="center-controls">
+        <button id="resume" disabled>等待电脑确认</button>
+        <button id="pause" aria-label="暂停">&#x23F8; 暂停</button>
+        <div class="ability-controls"><button id="utility">机体技能</button><button id="target">防护</button></div>
+        <span id="tutorial" role="status"></span>
+        <div class="camera-controls"><button id="zoom-in">＋</button><button id="zoom-out">－</button><button id="map">全图</button><button id="recenter">回正</button></div>
+        <span id="reason" role="status">连接后在电脑上确认接管</span>
+      </div>
+      <div class="stick-group" id="right-group">
+        <div class="stick" id="right-stick" role="slider" tabindex="0" aria-label="右摇杆：横滚与俯仰，跟随机头方向" aria-valuemin="-1" aria-valuemax="1" aria-valuenow="0">
+          <span class="axis-line horizontal"></span><span class="axis-line vertical"></span>
+          <span class="thumb"></span>
+          <span class="axis-label top">前进</span><span class="axis-label bottom">后退</span>
+        </div>
+        <span class="stick-name" id="right-label">平移 · 前后</span>
+      </div>
+    </section>
+    <footer class="actions">
+      <button id="interact" aria-pressed="false">作业</button>
+      <button id="fire" aria-pressed="false">手动开火：关</button>
+      <button id="brake" aria-pressed="false">制动</button>
+    </footer>
+  </main>
+  <section id="pair-panel" class="overlay">
+    <form id="pair-form" class="panel">
+      <h1>低空小队</h1>
+      <p>手机手柄</p>
+      <label for="pair-code">电脑上的六位配对码</label>
+      <input id="pair-code" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="off" required aria-describedby="pair-note">
+      <button id="connect" type="submit">连接</button>
+      <p id="pair-note" role="status">仅在自己的可信局域网连接</p>
+    </form>
+  </section>
+  <section id="portrait" class="overlay hidden" role="alert">
+    <div class="panel"><h2>请横屏握持手机</h2><p>控制已暂停</p></div>
+  </section>
+  <dialog id="settings">
+    <form method="dialog" class="panel settings-panel">
+      <h2>手柄设置</h2>
+      <label for="deadzone">死区 <output id="deadzone-value">8%</output></label>
+      <input id="deadzone" type="range" min="2" max="30" value="8">
+      <label for="sensitivity">升降 / 偏航灵敏度 <output id="sensitivity-value">100%</output></label>
+      <input id="sensitivity" type="range" min="40" max="150" value="100">
+      <label for="right-sensitivity">平移 / 倾角灵敏度 <output id="right-sensitivity-value">100%</output></label>
+      <input id="right-sensitivity" type="range" min="40" max="150" value="100">
+      <label for="size">摇杆半径 <output id="size-value">84</output></label>
+      <input id="size" type="range" min="72" max="110" value="84">
+      <label class="check"><input id="swap" type="checkbox"> 左右手交换</label>
+      <p id="settings-status">保存后回中，再恢复控制</p>
+      <button id="settings-save" value="save">应用设置</button>
+      <button id="disconnect" type="button">断开连接</button>
+      <button value="cancel">取消</button>
+    </form>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "namespace": "world.npc_sidejobs_v1",
+  "optional": true,
+  "max_active": 4,
+  "id": "sidejob:I3:dock_recheck",
+  "region": "I3",
+  "npc_id": "I3:coolant_01",
+  "title": "两公斤，亲自复核",
+  "offer": "高台那份两公斤载荷，我想再亲自核一遍。把载荷送稳，再陪我做一次高台巡检；已经送到的那份不用搬回去重来。",
+  "steps": [
+    "联络冷却巡检机，接下高台复核",
+    "把两公斤载荷停稳高台，再等巡检机完成一次高台巡检",
+    "确认载荷仍在高台泊位，靠近按{contact}交接"
+  ],
+  "work_hint": "用{brake}稳住，把2kg载荷送到高台；可以走外环，也可以借上升流。保持冷却供能，等巡检机走到高台；按{contact}能查看它的状态。",
+  "ready": "载荷到位，高台巡检也已完成。确认载荷仍停在高台，靠近我按{contact}交接。",
+  "consequence": "两公斤载荷的交接复核记下了。谢谢你陪我走这一趟；以后再联络，我会记得这次高台巡检。",
+  "reward_id": "npc_sidejob:I3:dock_recheck",
+  "evidence": "原thermal_cargo.capture成功，version1/2kg实体/native同步、Custody docked在I3:high_dock及原delivery proof；再要接受后的I3:coolant_01 inspection_complete到I3:loaded_dock。回报重新核同一实际货物及proof。",
+  "not_a_claim": "真实一次性2kg运达可以承认，但它单独不能完成新委托；不复制/重置载荷或重打主线目标。",
+  "acceptance": "首次近距联络仅展示邀约；逐句结束后再按{contact}近距联络才确认接受。提示键名由当前玩家UI传入。",
+  "failure_policy": "断电/风暴按原NPC策略返供、等候或避风，不自动判任务失败。离区保留已提交进度，未提交观察不回补；保存失败不显示完成或发奖。",
+  "reward_policy": "只新增该条唯一personal.discovery与NPC完成对白，沿原Store同事务和原Guest回执/重连catchup去重；不增加货币、补血或84主线奖励。",
+  "input_labels": "{contact}/{ability}/{brake}仅从当前玩家实际UI输入标签替换；不能拿flight_interact的F标签冒充Story近距联络G。"
+}

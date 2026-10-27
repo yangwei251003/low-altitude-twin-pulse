@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "regions": [
+    {
+      "id": "I1",
+      "content_id": "industrial.tidebay_port",
+      "name": "潮湾科技港",
+      "world": "industrial",
+      "playable": true,
+      "spawn": [
+        -18,
+        2.5,
+        32
+      ],
+      "bounds": [
+        -51,
+        -1,
+        -48,
+        51,
+        27,
+        48
+      ],
+      "links": [
+        "F1",
+        "I2"
+      ]
+    },
+    {
+      "id": "I2",
+      "content_id": "industrial.tidal_city",
+      "name": "潮汐水城 · 病房泵站",
+      "world": "industrial",
+      "playable": true,
+      "spawn": [
+        -20,
+        3,
+        18
+      ],
+      "bounds": [
+        -28,
+        -3,
+        -28,
+        28,
+        18,
+        28
+      ],
+      "links": [
+        "I1",
+        "F2"
+      ]
+    },
+    {
+      "id": "I3",
+      "content_id": "industrial.thermal_cliffs",
+      "name": "热崖制造带",
+      "world": "industrial",
+      "playable": true,
+      "links": [
+        "F2",
+        "F3"
+      ],
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ]
+    },
+    {
+      "id": "I4",
+      "content_id": "industrial.offshore_array",
+      "name": "离岸共振阵列",
+      "world": "industrial",
+      "playable": true,
+      "links": [
+        "F3",
+        "F4"
+      ],
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ]
+    },
+    {
+      "id": "F1",
+      "content_id": "fantasy.greatwood_temple",
+      "name": "巨木神殿",
+      "world": "fantasy",
+      "playable": true,
+      "spawn": [
+        -18,
+        2.5,
+        32
+      ],
+      "bounds": [
+        -51,
+        -1,
+        -48,
+        51,
+        27,
+        48
+      ],
+      "links": [
+        "I1"
+      ]
+    },
+    {
+      "id": "F2",
+      "content_id": "fantasy.mirror_gardens",
+      "name": "镜湖悬庭",
+      "world": "fantasy",
+      "playable": true,
+      "links": [
+        "I2",
+        "I3"
+      ],
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ]
+    },
+    {
+      "id": "F3",
+      "content_id": "fantasy.singing_fungi",
+      "name": "鸣菌幽谷",
+      "world": "fantasy",
+      "playable": true,
+      "links": [
+        "I3",
+        "I4"
+      ],
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ]
+    },
+    {
+      "id": "F4",
+      "content_id": "fantasy.crown_summit",
+      "name": "天脉冠峰",
+      "world": "fantasy",
+      "playable": true,
+      "links": [
+        "I4"
+      ],
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3272 @@
+[
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/source_inputs/material_atlas_v2.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/source_inputs/material_atlas_v2.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/p1/source_inputs/material_atlas_v2.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/source_inputs/material_atlas_v2_UNEDITED.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v4/source_inputs/material_atlas_v2_UNEDITED.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v5/source_inputs/material_atlas_v2_UNEDITED.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v6/source_inputs/material_atlas_v2_UNEDITED.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v7/source_inputs/material_atlas_v2_UNEDITED.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v8/source_inputs/material_atlas_v2_UNEDITED.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/source_inputs/material_atlas_v2.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/p1/source_inputs/material_atlas_v2.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/source_inputs/material_atlas_v2.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/source_inputs/material_atlas_v2.png",
+    "sha256": "7dda1e9da03d56820a37df7636e0ad5ad4abba43474849c7e1dbbafe81138a15",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/p1/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v6/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v7/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v8/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/p1/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/source_inputs/Metal012_1K-PNG_Color.png",
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/p1/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v6/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v7/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v8/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/p1/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/p1/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v6/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v7/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v8/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/p1/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/p1/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v6/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v7/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v8/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/p1/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/canal_calibration_rack/calibration_rack_Deck_BaseColor.png",
+    "sha256": "f958c6427b522c878bef43ffce60afb605dd729fb1cf9dccfc82a0d61399c708",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/textures/Deck_BaseColor.png",
+    "sha256": "f958c6427b522c878bef43ffce60afb605dd729fb1cf9dccfc82a0d61399c708",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/canal_calibration_rack/calibration_rack_Deck_Normal.png",
+    "sha256": "61a1ffb04f22b44773caf601d7db2107b0a813677e8a668a2f6367f4058bd93a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/textures/Deck_Normal.png",
+    "sha256": "61a1ffb04f22b44773caf601d7db2107b0a813677e8a668a2f6367f4058bd93a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/canal_calibration_rack/calibration_rack_Deck_ORM.png",
+    "sha256": "3af8a9a8c329c443d6567f940f515e80b0d21696731e36b704641e6415f16323",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/textures/Deck_ORM.png",
+    "sha256": "3af8a9a8c329c443d6567f940f515e80b0d21696731e36b704641e6415f16323",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/canal_calibration_rack/calibration_rack_Structure_BaseColor.png",
+    "sha256": "bf7fd46d2d796fea1262cebcc21af70700a5ade976ece511e26896cc02720bb3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/textures/Structure_BaseColor.png",
+    "sha256": "bf7fd46d2d796fea1262cebcc21af70700a5ade976ece511e26896cc02720bb3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/canal_calibration_rack/calibration_rack_Structure_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/f1_thermal_stone/f1_thermal_stone_StoneBody_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal_3.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_east_maintenance_extension/east_maintenance_extension_MaintenancePaving_Normal_3.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/textures/Structure_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_ground_bottom.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_ground_side.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_01.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_02.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_03.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_04.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_05.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_06.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_07.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/textures/Paint_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/fantasy_kit/textures/FKit_stone_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/InspectionBand/textures/MaintenancePaving_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/delivery_p4/textures/SharedLandings_Coating_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/textures/Paint_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/ConcreteBase_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/PaintedShell_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/ConcreteBase_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/PaintedShell_Normal.png",
+    "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/canal_calibration_rack/calibration_rack_Structure_ORM.png",
+    "sha256": "f2d79b735857b62138a52bfa58ebaad85c55add4c8f45d4b35eae7be639bf026",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/textures/Structure_ORM.png",
+    "sha256": "f2d79b735857b62138a52bfa58ebaad85c55add4c8f45d4b35eae7be639bf026",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/central_service_apron/central_service_apron_concrete_BaseColor.png",
+    "sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_concrete_BaseColor.png",
+    "sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/central_service_apron/p1/inputs/concrete_BaseColor.png",
+    "sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/concrete_BaseColor.png",
+    "sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/central_service_apron/central_service_apron_concrete_Normal.png",
+    "sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_concrete_Normal.png",
+    "sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/central_service_apron/p1/inputs/concrete_Normal.png",
+    "sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/concrete_Normal.png",
+    "sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/central_service_apron/central_service_apron_concrete_ORM.png",
+    "sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_concrete_ORM.png",
+    "sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/central_service_apron/p1/inputs/concrete_ORM.png",
+    "sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/concrete_ORM.png",
+    "sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/production_candidate/textures/CG_SurfaceAtlas_BaseColor.png",
+    "sha256": "ee327bbc697bc3df6e230121f799bb85023b44738ec8ae1dc78189dfb74dc135",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/production_candidate/textures/CG_SurfaceAtlas_Metallic.png",
+    "sha256": "887201a01639a81f165510664eac00d197f3f9513e90cda8d49fa7205d94bd0a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/production_candidate/textures/CG_SurfaceAtlas_Normal.png",
+    "sha256": "94f98cc07ca68d37961a6bd3d97e29108ff70ce5ef755fa7c463473a6919b5a1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/production_candidate/textures/CG_SurfaceAtlas_Roughness.png",
+    "sha256": "d51c661c335388edd5dc61fdd0ff261ca084d636b90a26767dae5e88551f2a04",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v3/textures/CG_SurfaceAtlas_BaseColor.png",
+    "sha256": "588aa24bad069f4af3f73b4ac6dfe3a9498175b5449ef60a9da5596da6499a47",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v4/source_inputs/frozen_v3_basecolor.png",
+    "sha256": "588aa24bad069f4af3f73b4ac6dfe3a9498175b5449ef60a9da5596da6499a47",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v3/textures/CG_SurfaceAtlas_Metallic.png",
+    "sha256": "9c313bea8c17e01c92555492ccd176aa0271e8df6c3941cf4fe3a904ec6e1996",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v3/textures/CG_SurfaceAtlas_Normal.png",
+    "sha256": "42626c4c21108343743329487d6d309e3f90ba7956c6f26eb0425f70fcee9c67",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v3/textures/CG_SurfaceAtlas_Roughness.png",
+    "sha256": "bbc381a9fd173fa8fa1ab992708cb5eea1253c16869afd7608cdc9aa4d421e70",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_gravity/clinic_gravity_CG_V4_BaseColor.png",
+    "sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_reception/clinic_reception_support_CG_V4_BaseColor.png",
+    "sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v4/textures/CG_V4_BaseColor.png",
+    "sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/support_v1/source_inputs/CG_V4_BaseColor.png",
+    "sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v4/textures/CG_V4_Metallic.png",
+    "sha256": "0bf4961e2a57ca8beb2432b7cd0084a9868782d1c8ae046807d05d9396f78709",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/support_v1/source_inputs/CG_V4_Metallic.png",
+    "sha256": "0bf4961e2a57ca8beb2432b7cd0084a9868782d1c8ae046807d05d9396f78709",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_gravity/clinic_gravity_CG_V4_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_reception/clinic_reception_support_CG_V4_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_canal_revetment/i2_canal_revetment_1p3_I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_canal_revetment/i2_canal_revetment_4m_I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_east_maintenance_extension/east_maintenance_extension_MaintenancePaving_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v4/textures/CG_V4_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/support_v1/source_inputs/CG_V4_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_p4/textures/I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_short_1p3/textures/I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/FloorSurface/textures/MaintenancePaving_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_maintenance_paving/delivery_p3/textures/MaintenancePaving_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/delivery_p1/reused_textures/I2Revetment_Normal.png",
+    "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v4/textures/CG_V4_Roughness.png",
+    "sha256": "1baed9a09bbc286a54d3dacd29088d9c2c4df5e4697ee3ac96be027314e8e34e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/support_v1/source_inputs/CG_V4_Roughness.png",
+    "sha256": "1baed9a09bbc286a54d3dacd29088d9c2c4df5e4697ee3ac96be027314e8e34e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_gravity/revision_v4/source_inputs/imagegen_basecolor_v4_UNEDITED.png",
+    "sha256": "ada26062121fa77b22ca23a1d9738b684fe9b7490448e99702685b6a566bfd75",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/delivery_v5/source_inputs/clinic_gravity_basecolor_v4_UNEDITED.png",
+    "sha256": "ada26062121fa77b22ca23a1d9738b684fe9b7490448e99702685b6a566bfd75",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/revision_v5/source_inputs/clinic_gravity_basecolor_v4_UNEDITED.png",
+    "sha256": "ada26062121fa77b22ca23a1d9738b684fe9b7490448e99702685b6a566bfd75",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p1/textures/CGround_BaseColor.png",
+    "sha256": "b1a6032dc4030e24dd92f03eda9dfa5e004024e182c6c628c2f49644c9555a91",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p1/textures/CGround_Metallic.png",
+    "sha256": "72b8160b074833d0e4128799c19a7c74c650825d2146940204bd4cd6514ae10f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p2/textures/CGround_Metallic.png",
+    "sha256": "72b8160b074833d0e4128799c19a7c74c650825d2146940204bd4cd6514ae10f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_ground/clinic_ground_CGround_Normal.png",
+    "sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_Normal.png",
+    "sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p1/textures/CGround_Normal.png",
+    "sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p2/textures/CGround_Normal.png",
+    "sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p1/textures/CGround_Roughness.png",
+    "sha256": "3ab3309fb91ea8b7bad859fa39be6648eb7d5fa03fa6beefa6f0d28e6fc1900d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p2/textures/CGround_Roughness.png",
+    "sha256": "3ab3309fb91ea8b7bad859fa39be6648eb7d5fa03fa6beefa6f0d28e6fc1900d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p1/source_inputs/material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p2/source_inputs/material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_p4/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_short_1p3/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/p1/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/p2/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/p3/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/p4/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/p1/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/source_inputs/clinic_ground_material_atlas_UNEDITED.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/revision2/history/source_preview/source_inputs/material_atlas_v1.png",
+    "sha256": "11db122c63d06f7fcd25f5614f19cd0efee1b09997149071b993ed6eff7e8406",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_ground/clinic_ground_CGround_BaseColor.png",
+    "sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_BaseColor.png",
+    "sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground/p2/textures/CGround_BaseColor.png",
+    "sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p1/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p2/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p3/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p4/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p5/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p6/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p7/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p8/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "5c484832953ec55f4df0f9d3cefe137dc163558475ebb5501604d5557baefb19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p1/textures/Transition_BaseColor.png",
+    "sha256": "572f9e4bc6f86565710b4207bf19d0e25f4cb149d704da1439cb19b35568b0d9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p1/textures/Transition_Normal.png",
+    "sha256": "bc89fb59b97c91cb1073f0eba3e5c99942317eea28b456c72d4073144eaf8815",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p1/textures/Transition_ORM.png",
+    "sha256": "55fe01271302dc144e238aaf9b1f8ad359baed7135c766807297a316e0c6529d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p10/vendor/polyhaven_rocky_trail/rocky_trail_diff_2k.png",
+    "sha256": "4969e3a0d9fedb38337bdf50b9fe2a787970b82fc905eac3e448f95d1dc74e97",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p10/vendor/polyhaven_rocky_trail/rocky_trail_nor_gl_2k.png",
+    "sha256": "c2f2cbfc525426bba32d513a2feeeb3453032f9fb992cb17bfd9fbd70e0b76d4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p10/vendor/polyhaven_rocky_trail/rocky_trail_rough_2k.png",
+    "sha256": "78626c465a8c33edc3a7610ac1f58f175c70e34d034f3c1465b84166b41496a7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/vendor/polyhaven_sandy_gravel_02/sandy_gravel_02_diff_2k.png",
+    "sha256": "4fcd7bde52c83b7a31426a9813636ccad923ea0824947ebdf63634ba1c2d7343",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/revision2/history/source_preview/source_inputs/sandy_gravel_02_diff_2k.png",
+    "sha256": "4fcd7bde52c83b7a31426a9813636ccad923ea0824947ebdf63634ba1c2d7343",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/vendor/polyhaven_sandy_gravel_02/sandy_gravel_02_nor_gl_2k.png",
+    "sha256": "6737530c0280b678a55de7a9f2046012de60e28edcadf65e556cc855a83886b4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/revision2/history/source_preview/source_inputs/sandy_gravel_02_nor_gl_2k.png",
+    "sha256": "6737530c0280b678a55de7a9f2046012de60e28edcadf65e556cc855a83886b4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/vendor/polyhaven_sandy_gravel_02/sandy_gravel_02_rough_2k.png",
+    "sha256": "75f91e8b3dbeef483c001389c711e2895945af55e6d8d7d3055c7b9afffe45a9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/revision2/history/source_preview/source_inputs/sandy_gravel_02_rough_2k.png",
+    "sha256": "75f91e8b3dbeef483c001389c711e2895945af55e6d8d7d3055c7b9afffe45a9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p12/inputs/polyhaven_rock_07_1k/rock_07_arm_1k.png",
+    "sha256": "317220fff40e68914240a912042beaf4c5df1262985aaad5582352ea450f2550",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p12/inputs/polyhaven_rock_07_1k/rock_07_diff_1k.png",
+    "sha256": "86e26fcb23e53288e23b04a1aa92ce90ff717b7da7b7f4713af6827b7cc0f3f2",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p12/inputs/polyhaven_rock_07_1k/rock_07_nor_gl_1k.png",
+    "sha256": "f2294cbeaf0dc62991aea5cadca98a0fb1a47177f41f89db7671ae5323d2a705",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p2/textures/Transition_BaseColor.png",
+    "sha256": "418fb7a99d2653849a1b89084fccc8b9b2d33fca53ea3295240eda729ac74dae",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p2/textures/Transition_Normal.png",
+    "sha256": "e5c1639e9999f5e46285ae7fa5d6ed0a19e5de837243ea7b530564e9203f9c35",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p2/textures/Transition_ORM.png",
+    "sha256": "a274facd286d7236e4090ee3f1cf221e92fd75eccededeaa695c2a0d466e0b01",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p3/textures/Transition_BaseColor.png",
+    "sha256": "bd362d081ab966008dabe96bb1c08c8c9034892a68815c84da21d3abc7e7f243",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p3/textures/Transition_Normal.png",
+    "sha256": "bba45e11e59dfa2f2b5b696fa97932ec1e8855c58f1ee32ec2872fc45fbf9d49",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p4/textures/Transition_Normal.png",
+    "sha256": "bba45e11e59dfa2f2b5b696fa97932ec1e8855c58f1ee32ec2872fc45fbf9d49",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p3/textures/Transition_ORM.png",
+    "sha256": "4014313b1e4c764548ea2ec71aeccd96d8992258724b075a08b20210a452dde9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p4/textures/Transition_ORM.png",
+    "sha256": "4014313b1e4c764548ea2ec71aeccd96d8992258724b075a08b20210a452dde9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p4/textures/Transition_BaseColor.png",
+    "sha256": "72a4770ed4145854167465cc692750a9b0802ce3a554fb867d98c38a836bcc6e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p5/source_inputs/surface_atlas_v2_UNEDITED.png",
+    "sha256": "4cb682cc931a667c2bacaf06bb0c7cdb17fb05aadd227520af3e5f870af72d67",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p6/source_inputs/surface_atlas_v2_UNEDITED.png",
+    "sha256": "4cb682cc931a667c2bacaf06bb0c7cdb17fb05aadd227520af3e5f870af72d67",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p7/source_inputs/surface_atlas_v2_UNEDITED.png",
+    "sha256": "4cb682cc931a667c2bacaf06bb0c7cdb17fb05aadd227520af3e5f870af72d67",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p8/source_inputs/surface_atlas_v2_UNEDITED.png",
+    "sha256": "4cb682cc931a667c2bacaf06bb0c7cdb17fb05aadd227520af3e5f870af72d67",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/source_inputs/surface_atlas_v2_UNEDITED.png",
+    "sha256": "4cb682cc931a667c2bacaf06bb0c7cdb17fb05aadd227520af3e5f870af72d67",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p5/textures/Transition_BaseColor.png",
+    "sha256": "880650732d8d8c50373d1147333b571263259754dbf555d2124bede1b66bb572",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p5/textures/Transition_Normal.png",
+    "sha256": "43a8644b7f9aa7f2cb596bb46ddebb7411e2a13fb0a8ecdc61e5c454f4ed45aa",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p5/textures/Transition_ORM.png",
+    "sha256": "8171ace19fc58074b71913b9b86d11ecb0b8c7da11a783f0608054e100c047f5",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p6/textures/Transition_BaseColor.png",
+    "sha256": "3187f067e6a91986efab59ac6b4a9f2ab3cb3ba7f0530247389c2c85dbb59354",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p6/textures/Transition_Normal.png",
+    "sha256": "dffeb34faf209c5d11c266ef65db9203f7caea4314b8706f9b462760978ac7a9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p6/textures/Transition_ORM.png",
+    "sha256": "f4c2bc0a3e9cf0c2a42fe92de33d1e80413da68e3c06e7641ab5f922d873f4fb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p7/textures/AO_Contact_Raw.png",
+    "sha256": "c64a09b9e6f57dd0b6f6cea9cc5368b728d48bbaa6a1af50c3779138c9d723ae",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p7/textures/Transition_ORM.png",
+    "sha256": "990d02ead7ebdad8e8c88b5094231b262e384acd841d5457a5f8cc4520da125c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p7/textures/Transition_BaseColor.png",
+    "sha256": "4f70c511b8100f993d37228d4056814a88c8cceb7ceb40adf9c2db1768ce2bdd",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p7/textures/Transition_Normal.png",
+    "sha256": "fead574881cb350f351f80425ccda75a9c240368332fdde6c48e3aa96ce28a6a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p7/textures/Transition_ORM_before_AO.png",
+    "sha256": "63585bb0ae140b076d6237f5388f3d1c5b36f2ecf231e5da5c665d6a430e207f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p8/textures/AO_Contact_Raw.png",
+    "sha256": "3756a94fc493e5dd13306f3699ee002c85237730a6daf80d61599539a124ca9f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p8/textures/Transition_ORM.png",
+    "sha256": "1a7973321b8778543a14cbf581fc72d552e02e37416fa8e54b135edb6bd4dfc4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p8/textures/Transition_BaseColor.png",
+    "sha256": "ae33b0a359cf9f3f45c34a729e4e8153d841f3958af2da405178f916fcf35745",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p8/textures/Transition_Normal.png",
+    "sha256": "28c1687b86ec62e6d9dc9ec5ecdb3c51a1f7123b0bbd7e4ab45a5d713efe684e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p8/textures/Transition_ORM_before_AO.png",
+    "sha256": "90ba683936bc49120bcf493af3389b260d3f186a9d670f493f5028241c23d635",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/textures/AO_Contact_Raw.png",
+    "sha256": "1b5a2270532519f1ff83faa32896ae1a0efa8d267c1f42c7122b88baa82b3be9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/textures/Transition_ORM.png",
+    "sha256": "26270d07f116a8d01c0f7a31508339db3fb27466274f2b3db363028b33f3bdce",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/textures/Transition_BaseColor.png",
+    "sha256": "1254f88c8ca8b1e5e8fe061a1e9593fde9232820ac773e21806a0472ae31e4ea",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/textures/Transition_Normal.png",
+    "sha256": "36d9a92601f5bc0bc8366e8bbedb394b2e86663e052fb972baf284123fb6b8c7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/p9/textures/Transition_ORM_before_AO.png",
+    "sha256": "5216f5dcdc07e82f41935b626834c8b103edd0fad4d9ae45d8fe39bc440a3950",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_study/inputs/rocky_trail/rocky_trail_disp_2k.png",
+    "sha256": "700c110fd229c1299b40738ff764813fa50dcb1e734d7f65f0b6f2ab6345c7ff",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample/bake_preview_20261019_225933_382710/textures/Study_BaseColor.png",
+    "sha256": "c0dd86bb4b4c95b82388193682de66da92785e54525156966b69c567d889fa31",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample/bake_preview_20261019_225933_382710/textures/Study_Normal.png",
+    "sha256": "5fc5bbf3dbb0b83959b7bf911d27566441c2c74db95bb7100edee4ad9ce46e94",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample/bake_preview_20261019_225933_382710/textures/Study_ORM.png",
+    "sha256": "ae4a3ed2f13090b393854a4864cd38945dbb402dc343bd124fe4ddc043ec9cfe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_ground_top.png",
+    "sha256": "a50931052ccdaac0890141ccb7ad8026c6c81250638c43889810aa0a66e67f86",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/RawNormal_solid_00.png",
+    "sha256": "1acc8cd8e46c731ba4d5c16130b472c8e0a819f235a1a1d0732318c189c39313",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/textures/Repair_BaseColor.png",
+    "sha256": "9b74cf42cbbb9cb311f60a2e3a25d46a7098286760e38e7ef6026362ac7368f9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/textures/Repair_Normal.png",
+    "sha256": "c2da48d8adadd4876172b6e66f33029e2408483e2f66c602050b659c72054023",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/textures/Repair_ORM.png",
+    "sha256": "e4838414b8491408b0c82ff0d630dc24b6874db98583237803bfee2e65d82c63",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/SideBase.png",
+    "sha256": "713216179b6792a5a0dfa714292e4038fcc671126a40fc0ec7eaf727c1d7de6c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_01/bake_20261020_010927_047833/raw_maps/SideRough.png",
+    "sha256": "061af11417ff9b36e81aeda65e6748bcc4918aec7f849931b6ac374c244683be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_BaseColor.png",
+    "sha256": "4daf3929b3cc1babe23c3de3c51f506c704857f2c68df7c70101f2fb8719b83d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/textures/Paint_BaseColor.png",
+    "sha256": "4daf3929b3cc1babe23c3de3c51f506c704857f2c68df7c70101f2fb8719b83d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_ORM.png",
+    "sha256": "7888fba6e6275e3d8f260214c34ab0e7d6ba68ccd57ae7b3cfa061dc5469576a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/textures/Paint_ORM.png",
+    "sha256": "7888fba6e6275e3d8f260214c34ab0e7d6ba68ccd57ae7b3cfa061dc5469576a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Steel_BaseColor.png",
+    "sha256": "a1105d6c606d9fd7b296e8ddedbd26768b3c875282c7e97bb84f499416871af9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/textures/Steel_BaseColor.png",
+    "sha256": "a1105d6c606d9fd7b296e8ddedbd26768b3c875282c7e97bb84f499416871af9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Steel_Normal.png",
+    "sha256": "6724bacadf2875d8d50e6e3d7dce1736bdbd27cb6586a295a982218c887225b1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/textures/Steel_Normal.png",
+    "sha256": "6724bacadf2875d8d50e6e3d7dce1736bdbd27cb6586a295a982218c887225b1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Steel_ORM.png",
+    "sha256": "d3a81f791dd5e0c982020fa477ac58c126e3b297b0258a78548db946c96cfa35",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_lift_deck/delivery_p1/textures/Steel_ORM.png",
+    "sha256": "d3a81f791dd5e0c982020fa477ac58c126e3b297b0258a78548db946c96cfa35",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v1/source_inputs/material_atlas_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v2/source_inputs/material_atlas_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v3/source_inputs/material_atlas_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v4/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v5/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v6/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v7/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/prototype_v8/source_inputs/material_atlas_v1_UNEDITED.png",
+    "sha256": "3ae5cab8887bbd167251668b26f94cc2f9128636f27954e1d887864f54da8797",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_BaseColor.png",
+    "sha256": "9e1e72966351e12d1d319c3e30f2545c15e74af96398c6f46f13909d3c4da381",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_pump_shell/PumpV8_BaseColor.png",
+    "sha256": "9e1e72966351e12d1d319c3e30f2545c15e74af96398c6f46f13909d3c4da381",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/textures/PumpV8_BaseColor.png",
+    "sha256": "9e1e72966351e12d1d319c3e30f2545c15e74af96398c6f46f13909d3c4da381",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_Normal.png",
+    "sha256": "5eac61fe83c6066d1729410d89e94c63d4068e994ebca82479d3c49968b185cf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_pump_shell/PumpV8_Normal.png",
+    "sha256": "5eac61fe83c6066d1729410d89e94c63d4068e994ebca82479d3c49968b185cf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/textures/PumpV8_Normal.png",
+    "sha256": "5eac61fe83c6066d1729410d89e94c63d4068e994ebca82479d3c49968b185cf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_ORM.png",
+    "sha256": "b0db068be48a3ee0845c7943abfed16bf92af34e475dbc854e25070b9bd32cbd",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_pump_shell/PumpV8_ORM.png",
+    "sha256": "b0db068be48a3ee0845c7943abfed16bf92af34e475dbc854e25070b9bd32cbd",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/textures/PumpV8_ORM.png",
+    "sha256": "b0db068be48a3ee0845c7943abfed16bf92af34e475dbc854e25070b9bd32cbd",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_reception/clinic_reception_ReceptionV5_BaseColor.png",
+    "sha256": "576a87b0e38072ab75cc50027c7cfeeeec99fe65f692c913f913e53203fce44c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/delivery_v5/failure_300s/ReceptionV5_BaseColor.png",
+    "sha256": "576a87b0e38072ab75cc50027c7cfeeeec99fe65f692c913f913e53203fce44c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/delivery_v5/textures/ReceptionV5_BaseColor.png",
+    "sha256": "576a87b0e38072ab75cc50027c7cfeeeec99fe65f692c913f913e53203fce44c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/clinic_reception/clinic_reception_ReceptionV5_ORM.png",
+    "sha256": "81f6ebe6a29345a16f392b44005cdc266da4eb61c4967cb44deb70a71c8eeb10",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/clinic_reception/delivery_v5/textures/ReceptionV5_ORM.png",
+    "sha256": "81f6ebe6a29345a16f392b44005cdc266da4eb61c4967cb44deb70a71c8eeb10",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/f1_thermal_stone/f1_thermal_stone_Moss_BaseColor.png",
+    "sha256": "0331442e7840f9b4aed5644924be6208a9722a82a3270103724e9a8fb2f0269d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/f1_thermal_stone/f1_thermal_stone_Moss_Normal.png",
+    "sha256": "f17de9bbbd91f2e3125ded06da740b5e6b7c524f52aaedb8ade8db32cdce0f21",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/f1_thermal_stone/f1_thermal_stone_RootBindings_BaseColor.png",
+    "sha256": "0c19a45e888cb1af1fece3581cea4b910e48e3e43abd603b89e8a0556918e6a3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/f1_thermal_stone/f1_thermal_stone_RootBindings_Normal.png",
+    "sha256": "25dd20bc28b39bbb5ebd52deae57aed9014f5356b0d8f14e3c2fdf3de9d57757",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/f1_thermal_stone/f1_thermal_stone_StoneBody_BaseColor.png",
+    "sha256": "c9f5474bf531c69aaed326d8d6d43f98f19634b2f465faef1289cecb413c9d22",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_p4/source_inputs/revetment_front_basecolor_v2_UNEDITED.png",
+    "sha256": "32df77336c0abf940f7db69ee85e4f22f9eb64af22dc881d8c2e762b73861cba",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_short_1p3/source_inputs/revetment_front_basecolor_v2_UNEDITED.png",
+    "sha256": "32df77336c0abf940f7db69ee85e4f22f9eb64af22dc881d8c2e762b73861cba",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/p3/source_inputs/revetment_front_basecolor_v2_UNEDITED.png",
+    "sha256": "32df77336c0abf940f7db69ee85e4f22f9eb64af22dc881d8c2e762b73861cba",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/p4/source_inputs/revetment_front_basecolor_v2_UNEDITED.png",
+    "sha256": "32df77336c0abf940f7db69ee85e4f22f9eb64af22dc881d8c2e762b73861cba",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/p1/source_inputs/revetment_front_basecolor_v2_UNEDITED.png",
+    "sha256": "32df77336c0abf940f7db69ee85e4f22f9eb64af22dc881d8c2e762b73861cba",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/source_inputs/revetment_front_basecolor_v2_UNEDITED.png",
+    "sha256": "32df77336c0abf940f7db69ee85e4f22f9eb64af22dc881d8c2e762b73861cba",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_BaseColor.png",
+    "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_BaseColor.png",
+    "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_canal_revetment/i2_canal_revetment_4m_I2Revetment_BaseColor.png",
+    "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_p4/textures/I2Revetment_BaseColor.png",
+    "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/delivery_p1/reused_textures/I2Revetment_BaseColor.png",
+    "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_ORM.png",
+    "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_ORM.png",
+    "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_canal_revetment/i2_canal_revetment_4m_I2Revetment_ORM.png",
+    "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_p4/textures/I2Revetment_ORM.png",
+    "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/delivery_p1/reused_textures/I2Revetment_ORM.png",
+    "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_BaseColor.png",
+    "sha256": "09f2be3fc6f345e7c0694579f7d75be1d79cf58a639ae43b3accf0ad21f6a95e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_canal_revetment/i2_canal_revetment_1p3_I2Revetment_BaseColor.png",
+    "sha256": "09f2be3fc6f345e7c0694579f7d75be1d79cf58a639ae43b3accf0ad21f6a95e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_short_1p3/textures/I2Revetment_BaseColor.png",
+    "sha256": "09f2be3fc6f345e7c0694579f7d75be1d79cf58a639ae43b3accf0ad21f6a95e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_ORM.png",
+    "sha256": "55db4722d6347bbe3087412911a08bccef6ccd951856dd32975b19a8651ff3fc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_canal_revetment/i2_canal_revetment_1p3_I2Revetment_ORM.png",
+    "sha256": "55db4722d6347bbe3087412911a08bccef6ccd951856dd32975b19a8651ff3fc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_canal_revetment/delivery_short_1p3/textures/I2Revetment_ORM.png",
+    "sha256": "55db4722d6347bbe3087412911a08bccef6ccd951856dd32975b19a8651ff3fc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_maintenance_paving/p2/source_inputs/maintenance_concrete_basecolor_v1.png",
+    "sha256": "a73b35e1aa42a0355ce46d7006ab9dbfdb7d9c7ece178900b25dd87668c4d744",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_maintenance_paving/p3/source_inputs/painted_steel_material_v1.png",
+    "sha256": "2ab3fdfab826eddf4736f92c34faeece79ff76278144a0430943a2924d6f50be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "sha256": "2ab3fdfab826eddf4736f92c34faeece79ff76278144a0430943a2924d6f50be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_bridge_deck/p4/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "sha256": "2ab3fdfab826eddf4736f92c34faeece79ff76278144a0430943a2924d6f50be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/p1/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "sha256": "2ab3fdfab826eddf4736f92c34faeece79ff76278144a0430943a2924d6f50be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/p2/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "sha256": "2ab3fdfab826eddf4736f92c34faeece79ff76278144a0430943a2924d6f50be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/p3/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "sha256": "2ab3fdfab826eddf4736f92c34faeece79ff76278144a0430943a2924d6f50be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/p4/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "sha256": "2ab3fdfab826eddf4736f92c34faeece79ff76278144a0430943a2924d6f50be",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_BaseColor.png",
+    "sha256": "4a51429cf2a06c52f1dfa9634865ee68c2c4d6a54fc8ebc3be144c3d838d7f19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_east_maintenance_extension/east_maintenance_extension_MaintenancePaving_BaseColor.png",
+    "sha256": "4a51429cf2a06c52f1dfa9634865ee68c2c4d6a54fc8ebc3be144c3d838d7f19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/FloorSurface/textures/MaintenancePaving_BaseColor.png",
+    "sha256": "4a51429cf2a06c52f1dfa9634865ee68c2c4d6a54fc8ebc3be144c3d838d7f19",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_BaseColor_4.png",
+    "sha256": "d84fe1ef7612007c52793c3be3fa4c3d16355010146a5de946d5349faf873a04",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_east_maintenance_extension/east_maintenance_extension_MaintenancePaving_BaseColor_4.png",
+    "sha256": "d84fe1ef7612007c52793c3be3fa4c3d16355010146a5de946d5349faf873a04",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/InspectionBand/textures/MaintenancePaving_BaseColor.png",
+    "sha256": "d84fe1ef7612007c52793c3be3fa4c3d16355010146a5de946d5349faf873a04",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/FloorSurface/textures/MaintenancePaving_Metallic.png",
+    "sha256": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/InspectionBand/textures/MaintenancePaving_Metallic.png",
+    "sha256": "f2d17806d620407a54a9062098b9e2f9209f81bc1d31bf053beb6947f091f3bd",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/FloorSurface/textures/MaintenancePaving_Roughness.png",
+    "sha256": "2bc9fc5b909bfa01d6f1187a870bfabd5da092c3b3da9587969e1b2309ee82a3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_east_maintenance_extension/delivery_p2/InspectionBand/textures/MaintenancePaving_Roughness.png",
+    "sha256": "a00ec111e70381268ecf44c685baea0423f27ab1e16507bd76c10714b6560b20",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_BaseColor.png",
+    "sha256": "bdc52f85ce695b1feaa3ea7366d86c44ad34d43db7d60e1d6ef1269bd03e3250",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_maintenance_paving/delivery_p3/textures/MaintenancePaving_BaseColor.png",
+    "sha256": "bdc52f85ce695b1feaa3ea7366d86c44ad34d43db7d60e1d6ef1269bd03e3250",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_maintenance_paving/delivery_p3/textures/MaintenancePaving_Metallic.png",
+    "sha256": "6afa67b83faf2906b36d0fbcfe99864f85ae662a70811b61f1bf5cef4763fa66",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_maintenance_paving/delivery_p3/textures/MaintenancePaving_Roughness.png",
+    "sha256": "00e6182a1e1c8d3ef8360382af70e38c4e137a116be8811e6ec1a8100e4198c4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_revetment_closure/revetment_closure_ClosureCaps_BaseColor.png",
+    "sha256": "c59610779daeac47580904c322ce28fc53369649212bb70d4b8b2948150879d2",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/delivery_p1/cap_textures/ClosureCaps_BaseColor.png",
+    "sha256": "c59610779daeac47580904c322ce28fc53369649212bb70d4b8b2948150879d2",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_revetment_closure/revetment_closure_ClosureCaps_Normal.png",
+    "sha256": "b46892c7c910bbf936ecd5e718c5f4dd9439c992f629dea2863132ce00caad2f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/delivery_p1/cap_textures/ClosureCaps_Normal.png",
+    "sha256": "b46892c7c910bbf936ecd5e718c5f4dd9439c992f629dea2863132ce00caad2f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_revetment_closure/revetment_closure_ClosureCaps_ORM.png",
+    "sha256": "e507ac686cc451f38e2a030c4388cd126de11bd428ef45df0389910650b7bd94",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/i2_revetment_closure/delivery_p1/cap_textures/ClosureCaps_ORM.png",
+    "sha256": "e507ac686cc451f38e2a030c4388cd126de11bd428ef45df0389910650b7bd94",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_BrushedSteel_BaseColor.png",
+    "sha256": "7d472ffe93213139801f1ca341dd731fad0db82ff8f97363ffa45ec3b881366c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_BrushedSteel_BaseColor.png",
+    "sha256": "7d472ffe93213139801f1ca341dd731fad0db82ff8f97363ffa45ec3b881366c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_Galvanized_BaseColor.png",
+    "sha256": "7d472ffe93213139801f1ca341dd731fad0db82ff8f97363ffa45ec3b881366c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_Galvanized_BaseColor.png",
+    "sha256": "7d472ffe93213139801f1ca341dd731fad0db82ff8f97363ffa45ec3b881366c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_Galvanized_BaseColor.png",
+    "sha256": "7d472ffe93213139801f1ca341dd731fad0db82ff8f97363ffa45ec3b881366c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_BrushedSteel_Metallic.png",
+    "sha256": "27c3dbd14a8f4b72772e7368d869fd55afc2f87147fbf4c2097fce0afbe79096",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_Galvanized_Metallic.png",
+    "sha256": "27c3dbd14a8f4b72772e7368d869fd55afc2f87147fbf4c2097fce0afbe79096",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_BrushedSteel_Normal.png",
+    "sha256": "2548f4f34eb1ea28ad342f6176e1531155ef0fd1bdc5865a3f3209053eb6965e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_BrushedSteel_Normal.png",
+    "sha256": "2548f4f34eb1ea28ad342f6176e1531155ef0fd1bdc5865a3f3209053eb6965e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_Galvanized_Normal.png",
+    "sha256": "2548f4f34eb1ea28ad342f6176e1531155ef0fd1bdc5865a3f3209053eb6965e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_Galvanized_Normal.png",
+    "sha256": "2548f4f34eb1ea28ad342f6176e1531155ef0fd1bdc5865a3f3209053eb6965e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_Galvanized_Normal.png",
+    "sha256": "2548f4f34eb1ea28ad342f6176e1531155ef0fd1bdc5865a3f3209053eb6965e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_BrushedSteel_Roughness.png",
+    "sha256": "cba2d6e9a8bf85f3ff1c0618e66b6ee8ab10390bba9cfc68263ff23e4e472815",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_Galvanized_Roughness.png",
+    "sha256": "cba2d6e9a8bf85f3ff1c0618e66b6ee8ab10390bba9cfc68263ff23e4e472815",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_Grating_BaseColor.png",
+    "sha256": "d5a06dc3bf1b43f2d370bc01881f27ded49965377fcd8dd9831b26c7b82b128d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Grating_BaseColor.png",
+    "sha256": "d5a06dc3bf1b43f2d370bc01881f27ded49965377fcd8dd9831b26c7b82b128d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Grating_Metallic.png",
+    "sha256": "00d393f2d2b73c7afe9943cd494d05a207866f29c40e5cfbcc0f9842cdfca34e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_Grating_Normal.png",
+    "sha256": "d989d2a076a718ac89fa0785cb75c168a7b6a074e2cbd02d4c6b2052c5374b7d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Grating_Normal.png",
+    "sha256": "d989d2a076a718ac89fa0785cb75c168a7b6a074e2cbd02d4c6b2052c5374b7d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Grating_Roughness.png",
+    "sha256": "78aad26527a7c61f4100fda49bf71bcc57fa031b83f7d6e796f6cc17a4a23660",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_PorousConcrete_BaseColor.png",
+    "sha256": "ea7888bfefd231dbb05b5bde26665c1b7eae0c53c416e994f9f9a44f696ddf37",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_PorousConcrete_BaseColor.png",
+    "sha256": "ea7888bfefd231dbb05b5bde26665c1b7eae0c53c416e994f9f9a44f696ddf37",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_PorousConcrete_Metallic.png",
+    "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_PorousConcrete_Normal.png",
+    "sha256": "c2aeb35ab0a731266ddc1facf8ff24356e89bfbb76ca1f653c9056803663ac36",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_PorousConcrete_Normal.png",
+    "sha256": "c2aeb35ab0a731266ddc1facf8ff24356e89bfbb76ca1f653c9056803663ac36",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_PorousConcrete_Roughness.png",
+    "sha256": "af2f6b6e06dc95433360605de68d3acd80af9fba0b1d719254200d39ccb50438",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_Rubber_BaseColor.png",
+    "sha256": "d8006387406d67bdafb24088a6bef9b23507d45d53503012a59babd2b12ad8e3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Rubber_BaseColor.png",
+    "sha256": "d8006387406d67bdafb24088a6bef9b23507d45d53503012a59babd2b12ad8e3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Rubber_Metallic.png",
+    "sha256": "55aea7bfe6f9c90c71df2379611c12eada3014444ccbce4f3352d3303077a44f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_RustFasteners_Metallic.png",
+    "sha256": "55aea7bfe6f9c90c71df2379611c12eada3014444ccbce4f3352d3303077a44f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_Rubber_Normal.png",
+    "sha256": "9ff4d862f59a6e085544810ebcbd9508187da73b45762ad3e01d1f0acbef8610",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Rubber_Normal.png",
+    "sha256": "9ff4d862f59a6e085544810ebcbd9508187da73b45762ad3e01d1f0acbef8610",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_Rubber_Roughness.png",
+    "sha256": "79a4fb5f3bbe9874395f8493a2e08c56802bea3ee425be63f3acce123de79076",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_RustFasteners_BaseColor.png",
+    "sha256": "d33779b9d33549d01d3c1da48002209bffbac6d7eac7d625f159ecb21cf5bc50",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_RustFasteners_BaseColor.png",
+    "sha256": "d33779b9d33549d01d3c1da48002209bffbac6d7eac7d625f159ecb21cf5bc50",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_RustFasteners_Normal.png",
+    "sha256": "f95124cac788a0bd3fcc7f01c79f94dda59d764941735040fa9f009391524b3b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_RustFasteners_Normal.png",
+    "sha256": "f95124cac788a0bd3fcc7f01c79f94dda59d764941735040fa9f009391524b3b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_RustFasteners_Roughness.png",
+    "sha256": "6ca04af9b4bd68fb14405a9ce99a1d2c44dd1a5d99075c7a51504199acb93e90",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_SafetyWear_BaseColor.png",
+    "sha256": "6433b2fd9b9af2da8c72940c0d8bf36ed557ba82e1fccb44ddd4a9a16765130a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_SafetyWear_BaseColor.png",
+    "sha256": "6433b2fd9b9af2da8c72940c0d8bf36ed557ba82e1fccb44ddd4a9a16765130a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_SafetyWear_Metallic.png",
+    "sha256": "c58cbb42e115a2c80921e1c96bac5493f06f403f94ce3e9bc1da8e770b9bd22e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_SafetyWear_Normal.png",
+    "sha256": "170e687fcf658299bc9d7b3770749fd2f63ab2c8b40ef73dda54d4bf99afbfd7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_SafetyWear_Normal.png",
+    "sha256": "170e687fcf658299bc9d7b3770749fd2f63ab2c8b40ef73dda54d4bf99afbfd7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_SafetyWear_Roughness.png",
+    "sha256": "06dc2e83a0c552875a81860930d099f076525ac54d57926e076abd6a883d1f71",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_ShutterSteel_BaseColor.png",
+    "sha256": "8c341d771e1d10db684e9e28c5ac7f08bfd46c1183bba0853517901278323a2e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_ShutterSteel_BaseColor.png",
+    "sha256": "8c341d771e1d10db684e9e28c5ac7f08bfd46c1183bba0853517901278323a2e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_ShutterSteel_Metallic.png",
+    "sha256": "4cbf868c562d0a71058830a5547f1b6a627f5b53090fb0442e27e1e856993795",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_ShutterSteel_Normal.png",
+    "sha256": "3ec1096f8f2e941d08c030e8856e379e96cad1fb452ef01f67e98dc1298650e1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_ShutterSteel_Normal.png",
+    "sha256": "3ec1096f8f2e941d08c030e8856e379e96cad1fb452ef01f67e98dc1298650e1",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_ShutterSteel_Roughness.png",
+    "sha256": "bb00b5a77c12f7499c125258a5c8393110357a0d6cbc77cfc4adcfe22b39af22",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_TealSaltPaint_BaseColor.png",
+    "sha256": "4d7f3aa2a822a3297d2db2a1b485fc9d97fb723287769b2c6a73b312a41820e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_TealSaltPaint_BaseColor.png",
+    "sha256": "4d7f3aa2a822a3297d2db2a1b485fc9d97fb723287769b2c6a73b312a41820e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_TealSalt_BaseColor.png",
+    "sha256": "4d7f3aa2a822a3297d2db2a1b485fc9d97fb723287769b2c6a73b312a41820e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_TealSalt_BaseColor.png",
+    "sha256": "4d7f3aa2a822a3297d2db2a1b485fc9d97fb723287769b2c6a73b312a41820e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TealSalt_BaseColor.png",
+    "sha256": "4d7f3aa2a822a3297d2db2a1b485fc9d97fb723287769b2c6a73b312a41820e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_TealSaltPaint_Metallic.png",
+    "sha256": "501ca047dce3586c18ad94d4d40f928f76852ea46215a8575a96b2889dd34303",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TealSalt_Metallic.png",
+    "sha256": "501ca047dce3586c18ad94d4d40f928f76852ea46215a8575a96b2889dd34303",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/service_bridge_I_B_TealSaltPaint_Normal.png",
+    "sha256": "3719086e27c0a42e3a701620ad8466334960a27f2169cfd74c72f3e79871b7c9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_TealSaltPaint_Normal.png",
+    "sha256": "3719086e27c0a42e3a701620ad8466334960a27f2169cfd74c72f3e79871b7c9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_TealSalt_Normal.png",
+    "sha256": "3719086e27c0a42e3a701620ad8466334960a27f2169cfd74c72f3e79871b7c9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_TealSalt_Normal.png",
+    "sha256": "3719086e27c0a42e3a701620ad8466334960a27f2169cfd74c72f3e79871b7c9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TealSalt_Normal.png",
+    "sha256": "3719086e27c0a42e3a701620ad8466334960a27f2169cfd74c72f3e79871b7c9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial/textures/I_B_TealSaltPaint_Roughness.png",
+    "sha256": "7931ded94a0bf3aca0c4cd5a33b2aff6c68980a001c184a3d512f174472b796b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TealSalt_Roughness.png",
+    "sha256": "7931ded94a0bf3aca0c4cd5a33b2aff6c68980a001c184a3d512f174472b796b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_TerraceConcrete_BaseColor.png",
+    "sha256": "d4a64052a4397b74567539ec90ccce0c62e0c087a49a4dc116262c9797e754de",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceConcrete_BaseColor.png",
+    "sha256": "d4a64052a4397b74567539ec90ccce0c62e0c087a49a4dc116262c9797e754de",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_IvoryWeather_Metallic.png",
+    "sha256": "31c09ceb637ed97e8442659fc1be6ef9a968f17eb8a3413703fd7059f57419ee",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceConcrete_Metallic.png",
+    "sha256": "31c09ceb637ed97e8442659fc1be6ef9a968f17eb8a3413703fd7059f57419ee",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_TerraceConcrete_Normal.png",
+    "sha256": "ec73b59e9dc3991eeb9b961bf2fdd4c9ca52f77315c3dfe82a5ea83bcad698dc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceConcrete_Normal.png",
+    "sha256": "ec73b59e9dc3991eeb9b961bf2fdd4c9ca52f77315c3dfe82a5ea83bcad698dc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceConcrete_Roughness.png",
+    "sha256": "72bec9d1c7a0aacd37d7b0fdfba0d02f3a4d18764bb5150b184a1b949f924c51",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_TerraceSafety_BaseColor.png",
+    "sha256": "90fe11959f5c6cd647ce8313bfc990b5fd9d39a9750f55d259aa7d8ce70f3399",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceSafety_BaseColor.png",
+    "sha256": "90fe11959f5c6cd647ce8313bfc990b5fd9d39a9750f55d259aa7d8ce70f3399",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceSafety_Metallic.png",
+    "sha256": "8c24b8253f01e5ec34b1e25fa1f8c535d7597ed98887032dc983471b756d0a06",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_SafetyAmber_Metallic.png",
+    "sha256": "8c24b8253f01e5ec34b1e25fa1f8c535d7597ed98887032dc983471b756d0a06",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_TerraceSafety_Normal.png",
+    "sha256": "02b88dbad749a9824293f6a05b6d46724b04db2c9614838405da13a7fdb41587",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceSafety_Normal.png",
+    "sha256": "02b88dbad749a9824293f6a05b6d46724b04db2c9614838405da13a7fdb41587",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_TerraceSafety_Roughness.png",
+    "sha256": "8d1acec865d2bbaa323a6767df03bf02b04c3fa17ed89ebe8ae92f9da4ccce21",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_IvoryWeather_BaseColor.png",
+    "sha256": "b7f0ff5205e5d8140b009d496c5e814a7937cc85f45e2a9c7c6fdddfd578a122",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_IvoryWeather_BaseColor.png",
+    "sha256": "b7f0ff5205e5d8140b009d496c5e814a7937cc85f45e2a9c7c6fdddfd578a122",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_IvoryWeather_BaseColor.png",
+    "sha256": "b7f0ff5205e5d8140b009d496c5e814a7937cc85f45e2a9c7c6fdddfd578a122",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_IvoryWeather_Normal.png",
+    "sha256": "dd762ae9abc52cf051d3571d501ccb2a7706e509bd8929ba175d8166405a120d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_IvoryWeather_Normal.png",
+    "sha256": "dd762ae9abc52cf051d3571d501ccb2a7706e509bd8929ba175d8166405a120d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_IvoryWeather_Normal.png",
+    "sha256": "dd762ae9abc52cf051d3571d501ccb2a7706e509bd8929ba175d8166405a120d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_IvoryWeather_Roughness.png",
+    "sha256": "c7bfd33d231fd44038c32bf9be0c324b8ffe9d28886c91ab3e38484d5df4edba",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_SafetySignal_BaseColor.png",
+    "sha256": "ba8acfaf5cad4db8ac7360b0a9c8f40f2350e373ba42f369100c509b99ffdff8",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_SafetySignal_BaseColor.png",
+    "sha256": "ba8acfaf5cad4db8ac7360b0a9c8f40f2350e373ba42f369100c509b99ffdff8",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_SafetySignal_BaseColor.png",
+    "sha256": "ba8acfaf5cad4db8ac7360b0a9c8f40f2350e373ba42f369100c509b99ffdff8",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_SafetySignal_Emission.png",
+    "sha256": "be3036d20de29e438af915d44334f0d0c5533fc94bfe8b3156c6db1bb093f059",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_SafetySignal_Emission.png",
+    "sha256": "be3036d20de29e438af915d44334f0d0c5533fc94bfe8b3156c6db1bb093f059",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_SafetySignal_Emission.png",
+    "sha256": "be3036d20de29e438af915d44334f0d0c5533fc94bfe8b3156c6db1bb093f059",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_SafetySignal_Metallic.png",
+    "sha256": "98f1edd19f0b81c35a0893f030f86828e09b6af0fcbd644b59e5a6ec1ee89c88",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/coastal_work_terrace_IK_SafetySignal_Normal.png",
+    "sha256": "e3a02e6d511e7722803275a31473c8227f3915fdf8867ffbc423d42373c92a66",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/power_relay_cabinet_IK_SafetySignal_Normal.png",
+    "sha256": "e3a02e6d511e7722803275a31473c8227f3915fdf8867ffbc423d42373c92a66",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_SafetySignal_Normal.png",
+    "sha256": "e3a02e6d511e7722803275a31473c8227f3915fdf8867ffbc423d42373c92a66",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/industrial_kit/textures/IK_SafetySignal_Roughness.png",
+    "sha256": "8045024bbe5dfe8340e924c560fa7a3f7438e9bfa4805cb26d5a981d69465af4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_BaseColor.png",
+    "sha256": "60c52a8f4a82c5714be259c19e586c382cf21f46c72896f50f5aec90fa4e4156",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_FloorAndRamp_BaseColor.png",
+    "sha256": "60c52a8f4a82c5714be259c19e586c382cf21f46c72896f50f5aec90fa4e4156",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/FloorAndRamp_BaseColor.png",
+    "sha256": "60c52a8f4a82c5714be259c19e586c382cf21f46c72896f50f5aec90fa4e4156",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_Normal.png",
+    "sha256": "b92ce19af72b56a96012cf5027404b7d510000bba4672e545e53de28071af952",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_FloorAndRamp_Normal.png",
+    "sha256": "b92ce19af72b56a96012cf5027404b7d510000bba4672e545e53de28071af952",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/FloorAndRamp_Normal.png",
+    "sha256": "b92ce19af72b56a96012cf5027404b7d510000bba4672e545e53de28071af952",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_ORM.png",
+    "sha256": "d4d01b8217288ab9c7f49d16213c770713b1b49321e59d5b2b5a8a8a887003e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_FloorAndRamp_ORM.png",
+    "sha256": "d4d01b8217288ab9c7f49d16213c770713b1b49321e59d5b2b5a8a8a887003e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/FloorAndRamp_ORM.png",
+    "sha256": "d4d01b8217288ab9c7f49d16213c770713b1b49321e59d5b2b5a8a8a887003e7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_Hardware_BaseColor.png",
+    "sha256": "4d42695fcd12f20195a8e831262d4ad72e597b889b01a59051fd2d33c290d225",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_Hardware_BaseColor.png",
+    "sha256": "4d42695fcd12f20195a8e831262d4ad72e597b889b01a59051fd2d33c290d225",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/Hardware_BaseColor.png",
+    "sha256": "4d42695fcd12f20195a8e831262d4ad72e597b889b01a59051fd2d33c290d225",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_Hardware_Normal.png",
+    "sha256": "f62e881041188af1c56be49f7e8b1045ddd9bd417e27d7dd26982710ea4d9471",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_Hardware_Normal.png",
+    "sha256": "f62e881041188af1c56be49f7e8b1045ddd9bd417e27d7dd26982710ea4d9471",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/Hardware_Normal.png",
+    "sha256": "f62e881041188af1c56be49f7e8b1045ddd9bd417e27d7dd26982710ea4d9471",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_Hardware_ORM.png",
+    "sha256": "405d8d974c7389bd20a97f9b1ca27734d382d3586e675cf74b711fc56d39f19c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_Hardware_ORM.png",
+    "sha256": "405d8d974c7389bd20a97f9b1ca27734d382d3586e675cf74b711fc56d39f19c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/Hardware_ORM.png",
+    "sha256": "405d8d974c7389bd20a97f9b1ca27734d382d3586e675cf74b711fc56d39f19c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_BaseColor.png",
+    "sha256": "4941c6c2f6b220bc2459eccfc2f0f545f101487ef021d5b0235a7fa7dbb3731a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_WallConcrete_BaseColor.png",
+    "sha256": "4941c6c2f6b220bc2459eccfc2f0f545f101487ef021d5b0235a7fa7dbb3731a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/WallConcrete_BaseColor.png",
+    "sha256": "4941c6c2f6b220bc2459eccfc2f0f545f101487ef021d5b0235a7fa7dbb3731a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_Normal.png",
+    "sha256": "13b3253404f80fa5c79a58b8c5ef9fb41f514b80af2da2d276fedac58f925d7e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_WallConcrete_Normal.png",
+    "sha256": "13b3253404f80fa5c79a58b8c5ef9fb41f514b80af2da2d276fedac58f925d7e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/WallConcrete_Normal.png",
+    "sha256": "13b3253404f80fa5c79a58b8c5ef9fb41f514b80af2da2d276fedac58f925d7e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_ORM.png",
+    "sha256": "29ff27b33624050142d10712e0c39d1d94aa9bdebb30db1c482b43772cdbfabb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/inspection_pit/inspection_pit_WallConcrete_ORM.png",
+    "sha256": "29ff27b33624050142d10712e0c39d1d94aa9bdebb30db1c482b43772cdbfabb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/inspection_pit/delivery_p1/textures/WallConcrete_ORM.png",
+    "sha256": "29ff27b33624050142d10712e0c39d1d94aa9bdebb30db1c482b43772cdbfabb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_AgedTealSteel_BaseColor.png",
+    "sha256": "49cc23955d7887d3ea873e80e4aab6ae218a3b8b6f9e704c61edd32bca1290db",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_AgedTealSteel_BaseColor.png",
+    "sha256": "49cc23955d7887d3ea873e80e4aab6ae218a3b8b6f9e704c61edd32bca1290db",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_AgedTealSteel_Metallic.png",
+    "sha256": "76b04bbe740611fa87a7c041a4ad53f0b553b0dc73e9e656d96940c4ccb1bd04",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_AgedTealSteel_Normal.png",
+    "sha256": "bae313a48dab6d30fd2698bbb59a4ef8cc7b610c100ed7967c242d41ba7940a8",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_AgedTealSteel_Normal.png",
+    "sha256": "bae313a48dab6d30fd2698bbb59a4ef8cc7b610c100ed7967c242d41ba7940a8",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_AgedTealSteel_Roughness.png",
+    "sha256": "77b0858e6c3efa6d83dee59930b54f1222597c125b32558a96f4d8d1763e7dc0",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_BareHardware_BaseColor.png",
+    "sha256": "87bd89093b176d3965d365e73334592cbe0af69eb4dbe3f28a75a9e44f24eac6",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_BareHardware_BaseColor.png",
+    "sha256": "87bd89093b176d3965d365e73334592cbe0af69eb4dbe3f28a75a9e44f24eac6",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_BareHardware_Metallic.png",
+    "sha256": "f47e21e1f6d0ce572a29d8e9aecc56d4ccb1c37ca7dbb22b9bd939b2583b3829",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_BareHardware_Normal.png",
+    "sha256": "5d9b2161e7d1b3551464e61f25d438f83841e919f53e622b8998a84a6fd49553",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_BareHardware_Normal.png",
+    "sha256": "5d9b2161e7d1b3551464e61f25d438f83841e919f53e622b8998a84a6fd49553",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_BareHardware_Roughness.png",
+    "sha256": "4a4fdce1ca42efef4cca9dce6512a7df50f721910c578793c1cb4b721c5c0bff",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_WarmWorkDeck_BaseColor.png",
+    "sha256": "e1b4e150f2c56a0311cbd6aafb4e7ba9779838fd32dbeeaaab783bb9a0615ef4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WarmWorkDeck_BaseColor.png",
+    "sha256": "e1b4e150f2c56a0311cbd6aafb4e7ba9779838fd32dbeeaaab783bb9a0615ef4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WarmWorkDeck_Metallic.png",
+    "sha256": "98af1805c2d325e0d84b365ca83126f8297f3994debc43ee46b2cee121eb471a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_WarmWorkDeck_Normal.png",
+    "sha256": "87f5ee26fac7e0b025928afdaf5a7ce04ebfec676ca600cbf955c2d40b673539",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WarmWorkDeck_Normal.png",
+    "sha256": "87f5ee26fac7e0b025928afdaf5a7ce04ebfec676ca600cbf955c2d40b673539",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WarmWorkDeck_Roughness.png",
+    "sha256": "b181c5f9444f2b5f90e835029c6dcaf99ec2582c8c8df158778f7ba1fafc592d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_WornSafety_BaseColor.png",
+    "sha256": "883a5fa364781f95e3b0ddbe57fd87936114c27aab2f96f320f737b3172d566b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WornSafety_BaseColor.png",
+    "sha256": "883a5fa364781f95e3b0ddbe57fd87936114c27aab2f96f320f737b3172d566b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WornSafety_Metallic.png",
+    "sha256": "af70509026fc864b4ba454bce10d00bde15b15ae44ba265ee34860219388fc84",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/maintenance_overpass_Overpass_WornSafety_Normal.png",
+    "sha256": "5ade2609e8aff33ef40c3ee6e6d21a66921278ae861f874274a565869d2a3a26",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WornSafety_Normal.png",
+    "sha256": "5ade2609e8aff33ef40c3ee6e6d21a66921278ae861f874274a565869d2a3a26",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/overpass/textures/Overpass_WornSafety_Roughness.png",
+    "sha256": "98cc4270476baf95d08c56200c1814e71c4b10d14acd4744d5e236e360a80fa5",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_bridge_deck/shared_access_bridge_deck_SharedBridgeDeck_BaseColor.png",
+    "sha256": "a675fc9b57adf16fe9dbadbc7092eee8d15ed3c365eb47db283fbe7c78ba18f5",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/textures/SharedBridgeDeck_BaseColor.png",
+    "sha256": "a675fc9b57adf16fe9dbadbc7092eee8d15ed3c365eb47db283fbe7c78ba18f5",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_bridge_deck/shared_access_bridge_deck_SharedBridgeDeck_Normal.png",
+    "sha256": "bcae02918c836b6d57e6433b4a0855bf46a6b1b4ecd93e12ab5083b8e4256b0e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/textures/SharedBridgeDeck_Normal.png",
+    "sha256": "bcae02918c836b6d57e6433b4a0855bf46a6b1b4ecd93e12ab5083b8e4256b0e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_bridge_deck/shared_access_bridge_deck_SharedBridgeDeck_ORM.png",
+    "sha256": "94904cfe408a5801875f85323fffc90d7c8a21df99e26267380cbcab56f7c60b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/textures/SharedBridgeDeck_ORM.png",
+    "sha256": "94904cfe408a5801875f85323fffc90d7c8a21df99e26267380cbcab56f7c60b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/p4/source_review_20261019_152843_ce6ff1/LandingTread_SurfaceMask.png",
+    "sha256": "3f395cd540a9bf9244ddaaab33907a20ea48474018894a905496826f5f15c933",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_BaseColor.png",
+    "sha256": "659db1da334f873b1bed17f8d44441dacf8a893759b0473969ce6d9761b8db53",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/delivery_p4/textures/SharedLandings_Coating_BaseColor.png",
+    "sha256": "659db1da334f873b1bed17f8d44441dacf8a893759b0473969ce6d9761b8db53",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_ORM.png",
+    "sha256": "17cca9da0061bdc61c05853b22cb504efb4815e09af9043b895fa315ee500ee7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/delivery_p4/textures/SharedLandings_Coating_ORM.png",
+    "sha256": "17cca9da0061bdc61c05853b22cb504efb4815e09af9043b895fa315ee500ee7",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Deck_BaseColor.png",
+    "sha256": "4ae603145f57d0b6079d4c1d99a325a2e27bef458ccb0ea5a0d0208be08d130e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/delivery_p4/textures/SharedLandings_Deck_BaseColor.png",
+    "sha256": "4ae603145f57d0b6079d4c1d99a325a2e27bef458ccb0ea5a0d0208be08d130e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Deck_Normal.png",
+    "sha256": "9d0755adcf3366f69cc35b2dc5ce1cd5273282c3d03a9d140f774a8ac2cc6db9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/delivery_p4/textures/SharedLandings_Deck_Normal.png",
+    "sha256": "9d0755adcf3366f69cc35b2dc5ce1cd5273282c3d03a9d140f774a8ac2cc6db9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Deck_ORM.png",
+    "sha256": "e400104fd1218a8850fafaf43a02778970c348e9b33f30bc1e45a7408f997a89",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/delivery_p4/textures/SharedLandings_Deck_ORM.png",
+    "sha256": "e400104fd1218a8850fafaf43a02778970c348e9b33f30bc1e45a7408f997a89",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/p3/source_review_20261019_102327_a1978d/LandingTread_Normal.png",
+    "sha256": "08f9dc4e90df6503d6d06efbb09c20c90db22341c5e737ca787cce8d329ee661",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/shared_access_landings/p4/source_inputs/LandingTread_Normal_P3.png",
+    "sha256": "08f9dc4e90df6503d6d06efbb09c20c90db22341c5e737ca787cce8d329ee661",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_BluePaint_BaseColor.png",
+    "sha256": "de4d2d2b151d1d1812d1e7b0865fd2973f81e939eb1808ed5ac939bf80178e5a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_BluePaint_BaseColor.png",
+    "sha256": "de4d2d2b151d1d1812d1e7b0865fd2973f81e939eb1808ed5ac939bf80178e5a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_BluePaint_Metallic.png",
+    "sha256": "fa35604b72b436f74da1cdff9bdf37e5799168a57502a0ce0f75fb2ace3072fa",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_SafetyWear_Metallic.png",
+    "sha256": "fa35604b72b436f74da1cdff9bdf37e5799168a57502a0ce0f75fb2ace3072fa",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_BluePaint_Normal.png",
+    "sha256": "b39fad79d9e05fc641ce169111038ae8ef7cfe6d4c46eb887b6dedd5741dde29",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_DarkSteel_Normal.png",
+    "sha256": "b39fad79d9e05fc641ce169111038ae8ef7cfe6d4c46eb887b6dedd5741dde29",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_BluePaint_Normal.png",
+    "sha256": "b39fad79d9e05fc641ce169111038ae8ef7cfe6d4c46eb887b6dedd5741dde29",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_DarkSteel_Normal.png",
+    "sha256": "b39fad79d9e05fc641ce169111038ae8ef7cfe6d4c46eb887b6dedd5741dde29",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_BluePaint_Roughness.png",
+    "sha256": "d0618e595d0d186cecfd2cf128a750b79160c578c08f68400635f005d77b92d5",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_DarkSteel_Roughness.png",
+    "sha256": "d0618e595d0d186cecfd2cf128a750b79160c578c08f68400635f005d77b92d5",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_CopperHeat_BaseColor.png",
+    "sha256": "32d7f4d708193ca8160722a8856d809ae6140c164b2363f55625b11eb606f6e4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_CopperHeat_BaseColor.png",
+    "sha256": "32d7f4d708193ca8160722a8856d809ae6140c164b2363f55625b11eb606f6e4",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_CopperHeat_Metallic.png",
+    "sha256": "ab416e86b0f21e7309cee2cedb0e7c65e426ab88141bfc9b5f21c6f27cdc4c91",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_CopperHeat_Normal.png",
+    "sha256": "0506334cc75f6f1ae6505f1ce8a8431ffed3faf5f74c8cc8f11870a0dd1909c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_IvoryPaint_Normal.png",
+    "sha256": "0506334cc75f6f1ae6505f1ce8a8431ffed3faf5f74c8cc8f11870a0dd1909c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_SafetyWear_Normal.png",
+    "sha256": "0506334cc75f6f1ae6505f1ce8a8431ffed3faf5f74c8cc8f11870a0dd1909c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_CopperHeat_Normal.png",
+    "sha256": "0506334cc75f6f1ae6505f1ce8a8431ffed3faf5f74c8cc8f11870a0dd1909c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_IvoryPaint_Normal.png",
+    "sha256": "0506334cc75f6f1ae6505f1ce8a8431ffed3faf5f74c8cc8f11870a0dd1909c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_SafetyWear_Normal.png",
+    "sha256": "0506334cc75f6f1ae6505f1ce8a8431ffed3faf5f74c8cc8f11870a0dd1909c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_CopperHeat_Roughness.png",
+    "sha256": "31143fa52121b51771ba69705de7b20868d2f25fef03a1c5c65803c6d6418f46",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_DarkSteel_BaseColor.png",
+    "sha256": "de54a2fbb9d0a3b2a7889c1327f1c279dc1e1941c43039afa625593227e5ec9f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_DarkSteel_BaseColor.png",
+    "sha256": "de54a2fbb9d0a3b2a7889c1327f1c279dc1e1941c43039afa625593227e5ec9f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_DarkSteel_Metallic.png",
+    "sha256": "1316213163b8e43eb9244b75917ccba6808dd63f8b0929d38aea4199d0a81e80",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_IvoryPaint_BaseColor.png",
+    "sha256": "5174c524a4d67bc84b072766b46d68842354dad7273d21da5ef499b30da516ee",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_IvoryPaint_BaseColor.png",
+    "sha256": "5174c524a4d67bc84b072766b46d68842354dad7273d21da5ef499b30da516ee",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_IvoryPaint_Metallic.png",
+    "sha256": "5c0dae6142cbccb397cd5432c9401b903fcda405cf1fbeff122f16b0c3e9da46",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_IvoryPaint_Roughness.png",
+    "sha256": "83ed0216c4e3d48eca7e1b4bf691824e6e1004504e4813302c92fab019cbccc5",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_SafetyWear_BaseColor.png",
+    "sha256": "b8fe6abbdafbe3b7fc28c812818c4b692f9cfedd7842dd749ce6e1a727e96290",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_SafetyWear_BaseColor.png",
+    "sha256": "b8fe6abbdafbe3b7fc28c812818c4b692f9cfedd7842dd749ce6e1a727e96290",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_SafetyWear_Roughness.png",
+    "sha256": "99650d85cb79ff202aa8b7d711580be59636911c3f62da3baa5feb35d1cfb1ea",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_StatusLens_BaseColor.png",
+    "sha256": "35ec83096f6c9ad3b2dbb28642697d7d4c2e7bd9940650bd16ba759cd54080fd",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_StatusLens_BaseColor.png",
+    "sha256": "35ec83096f6c9ad3b2dbb28642697d7d4c2e7bd9940650bd16ba759cd54080fd",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_StatusLens_Metallic.png",
+    "sha256": "79238174f0b3e2441720c46339b8cce2c8be2c19a1507831e726b51b8bbe3b82",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/thermal_bypass/thermal_bypass_TB_StatusLens_Normal.png",
+    "sha256": "891342f94a8279c0de8c3ed45165fb0938c823be5bc29ceb523fefb5c2124646",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_StatusLens_Normal.png",
+    "sha256": "891342f94a8279c0de8c3ed45165fb0938c823be5bc29ceb523fefb5c2124646",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/thermal_bypass/textures/TB_StatusLens_Roughness.png",
+    "sha256": "8eb685ab30e9272bf38232a8f866830e21ca91ff5ede029af2b6c0419bb378af",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/fixed_rail_UD_BareSteel_BaseColor.png",
+    "sha256": "315a51deaddc1471529f383ba92abc4d9d4a70f83cf51fbb0c3085de80cf8f78",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_BareSteel_BaseColor.png",
+    "sha256": "315a51deaddc1471529f383ba92abc4d9d4a70f83cf51fbb0c3085de80cf8f78",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_BareSteel_BaseColor.png",
+    "sha256": "315a51deaddc1471529f383ba92abc4d9d4a70f83cf51fbb0c3085de80cf8f78",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_BareSteel_Metallic.png",
+    "sha256": "2783d8fb1f3527319a602564188aaf584495dbf85a041360333bf6e83f8315a3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/fixed_rail_UD_BareSteel_Normal.png",
+    "sha256": "b97113595078afcaaa77de00f91ac7e6bb38d00bceb8a0de8dc1baa4eb751106",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_BareSteel_Normal.png",
+    "sha256": "b97113595078afcaaa77de00f91ac7e6bb38d00bceb8a0de8dc1baa4eb751106",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_BareSteel_Normal.png",
+    "sha256": "b97113595078afcaaa77de00f91ac7e6bb38d00bceb8a0de8dc1baa4eb751106",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_BareSteel_Roughness.png",
+    "sha256": "f94292bf401b4d629955301ae2cc89f229482b4f04b328cecc899bd64432cf0c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_Galvanized_BaseColor.png",
+    "sha256": "226efce0d682e2af22c11d7243fbe96d432a6e5959c5d3ea74d566f760244d53",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_Galvanized_BaseColor.png",
+    "sha256": "226efce0d682e2af22c11d7243fbe96d432a6e5959c5d3ea74d566f760244d53",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_Galvanized_Metallic.png",
+    "sha256": "2e819ec91bb7dc644758df4edf84fbfc87e4447ba6f368cd6f2e26dbc0ffa017",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_Galvanized_Normal.png",
+    "sha256": "2b28766dec3068f7b09f81392268e7eb7f23d1b8a481e6c162e3d470f9e69d91",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_Galvanized_Normal.png",
+    "sha256": "2b28766dec3068f7b09f81392268e7eb7f23d1b8a481e6c162e3d470f9e69d91",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_Galvanized_Roughness.png",
+    "sha256": "c904dedfbf3a930a2cf8bcfc30b1b3cbf6c7a073e0b58fc3f933d199eb1de0d8",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/fixed_rail_UD_PetrolPaint_BaseColor.png",
+    "sha256": "c1a87a2826d580a9ec177c0feaf22fd4e88da64beef01cc05a61eff7ad6dc152",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_PetrolPaint_BaseColor.png",
+    "sha256": "c1a87a2826d580a9ec177c0feaf22fd4e88da64beef01cc05a61eff7ad6dc152",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_PetrolPaint_BaseColor.png",
+    "sha256": "c1a87a2826d580a9ec177c0feaf22fd4e88da64beef01cc05a61eff7ad6dc152",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_PetrolPaint_Metallic.png",
+    "sha256": "01a7fbd487be3db5f753d82223291b8077978b94d3f8d13500c86da0264b6efb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/fixed_rail_UD_PetrolPaint_Normal.png",
+    "sha256": "71610897ea534ca059a738920c6a647c6c13ab8bfc734d197f4148da2023443c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_PetrolPaint_Normal.png",
+    "sha256": "71610897ea534ca059a738920c6a647c6c13ab8bfc734d197f4148da2023443c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_PetrolPaint_Normal.png",
+    "sha256": "71610897ea534ca059a738920c6a647c6c13ab8bfc734d197f4148da2023443c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_PetrolPaint_Roughness.png",
+    "sha256": "9aa52e414dea839876fdc7547de20642fe1537179ba3cce29afb73df0b184c88",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_SafetyBand_BaseColor.png",
+    "sha256": "ea3ac75957493e69d5a4f293766b163f07d30d57b55f5a34a3318bdfc0591d83",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_SafetyBand_BaseColor.png",
+    "sha256": "ea3ac75957493e69d5a4f293766b163f07d30d57b55f5a34a3318bdfc0591d83",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_SafetyBand_Metallic.png",
+    "sha256": "8621fcdea812c91e3e7d6358f1f6f5aefd8f9e37ead9dbd9f629fb7337f5da35",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/panel_UD_SafetyBand_Normal.png",
+    "sha256": "79a566cd5d04d325a496d31cdde27f21a45c21e6ea84bf4430af5f250a336c43",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_SafetyBand_Normal.png",
+    "sha256": "79a566cd5d04d325a496d31cdde27f21a45c21e6ea84bf4430af5f250a336c43",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_SafetyBand_Roughness.png",
+    "sha256": "8c910c05c2f1039589f5a5929ef34c264c5efecf44aec027ddf4df955f63f976",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/fixed_rail_UD_StatusLens_BaseColor.png",
+    "sha256": "b12b393b88862a30968cb64e2b4a0171d81e0cba18d84e5aa67c030533135fd3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_StatusLens_BaseColor.png",
+    "sha256": "b12b393b88862a30968cb64e2b4a0171d81e0cba18d84e5aa67c030533135fd3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_StatusLens_Metallic.png",
+    "sha256": "e9c4a470ad900801f7de4f9402eb27af8a1cc00eac80d618ef16bac39fb27d33",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_door/fixed_rail_UD_StatusLens_Normal.png",
+    "sha256": "30cf1e4ed374a809b7cf663f4eb198aa9781e4171c81e05dced9805462db79fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_StatusLens_Normal.png",
+    "sha256": "30cf1e4ed374a809b7cf663f4eb198aa9781e4171c81e05dced9805462db79fe",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_door/textures/UD_StatusLens_Roughness.png",
+    "sha256": "8ee3c8dc560f30373ec57d8fc7719c6dbe8a167dcea1eb5fb098285511b1dbed",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_shell/underdeck_shell_UDS_SharedAtlas_BaseColor.png",
+    "sha256": "08747c0946b5d2a4f396d4d0bb195234fc3af6d4ce9051bd85af546ab4767180",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_shell/textures/UDS_SharedAtlas_BaseColor.png",
+    "sha256": "08747c0946b5d2a4f396d4d0bb195234fc3af6d4ce9051bd85af546ab4767180",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_shell/textures/UDS_SharedAtlas_Metallic.png",
+    "sha256": "5c3d2d79c84b1e91c22993ad7382322dd20b06b0baf2960f88b1da0b8998fa0b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/underdeck_shell/underdeck_shell_UDS_SharedAtlas_Normal.png",
+    "sha256": "fc245650d2a86434ed62ab39e0a5a4828f6c1415d759764f3fa0bacd8a48a89c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_shell/textures/UDS_SharedAtlas_Normal.png",
+    "sha256": "fc245650d2a86434ed62ab39e0a5a4828f6c1415d759764f3fa0bacd8a48a89c",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/underdeck_shell/textures/UDS_SharedAtlas_Roughness.png",
+    "sha256": "19c6bc068409a5b259d7abd734ba324a15336ef86aa47e5894f329bd41eb76f6",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_BaseColor.png",
+    "sha256": "3d120dfcbfd35f6aa4eb13da64282ca50c2511cd89507d40594d13cc5f7ecc22",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/textures/Paint_BaseColor.png",
+    "sha256": "3d120dfcbfd35f6aa4eb13da64282ca50c2511cd89507d40594d13cc5f7ecc22",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_ORM.png",
+    "sha256": "923637a325c59f667887b81679140e13d817420549f2ce92d8e4016562b570a9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/textures/Paint_ORM.png",
+    "sha256": "923637a325c59f667887b81679140e13d817420549f2ce92d8e4016562b570a9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_landing_platform/west_landing_platform_Steel_BaseColor.png",
+    "sha256": "95cbefd2a115b3b33a7f2ccc99e24b19fbaa72b553351b66cd02e8861a564091",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/textures/Steel_BaseColor.png",
+    "sha256": "95cbefd2a115b3b33a7f2ccc99e24b19fbaa72b553351b66cd02e8861a564091",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_landing_platform/west_landing_platform_Steel_Normal.png",
+    "sha256": "98a0da4566f0f4edd7073135e63d77bbab81bdd79ecb5e6d5cbbad041e127a3f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/textures/Steel_Normal.png",
+    "sha256": "98a0da4566f0f4edd7073135e63d77bbab81bdd79ecb5e6d5cbbad041e127a3f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_landing_platform/west_landing_platform_Steel_ORM.png",
+    "sha256": "8f65db9d5dc74e90da0c9a5756db360596c143d5058a8d9daf76a998203d0583",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_landing_platform/delivery_p1/textures/Steel_ORM.png",
+    "sha256": "8f65db9d5dc74e90da0c9a5756db360596c143d5058a8d9daf76a998203d0583",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_BaseColor.png",
+    "sha256": "967e60cbc9b8946d42eb16b536b1922b0fbd02923f7d296cf279e7f2bd6249a0",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/ConcreteBase_BaseColor.png",
+    "sha256": "967e60cbc9b8946d42eb16b536b1922b0fbd02923f7d296cf279e7f2bd6249a0",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_ORM.png",
+    "sha256": "c0b6cfdf5a84ad6632c9f59ae7ed49fbe571c9a7e1c49bf7cfa0413dfff0475a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/ConcreteBase_ORM.png",
+    "sha256": "c0b6cfdf5a84ad6632c9f59ae7ed49fbe571c9a7e1c49bf7cfa0413dfff0475a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_BaseColor.png",
+    "sha256": "2b78d85907afa9b0c29d55003614f34f0251cdbcd5989991d57858ae1db9df0e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/PaintedShell_BaseColor.png",
+    "sha256": "2b78d85907afa9b0c29d55003614f34f0251cdbcd5989991d57858ae1db9df0e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_ORM.png",
+    "sha256": "bc821feb0f71b99e0e8cb7f3aeae54133fd70d55a51cb2be22afa68306d12b30",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/PaintedShell_ORM.png",
+    "sha256": "bc821feb0f71b99e0e8cb7f3aeae54133fd70d55a51cb2be22afa68306d12b30",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_RoofMetal_BaseColor.png",
+    "sha256": "00a2363fb145cc76052928cfab79bdb9e20f48dcebfa1f2b2cbf46dda10bef0f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/RoofMetal_BaseColor.png",
+    "sha256": "00a2363fb145cc76052928cfab79bdb9e20f48dcebfa1f2b2cbf46dda10bef0f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_RoofMetal_Normal.png",
+    "sha256": "b712727997891dc11b5dd946be2305dece741d9696ec474ffc9b54be5eca6098",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/RoofMetal_Normal.png",
+    "sha256": "b712727997891dc11b5dd946be2305dece741d9696ec474ffc9b54be5eca6098",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_offset_room/west_offset_room_RoofMetal_ORM.png",
+    "sha256": "267f92dcddd0d5a6a41d9c19401212add7206dddbb385d23e6dcd1f0931b9a2a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_offset_room/p1/textures/RoofMetal_ORM.png",
+    "sha256": "267f92dcddd0d5a6a41d9c19401212add7206dddbb385d23e6dcd1f0931b9a2a",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_BaseColor.png",
+    "sha256": "89ac4674243126e6e47c9c4de8580afed35bb497c4fb33bcacce320a1b9d8e7d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/ConcreteBase_BaseColor.png",
+    "sha256": "89ac4674243126e6e47c9c4de8580afed35bb497c4fb33bcacce320a1b9d8e7d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_ORM.png",
+    "sha256": "9274f14f7390332cc48c9fab130f045979ee05f5648af379ef5d8de844f0fd3f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/ConcreteBase_ORM.png",
+    "sha256": "9274f14f7390332cc48c9fab130f045979ee05f5648af379ef5d8de844f0fd3f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_BaseColor.png",
+    "sha256": "b2b9f311352e99c93c33626870e06115847050c48f8c7c4be31b1ab477a186d0",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/PaintedShell_BaseColor.png",
+    "sha256": "b2b9f311352e99c93c33626870e06115847050c48f8c7c4be31b1ab477a186d0",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_ORM.png",
+    "sha256": "67e87b18e962369d8eb6046f1df00bb419b05a75054bcaf066434a1c0a2dfa14",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/PaintedShell_ORM.png",
+    "sha256": "67e87b18e962369d8eb6046f1df00bb419b05a75054bcaf066434a1c0a2dfa14",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_RoofMetal_BaseColor.png",
+    "sha256": "ed2b853dd3470bfa52a635cfb2962d71ad2de520e8479e605c9372e1991d4324",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/RoofMetal_BaseColor.png",
+    "sha256": "ed2b853dd3470bfa52a635cfb2962d71ad2de520e8479e605c9372e1991d4324",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_RoofMetal_Normal.png",
+    "sha256": "cc3e5ef63db188b33ee2ff2abddd210f41b116ad8c11626067d6bf8054561677",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/RoofMetal_Normal.png",
+    "sha256": "cc3e5ef63db188b33ee2ff2abddd210f41b116ad8c11626067d6bf8054561677",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/west_service_room/west_service_room_RoofMetal_ORM.png",
+    "sha256": "e4def43a8f5314a1f5ca305b0fb3e77e17c0b83abf161aba9e4d28845ec5331b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/west_service_room/p1/textures/RoofMetal_ORM.png",
+    "sha256": "e4def43a8f5314a1f5ca305b0fb3e77e17c0b83abf161aba9e4d28845ec5331b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_BrushedMetal_BaseColor.png",
+    "sha256": "379cbaf5d2866601ea294da417c21e1379e886f36fea4490290925dd58d9ea57",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_BrushedMetal_BaseColor.png",
+    "sha256": "379cbaf5d2866601ea294da417c21e1379e886f36fea4490290925dd58d9ea57",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_BrushedMetal_Metallic.png",
+    "sha256": "3929688b3ddc852a9e270b21e35785cf0c1289a9bf24e01e7fc33b184f721267",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_BrushedMetal_Normal.png",
+    "sha256": "49d0a1cccb128d2371c3727ce9695f2a7c4021c380816aa40bfc16501475ad31",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_BrushedMetal_Normal.png",
+    "sha256": "49d0a1cccb128d2371c3727ce9695f2a7c4021c380816aa40bfc16501475ad31",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_BrushedMetal_Roughness.png",
+    "sha256": "aa8e9309165b4c21bae51f0d0139fd6052f4d8f1ff9ad3d43fe63e9ebb5cdd94",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_CoreCyan_BaseColor.png",
+    "sha256": "9411193b2f9c16ce8f3e239889e602c04e36df760081282ae755a134593a8ccb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_CoreCyan_BaseColor.png",
+    "sha256": "9411193b2f9c16ce8f3e239889e602c04e36df760081282ae755a134593a8ccb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_CoreCyan_Metallic.png",
+    "sha256": "a013cd3632812d95f61d73fe664879db8f40c4015d9e810765ec0ec653470771",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_CoreCyan_Normal.png",
+    "sha256": "52827a5fac57455ed0c818bab23d2f75582353fed4e2bb250b240554fb1ed665",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_CoreCyan_Normal.png",
+    "sha256": "52827a5fac57455ed0c818bab23d2f75582353fed4e2bb250b240554fb1ed665",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_CoreCyan_Roughness.png",
+    "sha256": "f3b1b1f2f31c89a444e3c3296f1ea506c7dc1cd8a197730a723a3c56d8dd36bf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_DarkCavity_BaseColor.png",
+    "sha256": "20d838df824e1df8085ae8d8db6234c079be7d0cd21851b569bddd21b32849e9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_DarkCavity_BaseColor.png",
+    "sha256": "20d838df824e1df8085ae8d8db6234c079be7d0cd21851b569bddd21b32849e9",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_DarkCavity_Metallic.png",
+    "sha256": "0d8887eba26e4520cd74ec2158fe41c4a1cec69a0b50e3532efe3177ea1be9ed",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_DarkCavity_Normal.png",
+    "sha256": "833d943c56c47943d4054b1c327c8d619be51f48ea330522612e67408a5657f0",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_DarkCavity_Normal.png",
+    "sha256": "833d943c56c47943d4054b1c327c8d619be51f48ea330522612e67408a5657f0",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_DarkCavity_Roughness.png",
+    "sha256": "11844b1efc5204fb3750fb46c3bc96dcecb84daa2fff2d98bae7f29af4197653",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_IvoryArmor_BaseColor.png",
+    "sha256": "1ba61c195ce31373409a7af99badf3e42d89122a885c1ec233a66129ed0e4018",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_IvoryArmor_BaseColor.png",
+    "sha256": "1ba61c195ce31373409a7af99badf3e42d89122a885c1ec233a66129ed0e4018",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_IvoryArmor_Metallic.png",
+    "sha256": "b0e17f946f68e704f83f80baaf443b0ffcf75e2f7cfaea62f9d99a7bf22f131e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_IvoryArmor_Normal.png",
+    "sha256": "ea96781e2cfba1bb2285bdbaf36d269af87441f1128ef211caa491d1aa0dcdfb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_IvoryArmor_Normal.png",
+    "sha256": "ea96781e2cfba1bb2285bdbaf36d269af87441f1128ef211caa491d1aa0dcdfb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_IvoryArmor_Roughness.png",
+    "sha256": "cc5f95c05a2c4c062e70a21d45198aad20b38156c7b8ef199c142b44aadd52a6",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_SafetyAmber_BaseColor.png",
+    "sha256": "1193f6c31b904e1032383315f51cde0cf64a6ec4041e332a16ccd2267bdf8f7f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_SafetyAmber_BaseColor.png",
+    "sha256": "1193f6c31b904e1032383315f51cde0cf64a6ec4041e332a16ccd2267bdf8f7f",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_SafetyAmber_Normal.png",
+    "sha256": "eae087d6f76e975e7dfae3923a11975deea1493e3219817592eebfe303b8fbec",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_SafetyAmber_Normal.png",
+    "sha256": "eae087d6f76e975e7dfae3923a11975deea1493e3219817592eebfe303b8fbec",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_SafetyAmber_Roughness.png",
+    "sha256": "dde7337776a582f6520467c79ab8ca631bdeeffc4f9bcaa3958ae0abbb067e4e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_TealArmor_BaseColor.png",
+    "sha256": "e5f96c0a309d3cfffec7f7865f698746271305fa21597938d8982444fc5bde4e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_TealArmor_BaseColor.png",
+    "sha256": "e5f96c0a309d3cfffec7f7865f698746271305fa21597938d8982444fc5bde4e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_TealArmor_Metallic.png",
+    "sha256": "8733382c3e694035c37a4c48a3eb10b36e02c894af1163f5fbf23640d067ca9e",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/siphon_whale_Whale_TealArmor_Normal.png",
+    "sha256": "b06ca7bae47411850bacdd37fbcd35a7215be0b5c5c24e781fe354267446efdc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_TealArmor_Normal.png",
+    "sha256": "b06ca7bae47411850bacdd37fbcd35a7215be0b5c5c24e781fe354267446efdc",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/whale/textures/Whale_TealArmor_Roughness.png",
+    "sha256": "b27c13ed47bdc6c5e49f05e338c7f2caac82a402a494b52c54ffe2ce97b6c60d",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_local_Normal.png",
+    "sha256": "5e3b3958fd4de6ca62d9aada4935d5081e546598f8d9f269129a969ab2fc3f97",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/local_Normal.png",
+    "sha256": "5e3b3958fd4de6ca62d9aada4935d5081e546598f8d9f269129a969ab2fc3f97",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_local_BaseColor.png",
+    "sha256": "f3dd31083e917c27d17a2c91bbee05bf1dbec30c6a988ba7cbde278dda60f216",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/local_BaseColor.png",
+    "sha256": "f3dd31083e917c27d17a2c91bbee05bf1dbec30c6a988ba7cbde278dda60f216",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_local_ORM.png",
+    "sha256": "a90c85430403a60f595a48c75a0dff30ccdf107a0bcdbca892709427c15138cf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/local_ORM.png",
+    "sha256": "a90c85430403a60f595a48c75a0dff30ccdf107a0bcdbca892709427c15138cf",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_soil_BaseColor.png",
+    "sha256": "c60550755e02bc13607510a9c7b4efe30739ebeb47b4bd1c6d8e1e66afa9e3c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/soil_BaseColor.png",
+    "sha256": "c60550755e02bc13607510a9c7b4efe30739ebeb47b4bd1c6d8e1e66afa9e3c3",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_soil_Normal.png",
+    "sha256": "34e3cf794a427ec53c95b7700dfc930a13d6ffa4b0649697e432875e2395c52b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/soil_Normal.png",
+    "sha256": "34e3cf794a427ec53c95b7700dfc930a13d6ffa4b0649697e432875e2395c52b",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "assets/v3/environment/yard_connector/yard_connector_field_soil_ORM.png",
+    "sha256": "79ab0e43ee489dce7670485d97363b6382ea9e1c25cec2bac221a73679a468fb",
+    "channel": "existing-frozen-release-or-git"
+  },
+  {
+    "path": "asset_sources/v3/yard_connector/p1/continuous_field/delivery/cache_20261020_064845_100419/soil_ORM.png",
+    "sha256": "79ab0e43ee489dce7670485d97363b6382ea9e1c25cec2bac221a73679a468fb",
+    "channel": "existing-frozen-release-or-git"
+  }
+]

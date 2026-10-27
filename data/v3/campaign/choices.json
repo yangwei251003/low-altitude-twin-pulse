@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "authored_choice_text_runtime_consent_owned_by_root",
+  "invariants": ["居民基本供水持续", "港口与住区应急线保留", "两界撤离通路保留", "原始证据不销毁", "无隐藏离线计时角色损失"],
+  "interaction_contract": "选项的收益和负担须逐项显式打开阅读。G只打开面板；不自动标为已读，不自动选择。单人显式确认或原双人Consensus通过；选择前建立独立分支，同原Store提交成功后才产生chapter_choice事实与对白。F4 plans_reviewed只记已读，不替玩家作最终选择。",
+  "choices": {
+    "I2:chapter_choice": {
+      "title": "水城下一轮怎样分配检修与补给？",
+      "anchor_id": "I2:choice_terminal",
+      "objective_id": "I2:twin_pump_guardian:decision",
+      "requires_action_objective": "I2:twin_pump_guardian:stop",
+      "requires_read_all_options": true,
+      "major_choice_index": 1,
+      "options": [
+        {"id":"clinic_reserve","label":"病房储备优先","benefit":"林岚先补足病房应急储水，接诊有更充足的缓冲。","cost":"南湾日常补给排到后面，阮衡要安排较慢的检修轮换。","baseline":"南湾基本补给与居民绕路仍保留，不关闭任何一方的生存服务。","consequence":"林岚负责储备，阮衡承担南湾检修排班。"},
+        {"id":"balanced_service","label":"两线均衡轮换","benefit":"病房与南湾同时获得补给，检修工位能较快恢复日常服务。","cost":"病房补满额外应急储备更慢，林岚需要持续关注回储。","baseline":"病房基本供水不减，南湾与住区均保留可用通路。","consequence":"林岚和阮衡共同维护轮换表。"}
+      ]
+    },
+    "F2:chapter_choice": {
+      "title": "怎样公开两界共同的原始证据？",
+      "anchor_id": "F2:choice_terminal",
+      "objective_id": "F2:mirror_evidence:decision",
+      "requires_action_objective": "F2:mirror_evidence:light",
+      "requires_read_all_options": true,
+      "major_choice_index": 2,
+      "options": [
+        {"id":"publish_raw","label":"立即公开原件","benefit":"两界居民立即看到原始记录，可以直接核查能源分配。","cost":"校时说明尚未整理完，疏谣要处理相互矛盾的解读并逐条补证。","baseline":"原件持续保留，居民服务与调查通路不因公开选择被关闭。","consequence":"疏谣负责回应公开后的争议，阮衡继续补校时说明。"},
+        {"id":"publish_context","label":"附校时说明共同发布","benefit":"阮衡与疏谣先把同一时间线说清，减少把真实记录读成互相指责。","cost":"本区公告延后到说明整理完成，居民需要等待解释。","baseline":"原件不销毁、不封锁后续调查，基本供水与撤离照常。","consequence":"阮衡与疏谣共同署名并维护原件索引。"}
+      ]
+    },
+    "I4:chapter_choice": {
+      "title": "谁来决定跨界配额的改动？",
+      "anchor_id": "I4:choice_terminal",
+      "objective_id": "I4:prism_array:decision",
+      "requires_action_objective": "I4:prism_array:stop",
+      "requires_read_all_options": true,
+      "major_choice_index": 3,
+      "options": [
+        {"id":"public_caps","label":"公开统一限流","benefit":"所有地区都能看见和核查统一上限，异常更容易被发现。","cost":"地方特殊需要仍受统一上限约束，闻序必须持续追踪例外与异常。","baseline":"统一上限先满足居民供水、应急线和活脉底线，不以断供执行。","consequence":"闻序承担公开监测与例外记录。"},
+        {"id":"regional_cosign","label":"地区共同签署","benefit":"地方可按真实需要调整，跨界改动由两边共同认可。","cost":"协商与双签使响应更慢，紧急改动需要明确的值守配合。","baseline":"应急保底持续生效，不能以拖延签署切断居民和幼根。","consequence":"各地联络人共同签署，闻序维护可查的协商记录。"}
+      ]
+    },
+    "F4:chapter_choice": {
+      "title": "两界先恢复什么，又共同承担什么？",
+      "anchor_id": "F4:choice_terminal",
+      "objective_id": "F4:twin_vein_core:decision",
+      "requires_action_objective": "F4:twin_vein_core:stop",
+      "requires_read_all_options": true,
+      "major_choice_index": 4,
+      "options": [
+        {"id":"shared_stewardship","label":"共同照料支脉","benefit":"两界按实际负载均衡恢复，彼此保留可核查的维护记录。","cost":"恢复依赖持续协作，林岚、阮衡、阿苔和各地伙伴都要承担长期维护。","baseline":"病房供水、港口应急线、幼根和撤离路线持续保留。","consequence":"阮衡与阿苔共同维护，林岚协调民用底线。"},
+        {"id":"industrial_lifeline","label":"应急与工业先恢复","benefit":"应急与生产恢复较快，检修和工厂轮班更快回到日常。","cost":"活脉扩展较慢，阿苔要在保住幼根的前提下安排较长的恢复周期。","baseline":"不抽干活脉；居民供水、幼根基础养分和撤离通路保持。","consequence":"阮衡公开工业限流，阿苔看护保留的幼根。"},
+        {"id":"living_vein","label":"活脉与生态先恢复","benefit":"根系连接与生态修复较快，菌谷和幼根能更早恢复扩展。","cost":"工业扩产较慢，阮衡与乔述需要调整轮班和生产节奏。","baseline":"不熄掉应急线；居民供水、基本生产与撤离通路保持。","consequence":"阿苔承担活脉照料，阮衡与乔述安排较慢的工业恢复。"}
+      ]
+    },
+    "F4:plans_reviewed": {
+      "title": "先读清三种方案的收益与负担",
+      "anchor_id": "F4:choice_terminal",
+      "objective_id": "F4:vein_reunion:plan",
+      "options_from": "F4:chapter_choice",
+      "requires_read_all_options": true,
+      "review_only": true,
+      "completion_option": "all_read",
+      "major_choice_index": 0,
+      "note": "不建立终局选择，不自动消费第四次抉择；三种方案的已读记录与终局显式确认分开。"
+    }
+  }
+}

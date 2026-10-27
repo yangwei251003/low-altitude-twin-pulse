@@ -1,0 +1,2058 @@
+{
+  "schema_version": 1,
+  "status": "developed_not_playtested",
+  "sites": [
+    {
+      "id": "F2:combat88:scout_lane",
+      "region": "F2",
+      "name": "湖檐观测哨",
+      "mode": "intercept",
+      "terminal": [
+        2,
+        4,
+        32
+      ],
+      "bounds": [
+        -8,
+        3,
+        18,
+        16,
+        14,
+        30
+      ],
+      "character_id": "npc:shuyao",
+      "reward_id": "combat88:F2:scout_lane",
+      "intro_lines": [
+        "旧观测哨的侦察机反复把经过者登记成入侵者。先在南湾里处理它们，不必闯进北庭。",
+        "每次攻击前都有锁定光线；升降或制动避开，再用正常射击、抽电、过热停机或短时接管对抗。",
+        "这是一条可选航线。南侧站牌和原NPC周围停火，离开标线可撤回，主线记录不变。"
+      ],
+      "complete_lines": [
+        "观测哨停止了重复上报，湖檐的维护人可以重新核对真实记录。",
+        "疏谣把“看见移动”与“确认敌意”分开写在修订页上。原始记录的公开选择仍由你在档案庭决定。"
+      ],
+      "complete_title": "湖檐观测哨 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                10,
+                8,
+                22
+              ],
+              "patrol_to": [
+                -3,
+                8,
+                23
+              ],
+              "spawn_alternates": [
+                [
+                  8,
+                  9,
+                  23
+                ],
+                [
+                  12,
+                  9,
+                  21
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                -4,
+                10,
+                21
+              ],
+              "patrol_to": [
+                11,
+                10,
+                25
+              ],
+              "spawn_alternates": [
+                [
+                  -6,
+                  11,
+                  22
+                ],
+                [
+                  -2,
+                  11,
+                  20
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        }
+      ],
+      "payload": {
+        "position": [
+          3,
+          5,
+          21.5
+        ],
+        "route": [
+          [
+            3,
+            5,
+            21.5
+          ]
+        ],
+        "label": "服务记录机 · 保护到威胁解除"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "F2:combat88:service_guard",
+      "region": "F2",
+      "name": "灯机上庭护送",
+      "mode": "escort",
+      "terminal": [
+        24,
+        18,
+        18
+      ],
+      "bounds": [
+        19,
+        18,
+        -12,
+        38,
+        26,
+        18
+      ],
+      "character_id": "npc:shuyao",
+      "reward_id": "combat88:F2:service_guard",
+      "intro_lines": [
+        "灯机要把未经改写的镜背拓片送到上庭东侧，航路在高空，原反射光路不改。",
+        "陪真实服务机经过三个转折点；遭遇时它会停在已到达的位置，清掉威胁后继续。",
+        "服务机到达且两批威胁都解除后，回站牌交接。保护区外才会开火，离开可安全撤回。"
+      ],
+      "complete_lines": [
+        "灯机把原件送到了上庭接收处，转折点与落点都留有实际飞行记录。",
+        "疏谣把护送回执与原件放在一起：这说明它怎样来到这里，不替原件多写一句结论。"
+      ],
+      "complete_title": "灯机上庭护送 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                35,
+                23,
+                1
+              ],
+              "patrol_to": [
+                24,
+                23,
+                0
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  24,
+                  2
+                ],
+                [
+                  37,
+                  24,
+                  0
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                22,
+                24,
+                -9
+              ],
+              "patrol_to": [
+                34,
+                24,
+                -3
+              ],
+              "spawn_alternates": [
+                [
+                  20,
+                  25,
+                  -8
+                ],
+                [
+                  24,
+                  25,
+                  -10
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 1
+        }
+      ],
+      "payload": {
+        "position": [
+          24,
+          22,
+          13
+        ],
+        "route": [
+          [
+            24,
+            22,
+            13
+          ],
+          [
+            25,
+            22,
+            4
+          ],
+          [
+            30,
+            22,
+            -4
+          ],
+          [
+            35,
+            22,
+            0
+          ]
+        ],
+        "label": "随行灯机 · 保护并陪同抵达"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "I3:combat88:scout_lane",
+      "region": "I3",
+      "name": "崖脚换班灯防守",
+      "mode": "defend",
+      "terminal": [
+        2,
+        4,
+        32
+      ],
+      "bounds": [
+        -8,
+        3,
+        18,
+        16,
+        14,
+        30
+      ],
+      "character_id": "npc:qiaoshu",
+      "reward_id": "combat88:I3:scout_lane",
+      "intro_lines": [
+        "换班灯的备用记录机留在南湾里，敌机想让这段停炉记录断档。",
+        "护住真实服务机并处理两批威胁；它受伤会保留在本次交接里，损毁则从站牌按原重试重新来过。",
+        "原吊运低泊位和三条外廊航点都在战区外；这里不能替代热匣主线交付。"
+      ],
+      "complete_lines": [
+        "换班记录机仍能工作，主动停炉的班组也留在同一份交班页里。",
+        "乔述把这段记录交回工区，维护人终于不必在赶产量与留下故障证据之间选一个。"
+      ],
+      "complete_title": "崖脚换班灯防守 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                12,
+                8,
+                23
+              ],
+              "patrol_to": [
+                -3,
+                8,
+                25
+              ],
+              "spawn_alternates": [
+                [
+                  10,
+                  9,
+                  24
+                ],
+                [
+                  14,
+                  9,
+                  22
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                -4,
+                10,
+                20
+              ],
+              "patrol_to": [
+                11,
+                10,
+                24
+              ],
+              "spawn_alternates": [
+                [
+                  -6,
+                  11,
+                  21
+                ],
+                [
+                  -2,
+                  11,
+                  19
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            },
+            {
+              "role": "harasser",
+              "position": [
+                12,
+                10,
+                20
+              ],
+              "patrol_to": [
+                6,
+                10,
+                26
+              ],
+              "spawn_alternates": [
+                [
+                  10,
+                  11,
+                  21
+                ],
+                [
+                  14,
+                  11,
+                  19
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        }
+      ],
+      "payload": {
+        "position": [
+          3,
+          5,
+          21.5
+        ],
+        "route": [
+          [
+            3,
+            5,
+            21.5
+          ]
+        ],
+        "label": "服务记录机 · 保护到威胁解除"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "I3:combat88:service_guard",
+      "region": "I3",
+      "name": "冷却巡检机护送",
+      "mode": "escort",
+      "terminal": [
+        24,
+        18,
+        18
+      ],
+      "bounds": [
+        19,
+        18,
+        -12,
+        38,
+        26,
+        18
+      ],
+      "character_id": "npc:qiaoshu",
+      "reward_id": "combat88:I3:service_guard",
+      "intro_lines": [
+        "一架冷却巡检机要沿东高空返回检修端，原热匣货架和吊运路线都在它下方的另一条航路。",
+        "它是实体无人机，会受弹道和碰撞影响；保护它经过转折点，先处理会修复同伴的支援机。",
+        "巡检机到达并解除两批威胁后回站牌交接。撤出标线可重试，不会回滚热匣主线。"
+      ],
+      "complete_lines": [
+        "巡检机把高处馈线的温度页送回了检修端，冷却班组可以接着核对。",
+        "乔述特地把它与热匣运输分成两张回执：送来一份读数，不能冒充吊来一箱货。"
+      ],
+      "complete_title": "冷却巡检机护送 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                35,
+                23,
+                1
+              ],
+              "patrol_to": [
+                24,
+                23,
+                0
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  24,
+                  2
+                ],
+                [
+                  37,
+                  24,
+                  0
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "support",
+              "position": [
+                22,
+                24,
+                -9
+              ],
+              "patrol_to": [
+                31,
+                24,
+                -4
+              ],
+              "spawn_alternates": [
+                [
+                  20,
+                  25,
+                  -8
+                ],
+                [
+                  24,
+                  25,
+                  -10
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            },
+            {
+              "role": "scout",
+              "position": [
+                35,
+                24,
+                3
+              ],
+              "patrol_to": [
+                24,
+                24,
+                -5
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  25,
+                  4
+                ],
+                [
+                  37,
+                  25,
+                  2
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 1
+        }
+      ],
+      "payload": {
+        "position": [
+          24,
+          22,
+          13
+        ],
+        "route": [
+          [
+            24,
+            22,
+            13
+          ],
+          [
+            25,
+            22,
+            4
+          ],
+          [
+            30,
+            22,
+            -4
+          ],
+          [
+            35,
+            22,
+            0
+          ]
+        ],
+        "label": "随行灯机 · 保护并陪同抵达"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "F3:combat88:scout_lane",
+      "region": "F3",
+      "name": "双声菌径截击",
+      "mode": "intercept",
+      "terminal": [
+        2,
+        4,
+        32
+      ],
+      "bounds": [
+        -8,
+        3,
+        18,
+        16,
+        14,
+        30
+      ],
+      "character_id": "npc:lingyin",
+      "reward_id": "combat88:F3:scout_lane",
+      "intro_lines": [
+        "菌径里有一架侦察机和一架维修机互相遮护，重复的警报压住了原本不同的菌声。",
+        "维修机会修复同伴，先改变目标或抽空它的电荷，往往比一直追着同一架射击更容易打开局面。",
+        "只有南湾标线内参战；退回站牌或居民处即可脱离，不影响原菌谷机关。"
+      ],
+      "complete_lines": [
+        "维修机与侦察机都已停止威胁，菌径里又能分辨迟拍与早拍。",
+        "泠音没有把所有重复声都删掉，只把这一段机械告警单独标出来源。"
+      ],
+      "complete_title": "双声菌径截击 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                11,
+                8,
+                22
+              ],
+              "patrol_to": [
+                -3,
+                8,
+                24
+              ],
+              "spawn_alternates": [
+                [
+                  9,
+                  9,
+                  23
+                ],
+                [
+                  13,
+                  9,
+                  21
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            },
+            {
+              "role": "support",
+              "position": [
+                -4,
+                10,
+                21
+              ],
+              "patrol_to": [
+                8,
+                10,
+                25
+              ],
+              "spawn_alternates": [
+                [
+                  -6,
+                  11,
+                  22
+                ],
+                [
+                  -2,
+                  11,
+                  20
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                12,
+                11,
+                20
+              ],
+              "patrol_to": [
+                1,
+                11,
+                25
+              ],
+              "spawn_alternates": [
+                [
+                  10,
+                  12,
+                  21
+                ],
+                [
+                  14,
+                  12,
+                  19
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        }
+      ],
+      "payload": {
+        "position": [
+          3,
+          5,
+          21.5
+        ],
+        "route": [
+          [
+            3,
+            5,
+            21.5
+          ]
+        ],
+        "label": "服务记录机 · 保护到威胁解除"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "F3:combat88:service_guard",
+      "region": "F3",
+      "name": "授粉记录匣防守",
+      "mode": "defend",
+      "terminal": [
+        24,
+        18,
+        18
+      ],
+      "bounds": [
+        19,
+        18,
+        -12,
+        38,
+        26,
+        18
+      ],
+      "character_id": "npc:lingyin",
+      "reward_id": "combat88:F3:service_guard",
+      "intro_lines": [
+        "东高台的服务机暂存着授粉巡回的独立记录，三批告警机循着信号过来。",
+        "防守不靠等一段时间：每批威胁都要真实停机，记录机也要保持可用，才能交接。",
+        "高度约22m，原菌床和居民在保护范围内。维修机能修复同伴，改换目标或接管可打断协作。"
+      ],
+      "complete_lines": [
+        "三批威胁解除，授粉记录匣仍保持着每一轮不同的反馈。",
+        "泠音为下一次巡回保留了空页，幽谷不再只能照着同一个回声重复。"
+      ],
+      "complete_title": "授粉记录匣防守 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                35,
+                23,
+                1
+              ],
+              "patrol_to": [
+                24,
+                23,
+                0
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  24,
+                  2
+                ],
+                [
+                  37,
+                  24,
+                  0
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                22,
+                24,
+                -9
+              ],
+              "patrol_to": [
+                34,
+                24,
+                -3
+              ],
+              "spawn_alternates": [
+                [
+                  20,
+                  25,
+                  -8
+                ],
+                [
+                  24,
+                  25,
+                  -10
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            },
+            {
+              "role": "support",
+              "position": [
+                35,
+                24,
+                3
+              ],
+              "patrol_to": [
+                26,
+                24,
+                -5
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  25,
+                  4
+                ],
+                [
+                  37,
+                  25,
+                  2
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "suppressor",
+              "position": [
+                35,
+                23,
+                -8
+              ],
+              "patrol_to": [
+                24,
+                23,
+                -2
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  24,
+                  -7
+                ],
+                [
+                  37,
+                  24,
+                  -9
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        }
+      ],
+      "payload": {
+        "position": [
+          24,
+          22,
+          13
+        ],
+        "route": [
+          [
+            24,
+            22,
+            13
+          ]
+        ],
+        "label": "服务记录机 · 保护到威胁解除"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "I4:combat88:scout_lane",
+      "region": "I4",
+      "name": "近岸错层拦截",
+      "mode": "intercept",
+      "terminal": [
+        2,
+        4,
+        32
+      ],
+      "bounds": [
+        -8,
+        3,
+        18,
+        16,
+        14,
+        30
+      ],
+      "character_id": "npc:wenxu",
+      "reward_id": "combat88:I4:scout_lane",
+      "intro_lines": [
+        "近岸巡机把旧权限当成持续交战命令。两批敌机的高度不同，别把它们挤在同一条视线上。",
+        "慢速压制机会先亮出更长的预警；用高度和实体遮挡切开两架机，再选择射击、抽电或接管。",
+        "站牌外和原阵列机关周围停火。公开上限与地区共签的选择仍留在北阵列。"
+      ],
+      "complete_lines": [
+        "近岸错误命令已停止，维护船可以重新使用这条短航线。",
+        "闻序把停机原因和处置方式同时写入公开页，没有借这场拦截代替地区签署。"
+      ],
+      "complete_title": "近岸错层拦截 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                11,
+                6,
+                22
+              ],
+              "patrol_to": [
+                -3,
+                6,
+                25
+              ],
+              "spawn_alternates": [
+                [
+                  9,
+                  7,
+                  23
+                ],
+                [
+                  13,
+                  7,
+                  21
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "suppressor",
+              "position": [
+                12,
+                11,
+                20
+              ],
+              "patrol_to": [
+                2,
+                11,
+                24
+              ],
+              "spawn_alternates": [
+                [
+                  10,
+                  12,
+                  21
+                ],
+                [
+                  14,
+                  12,
+                  19
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            },
+            {
+              "role": "harasser",
+              "position": [
+                -4,
+                7,
+                21
+              ],
+              "patrol_to": [
+                10,
+                7,
+                24
+              ],
+              "spawn_alternates": [
+                [
+                  -6,
+                  8,
+                  22
+                ],
+                [
+                  -2,
+                  8,
+                  20
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        }
+      ],
+      "payload": {
+        "position": [
+          3,
+          5,
+          21.5
+        ],
+        "route": [
+          [
+            3,
+            5,
+            21.5
+          ]
+        ],
+        "label": "服务记录机 · 保护到威胁解除"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "I4:combat88:service_guard",
+      "region": "I4",
+      "name": "应急备份机护送",
+      "mode": "escort",
+      "terminal": [
+        24,
+        18,
+        18
+      ],
+      "bounds": [
+        19,
+        18,
+        -12,
+        38,
+        26,
+        18
+      ],
+      "character_id": "npc:wenxu",
+      "reward_id": "combat88:I4:service_guard",
+      "intro_lines": [
+        "备份机带着本地权限原件沿高架航线转移，原阵列战区和地区签署端都不改变。",
+        "在前方看到锁定线时，别把火力引到居民或原设施；服务机只在这条明确加入的路线里受攻击。",
+        "陪它抵达并解除两批威胁，回站牌交接。抽空电荷和过热停机同样能解除威胁，接管能短时改变敌我。"
+      ],
+      "complete_lines": [
+        "备份机把未改写的权限原件送达，近岸与阵列端终于能核对同一份来源。",
+        "闻序把护送者署名与地区签署分开保留：完成护送，不代表替任何地区同意配额。"
+      ],
+      "complete_title": "应急备份机护送 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                35,
+                23,
+                1
+              ],
+              "patrol_to": [
+                24,
+                23,
+                0
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  24,
+                  2
+                ],
+                [
+                  37,
+                  24,
+                  0
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            },
+            {
+              "role": "harasser",
+              "position": [
+                22,
+                24,
+                -9
+              ],
+              "patrol_to": [
+                32,
+                24,
+                -2
+              ],
+              "spawn_alternates": [
+                [
+                  20,
+                  25,
+                  -8
+                ],
+                [
+                  24,
+                  25,
+                  -10
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "suppressor",
+              "position": [
+                35,
+                24,
+                -8
+              ],
+              "patrol_to": [
+                25,
+                24,
+                -3
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  25,
+                  -7
+                ],
+                [
+                  37,
+                  25,
+                  -9
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 1
+        }
+      ],
+      "payload": {
+        "position": [
+          24,
+          22,
+          13
+        ],
+        "route": [
+          [
+            24,
+            22,
+            13
+          ],
+          [
+            25,
+            22,
+            4
+          ],
+          [
+            30,
+            22,
+            -4
+          ],
+          [
+            35,
+            22,
+            0
+          ]
+        ],
+        "label": "随行灯机 · 保护并陪同抵达"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "F4:combat88:scout_lane",
+      "region": "F4",
+      "name": "登峰交接灯防守",
+      "mode": "defend",
+      "terminal": [
+        2,
+        4,
+        32
+      ],
+      "bounds": [
+        -8,
+        3,
+        18,
+        16,
+        14,
+        30
+      ],
+      "character_id": "npc:guanzhi",
+      "reward_id": "combat88:F4:scout_lane",
+      "intro_lines": [
+        "一架交接记录机带着前几区的维护页停在登峰南湾。守住它，才有人能接着照看这些工作。",
+        "敌机不会攻击原居民或中枢负载表。你要保护的是这次明确加入行动的服务机，不必拿主线设施当掩体。",
+        "损毁后可从站牌重试，玩家受伤和原存档仍沿原规则；这场行动不会替你作终章选择。"
+      ],
+      "complete_lines": [
+        "交接灯没有熄，来自病房、工区、镜庭和菌谷的维护页都保住了。",
+        "观止把页尾留给下一班：终章可以决定优先次序，日后的照看仍然要由人接下去。"
+      ],
+      "complete_title": "登峰交接灯防守 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                12,
+                8,
+                22
+              ],
+              "patrol_to": [
+                -3,
+                8,
+                25
+              ],
+              "spawn_alternates": [
+                [
+                  10,
+                  9,
+                  23
+                ],
+                [
+                  14,
+                  9,
+                  21
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            },
+            {
+              "role": "scout",
+              "position": [
+                -4,
+                10,
+                20
+              ],
+              "patrol_to": [
+                9,
+                10,
+                24
+              ],
+              "spawn_alternates": [
+                [
+                  -6,
+                  11,
+                  21
+                ],
+                [
+                  -2,
+                  11,
+                  19
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "suppressor",
+              "position": [
+                12,
+                11,
+                20
+              ],
+              "patrol_to": [
+                1,
+                11,
+                24
+              ],
+              "spawn_alternates": [
+                [
+                  10,
+                  12,
+                  21
+                ],
+                [
+                  14,
+                  12,
+                  19
+                ],
+                [
+                  13,
+                  10,
+                  22
+                ],
+                [
+                  -4,
+                  11,
+                  20
+                ],
+                [
+                  12,
+                  7,
+                  27
+                ],
+                [
+                  -3,
+                  7,
+                  26
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        }
+      ],
+      "payload": {
+        "position": [
+          3,
+          5,
+          21.5
+        ],
+        "route": [
+          [
+            3,
+            5,
+            21.5
+          ]
+        ],
+        "label": "服务记录机 · 保护到威胁解除"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    },
+    {
+      "id": "F4:combat88:service_guard",
+      "region": "F4",
+      "name": "共脉回程机护送",
+      "mode": "escort",
+      "terminal": [
+        24,
+        18,
+        18
+      ],
+      "bounds": [
+        19,
+        18,
+        -12,
+        38,
+        26,
+        18
+      ],
+      "character_id": "npc:guanzhi",
+      "reward_id": "combat88:F4:service_guard",
+      "intro_lines": [
+        "回程机要把登峰前的最后一份维护页送到两界接收处。它仍需要陪伴，不会因为终章将近就自动抵达。",
+        "三段路上各有真实威胁，清掉当前一批才能继续；到达后还要回站牌交接，原结局选择保持开放。",
+        "只在东高空标线内交战。退出可重来，原主线、已保存选择与居民服务都不会重置。"
+      ],
+      "complete_lines": [
+        "回程机走完了高空路线，最后一份维护页留在了能够被后来人读取的地方。",
+        "观止：你可以开始最后的决定了。做完决定之后，这些需要照看的事仍值得回来看看。"
+      ],
+      "complete_title": "共脉回程机护送 · 已交接",
+      "waves": [
+        {
+          "units": [
+            {
+              "role": "harasser",
+              "position": [
+                35,
+                23,
+                1
+              ],
+              "patrol_to": [
+                24,
+                23,
+                0
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  24,
+                  2
+                ],
+                [
+                  37,
+                  24,
+                  0
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 0
+        },
+        {
+          "units": [
+            {
+              "role": "support",
+              "position": [
+                22,
+                24,
+                -9
+              ],
+              "patrol_to": [
+                31,
+                24,
+                -4
+              ],
+              "spawn_alternates": [
+                [
+                  20,
+                  25,
+                  -8
+                ],
+                [
+                  24,
+                  25,
+                  -10
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            },
+            {
+              "role": "suppressor",
+              "position": [
+                35,
+                24,
+                3
+              ],
+              "patrol_to": [
+                24,
+                24,
+                -5
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  25,
+                  4
+                ],
+                [
+                  37,
+                  25,
+                  2
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ],
+                [
+                  35,
+                  23,
+                  -8
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 1
+        },
+        {
+          "units": [
+            {
+              "role": "scout",
+              "position": [
+                35,
+                23,
+                -8
+              ],
+              "patrol_to": [
+                24,
+                23,
+                -2
+              ],
+              "spawn_alternates": [
+                [
+                  33,
+                  24,
+                  -7
+                ],
+                [
+                  37,
+                  24,
+                  -9
+                ],
+                [
+                  22,
+                  24,
+                  -9
+                ],
+                [
+                  35,
+                  24,
+                  1
+                ],
+                [
+                  25,
+                  24,
+                  3
+                ]
+              ]
+            }
+          ],
+          "escort_waypoint": 2
+        }
+      ],
+      "payload": {
+        "position": [
+          24,
+          22,
+          13
+        ],
+        "route": [
+          [
+            24,
+            22,
+            13
+          ],
+          [
+            25,
+            22,
+            4
+          ],
+          [
+            30,
+            22,
+            -4
+          ],
+          [
+            35,
+            22,
+            0
+          ]
+        ],
+        "label": "随行灯机 · 保护并陪同抵达"
+      },
+      "safety": {
+        "activation": "explicit_G_at_terminal",
+        "safe_exit": "leave_active_bounds_by_4m_or_G_at_terminal",
+        "max_enemies": 3,
+        "max_projectiles": 24,
+        "npc_and_original_mechanisms": "protected_never_damage_targets",
+        "saved_state": "unique_cleared_record_only_no_campaign_or_player_health_rewrite"
+      }
+    }
+  ],
+  "source_assets": [
+    "res://assets/models/v22_combat/enemy_scout.glb",
+    "res://assets/models/v22_combat/enemy_harasser.glb",
+    "res://assets/models/v22_combat/enemy_support.glb",
+    "res://assets/models/v22_combat/enemy_suppressor.glb"
+  ],
+  "authority": "Native Host CharacterBody movement, original DamageModel, exact swept projectile rays. Guest receives bounded read-only actor and bolt views; unique rewards require the original save barrier."
+}

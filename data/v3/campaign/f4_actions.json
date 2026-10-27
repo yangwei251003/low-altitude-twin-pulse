@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "content_id": "campaign_f4_extension_v1",
+  "extends_content_id": "opening_v1",
+  "status": "authored_candidate_not_scene_integrated",
+  "scope_note": "行动数据与真实状态绑定契约。目标数量、5–8分钟均为制作预算；本文件不证明地区可玩、实体机制、趣味或体验时长。坐标需Root以默认镜头及真实碰撞核对。",
+  "characters": [
+    {
+      "id": "npc:guanzhi",
+      "name": "冠枝",
+      "role": "冠峰脉络看护者",
+      "region_id": "F4",
+      "greeting_lines": [
+        "两条支脉已经能说话。让我们把一路修好的东西接起来，不用再选一边失去声音。"
+      ],
+      "replies": [
+        {
+          "after": "F4:twin_vein_core:decision",
+          "lines": [
+            "行动完成 · 终局方案已留存；可在机库继续探索已修复地区，伙伴按已选职责接续生活。"
+          ]
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "npc:guanzhi",
+      "region": "F4",
+      "position": [
+        -24,
+        8,
+        20
+      ],
+      "kind": "npc",
+      "label": "冠枝 · 冠峰接续台",
+      "radius": 3
+    },
+    {
+      "id": "F4:industrial_socket",
+      "region": "F4",
+      "position": [
+        -12,
+        9,
+        6
+      ],
+      "kind": "inspect",
+      "label": "工业支脉接口",
+      "radius": 3
+    },
+    {
+      "id": "F4:living_socket",
+      "region": "F4",
+      "position": [
+        14,
+        12,
+        6
+      ],
+      "kind": "inspect",
+      "label": "活脉支路接口",
+      "radius": 3
+    },
+    {
+      "id": "F4:shared_test",
+      "region": "F4",
+      "position": [
+        18,
+        16,
+        -5
+      ],
+      "kind": "inspect",
+      "label": "两界负载试验台",
+      "radius": 3
+    },
+    {
+      "id": "F4:boss_briefing",
+      "region": "F4",
+      "position": [
+        0,
+        12,
+        -18
+      ],
+      "kind": "inspect",
+      "label": "共脉中枢 · 安全接近台",
+      "radius": 3
+    },
+    {
+      "id": "F4:choice_terminal",
+      "region": "F4",
+      "position": [
+        0,
+        12,
+        -25
+      ],
+      "kind": "inspect",
+      "label": "最终方案 · 双界签署台",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "F4:vein_reunion",
+      "title": "让一路的修复接在一起",
+      "region_id": "F4",
+      "prerequisites": [
+        "I4:prism_array"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 两端真实负载与三种方案已准备，进入共脉中枢。",
+      "objectives": [
+        {
+          "id": "F4:vein_reunion:council",
+          "text": "接通两界伙伴，核对每个地区已保住的服务",
+          "hint": "短无线电汇合林岚、阮衡、阿苔及各地联络人；只回顾已提交事实，不要求重新跑八区。",
+          "after": [],
+          "events": [
+            {
+              "type": "talk",
+              "target_id": "npc:guanzhi",
+              "options": [
+                "reunion"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:guanzhi",
+              "lines": [
+                "水城能供水，菌谷能送养分，港口和工厂保留应急线。我们现在要处理的，是让重复抽取停止，同时让这些修复继续工作。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F4:vein_reunion:industry",
+          "text": "接入有上限的工业支脉，保持应急供能",
+          "hint": "限流总线初始已插接到位，先选6电荷，Tab锁定后按F供电；只有被拔开时才近距G复位。保持应急供能，不用X抽电；真实插接、供电和负载都达标才算接通。",
+          "after": [
+            "F4:vein_reunion:council"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F4:industrial_link_verified",
+              "options": [
+                "limited_bus"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F4:industrial_link_ready",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:ruanheng",
+              "memory": "F4:lifeline_kept"
+            }
+          ]
+        },
+        {
+          "id": "F4:vein_reunion:living",
+          "text": "把活脉光路接回根冠，建立可承重路径",
+          "hint": "先选4光照，Tab锁定活脉光源后按F一次，让它转正并照到活脉支撑；再选7生长，锁定支撑后按恢复节奏按F三次，让实体长满并接上两端承台。此处不必额外用3力场固定；光路和完整支撑须持续有效。",
+          "after": [
+            "F4:vein_reunion:industry"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F4:living_link_verified",
+              "options": [
+                "growth_support",
+                "stable_bypass"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F4:living_link_ready",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:atai",
+              "memory": "F4:living_link_kept"
+            }
+          ]
+        },
+        {
+          "id": "F4:vein_reunion:test",
+          "text": "在真实双端负载下试运行并读取同轮读数",
+          "hint": "保持两支脉接通，Tab锁定双负载锁定端后近距按G锁住旁路；也可选9协作分身后按F短时维持，或双人分守两端。随后在同一轮试验中，分别靠近工业负载表和活脉负载表按G读取，须看清两表；只观察数值不算读取。",
+          "after": [
+            "F4:vein_reunion:living"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F4:dual_load_verified",
+              "options": [
+                "echo_test",
+                "two_pilots",
+                "latched_test"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "F4:dual_load_record",
+              "title": "两界实际负载已可分别限流，共脉仍有重复补偿回路"
+            }
+          ]
+        },
+        {
+          "id": "F4:vein_reunion:plan",
+          "text": "阅读三种终局方案的收益、负担与伙伴职责",
+          "hint": "方案均保底生存服务：共同照料更依赖持续协作；工业优先恢复较快、活脉扩展较慢；活脉优先生态恢复较快、工业扩产较慢。还没有作出选择。",
+          "after": [
+            "F4:vein_reunion:test"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F4:plans_reviewed",
+              "options": [
+                "all_read"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F4:final_plans_reviewed",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:guanzhi",
+              "lines": [
+                "代价要先讲清楚。我们可以保住底线，再决定谁先恢复，以及以后谁负责看护。停下中枢后，由你们共同签署。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": []
+    },
+    {
+      "id": "F4:twin_vein_core",
+      "title": "把抽取改成彼此可承受的流动",
+      "region_id": "F4",
+      "prerequisites": [
+        "F4:vein_reunion"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 终局方案已留存；可在机库继续探索已修复地区，伙伴按已选职责接续生活。",
+      "objectives": [
+        {
+          "id": "F4:twin_vein_core:plan",
+          "text": "核对战区退路，确认停机方案",
+          "hint": "保留已接通的工业与活脉支路。中枢另有三套机关：近距Tab锁定重复电荷开关后G拉开；选5热量，对中枢热汇用X降至35℃以内；对独立中枢支点先4/F照明，再7/F三次催满实体支撑。三套都要处理，不能拿前面支路代替。恢复窗口按电荷、热、活脉顺序射击亮起部件，再攻核心；半血后按活脉、热、电荷的反序再来。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "F4:boss_briefing",
+              "options": [
+                "plan"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:guanzhi",
+              "lines": [
+                "保留已接通的工业与活脉支路。中枢另有三套机关：近距Tab锁定重复电荷开关后G拉开；选5热量，对中枢热汇用X降至35℃以内；对独立中枢支点先4/F照明，再7/F三次催满实体支撑。三套都要处理，不能拿前面支路代替。恢复窗口按电荷、热、活脉顺序射击亮起部件，再攻核心；半血后按活脉、热、电荷的反序再来。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F4:twin_vein_core:engage",
+          "text": "进入战区，观察一次完整预警与恢复窗口",
+          "hint": "离开安全台才会交战；先看形状、高度和可用掩体。倒地可救援，全灭可整场重试，不扣已有资产。",
+          "after": [
+            "F4:twin_vein_core:plan"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F4:boss_observed",
+              "options": [
+                "observed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F4:boss_pattern_observed",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "F4:twin_vein_core:stop",
+          "text": "处理关键部件，停下失控核心",
+          "hint": "按本区机制创造窗口；射击、能力和环境操作可组合。半血后重新观察节奏；结算保存成功才算停机。",
+          "after": [
+            "F4:twin_vein_core:engage"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F4:boss_defeated",
+              "options": [
+                "committed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F4:boss_stopped",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:guanzhi",
+              "lines": [
+                "失控核心已停下，先保留它的运行记录。停机不能替我们决定接下来把支脉交给谁。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F4:twin_vein_core:decision",
+          "text": "共同签署最终支脉方案，确认两界未来的负担",
+          "hint": "共同照料：均衡恢复、需要两界持续维护；工业优先：应急与生产较快，活脉扩展较慢；活脉优先：生态修复较快，工厂扩产较慢。三个方案均保持居民供水、幼根与撤离路线。不以隐藏计时杀死角色。读清职责后单人确认或双方同意，选择前独立分支。",
+          "after": [
+            "F4:twin_vein_core:stop"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F4:chapter_choice",
+              "options": [
+                "shared_stewardship",
+                "industrial_lifeline",
+                "living_vein"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F4:chapter_decision_saved",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:guanzhi",
+              "memory": "F4:informed_choice"
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "F4:operation_record",
+              "title": "终局方案已留存；可在机库继续探索已修复地区，伙伴按已选职责接续生活。"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "type": "flag",
+          "key": "F4:region_route_open",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "character_reply_extensions": [],
+  "host_bindings": {
+    "F4:industrial_link_verified": {
+      "source": "actual_bounded_bus_flow",
+      "options": [
+        "limited_bus"
+      ],
+      "navigation_marker_id": "F4:industrial_socket",
+      "required_validation": [
+        "physical_connection",
+        "measured_draw_within_cap",
+        "lifeline_connected"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "F4:living_link_verified": {
+      "source": "actual_light_and_supported_living_route",
+      "options": [
+        "growth_support",
+        "stable_bypass"
+      ],
+      "navigation_marker_id": "F4:living_socket",
+      "required_validation": [
+        "receiver_illuminated",
+        "continuous_supported_route",
+        "root_nutrition_preserved"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "F4:dual_load_verified": {
+      "source": "matching_actual_dual_load_records",
+      "options": [
+        "echo_test",
+        "two_pilots",
+        "latched_test"
+      ],
+      "navigation_marker_id": "F4:shared_test",
+      "required_validation": [
+        "both_records_same_test_serial",
+        "actual_load_each_side",
+        "return_flow_measured",
+        "no_required_second_human"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "F4:plans_reviewed": {
+      "source": "three_host_manual_plan_inspections",
+      "options": [
+        "all_read"
+      ],
+      "navigation_marker_id": "F4:choice_terminal",
+      "required_validation": [
+        "all_three_benefit_and_cost_panels_explicitly_read",
+        "actual_range_and_los"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "F4:chapter_choice": {
+      "source": "host_consensus_after_boss_and_all_plans",
+      "options": [
+        "shared_stewardship",
+        "industrial_lifeline",
+        "living_vein"
+      ],
+      "navigation_marker_id": "F4:choice_terminal",
+      "required_validation": [
+        "boss_victory_committed",
+        "all_three_cost_panels_inspected",
+        "branch_created_before_commit",
+        "party_consensus_if_two_players",
+        "lifeline_invariants_revalidated"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "consumes_major_choice_budget": 1
+    },
+    "F4:boss_observed": {
+      "source": "host_observed_full_telegraph_active_recovery_cycle",
+      "options": [
+        "observed"
+      ],
+      "navigation_marker_id": "F4:boss_briefing",
+      "required_validation": [
+        "real_arena_entry",
+        "player_present_and_alive",
+        "one_full_pattern_cycle"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "twin_vein_core"
+    },
+    "F4:boss_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "options": [
+        "committed"
+      ],
+      "navigation_marker_id": "F4:boss_briefing",
+      "required_validation": [
+        "authoritative_encounter_completed",
+        "same_store_victory_flag_and_receipt",
+        "guest_reward_deduplicated"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "twin_vein_core",
+      "campaign_receipt_id": "boss:F4:twin_vein_core:opening_v1",
+      "reward_id": "boss:F4:twin_vein_core",
+      "world_victory_flag": "F4_boss"
+    }
+  }
+}

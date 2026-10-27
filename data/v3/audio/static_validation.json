@@ -1,0 +1,255 @@
+{
+  "schema": 1,
+  "static_pcm_and_source_hashes": "passed",
+  "events": 20,
+  "loops": 8,
+  "files": [
+    {
+      "file": "res://assets/audio/v22_combat/component_00.wav",
+      "sha256": "dcbce78c834450c68a753086b68f64421a3d20efe1e01c219fb616fad44d8c88",
+      "seconds": 0.8,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/component_01.wav",
+      "sha256": "40d2f2dc7845b1c75a97e2bcb97af8b6751cce0ca3a6451e008db98d2ec4c680",
+      "seconds": 0.835,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/critical_00.wav",
+      "sha256": "28a083a721074df16afb3ad0c13d6f5c019d0c154c7dc231771abe7a2792b8b5",
+      "seconds": 1.1,
+      "channels": 1,
+      "peak_pcm": 7869
+    },
+    {
+      "file": "res://assets/audio/v22_combat/destroyed_00.wav",
+      "sha256": "fae2b43fc27a9d9d0fd062975b4fb2bcd7743c697e6861db057add3349274a49",
+      "seconds": 1.8,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/impact_metal_00.wav",
+      "sha256": "efd27b72b374242b13507898c799d939291c76b1a75b0cc6a442b8ee46c7e266",
+      "seconds": 0.88,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/impact_metal_01.wav",
+      "sha256": "df286f8edcef58930cb817b2f6fc99c7a301a689b96b17e15641268f14ef3547",
+      "seconds": 0.915,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/shot_heavy_00.wav",
+      "sha256": "1fe189c8614280efb1e8b2a57323160f9d942ab313a56dd4df3a0ae9a36af927",
+      "seconds": 0.68,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/shot_heavy_01.wav",
+      "sha256": "5cbb62f891a099d82c9531d1f918f6c468feeccde26bbd83cc535bd64673bba7",
+      "seconds": 0.715,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/shot_light_00.wav",
+      "sha256": "391c2706c6544d9341856d7bc0ef216e67a792e989167c5d3444b39aa72d08ea",
+      "seconds": 0.42,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/shot_light_01.wav",
+      "sha256": "8fb0ca4d832fc3a4f8322e35886ffd4b3f900462c589d6ba748753f36bdd7c29",
+      "seconds": 0.455,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/shot_light_02.wav",
+      "sha256": "8ff8e64afc02a35fb7e418350281c1d6c55255aa8e8b147ed194614abca837d5",
+      "seconds": 0.49,
+      "channels": 1,
+      "peak_pcm": 14636
+    },
+    {
+      "file": "res://assets/audio/v22_combat/warning_00.wav",
+      "sha256": "bb58076709e07415a16f5c8b5ebee29882cfc472f9a9329d32e93c2cb969ad05",
+      "seconds": 0.75,
+      "channels": 1,
+      "peak_pcm": 8086
+    },
+    {
+      "file": "res://assets/audio/v22_combat/warning_01.wav",
+      "sha256": "652be190ddf28ea64ad49a00d93fc7248c4c1f3f283b4405446fda577ed8d684",
+      "seconds": 0.785,
+      "channels": 1,
+      "peak_pcm": 8622
+    },
+    {
+      "file": "res://assets/v2/audio/ambient_R2_day.wav",
+      "sha256": "65043267f44e35804744951edbbdca7e6fb4302667f7957ac7a0c5dd3232d40b",
+      "seconds": 24.0,
+      "channels": 1,
+      "peak_pcm": 15614
+    },
+    {
+      "file": "res://assets/v2/audio/ambient_R4_day.wav",
+      "sha256": "93eb631b2099fedcc228467f99f5a62e5e2328634c06d0e18dd4ea60fada537d",
+      "seconds": 24.0,
+      "channels": 1,
+      "peak_pcm": 12493
+    },
+    {
+      "file": "res://assets/v2/audio/brake.wav",
+      "sha256": "40c1724c428d8e5938d9b545e183faa8b23750e4897a4b127a8a992d017650b8",
+      "seconds": 0.32,
+      "channels": 1,
+      "peak_pcm": 16422
+    },
+    {
+      "file": "res://assets/v2/audio/collision_1.wav",
+      "sha256": "927ef02a50adf810664f798463033140c73578127e8cae84ec2666fbea04e645",
+      "seconds": 0.268875,
+      "channels": 1,
+      "peak_pcm": 13576
+    },
+    {
+      "file": "res://assets/v2/audio/collision_2.wav",
+      "sha256": "1c27f6b8d0f3c0b06c28df3e5f72a8b326b89f58cd7648a6a84fd2ab2d304a21",
+      "seconds": 0.11625,
+      "channels": 1,
+      "peak_pcm": 13487
+    },
+    {
+      "file": "res://assets/v2/audio/complete.wav",
+      "sha256": "36af1231c2031cbeb759ac70ebf09ce13f09f3696e9a056e08204695a2a276c0",
+      "seconds": 1.8,
+      "channels": 1,
+      "peak_pcm": 20675
+    },
+    {
+      "file": "res://assets/v2/audio/failure.wav",
+      "sha256": "985a958a1bd498e96b32cfc0e60c2b66a5411c0aa33e111f189bf4c4d46f5136",
+      "seconds": 1.25,
+      "channels": 1,
+      "peak_pcm": 20675
+    },
+    {
+      "file": "res://assets/v2/audio/land_1.wav",
+      "sha256": "c0bdebc789cfa5233d2680f2f56f7f17c2300b41c8835ae6aa7e289427c3fa8a",
+      "seconds": 0.115104,
+      "channels": 1,
+      "peak_pcm": 20675
+    },
+    {
+      "file": "res://assets/v2/audio/land_2.wav",
+      "sha256": "31c22fbee5c66579036a492c9af89007b2f45318deaa834c2c294bfdd979f439",
+      "seconds": 0.180396,
+      "channels": 1,
+      "peak_pcm": 20675
+    },
+    {
+      "file": "res://assets/v2/audio/music_calm.wav",
+      "sha256": "b085a493373ebd9b97f4b71d4636ab97bf50f87d690b463f8ecd4469a5200b83",
+      "seconds": 34.909083,
+      "channels": 2,
+      "peak_pcm": 21874
+    },
+    {
+      "file": "res://assets/v2/audio/music_tension.wav",
+      "sha256": "bad258e95174b9a611bbf58bf21f7c7a5e06c2b2791963be19e4bd3d064c16fc",
+      "seconds": 34.909083,
+      "channels": 2,
+      "peak_pcm": 20675
+    },
+    {
+      "file": "res://assets/v2/audio/reward.wav",
+      "sha256": "f1fe6435d8c32d28510232e70e801cb18c2d9bd20c8032b6fe7ea0938219c6dd",
+      "seconds": 1.2,
+      "channels": 1,
+      "peak_pcm": 19888
+    },
+    {
+      "file": "res://assets/v2/audio/rotor_high.wav",
+      "sha256": "a2a3c1c8efa48c04425cc5156b6896db46dfe98137b8fa798d26476c03267599",
+      "seconds": 4.0,
+      "channels": 1,
+      "peak_pcm": 16422
+    },
+    {
+      "file": "res://assets/v2/audio/rotor_low.wav",
+      "sha256": "d7c9796fbbecfd98dd70b787eafe36ba1d1af7e5cb5893d8e42ab0ab38814572",
+      "seconds": 4.0,
+      "channels": 1,
+      "peak_pcm": 16422
+    },
+    {
+      "file": "res://assets/v2/audio/shield_1.wav",
+      "sha256": "0415709011d91af66655ac52edeeb550ef8beb3dd44e236044da8d7bdc013ae3",
+      "seconds": 0.65,
+      "channels": 1,
+      "peak_pcm": 15144
+    },
+    {
+      "file": "res://assets/v2/audio/takeoff.wav",
+      "sha256": "3560a67bfd54ebf56f220e4890bda0cb173826f8b6ea5d76bd6d4e2670b65b4f",
+      "seconds": 0.7,
+      "channels": 1,
+      "peak_pcm": 6744
+    },
+    {
+      "file": "res://assets/v2/audio/tool_1.wav",
+      "sha256": "315366db96d99031f0204d1b565634d1b6325515e73b18f0d49248664a63d851",
+      "seconds": 0.42,
+      "channels": 1,
+      "peak_pcm": 12417
+    },
+    {
+      "file": "res://assets/v2/audio/tool_2.wav",
+      "sha256": "c109cdb96e8170cbcba32f0a5322806d00703acda1328b426aaa176af7ee141e",
+      "seconds": 0.42,
+      "channels": 1,
+      "peak_pcm": 12360
+    },
+    {
+      "file": "res://assets/v2/audio/ui_1.wav",
+      "sha256": "9114dbd87ec4391f67e304585441dddb21106e20886f8e8c49b7e8a5e0e62f4f",
+      "seconds": 0.090938,
+      "channels": 1,
+      "peak_pcm": 20675
+    },
+    {
+      "file": "res://assets/v2/audio/ui_2.wav",
+      "sha256": "dee74151dfe7a715d0f09edbda75a10217b2f1db328f4506f4eb0bd82fdb8f7e",
+      "seconds": 0.08325,
+      "channels": 1,
+      "peak_pcm": 20675
+    },
+    {
+      "file": "res://assets/v2/audio/wind.wav",
+      "sha256": "16d787f93965da5a09310fb9a8183c8b71bd394df0511600ae330c912fa7d472",
+      "seconds": 16.0,
+      "channels": 1,
+      "peak_pcm": 12538
+    },
+    {
+      "file": "res://assets/v3/audio/industrial_pulse.wav",
+      "sha256": "f84f35cc1b320728c9684dbb3df635cdcb8548e37c8b6110dea8047d96714050",
+      "seconds": 17.454542,
+      "channels": 2,
+      "peak_pcm": 3433
+    }
+  ],
+  "godot_runtime": "not_run_by_audio_agent",
+  "human_listening": "not_performed"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "namespace": "world.npc_sidejobs_v1",
+  "optional": true,
+  "max_active": 4,
+  "id": "sidejob:I2:service_handoff",
+  "region": "I2",
+  "npc_id": "I2:service_01",
+  "title": "把用品送到不挡路的地方",
+  "offer": "南湾恢复以后，用品还得一趟趟送。帮我核一次新装的检修用品，再看看病房水位和通道是不是还安全。",
+  "steps": [
+    "服务恢复后，联络检修运送机接单",
+    "新装的用品还在机上时，靠近按{contact}验货",
+    "等这轮用品到货，确认病房供水和通道安全后回报"
+  ],
+  "work_hint": "装载后靠近运送机按{contact}核货，再跟着这轮用品走。断供或风暴时，它会返供或避风；等安全了再继续。",
+  "ready": "用品已经送到。请确认病房水位正常、水质合格，通道也没有被挡住，再来按{contact}交接。",
+  "consequence": "用品交接和病房通道复核都记下了。谢谢你多看这一眼；以后联络，我还记得这趟是你陪着送的。",
+  "reward_id": "npc_sidejob:I2:service_handoff",
+  "load_target": "I2:service_supply",
+  "arrival_target": "I2:service_receiver",
+  "evidence": "I2:canal_service_ready原旗标只作开始条件；接单后新cargo_loaded/transport_arrival且同cycle、途中近距核货；回报原Clinic commissioned/target_volume/clean_fraction/inlet_closed/access_clear读数。",
+  "not_a_claim": "不把主线Canal service_serial=1或库存当新的委托到货证据。",
+  "acceptance": "首次近距联络仅展示邀约；逐句结束后再按{contact}近距联络才确认接受。提示键名由当前玩家UI传入。",
+  "failure_policy": "断电/风暴按原NPC策略返供、等候或避风，不自动判任务失败。离区保留已提交进度，未提交观察不回补；保存失败不显示完成或发奖。",
+  "reward_policy": "只新增该条唯一personal.discovery与NPC完成对白，沿原Store同事务和原Guest回执/重连catchup去重；不增加货币、补血或84主线奖励。"
+}

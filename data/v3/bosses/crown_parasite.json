@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "id": "parasitic_crown",
+  "name": "寄生冠兽",
+  "region": "F1",
+  "status": "runtime_candidate",
+  "coordinate_space": "arena_local_godot_y_up_metres",
+  "integration_origin": [10, 0, -22],
+  "anchors": [
+    {"id": "F1:crown_host_west", "target_position": [-10, 11, -1.5], "body_position": [-10, 13, -6], "fall_position": [-20, 6, 0], "fall_via_position": [-20, 15, 0], "purpose": "低冠：观察附着、根浪及热量逼退"},
+    {"id": "F1:crown_host_high", "target_position": [0, 18, -7.5], "body_position": [0, 20, -12], "fall_position": [13, 6, -14], "fall_via_position": [13, 22, -14], "purpose": "高冠：高度换位、提前布置受光根陷阱"},
+    {"id": "F1:crown_host_east", "target_position": [10, 13, 8.5], "body_position": [10, 15, 4], "fall_position": [24, 6, -5], "fall_via_position": [24, 17, -5], "purpose": "侧冠：绕行、诱导落点与恢复后的再利用"}
+  ],
+  "mechanism": {
+    "core_health": 160,
+    "half_health_gate": 80,
+    "attached_seconds": [12, 9],
+    "migration_warning_seconds": 2,
+    "travel_seconds": 2,
+    "light_seconds": 6,
+    "trap_seconds": 10,
+    "bound_core_seconds": 6,
+    "burnt_core_seconds": 4,
+    "root_recovery_seconds": 12,
+    "scorch_recovery_seconds": 20,
+    "note": "当前机制参数由 TwinCrownEncounter 常量执行；此处是内容说明，不是可热更新平衡表。"
+  },
+  "routes": [
+    {"id": "light_root", "abilities": ["light", "growth"], "cost": 17, "benefit": "可在当前宿主直接束缚，或在下一附着点预置限时陷阱，核心开放 6 秒", "cost_in_play": "需接近到生长范围且保持宿主温度允许；根恢复期不能连续锁死冠兽"},
+    {"id": "thermal_ejection", "abilities": ["heat", "heat"], "cost": 16, "benefit": "20℃宿主经两次加热达到70℃，逼落并开放核心 4 秒", "cost_in_play": "留下先预警后生效的灼孢柱，宿主暂不可生长或附着；冷却与再次布置需要能量"}
+  ],
+  "attack_readability": {
+    "low_root_wave": "环形柱体：水平半径3至14米，高度0至10米；向上飞越或进入内圈/离开外圈",
+    "high_pollen": "锁定预警时玩家XYZ的孢子柱：半径3.5米，以该高度上下各4米，截在0至28米内；预警后不追踪，横移或升降离开已显示的体积",
+    "phase_two": "低根浪与定点孢柱同时预警，保留横向或换层路线；自动迁移等待已预警攻击结束，不吞掉出招",
+    "burning_spores": "宿主XZ中心半径5米、高度0至13米，预警1.5秒后持续4秒；受害者每次爆发最多命中一次"
+  },
+  "integration_boundary": [
+    "能力靶、附着身体和逼落身体是三个独立数据点；物理适配使用相同target_position检查能力距离与真实射线，不排除整只冠兽来伪造净空。",
+    "integration_origin只说明根代理约定的世界平移；纯机制不自行应用变换。能力靶为身体前方+Z4.5米、下方2米；候选p5模型与p2岩台已做实际射线及六向迁移、三条逼落检查，未来形态修改须重验。",
+    "当前fall_position身体Y6对应候选H3岩台Y3支撑面；模型及碰撞统一增加25mm支撑间隙，查询不能单独抬高。",
+    "逼落采用源点→源点XZ上方→落点XZ上方→落点四点路线；横移高度取实际起点加2米与作者via高度之较高者，先垂直离开高台再横移下降，完整模型包络逐段扫掠。",
+    "所有转移/落下航段必须由房主检查实体形状、净空及映射后路线，并批准 movement_requested。",
+    "物理适配层负责实际射线、遮挡、玩家能源与共享能力所有权；客户端不能提交候选状态、伤害或批准标志。",
+    "根适配层已接第六行动、奖励事务与协议9表现；纯机制不直接写这些外部状态。候选美术已因实际镜头不达标退回；人玩、战斗时长、两电脑和性能仍待验收。"
+  ]
+}

@@ -1,0 +1,5056 @@
+{
+  "schema": 1,
+  "events": {
+    "vo88_8d2600c0df6b7dbd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_8d2600c0df6b7dbd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b61c7af7972f629e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b61c7af7972f629e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f05acba9fd38da34": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f05acba9fd38da34.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_044fe287c3074a88": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_044fe287c3074a88.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f2918bc9b9605a03": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f2918bc9b9605a03.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6a2d28513da73bc0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6a2d28513da73bc0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4140cdda2a3e61cd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4140cdda2a3e61cd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_bb65fca295c59dcc": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_bb65fca295c59dcc.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3c6fe7e1ba33f00e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3c6fe7e1ba33f00e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c576fc2976b3d97e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c576fc2976b3d97e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_99ed7b3387500a6a": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_99ed7b3387500a6a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_32625776d3e9da01": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_32625776d3e9da01.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ede52cb7dff16763": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ede52cb7dff16763.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_80c92819400edd27": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_80c92819400edd27.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_00ae22a710b948ad": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00ae22a710b948ad.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_5e4ec75163000d19": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5e4ec75163000d19.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_486eeac70b56ef9f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_486eeac70b56ef9f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c245c2fcf33368e4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c245c2fcf33368e4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_466859322dbe8033": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_466859322dbe8033.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ce607e4eed09b400": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ce607e4eed09b400.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_505e12d07cf0e998": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_505e12d07cf0e998.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_35f56e677c9300b3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_35f56e677c9300b3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9624a437496357ef": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9624a437496357ef.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ac56e7284c205b72": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ac56e7284c205b72.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7c8fa3b2356ce093": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7c8fa3b2356ce093.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d7da09834f954d5d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d7da09834f954d5d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4f0994ef626f359b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4f0994ef626f359b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b87adc1353befc5e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b87adc1353befc5e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2c8f4631d3a8e1b8": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2c8f4631d3a8e1b8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_cf6bdce95cdb0512": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_cf6bdce95cdb0512.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_27359c9657d8dda7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_27359c9657d8dda7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4ee253ae1dfcfaa7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4ee253ae1dfcfaa7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_812db48e0e5c7207": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_812db48e0e5c7207.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_82c1593d785f2c17": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_82c1593d785f2c17.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ef302aac06125d2b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ef302aac06125d2b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ec4f8e8df0f44e18": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ec4f8e8df0f44e18.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_95a9bb465ab6a7af": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_95a9bb465ab6a7af.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_968a3addefd60467": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_968a3addefd60467.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b19b749d299877b4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b19b749d299877b4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4ff96dd233eb8679": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4ff96dd233eb8679.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ef3f191357d6cca3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ef3f191357d6cca3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_23c187743f823b96": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_23c187743f823b96.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_58c1d0b8809d76cb": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_58c1d0b8809d76cb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1de780aa38c60fbe": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1de780aa38c60fbe.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_73a06abe11fe9e46": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_73a06abe11fe9e46.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_425e0b30e177a772": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_425e0b30e177a772.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_31b5991baf7f4f9b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_31b5991baf7f4f9b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_69de76163e77c6d1": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_69de76163e77c6d1.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9a1661d42fe6f041": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9a1661d42fe6f041.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_06a0dca3c666bf5f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_06a0dca3c666bf5f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_78f6c56e58761789": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_78f6c56e58761789.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7bbf606ffa2215d7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7bbf606ffa2215d7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_10e98c10078f719c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_10e98c10078f719c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_77ab93cd27215369": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_77ab93cd27215369.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_776b3d6c5396f1a9": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_776b3d6c5396f1a9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3d125b01a08aaba7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3d125b01a08aaba7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a8e028926896f37a": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a8e028926896f37a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_35e36af83b8780ea": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_35e36af83b8780ea.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b92f033d68ee3cab": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b92f033d68ee3cab.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2e772258d82d67ef": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2e772258d82d67ef.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0b8bc2c66814904c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0b8bc2c66814904c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_46b50a0c5c264121": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_46b50a0c5c264121.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e6edcf7d2fa841cf": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e6edcf7d2fa841cf.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_5b3979921bda38e0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5b3979921bda38e0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_97c7fc8d6e050eee": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_97c7fc8d6e050eee.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2dfbde16d98d8615": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2dfbde16d98d8615.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ce0e7dbf6aa8e958": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ce0e7dbf6aa8e958.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ad6615b669dad613": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ad6615b669dad613.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_46a8fdeffc2ffa49": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_46a8fdeffc2ffa49.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ae5096c58cdabb38": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ae5096c58cdabb38.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_711f71419c576b7f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_711f71419c576b7f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_fb3496a090c3d101": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_fb3496a090c3d101.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_aea92d36e2fad83f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_aea92d36e2fad83f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1972cb6a3014530b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1972cb6a3014530b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_302161985a192220": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_302161985a192220.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_beae9a8bca894193": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_beae9a8bca894193.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_5e3ab538f3eb91eb": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5e3ab538f3eb91eb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a591ecddf26ef02d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a591ecddf26ef02d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_eef12fa3a1ee080a": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_eef12fa3a1ee080a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_64c11931195c79de": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_64c11931195c79de.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_5077e7d3369252fe": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5077e7d3369252fe.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3df8e69224de40cd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3df8e69224de40cd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e76caffc3a0f2229": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e76caffc3a0f2229.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2fd4e9dcefdeb069": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2fd4e9dcefdeb069.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3c00f0718d9d8353": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3c00f0718d9d8353.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_bf907c3bbbda3c80": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_bf907c3bbbda3c80.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_140d9b96aa0cc5af": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_140d9b96aa0cc5af.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3de4462a367b55c8": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3de4462a367b55c8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_cf7f05e42bf08af8": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_cf7f05e42bf08af8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6a947411ac38ab63": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6a947411ac38ab63.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_625d836220dbbb7e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_625d836220dbbb7e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3cef0315dd28858e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3cef0315dd28858e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a30040ca360206d7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a30040ca360206d7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_58490248ee2ec490": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_58490248ee2ec490.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7377e6fc3106e124": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7377e6fc3106e124.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a012616f03432a02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a012616f03432a02.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2f076d811e4b44a0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2f076d811e4b44a0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a68b6a2a7d13c0dd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a68b6a2a7d13c0dd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_279e6237039861be": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_279e6237039861be.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6dba42220a532f8d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6dba42220a532f8d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_65d056ed745571a3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_65d056ed745571a3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9f3306a47de49177": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9f3306a47de49177.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ccb4e523bc724cbb": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ccb4e523bc724cbb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b412db504012d0d9": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b412db504012d0d9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_004ddb87e4fb8cee": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_004ddb87e4fb8cee.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_57484e43407dd72e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_57484e43407dd72e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2e3b64d92cf9b00f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2e3b64d92cf9b00f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7f478a87cbe5931f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7f478a87cbe5931f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e9ce0717a851aaa5": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e9ce0717a851aaa5.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3593258f61f50c7d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3593258f61f50c7d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_707de6a61d076ac8": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_707de6a61d076ac8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_667f434ef11af10e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_667f434ef11af10e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c235cd453b1552f4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c235cd453b1552f4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c0772eab8380181f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c0772eab8380181f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_320e60a596a0cc5c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_320e60a596a0cc5c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3c3ab8f241004973": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3c3ab8f241004973.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_32e193d5ae975ad5": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_32e193d5ae975ad5.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c6e814345911e558": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c6e814345911e558.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f6db7354d6e48af7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f6db7354d6e48af7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4405812d21667281": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4405812d21667281.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ad25891f86298078": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ad25891f86298078.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_dddbc295b416b945": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_dddbc295b416b945.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_34bdd6b8e1f16ed4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_34bdd6b8e1f16ed4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1eff9970314008ca": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1eff9970314008ca.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_05419b5f8a9aed25": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_05419b5f8a9aed25.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_8a795a48a5723e5d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_8a795a48a5723e5d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6b47a6ab61d5b0e4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6b47a6ab61d5b0e4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_864ba813fc7ebceb": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_864ba813fc7ebceb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_17ea5dbc1d700275": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_17ea5dbc1d700275.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_82ed580614629e56": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_82ed580614629e56.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_659b2b8acf8ee032": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_659b2b8acf8ee032.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6a22bff8172710f0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6a22bff8172710f0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_8fd7bf4bd59f9964": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_8fd7bf4bd59f9964.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2a0ddb9d7c2301e6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2a0ddb9d7c2301e6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2ddd3225dfdea212": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2ddd3225dfdea212.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b03517b2c351eeec": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b03517b2c351eeec.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_fb93b813762f636c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_fb93b813762f636c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_76c79f3b67a6c00e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_76c79f3b67a6c00e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6d9a90ed86e20d70": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6d9a90ed86e20d70.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_22612c8ec59c1b38": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_22612c8ec59c1b38.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3438367035a4977c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3438367035a4977c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c2d9d06ba5fd8455": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c2d9d06ba5fd8455.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_25728a9a26b83778": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_25728a9a26b83778.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_548798d6bb543abf": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_548798d6bb543abf.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f4e6bdb7b60311cf": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f4e6bdb7b60311cf.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_47c995d3ae8d328f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_47c995d3ae8d328f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_41465c2b154e59ea": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_41465c2b154e59ea.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a74a50c10c404f37": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a74a50c10c404f37.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ed31103509ab89d7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ed31103509ab89d7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_09fc38149fa48728": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_09fc38149fa48728.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0d5e3353ff457119": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0d5e3353ff457119.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b32dcbd6125fa3da": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b32dcbd6125fa3da.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c6986ae49c4d19c6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c6986ae49c4d19c6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_03eea768d260bea9": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_03eea768d260bea9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_36dc80645e87f869": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_36dc80645e87f869.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f08be4c274e256c3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f08be4c274e256c3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_eae652169b313a80": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_eae652169b313a80.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7b4f8f9881317b6e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7b4f8f9881317b6e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_cf260649741c946e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_cf260649741c946e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c432d852b881767d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c432d852b881767d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_005ed4b0f1578f52": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_005ed4b0f1578f52.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_46ad000f616da63c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_46ad000f616da63c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b62c987a2e383086": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b62c987a2e383086.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1fe0f8c5116b2558": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1fe0f8c5116b2558.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a63e28b61b7c6c3c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a63e28b61b7c6c3c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0168605687deff20": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0168605687deff20.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_85e834e2ca1e3297": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_85e834e2ca1e3297.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f633a27a9aa189ff": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f633a27a9aa189ff.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a4788c649a2aa614": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a4788c649a2aa614.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_955b9ead0fd97a69": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_955b9ead0fd97a69.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_44e60339e06a065b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_44e60339e06a065b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2b57331a85cdc968": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2b57331a85cdc968.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_907ed90dc9b63d22": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_907ed90dc9b63d22.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2a026a85246e32b0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2a026a85246e32b0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_877bcccf93cfc61d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_877bcccf93cfc61d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_df65efdd0b44b46b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_df65efdd0b44b46b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_8978b59460af8695": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_8978b59460af8695.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_5a935f8de87570d3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5a935f8de87570d3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_00ecd45b094d28b7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00ecd45b094d28b7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1a51f37cf8544fc8": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1a51f37cf8544fc8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0dd9f52cee863ef2": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0dd9f52cee863ef2.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d0f602d6dd707d6f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d0f602d6dd707d6f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_96cc9ad564a7204b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_96cc9ad564a7204b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f09d82a5f8800a69": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f09d82a5f8800a69.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_30dc63c32e90ac21": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_30dc63c32e90ac21.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_04807e279c4abd43": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_04807e279c4abd43.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_78f276e264a0cf4d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_78f276e264a0cf4d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f1e5740f1163fd59": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f1e5740f1163fd59.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d829bce1423f92c9": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d829bce1423f92c9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9beb4c974eb47c5b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9beb4c974eb47c5b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3263544fc92d08e4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3263544fc92d08e4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_eb0007bf7098926f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_eb0007bf7098926f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_cfb7609dd9dee394": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_cfb7609dd9dee394.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_db64342edb17c697": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_db64342edb17c697.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_cac144749cf0ea92": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_cac144749cf0ea92.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a33c064224a01469": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a33c064224a01469.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d5fa7a943a8385bc": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d5fa7a943a8385bc.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_590192cb336229b2": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_590192cb336229b2.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_628bd5e965ee2bad": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_628bd5e965ee2bad.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_265f9edf0ef71622": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_265f9edf0ef71622.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_771963ba644d6ca2": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_771963ba644d6ca2.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b7dff8dec10ba41c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b7dff8dec10ba41c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_509291d4bf71c098": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_509291d4bf71c098.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0e3c7aae0f3d6e64": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0e3c7aae0f3d6e64.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6547c653885b23b7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6547c653885b23b7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_52b4ec80fc8a8d4d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_52b4ec80fc8a8d4d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_adbf51c2f2f5ef2f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_adbf51c2f2f5ef2f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f1bd08f02e53981d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f1bd08f02e53981d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_279a9cc1d4e22847": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_279a9cc1d4e22847.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_361dd69e2045b82d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_361dd69e2045b82d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_355143ad99e18f49": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_355143ad99e18f49.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3094210bf9b9ffb2": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3094210bf9b9ffb2.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9c319913a10bba92": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9c319913a10bba92.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_fe7fd7f55bc0393c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_fe7fd7f55bc0393c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_515b13fd264b99ec": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_515b13fd264b99ec.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_72e2ce8f8cb58340": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_72e2ce8f8cb58340.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_75ae8adb6a8b2498": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_75ae8adb6a8b2498.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e30205195a8e3d9d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e30205195a8e3d9d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ceb7b62007068797": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ceb7b62007068797.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ea6a608575438538": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ea6a608575438538.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1786a635f4f50be8": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1786a635f4f50be8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4539bdfb0c5b53c4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4539bdfb0c5b53c4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ddd43cb20d66689c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ddd43cb20d66689c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ed02c8b5b2451f94": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ed02c8b5b2451f94.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7a15f978bda440ed": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7a15f978bda440ed.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6388836d68ebb3f6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6388836d68ebb3f6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_85090ceb6669d5bd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_85090ceb6669d5bd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_80a916e71814e658": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_80a916e71814e658.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6cb50a798d9af202": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6cb50a798d9af202.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4ace66a878c43c56": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4ace66a878c43c56.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_411c750f3bdb5704": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_411c750f3bdb5704.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_21b1b68c07c788c3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_21b1b68c07c788c3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c83f1a08dcce7d00": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c83f1a08dcce7d00.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e401ac1eb62fe774": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e401ac1eb62fe774.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7d06de4a729d2b31": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7d06de4a729d2b31.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b34731323f4c1244": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b34731323f4c1244.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a389d2323efe581d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a389d2323efe581d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a137c735cb5505e7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a137c735cb5505e7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0a1a0fc57f59f815": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0a1a0fc57f59f815.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_90dad1e802015716": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_90dad1e802015716.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3d4448995584c7d6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3d4448995584c7d6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e44856351c82d6d2": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e44856351c82d6d2.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_294e0da8c05ff14d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_294e0da8c05ff14d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9be1d3a0e6decd2e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9be1d3a0e6decd2e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_619f081876fab412": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_619f081876fab412.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b5ad9212667f6266": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b5ad9212667f6266.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0dabed0441588540": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0dabed0441588540.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6a6b82bbb16f8204": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6a6b82bbb16f8204.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ffffe76376499235": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ffffe76376499235.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_00c11528a506192b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00c11528a506192b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_933606fd4cae9413": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_933606fd4cae9413.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_935b8475700b122b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_935b8475700b122b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9f839b24ba3d62f4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9f839b24ba3d62f4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e9cb0cd97d88989b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e9cb0cd97d88989b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b948ec0727a3a768": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b948ec0727a3a768.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ca0fe7a0e7e88f37": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ca0fe7a0e7e88f37.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_74ccb082a3fea3d9": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_74ccb082a3fea3d9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2a1e0818343bbb5f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2a1e0818343bbb5f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7d0651b35743a6f0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7d0651b35743a6f0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_09133fa182d8b501": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_09133fa182d8b501.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7059b9b4fe66e4f7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7059b9b4fe66e4f7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_dc75418f02051018": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_dc75418f02051018.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_447289819d0eb3c1": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_447289819d0eb3c1.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_849dc1bad1b97baa": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_849dc1bad1b97baa.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a5c1ce973b73f5ed": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a5c1ce973b73f5ed.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_879bc6351fc2f8b1": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_879bc6351fc2f8b1.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_30c3bb7466c1df20": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_30c3bb7466c1df20.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_5ea087e8f04cc379": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5ea087e8f04cc379.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7f24c474e6bf482f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7f24c474e6bf482f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4b3df766574d59d6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4b3df766574d59d6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9c3a20654d837787": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9c3a20654d837787.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e24ac7557f63bd71": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e24ac7557f63bd71.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_408895a921c75466": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_408895a921c75466.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_8c63bd85f5a4522e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_8c63bd85f5a4522e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e80c21c851a4d1dd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e80c21c851a4d1dd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2ac4faaabb5fcf60": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2ac4faaabb5fcf60.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d4d06554b4c28617": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d4d06554b4c28617.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_afc317daafa6c313": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_afc317daafa6c313.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e2afbae9584a5cee": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e2afbae9584a5cee.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e9009afd26f6a659": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e9009afd26f6a659.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_73388f884fccf691": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_73388f884fccf691.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0fef989bdb51ceb4": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0fef989bdb51ceb4.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b18370f8150fa028": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b18370f8150fa028.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e7ac974d4723aef5": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e7ac974d4723aef5.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9796fad91c5edd2b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9796fad91c5edd2b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d1ad8b7ba2c7cb20": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d1ad8b7ba2c7cb20.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1b02dd10289c5a1c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1b02dd10289c5a1c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b87ff086968b318e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b87ff086968b318e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b7d050ce32bd073a": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b7d050ce32bd073a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_00c7aff8d438f8bf": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00c7aff8d438f8bf.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_bb6e12f0bacc9fbf": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_bb6e12f0bacc9fbf.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b8d5b279becc9586": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b8d5b279becc9586.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_93fc9e5b071c913d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_93fc9e5b071c913d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_400aa7229b6107e6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_400aa7229b6107e6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a02b205055434f18": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a02b205055434f18.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_775fad0856832cfd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_775fad0856832cfd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3a8cd61e7230142a": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3a8cd61e7230142a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4eff0c72ff888e12": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4eff0c72ff888e12.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7993792a30faac3c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7993792a30faac3c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_000da21bf480f107": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_000da21bf480f107.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_920bfadd34ea4bd9": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_920bfadd34ea4bd9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1ffe826c967df677": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1ffe826c967df677.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_24d2e5d83ef8c46d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_24d2e5d83ef8c46d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4ab85f0194ae5981": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4ab85f0194ae5981.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_17c646fbba0d9b35": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_17c646fbba0d9b35.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_0948e7bb554fc736": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0948e7bb554fc736.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a75e017e6398559e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a75e017e6398559e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_de1d80aaef8c022c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_de1d80aaef8c022c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_62c01c371c30d330": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_62c01c371c30d330.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f43014c5b2db86c7": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f43014c5b2db86c7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6216f3b0bcf3677b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6216f3b0bcf3677b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_947712eb3af0167e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_947712eb3af0167e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9ffdb96dddca54bb": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9ffdb96dddca54bb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d7188916a9dfe4cb": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d7188916a9dfe4cb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9d0b313aa6695675": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9d0b313aa6695675.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b4134eea9223a49e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b4134eea9223a49e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4c83194737103522": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4c83194737103522.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9b22625efc4164b2": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9b22625efc4164b2.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f34e46f89e5d6e21": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f34e46f89e5d6e21.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_43ffac4fcb650612": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_43ffac4fcb650612.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_86d6f9ff0d888a40": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_86d6f9ff0d888a40.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c94caaa9f005c26d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c94caaa9f005c26d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_34e816d28e19a52f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_34e816d28e19a52f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d59f1c92e95c64d0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d59f1c92e95c64d0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9b3618fcfeffc427": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9b3618fcfeffc427.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_00012f156ee47876": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00012f156ee47876.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ca042c4b4488a13e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ca042c4b4488a13e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_bd04a6135e4f44e0": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_bd04a6135e4f44e0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_71d9e7479e9b0be5": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_71d9e7479e9b0be5.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_71d9fd40c3f09a9b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_71d9fd40c3f09a9b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6680505f5ff2f578": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6680505f5ff2f578.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ea91048cd117e334": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ea91048cd117e334.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e1a411fed279aaf8": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e1a411fed279aaf8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6347643d9a8874f6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6347643d9a8874f6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_51b7c06b6c4a9d83": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_51b7c06b6c4a9d83.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_79c060ce6eadb892": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_79c060ce6eadb892.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_64ecd0868f40f983": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_64ecd0868f40f983.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_15e1e1f8e7321e9f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_15e1e1f8e7321e9f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b37c93ed2b293836": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b37c93ed2b293836.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d607c7ffc5e4d07c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d607c7ffc5e4d07c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1267bf3be8560e11": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1267bf3be8560e11.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ad83a92f4e4bad3e": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ad83a92f4e4bad3e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c9ad2a444c2247a1": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c9ad2a444c2247a1.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2aa66b224ac00ab6": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2aa66b224ac00ab6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_00a6ed9940e3cc33": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00a6ed9940e3cc33.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ebd43c10a27d9fd3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ebd43c10a27d9fd3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_b1799a9a346b4449": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b1799a9a346b4449.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_d8461cd4bb77e064": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d8461cd4bb77e064.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_1209bb7ae7ac5682": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1209bb7ae7ac5682.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_a43d17cbf3c3a71b": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a43d17cbf3c3a71b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_9a485c6147959ce3": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9a485c6147959ce3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_ad6fbb4c21ecd900": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ad6fbb4c21ecd900.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_2118a5e57007af89": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2118a5e57007af89.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4ab63b088a0e153f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4ab63b088a0e153f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_535c16bbcc822955": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_535c16bbcc822955.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_3e2b3c33fbfa7a2d": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3e2b3c33fbfa7a2d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_4a51b674e66f65c9": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4a51b674e66f65c9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_574c2a9616ba5bdd": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_574c2a9616ba5bdd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_6cf8add5e756adaa": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6cf8add5e756adaa.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_34e9523d57d3072c": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_34e9523d57d3072c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_45ddd2c13ae4dc9f": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_45ddd2c13ae4dc9f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_50e21d524ef6553a": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_50e21d524ef6553a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_7bb7530e299e1823": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7bb7530e299e1823.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_5b9c1a2a26d17bac": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5b9c1a2a26d17bac.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_41b94cea1846d236": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_41b94cea1846d236.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_76044a87e79cd836": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_76044a87e79cd836.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_c258399e7b121e97": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c258399e7b121e97.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_e612536010c9f062": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e612536010c9f062.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "vo88_f3472dbee9cddf23": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f3472dbee9cddf23.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_return_lamp_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e7ac974d4723aef5.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_return_lamp_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9796fad91c5edd2b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_return_lamp_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d1ad8b7ba2c7cb20.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_return_lamp_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1b02dd10289c5a1c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_return_lamp_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b87ff086968b318e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_return_lamp_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b7d050ce32bd073a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_lost_patch_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00c7aff8d438f8bf.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_lost_patch_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_bb6e12f0bacc9fbf.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_lost_patch_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b8d5b279becc9586.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_lost_patch_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_93fc9e5b071c913d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_lost_patch_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_400aa7229b6107e6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i1_job88_lost_patch_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a02b205055434f18.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_slow_bloom_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_775fad0856832cfd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_slow_bloom_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3a8cd61e7230142a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_slow_bloom_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4eff0c72ff888e12.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_slow_bloom_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7993792a30faac3c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_slow_bloom_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_000da21bf480f107.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_slow_bloom_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_920bfadd34ea4bd9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_twin_bells_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1ffe826c967df677.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_twin_bells_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_24d2e5d83ef8c46d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_twin_bells_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4ab85f0194ae5981.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_twin_bells_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_17c646fbba0d9b35.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_twin_bells_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_0948e7bb554fc736.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_twin_bells_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a75e017e6398559e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_seed_pod_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_de1d80aaef8c022c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_seed_pod_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_62c01c371c30d330.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_seed_pod_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f43014c5b2db86c7.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_seed_pod_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7993792a30faac3c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_seed_pod_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6216f3b0bcf3677b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f1_job88_seed_pod_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_947712eb3af0167e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_clinic_nightlight_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9ffdb96dddca54bb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_clinic_nightlight_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d7188916a9dfe4cb.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_clinic_nightlight_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9d0b313aa6695675.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_clinic_nightlight_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1b02dd10289c5a1c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_clinic_nightlight_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b4134eea9223a49e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_clinic_nightlight_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4c83194737103522.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_shared_notice_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9b22625efc4164b2.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_shared_notice_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f34e46f89e5d6e21.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_shared_notice_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_43ffac4fcb650612.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_shared_notice_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_93fc9e5b071c913d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_shared_notice_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_86d6f9ff0d888a40.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i2_job88_shared_notice_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c94caaa9f005c26d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f2_job88_last_light_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_34e816d28e19a52f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f2_job88_last_light_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d59f1c92e95c64d0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f2_job88_last_light_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9b3618fcfeffc427.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f2_job88_last_light_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00012f156ee47876.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f2_job88_last_light_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ca042c4b4488a13e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f2_job88_last_light_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_bd04a6135e4f44e0.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i3_job88_hot_return_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_71d9e7479e9b0be5.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i3_job88_hot_return_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_71d9fd40c3f09a9b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i3_job88_hot_return_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6680505f5ff2f578.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i3_job88_hot_return_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ea91048cd117e334.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i3_job88_hot_return_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e1a411fed279aaf8.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i3_job88_hot_return_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6347643d9a8874f6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_nursery_path_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_51b7c06b6c4a9d83.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_nursery_path_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_79c060ce6eadb892.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_nursery_path_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_64ecd0868f40f983.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_nursery_path_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_15e1e1f8e7321e9f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_nursery_path_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b37c93ed2b293836.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_nursery_path_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d607c7ffc5e4d07c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_separated_echo_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1267bf3be8560e11.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_separated_echo_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ad83a92f4e4bad3e.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_separated_echo_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c9ad2a444c2247a1.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_separated_echo_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2aa66b224ac00ab6.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_separated_echo_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_00a6ed9940e3cc33.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f3_job88_separated_echo_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ebd43c10a27d9fd3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_storm_shift_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_b1799a9a346b4449.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_storm_shift_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_d8461cd4bb77e064.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_storm_shift_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_1209bb7ae7ac5682.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_storm_shift_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_a43d17cbf3c3a71b.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_storm_shift_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_9a485c6147959ce3.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_storm_shift_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_ad6fbb4c21ecd900.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_exception_log_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_2118a5e57007af89.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_exception_log_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4ab63b088a0e153f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_exception_log_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_535c16bbcc822955.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_exception_log_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_3e2b3c33fbfa7a2d.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_exception_log_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_4a51b674e66f65c9.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_i4_job88_exception_log_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_574c2a9616ba5bdd.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_both_lifelines_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_6cf8add5e756adaa.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_both_lifelines_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_34e9523d57d3072c.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_both_lifelines_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_45ddd2c13ae4dc9f.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_both_lifelines_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_50e21d524ef6553a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_both_lifelines_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_7bb7530e299e1823.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_both_lifelines_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_5b9c1a2a26d17bac.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_next_response_offer": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_41b94cea1846d236.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_next_response_offer_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_76044a87e79cd836.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_next_response_accept": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_c258399e7b121e97.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_next_response_ready": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_50e21d524ef6553a.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_next_response_complete": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_e612536010c9f062.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    },
+    "story88_f4_job88_next_response_complete_02": {
+      "files": [
+        "res://assets/v3/content/dev88_presentation/voices/vo88_f3472dbee9cddf23.wav"
+      ],
+      "bus": "ui",
+      "gain_db": -5.0,
+      "range_m": 1.0,
+      "priority": 8,
+      "cooldown_ms": 100,
+      "voice": true
+    }
+  },
+  "loops": {},
+  "status": "developed_not_playtested"
+}

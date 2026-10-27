@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "content_id": "campaign_expansion_v1",
+  "extends_content_id": "opening_v1",
+  "status": "authored_candidates_not_integrated",
+  "base_extension_paths": [
+    "res://data/v3/actions/whale_action.json",
+    "res://data/v3/actions/crown_action.json",
+    "res://data/v3/actions/underdeck_action.json",
+    "res://data/v3/actions/clinic_action.json",
+    "res://data/v3/actions/distribution_action.json"
+  ],
+  "extension_paths": [
+    "res://data/v3/campaign/i2_actions.json",
+    "res://data/v3/campaign/f2_actions.json",
+    "res://data/v3/campaign/i3_actions.json",
+    "res://data/v3/campaign/f3_actions.json",
+    "res://data/v3/campaign/i4_actions.json",
+    "res://data/v3/campaign/f4_actions.json"
+  ],
+  "ordered_region_ids": [
+    "I2",
+    "F2",
+    "I3",
+    "F3",
+    "I4",
+    "F4"
+  ],
+  "region_unlocks": [
+    {
+      "from": "I2",
+      "to": "F2",
+      "requires_action": "I2:twin_pump_guardian"
+    },
+    {
+      "from": "F2",
+      "to": "I3",
+      "requires_action": "F2:mirrorwing_warden"
+    },
+    {
+      "from": "I3",
+      "to": "F3",
+      "requires_action": "I3:furnace_crawler"
+    },
+    {
+      "from": "F3",
+      "to": "I4",
+      "requires_action": "F3:mycelial_choir"
+    },
+    {
+      "from": "I4",
+      "to": "F4",
+      "requires_action": "I4:prism_array"
+    }
+  ],
+  "budget": {
+    "existing_actions": 9,
+    "existing_objectives": 34,
+    "new_actions": 12,
+    "new_objectives": 50,
+    "total_authored_actions": 21,
+    "total_objective_budget": 84,
+    "runtime_complete_claim": false
+  },
+  "required_core_changes": [
+    "TwinActionDirector.validate must permit all eight canonical region IDs in marker.region and action.region_id",
+    "TwinOpeningStory setup appends extension_paths in index order",
+    "Normal travel, physical bindings, input, Store and network integration remain Root-owned"
+  ],
+  "play_order": [
+    "I2:canal_service",
+    "I2:twin_pump_guardian",
+    "F2:mirror_evidence",
+    "F2:mirrorwing_warden",
+    "I3:cooling_route",
+    "I3:furnace_crawler",
+    "F3:separate_network",
+    "F3:mycelial_choir",
+    "I4:array_witness",
+    "I4:prism_array",
+    "F4:vein_reunion",
+    "F4:twin_vein_core"
+  ]
+}

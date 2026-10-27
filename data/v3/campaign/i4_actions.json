@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "content_id": "campaign_i4_extension_v1",
+  "extends_content_id": "opening_v1",
+  "status": "authored_candidate_not_scene_integrated",
+  "scope_note": "行动数据与真实状态绑定契约。目标数量、5–8分钟均为制作预算；本文件不证明地区可玩、实体机制、趣味或体验时长。坐标需Root以默认镜头及真实碰撞核对。",
+  "characters": [
+    {
+      "id": "npc:wenxu",
+      "name": "闻序",
+      "role": "离岸阵列值守员",
+      "region_id": "I4",
+      "greeting_lines": [
+        "这套系统最初是为了让任何一边都不断供。它一直在补偿，却没人再问补偿从哪里来。"
+      ],
+      "replies": [
+        {
+          "after": "I4:prism_array:decision",
+          "lines": [
+            "行动完成 · 阵列控制权已按共同签署方案保存，前往冠峰汇合两界支脉。"
+          ]
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "npc:wenxu",
+      "region": "I4",
+      "position": [
+        -24,
+        6,
+        20
+      ],
+      "kind": "npc",
+      "label": "闻序 · 风暴值守台",
+      "radius": 3
+    },
+    {
+      "id": "I4:protocol_archive",
+      "region": "I4",
+      "position": [
+        -12,
+        8,
+        7
+      ],
+      "kind": "inspect",
+      "label": "原始补偿协议",
+      "radius": 3
+    },
+    {
+      "id": "I4:witness_receiver",
+      "region": "I4",
+      "position": [
+        20,
+        12,
+        4
+      ],
+      "kind": "inspect",
+      "label": "公开见证接收器",
+      "radius": 3
+    },
+    {
+      "id": "I4:shelter_route",
+      "region": "I4",
+      "position": [
+        14,
+        5,
+        -3
+      ],
+      "kind": "reach",
+      "label": "值守检修避风台",
+      "radius": 3
+    },
+    {
+      "id": "I4:boss_briefing",
+      "region": "I4",
+      "position": [
+        0,
+        10,
+        -18
+      ],
+      "kind": "inspect",
+      "label": "棱镜战区 · 遮光侧台",
+      "radius": 3
+    },
+    {
+      "id": "I4:choice_terminal",
+      "region": "I4",
+      "position": [
+        0,
+        10,
+        -25
+      ],
+      "kind": "inspect",
+      "label": "阵列协议 · 共同签署台",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "I4:array_witness",
+      "title": "把看不见的配额摊开",
+      "region_id": "I4",
+      "prerequisites": [
+        "F3:mycelial_choir"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 原始证据有了见证，防御与民用馈线已经分离。",
+      "objectives": [
+        {
+          "id": "I4:array_witness:brief",
+          "text": "询问闻序，核对自动补偿的原意与现状",
+          "hint": "在值守台听取说明；已有两界原件不会被本区新解释覆盖。",
+          "after": [],
+          "events": [
+            {
+              "type": "talk",
+              "target_id": "npc:wenxu",
+              "options": [
+                "protocol_origin"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:wenxu",
+              "lines": [
+                "最初写的是缺额补偿。后来中继把补偿又算成新缺额，形成自我抬高的配额。有人做过应急改接，却没能停掉它。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I4:array_witness:archive",
+          "text": "读取原始协议，核对中继修改的确切条目",
+          "hint": "沿上层检修廊读取协议匣；原始设计、应急改接、失控结果分别记录。",
+          "after": [
+            "I4:array_witness:brief"
+          ],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I4:protocol_archive",
+              "options": [
+                "record"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "I4:protocol_chain",
+              "title": "自动补偿叠加中继回报形成重复需求，单一阵营抢能解释不足"
+            }
+          ]
+        },
+        {
+          "id": "I4:array_witness:witness",
+          "text": "把三处原始记录送到真实见证接收器",
+          "hint": "接回输能光路和接收器后提交港口、镜湖、菌谷三份原件。传输需要实际通道，点亮外壳不代表数据已到达。",
+          "after": [
+            "I4:array_witness:archive"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I4:evidence_delivery_verified",
+              "options": [
+                "optical",
+                "wired_bypass"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I4:evidence_witnessed",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:wenxu",
+              "memory": "I4:shared_originals"
+            }
+          ]
+        },
+        {
+          "id": "I4:array_witness:shelter",
+          "text": "选择遮挡与高度穿过风暴检修段",
+          "hint": "风暴前有可见风向和警示。可低飞借实体挡墙，或等侧向风窗绕高路；不设必须受伤的门槛。",
+          "after": [
+            "I4:array_witness:witness"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I4:storm_route_verified",
+              "options": [
+                "covered_low",
+                "high_window"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "I4:storm_service_path",
+              "title": "值守机与玩家均可使用的阵列检修路径"
+            }
+          ]
+        },
+        {
+          "id": "I4:array_witness:isolate",
+          "text": "稳定检修平台，断开民用总线与棱镜防御的共用馈线",
+          "hint": "让检修平台在支座上稳定；必要时选3局部力场，Tab锁定平台后按F固定。从侧面靠近防御馈线开关，Tab锁定后按G断开。平台到位、馈线隔离和民用供能保留须同时成立。",
+          "after": [
+            "I4:array_witness:shelter"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I4:defence_isolated",
+              "options": [
+                "field_lock",
+                "mechanical_lock"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I4:defence_isolated",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:wenxu",
+              "lines": [
+                "居民线留住了，防御阵列现在可以单独停机。等它停下，再决定谁能改写补偿协议。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": []
+    },
+    {
+      "id": "I4:prism_array",
+      "title": "穿过会移动的光路",
+      "region_id": "I4",
+      "prerequisites": [
+        "I4:array_witness"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 阵列控制权已按共同签署方案保存，前往冠峰汇合两界支脉。",
+      "objectives": [
+        {
+          "id": "I4:prism_array:plan",
+          "text": "核对战区退路，确认停机方案",
+          "hint": "保持见证接收器持续受光、防御馈线已断开；让检修平台稳定受撑，并保留民用供能。借固定掩体挡住射线，或飞离预警光带和十字两条线；恢复窗口先处理西棱镜、东棱镜，再攻击核心。半血后棱镜重装，改为先东再西，最后攻击核心。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I4:boss_briefing",
+              "options": [
+                "plan"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:wenxu",
+              "lines": [
+                "保持见证接收器持续受光、防御馈线已断开；让检修平台稳定受撑，并保留民用供能。借固定掩体挡住射线，或飞离预警光带和十字两条线；恢复窗口先处理西棱镜、东棱镜，再攻击核心。半血后棱镜重装，改为先东再西，最后攻击核心。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I4:prism_array:engage",
+          "text": "进入战区，观察一次完整预警与恢复窗口",
+          "hint": "离开安全台才会交战；先看形状、高度和可用掩体。倒地可救援，全灭可整场重试，不扣已有资产。",
+          "after": [
+            "I4:prism_array:plan"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I4:boss_observed",
+              "options": [
+                "observed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I4:boss_pattern_observed",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "I4:prism_array:stop",
+          "text": "处理关键部件，停下失控核心",
+          "hint": "按本区机制创造窗口；射击、能力和环境操作可组合。半血后重新观察节奏；结算保存成功才算停机。",
+          "after": [
+            "I4:prism_array:engage"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I4:boss_defeated",
+              "options": [
+                "committed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I4:boss_stopped",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:wenxu",
+              "lines": [
+                "失控核心已停下，先保留它的运行记录。停机不能替我们决定接下来把支脉交给谁。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I4:prism_array:decision",
+          "text": "确认公开限流协议或地区双签协议",
+          "hint": "公开限流：所有地区看见统一上限，闻序负责追踪异常；地区双签：地方可调整配额，跨界改动需两边签署，响应较慢。两案保留证据与民用底线；合作双方确认，提交前创建分支。",
+          "after": [
+            "I4:prism_array:stop"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I4:chapter_choice",
+              "options": [
+                "public_caps",
+                "regional_cosign"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I4:chapter_decision_saved",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:wenxu",
+              "memory": "I4:informed_choice"
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "I4:operation_record",
+              "title": "阵列控制权已按共同签署方案保存，前往冠峰汇合两界支脉。"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "type": "flag",
+          "key": "I4:region_route_open",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "character_reply_extensions": [],
+  "host_bindings": {
+    "I4:evidence_delivery_verified": {
+      "source": "actual_receiver_three_original_hash_receipts",
+      "options": [
+        "optical",
+        "wired_bypass"
+      ],
+      "navigation_marker_id": "I4:witness_receiver",
+      "required_validation": [
+        "port_mirror_fungi_originals_preserved",
+        "actual_unoccluded_or_wired_channel",
+        "receiver_receipts_match_original_hashes"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "I4:storm_route_verified": {
+      "source": "host_route_traversal_and_arrival",
+      "options": [
+        "covered_low",
+        "high_window"
+      ],
+      "navigation_marker_id": "I4:shelter_route",
+      "required_validation": [
+        "actual_start_to_end_route",
+        "no_teleport",
+        "arrival_at_supported_shelter"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "I4:defence_isolated": {
+      "source": "actual_platform_lock_and_circuit_connectivity",
+      "options": [
+        "field_lock",
+        "mechanical_lock"
+      ],
+      "navigation_marker_id": "I4:shelter_route",
+      "required_validation": [
+        "real_platform_supported_and_still",
+        "defence_feed_open",
+        "civilian_supply_connected"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "I4:chapter_choice": {
+      "source": "host_consensus_after_boss_and_cost_panels",
+      "options": [
+        "public_caps",
+        "regional_cosign"
+      ],
+      "navigation_marker_id": "I4:choice_terminal",
+      "required_validation": [
+        "boss_victory_committed",
+        "both_cost_panels_inspected",
+        "branch_created_before_commit",
+        "party_consensus_if_two_players"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "consumes_major_choice_budget": 1
+    },
+    "I4:boss_observed": {
+      "source": "host_observed_full_telegraph_active_recovery_cycle",
+      "options": [
+        "observed"
+      ],
+      "navigation_marker_id": "I4:boss_briefing",
+      "required_validation": [
+        "real_arena_entry",
+        "player_present_and_alive",
+        "one_full_pattern_cycle"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "prism_array"
+    },
+    "I4:boss_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "options": [
+        "committed"
+      ],
+      "navigation_marker_id": "I4:boss_briefing",
+      "required_validation": [
+        "authoritative_encounter_completed",
+        "same_store_victory_flag_and_receipt",
+        "guest_reward_deduplicated"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "prism_array",
+      "campaign_receipt_id": "boss:I4:prism_array:opening_v1",
+      "reward_id": "boss:I4:prism_array",
+      "world_victory_flag": "I4_boss"
+    }
+  }
+}

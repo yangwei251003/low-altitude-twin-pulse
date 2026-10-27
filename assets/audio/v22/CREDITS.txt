@@ -1,0 +1,89 @@
+V2.2 Audio Credits
+Music compositions/recordings: Kevin MacLeod (incompetech.com), CC BY 4.0.
+https://creativecommons.org/licenses/by/4.0/
+Complete works retained; loudness normalization and Ogg encoding applied.
+
+Morning — Kevin MacLeod
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2300003
+CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Loudness normalization and Ogg encoding; complete composition retained.
+
+Wholesome — Kevin MacLeod
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900022
+CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Loudness normalization and Ogg encoding; complete composition retained.
+
+Carefree — Kevin MacLeod
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037
+CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Loudness normalization and Ogg encoding; complete composition retained.
+
+Montauk Point — Kevin MacLeod
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400013
+CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Loudness normalization and Ogg encoding; complete composition retained.
+
+Easy Lemon — Kevin MacLeod
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076
+CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Loudness normalization and Ogg encoding; complete composition retained.
+
+Heartwarming — Kevin MacLeod
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100207
+CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Loudness normalization and Ogg encoding; complete composition retained.
+
+Rain (loopable) — Ylmir
+https://opengameart.org/content/rain-loopable
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.
+
+Car engine Start Up 02 — looneybits
+https://opengameart.org/content/car-engine-start-up-02
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.
+
+Racing car engine sound loops — domasx2
+https://opengameart.org/content/racing-car-engine-sound-loops
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.
+
+High traffic road sounds — IgnasD
+https://opengameart.org/content/high-traffic-road-sounds
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.
+
+UI Audio — Kenney
+https://kenney.nl/assets/ui-audio
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.
+
+Impact Sounds — Kenney
+https://kenney.nl/assets/impact-sounds
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.
+
+Ambient Bird Sounds — isaiah658
+https://opengameart.org/content/ambient-bird-sounds
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.
+
+Beach Ocean Waves — jasinski; edited by qubodup
+https://opengameart.org/content/beach-ocean-waves
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.
+
+Drone Flying — Sheyvan
+https://freesound.org/people/Sheyvan/sounds/470127/
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.
+
+MeloTTS-Chinese (offline Mandarin voice generation) — MyShell.ai
+https://huggingface.co/myshell-ai/MeloTTS-Chinese
+MIT — https://github.com/myshell-ai/MeloTTS/blob/main/LICENSE
+Project-written Mandarin text rendered offline (27 clips); model is not part of the game runtime.
+
+sherpa-onnx (offline voice tool) — k2-fsa contributors
+https://github.com/k2-fsa/sherpa-onnx
+Apache-2.0 — https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE
+Used only during audio production; no inference in the game.

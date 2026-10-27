@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "content_id": "campaign_i2_extension_v1",
+  "extends_content_id": "opening_v1",
+  "status": "authored_candidate_not_scene_integrated",
+  "scope_note": "行动数据与真实状态绑定契约。目标数量、5–8分钟均为制作预算；本文件不证明地区可玩、实体机制、趣味或体验时长。坐标需Root以默认镜头及真实碰撞核对。",
+  "characters": [],
+  "markers": [
+    {
+      "id": "I2:canal_briefing",
+      "region": "I2",
+      "position": [
+        -18,
+        3,
+        18
+      ],
+      "kind": "inspect",
+      "label": "林岚 · 南湾服务联络",
+      "radius": 3
+    },
+    {
+      "id": "I2:canal_dispatch",
+      "region": "I2",
+      "position": [
+        13,
+        3,
+        6
+      ],
+      "kind": "inspect",
+      "label": "南湾工位 · 双泵指令记录",
+      "radius": 3
+    },
+    {
+      "id": "I2:boss_briefing",
+      "region": "I2",
+      "position": [
+        0,
+        5,
+        -19
+      ],
+      "kind": "inspect",
+      "label": "双泵检修台",
+      "radius": 3
+    },
+    {
+      "id": "I2:choice_terminal",
+      "region": "I2",
+      "position": [
+        0,
+        5,
+        -19
+      ],
+      "kind": "inspect",
+      "label": "水城调度 · 知情确认",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "I2:canal_service",
+      "title": "把服务真正送到南湾",
+      "region_id": "I2",
+      "prerequisites": [
+        "I2:distribution_audit"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 南湾服务与双泵指令记录已保存。前往北部双泵检修台。",
+      "objectives": [
+        {
+          "id": "I2:canal_service:brief",
+          "text": "在南湾联络台核对需要运送的检修匣",
+          "hint": "病房供水和桥位已经保存，不必重做。读取南湾工位请求，分清运输、测量与维修各自的完成条件。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I2:canal_briefing",
+              "options": [
+                "brief"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:linlan",
+              "lines": [
+                "南湾不用重开水阀。先准备可用冷匣：退热换冷，或就地冷却工位上受撑的用匣。再完成扫描、标定和维修；病房支路保持原样。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2:canal_service:exchange",
+          "text": "准备可用冷匣：实际换匣，或用热量工具完成就地冷却",
+          "hint": "可沿高路或低路退热换冷并真实落架，也可对工位受撑的用匣施加热量工具，实际降至45℃或更低。已完成工序则保留原就地准备与真实扫描记录；不要求重新换匣，也不把就地冷却记作运输回执。载货时提早制动，让开岸柱。",
+          "after": [
+            "I2:canal_service:brief"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:canal_exchange_verified",
+              "options": [
+                "high_route",
+                "low_route",
+                "mixed_route",
+                "local_cooling"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "character_memory",
+              "character_id": "npc:ruanheng",
+              "memory": "I2:real_cassette_exchange"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:ruanheng",
+              "lines": [
+                "工位冷匣状态和支撑已核对；把准备方法保存在记录里，接着完成实际扫描。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2:canal_service:service",
+          "text": "在工位完成有效扫描、标定与维修",
+          "hint": "若运输机尚未接单，先 Tab 锁定换匣运输机，选 0 机械接管并按 F 启动检修工单；再选 6 电荷，按 F 给检修台供电。扫描中可暂停和保存，恢复后继续余下扫描；完成后按 G 领取记录，重复读档不重复获得维修功劳。",
+          "after": [
+            "I2:canal_service:exchange"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:canal_service_verified",
+              "options": [
+                "repaired"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I2:canal_service_ready",
+              "value": true
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "I2:canal_calibration",
+              "title": "南湾实际扫描与唯一维修工序信用"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:linlan",
+              "lines": [
+                "维修服务到位了。运水和巡检有了稳定工位，南湾不用再挤占病房的检修时间。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2:canal_service:order",
+          "text": "读取工位收到的双泵优先级指令",
+          "hint": "完成服务后近距读取调度记录。把机器实际收到的指令和现场去向并列记录，先不指认发送者。",
+          "after": [
+            "I2:canal_service:service"
+          ],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I2:canal_dispatch",
+              "options": [
+                "record"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "I2:pump_priority_order",
+              "title": "双泵接受了重复的最高优先级指令"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:ruanheng",
+              "lines": [
+                "两座泵都被写成最高优先级，互锁才会反复抢占。停下守卫，我们可以改调度，保住两条服务线。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": []
+    },
+    {
+      "id": "I2:twin_pump_guardian",
+      "title": "让双泵学会轮换",
+      "region_id": "I2",
+      "prerequisites": [
+        "I2:canal_service"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 水城调度由现场双方确认，镜湖航路开放。",
+      "objectives": [
+        {
+          "id": "I2:twin_pump_guardian:plan",
+          "text": "核对战区退路，确认停机方案",
+          "hint": "守卫的低泵和高泵交替开罩。低水位先处理低泵，高水位先处理高泵；控制水位或借旁路接近都可。水城民用泵与战区隔离。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I2:boss_briefing",
+              "options": [
+                "plan"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:ruanheng",
+              "lines": [
+                "守卫的低泵和高泵交替开罩。低水位先处理低泵，高水位先处理高泵；控制水位或借旁路接近都可。水城民用泵与战区隔离。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2:twin_pump_guardian:engage",
+          "text": "进入战区，观察一次完整预警与恢复窗口",
+          "hint": "离开安全台才会交战；先看形状、高度和可用掩体。倒地可救援，全灭可整场重试，不扣已有资产。",
+          "after": [
+            "I2:twin_pump_guardian:plan"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:boss_observed",
+              "options": [
+                "observed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I2:boss_pattern_observed",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "I2:twin_pump_guardian:stop",
+          "text": "处理关键部件，停下失控核心",
+          "hint": "按本区机制创造窗口；射击、能力和环境操作可组合。半血后重新观察节奏；结算保存成功才算停机。",
+          "after": [
+            "I2:twin_pump_guardian:engage"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:boss_defeated",
+              "options": [
+                "committed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I2:boss_stopped",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:ruanheng",
+              "lines": [
+                "失控核心已停下，先保留它的运行记录。停机不能替我们决定接下来把支脉交给谁。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2:twin_pump_guardian:decision",
+          "text": "确认病房优先或均衡轮换的水城调度",
+          "hint": "先阅读两方案：病房优先保留应急储水，南湾补给较慢；均衡轮换同时补给，病房回储较慢。两者均保底供水、保留绕路；不是牺牲居民。单人确认，合作双方同意，确认前建立独立分支。",
+          "after": [
+            "I2:twin_pump_guardian:stop"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:chapter_choice",
+              "options": [
+                "clinic_reserve",
+                "balanced_service"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I2:chapter_decision_saved",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:ruanheng",
+              "memory": "I2:informed_choice"
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "I2:operation_record",
+              "title": "水城调度由现场双方确认，镜湖航路开放。"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "type": "flag",
+          "key": "I2:region_route_open",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "character_reply_extensions": [],
+  "host_bindings": {
+    "I2:canal_exchange_verified": {
+      "source": "original_canal_custody_preparation_or_committed_first_work_evidence",
+      "options": [
+        "high_route",
+        "low_route",
+        "mixed_route",
+        "local_cooling"
+      ],
+      "navigation_marker_id": "I2:canal_dispatch",
+      "required_validation": [
+        "actual_same_cassette_current_holder_and_original_custody_support_at_least_350000_usec",
+        "selected_preparation_method_exact_native_evidence",
+        "not_only_distance_animation_controlled_flag_or_dialogue"
+      ],
+      "method_validation": {
+        "route_options": {
+          "options": ["high_route", "low_route", "mixed_route"],
+          "required_validation": [
+            "both_cassettes_actual_custody_and_rest_confirmed",
+            "original_executor_exact_ten_distinct_transport_receipts_match_serial_job_and_route",
+            "existing_strict_ten_receipt_gate_unchanged"
+          ]
+        },
+        "local_cooling": {
+          "any_verified_path": [
+            {
+              "id": "current_supported_work_cassette",
+              "required_validation": [
+                "original_WORK_holder_contains_actual_cassette_1",
+                "actual_WORK_temperature_c_le_45",
+                "original_custody_actual_support_at_least_350000_usec",
+                "effective_authorized_original_thermal_cooling_transaction"
+              ]
+            },
+            {
+              "id": "committed_historical_local_preparation",
+              "required_validation": [
+                "original_committed_first_work_number_1_receipt_for_cassette_1",
+                "three_exact_native_historical_measurement_endpoints_and_full_1_4m_scan",
+                "original_single_work_25000_joule_thermal_ledger",
+                "effective_authorized_original_heat_removal_evidence",
+                "same_entity_current_holder_and_original_custody_actual_support_at_least_350000_usec"
+              ],
+              "proof_scope": "historical_local_preparation_current_temperature_may_be_above_45_and_current_holder_may_be_south_berth"
+            }
+          ],
+          "never_claims": "ten_transport_receipts_or_two_cassette_exchange",
+          "may_precede_story_briefing": true
+        }
+      },
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "state_path": "world.environment.I2_canal"
+    },
+    "I2:canal_service_verified": {
+      "source": "original_canal_service_credit",
+      "options": [
+        "repaired"
+      ],
+      "navigation_marker_id": "I2:canal_dispatch",
+      "required_validation": [
+        "actual_completed_scan_and_calibration",
+        "original_jobs_completed_and_unique_service_credit",
+        "same_store_transaction_with_workbench"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "state_path": "world.environment.I2_canal"
+    },
+    "I2:chapter_choice": {
+      "source": "host_consensus_after_boss_and_read_costs",
+      "options": [
+        "clinic_reserve",
+        "balanced_service"
+      ],
+      "navigation_marker_id": "I2:choice_terminal",
+      "required_validation": [
+        "boss_victory_committed",
+        "both_cost_panels_inspected",
+        "branch_created_before_commit",
+        "party_consensus_if_two_players",
+        "clinic_base_supply_unchanged"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "consumes_major_choice_budget": 1
+    },
+    "I2:boss_observed": {
+      "source": "host_observed_full_telegraph_active_recovery_cycle",
+      "options": [
+        "observed"
+      ],
+      "navigation_marker_id": "I2:boss_briefing",
+      "required_validation": [
+        "real_arena_entry",
+        "player_present_and_alive",
+        "one_full_pattern_cycle"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "twin_pump_guardian"
+    },
+    "I2:boss_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "options": [
+        "committed"
+      ],
+      "navigation_marker_id": "I2:boss_briefing",
+      "required_validation": [
+        "authoritative_encounter_completed",
+        "same_store_victory_flag_and_receipt",
+        "guest_reward_deduplicated"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "twin_pump_guardian",
+      "campaign_receipt_id": "boss:I2:twin_pump_guardian:opening_v1",
+      "reward_id": "boss:I2:twin_pump_guardian",
+      "world_victory_flag": "I2_boss"
+    }
+  }
+}

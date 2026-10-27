@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "title": "低空小队：两界共脉",
+  "status_legend": {
+    "planned": "完整版本设计范围，尚未实现",
+    "integration_target": "当前灰盒接入目标，不代表已可游玩",
+    "rules_implemented": "纯逻辑规则已实现，场景反馈和人测另验收",
+    "encounter_logic_implemented": "遭遇状态机已实现，实体攻击和表现另接入"
+  },
+  "release_scope": {
+    "main_story_hours_target": [10, 15],
+    "objective_minutes_target": [5, 8],
+    "regions_planned": 8,
+    "bosses_planned": 8,
+    "main_objectives_planned": 84,
+    "main_objectives_complete": 0,
+    "players": [1, 2],
+    "network": "LAN",
+    "note": "84为制作规划，不创建重复任务充当已完成内容。灰盒仅用于管线和规则验收。"
+  },
+  "regions": [
+    {"id": "coastal_port", "name": "潮湾科技港", "world": "industrial", "status": "integration_target", "layers": ["河槽", "桥下", "集装箱", "屋顶"], "interactions": ["吊机接管", "货物遮挡", "光路改接"], "story_role": "救援事故揭示能源分配异常", "boss_id": "harbor_whale"},
+    {"id": "tidal_city", "name": "潮汐水城", "world": "industrial", "status": "planned", "layers": ["防波堤", "居住台地", "泵井", "蓄水池"], "interactions": ["水位航路", "浮台受力", "供电切换"], "story_role": "净水、民生与跨界供能冲突", "boss_id": "twin_pump_guardian"},
+    {"id": "thermal_cliffs", "name": "热崖制造带", "world": "industrial", "status": "planned", "layers": ["悬崖厂房", "烟囱", "输送廊桥", "冷却庭院"], "interactions": ["热量转移", "升流借力", "机械流程重排"], "story_role": "调查超额抽能及工人生计", "boss_id": "furnace_crawler"},
+    {"id": "offshore_array", "name": "离岸共振阵列", "world": "industrial", "status": "planned", "layers": ["海上平台", "转动天线", "风暴间隙"], "interactions": ["折光", "力场稳定", "输能改接"], "story_role": "查证并选择公开两界危机证据", "boss_id": "prism_array"},
+    {"id": "greatwood_temple", "name": "巨木神殿", "world": "fantasy", "status": "integration_target", "layers": ["根系峡谷", "树干洞室", "枝冠遗迹"], "interactions": ["调光催生", "牵引枝桥", "遗迹侦察"], "story_role": "认识依赖脉络生活的幻想居民", "boss_id": "parasitic_crown"},
+    {"id": "mirror_gardens", "name": "镜湖悬庭", "world": "fantasy", "status": "planned", "layers": ["镜面湖", "瀑布洞穴", "浮石庭院"], "interactions": ["折射显形", "风力移镜", "路径证据"], "story_role": "调查互相矛盾的遗迹记录", "boss_id": "mirrorwing_warden"},
+    {"id": "singing_mycelium", "name": "鸣菌幽谷", "world": "fantasy", "status": "planned", "layers": ["巨根拱廊", "菌膜平台", "地下光网"], "interactions": ["生长连接", "热电隔离", "分身多点协作"], "story_role": "发现伤害生态的另一来源", "boss_id": "mycelial_choir"},
+    {"id": "skyvein_peak", "name": "天脉冠峰", "world": "fantasy", "status": "planned", "layers": ["山岳裂谷", "巨树冠层", "失落中枢"], "interactions": ["多层航路", "能源修复", "脉络改接"], "story_role": "阵营方案及伙伴经历汇合，双人确认终局选择", "boss_id": "twin_vein_core"}
+  ],
+  "abilities": [
+    {"id": "blink", "name": "短距换位", "family": "space_force", "status": "rules_implemented", "energy": 16, "range": 9, "exploration": "跨越近距裂隙", "combat": "改变攻击角度", "physics_adapter_required": true},
+    {"id": "push_pull", "name": "牵引与排斥", "family": "space_force", "status": "rules_implemented", "energy": 8, "range": 12, "exploration": "移动物件重组通路", "combat": "改变敌阵和遮挡", "physics_adapter_required": true},
+    {"id": "force_field", "name": "定点力场", "family": "space_force", "status": "rules_implemented", "energy": 10, "range": 10, "exploration": "固定平台", "combat": "固定可作用部件"},
+    {"id": "light", "name": "光能引导", "family": "element", "status": "rules_implemented", "energy": 5, "range": 16, "exploration": "激活光敏设施", "combat": "作用于光敏部件", "limitation": "当前为直视光敏作用；多镜面折射求交尚待场景适配"},
+    {"id": "heat", "name": "热量调节", "family": "element", "status": "rules_implemented", "energy": 8, "range": 12, "exploration": "启停热机", "combat": "加热或冷却受热部件", "limitation": "当前热增减规则，物体间守恒热转移尚未实现"},
+    {"id": "charge", "name": "电荷引导", "family": "element", "status": "rules_implemented", "energy": 8, "range": 12, "exploration": "连接供电状态", "combat": "切断供能部件"},
+    {"id": "growth", "name": "生长催化", "family": "element", "status": "rules_implemented", "energy": 12, "range": 10, "exploration": "催生路径", "combat": "改变有生长属性的掩体", "limitation": "碰撞形状随生长更新由场景适配实现"},
+    {"id": "decoy", "name": "诱导分身", "family": "proxy_control", "status": "rules_implemented", "energy": 10, "range": 8, "exploration": "试探危险", "combat": "制造可感知诱饵", "physics_adapter_required": true},
+    {"id": "echo", "name": "协作分身", "family": "proxy_control", "status": "rules_implemented", "energy": 12, "range": 12, "exploration": "维持机关操作", "combat": "维持可操作战场设施"},
+    {"id": "takeover", "name": "机械接管", "family": "proxy_control", "status": "rules_implemented", "energy": 18, "range": 10, "exploration": "接管机关", "combat": "改变可黑入机械的控制归属"}
+  ],
+  "bosses": [
+    {"id": "harbor_whale", "name": "鲸形抽能机", "region_id": "coastal_port", "status": "encounter_logic_implemented", "mechanic": "预告攻击后的供能节点窗口；断开双节点暴露核心；半血重组攻击节奏", "counterplay": ["爬升避横扫", "下潜或遮挡避高位束", "制动或掩体避牵引"]},
+    {"id": "twin_pump_guardian", "name": "双泵守卫", "region_id": "tidal_city", "status": "planned", "mechanic": "水位与目标顺序"},
+    {"id": "furnace_crawler", "name": "熔炉履带兽", "region_id": "thermal_cliffs", "status": "planned", "mechanic": "散热与刹停"},
+    {"id": "prism_array", "name": "棱镜防御阵列", "region_id": "offshore_array", "status": "planned", "mechanic": "光路与移动遮挡"},
+    {"id": "parasitic_crown", "name": "寄生冠兽", "region_id": "greatwood_temple", "status": "planned", "mechanic": "生长与支点"},
+    {"id": "mirrorwing_warden", "name": "折翼守望者", "region_id": "mirror_gardens", "status": "planned", "mechanic": "真实光源辨识"},
+    {"id": "mycelial_choir", "name": "鸣菌共生体", "region_id": "singing_mycelium", "status": "planned", "mechanic": "分身与网络隔离"},
+    {"id": "twin_vein_core", "name": "共脉中枢", "region_id": "skyvein_peak", "status": "planned", "mechanic": "部件处理、能源改接与阵营方案"}
+  ],
+  "objectives": [
+    {"id": "port_restore_power", "name": "恢复港区供能", "region_id": "coastal_port", "status": "integration_target", "completion": {"entity_id": "power_receiver", "field": "powered", "equals": true}},
+    {"id": "wood_open_growth_route", "name": "催生巨木航路", "region_id": "greatwood_temple", "status": "integration_target", "completion": {"entity_id": "growth_bridge", "field": "growth", "minimum": 0.7}},
+    {"id": "port_disable_whale", "name": "停止失控抽能机", "region_id": "coastal_port", "status": "integration_target", "completion": {"encounter_id": "harbor_whale", "field": "completed", "equals": true}}
+  ]
+}

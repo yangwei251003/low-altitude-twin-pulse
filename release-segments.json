@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "part_bytes": 67108864,
+  "packages": [
+    {
+      "file": "low-altitude-runtime-assets.zip",
+      "bytes": 948638178,
+      "sha256": "69f6149573e19f43d7748ae5d9caf52b4be4d6fda13ef1a068747277c760b7cb",
+      "parts": [
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-001",
+          "bytes": 67108864,
+          "sha256": "be43a9c3cd990463a9388c5eddd1350ea7ec3928ffc2ca1a2e0b784e967334d5",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-001"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-002",
+          "bytes": 67108864,
+          "sha256": "c90d47cbc43d3b912e45c98eb7a5cebd32f8ddb9a90f898f1d56afa5de0bd5f9",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-002"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-003",
+          "bytes": 67108864,
+          "sha256": "da29422f30ae7972e39d9e449fbde2b58eee7a4bd2098b3688995efc46bc2b2e",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-003"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-004",
+          "bytes": 67108864,
+          "sha256": "7117885f2e65170413227842181b499eb45b8d76cb0bd633e32fca575b3eb88e",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-004"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-005",
+          "bytes": 67108864,
+          "sha256": "14dede2284a9e94311ef5b916a8338791afe49571d9665b7b3d57281d24265bc",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-005"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-006",
+          "bytes": 67108864,
+          "sha256": "a3cb02599fc0a3288c9fe474da59f56805eb24e9e33a23c7399f914eeab4d240",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-006"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-007",
+          "bytes": 67108864,
+          "sha256": "66fc30a97c6736e86516bf59c7aca8abd4098d4a76331ac7f452da340cfcbf61",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-007"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-008",
+          "bytes": 67108864,
+          "sha256": "91cace7c49f2ce511e24209615bb1f0ea481db09972dbcd2d0681978e8bfb826",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-008"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-009",
+          "bytes": 67108864,
+          "sha256": "a022f4a7741333e32c267309bfaba46c086d4b620a6443b97ed7b7b761cb0fed",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-009"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-010",
+          "bytes": 67108864,
+          "sha256": "904208c791accee49ac1687facd8232c6ce6f92824482bb0db022a80b5e00b45",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-010"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-011",
+          "bytes": 67108864,
+          "sha256": "5afdc44c5c0b93bd0b98ad1a3ed50002a783ccdf87d3dbb5c4aaada623773cd1",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-011"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-012",
+          "bytes": 67108864,
+          "sha256": "2cbc8b4e81355e67da91946e27924164eed6a6707fa9c6acfc9351b54859f5be",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-012"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-013",
+          "bytes": 67108864,
+          "sha256": "3a1aaa135d5c5610ffe14775ce17115123475404546106d5ae8951accd0d4621",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-013"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-014",
+          "bytes": 67108864,
+          "sha256": "2bd3a91e12328f20cb79736718e13b7f09cbab12aab72e06dcce82a441d1f233",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-014"
+        },
+        {
+          "file": "low-altitude-runtime-assets.zip.segment-015",
+          "bytes": 9114082,
+          "sha256": "470291497b3d26c69f59b15d636869fa44f790c1a2535f6f97040b504551a154",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-runtime-assets.zip.segment-015"
+        }
+      ],
+      "group": "runtime"
+    },
+    {
+      "file": "low-altitude-editable-assets.zip",
+      "bytes": 1384569206,
+      "sha256": "8ad5b064216ea0854f283b9f73a783a02d8fd41ae9f8747e4b50f4850ea7ee1a",
+      "parts": [
+        {
+          "file": "low-altitude-editable-assets.zip.segment-001",
+          "bytes": 67108864,
+          "sha256": "b06318249a1ef158d1717a4954c9ee49d2d0b5f638976480469db1d77df7b9a4",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-001"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-002",
+          "bytes": 67108864,
+          "sha256": "cbc404dcfd687721776733cad75eb7ba5204d54892b3a6f906838e68d18371f4",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-002"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-003",
+          "bytes": 67108864,
+          "sha256": "6a1c24f8ebe1b4c71d5ef840082324cb14376b26a85a9730c0086af9cf05ccd4",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-003"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-004",
+          "bytes": 67108864,
+          "sha256": "a612c241467414901f0ec073efdef2559436110bb34a36a13ac6d583a304f550",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-004"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-005",
+          "bytes": 67108864,
+          "sha256": "5ce1e4a9f9d15b6e336c35cb9a6b02b5bdd1fa06561240ff87e1c1e1e4508f14",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-005"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-006",
+          "bytes": 67108864,
+          "sha256": "5dc4318c251811ba679399070b4e06e0be89615f8db82efaec57c91a7caa09dc",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-006"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-007",
+          "bytes": 67108864,
+          "sha256": "fc878386fc72de0777a5f9c0c11e748ca7de91dbf298f5f47a14f46f02883433",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-007"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-008",
+          "bytes": 67108864,
+          "sha256": "44a734d1cb5f64c129e086755690599bda892247d164a1ff368e166f0193d19b",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-008"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-009",
+          "bytes": 67108864,
+          "sha256": "5d5f67b93a69b76ad69c421bf43ed068626cf2dc56a96f447874b37ba95c0eb3",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-009"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-010",
+          "bytes": 67108864,
+          "sha256": "bb88e00407fcdc91fd10cfba27ae67f4e25b98925d4874cfe9ce3efdb3771d08",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-010"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-011",
+          "bytes": 67108864,
+          "sha256": "9000012f5b473ecc0a5c4181b23ee06132d342684d2763757f25920560fc87a1",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-011"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-012",
+          "bytes": 67108864,
+          "sha256": "40577269002150da24c2a86097ed3603b8bac496ff913ec87e1d4b0250188215",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-012"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-013",
+          "bytes": 67108864,
+          "sha256": "7f5fcdbc160145b8786ef15213a210f0e7f0454d47ef753e2d30be3555b43e5d",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-013"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-014",
+          "bytes": 67108864,
+          "sha256": "038f1aa18355813445faf8952d0fdbdd7534ffaf5db92721627ec4e458731629",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-014"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-015",
+          "bytes": 67108864,
+          "sha256": "6fa28a4a5e02df2a40c1f90e650cffc211a9e0c9ae93d71be478cceb989bc3fd",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-015"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-016",
+          "bytes": 67108864,
+          "sha256": "4b5e543d1d265fa801c406074ada9a4775323ec96c57cb3a65031550abb0daa3",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-016"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-017",
+          "bytes": 67108864,
+          "sha256": "be83ecb62c6bb9d12762bc95638a24c7bab93eb95cef4c0bf283d49201565c58",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-017"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-018",
+          "bytes": 67108864,
+          "sha256": "32d085e5f4495c45f1c87f4c4c8fe4929e473a10fbed548bdf0f8ff3eb381ffa",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-018"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-019",
+          "bytes": 67108864,
+          "sha256": "c712743b287be14f6d999e19d8a2e1fe08f4577171a338844cea27ddf51c90b7",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-019"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-020",
+          "bytes": 67108864,
+          "sha256": "8f3f0d1d42e8f144005bf640a80eb20e12a31f88c7a054b856d4b95a7e4fd15a",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-020"
+        },
+        {
+          "file": "low-altitude-editable-assets.zip.segment-021",
+          "bytes": 42391926,
+          "sha256": "22a601170459f7e59185cb460398b0565ea54abb6f9ab9f096dfa82e69868813",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/low-altitude-editable-assets.zip.segment-021"
+        }
+      ],
+      "group": "editable"
+    },
+    {
+      "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip",
+      "bytes": 422954121,
+      "sha256": "002b694fa4d9dc11e3c3e1ce6a25703ce14c91aeb0cc3f195a0d59c23a1ddb1d",
+      "parts": [
+        {
+          "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-001",
+          "bytes": 67108864,
+          "sha256": "7e1666fc5027ea089031ba249bb36b99064c654168953fac765487bfe7f00bc5",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-001"
+        },
+        {
+          "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-002",
+          "bytes": 67108864,
+          "sha256": "6e416843c08425241cf9906c9f81a7f096f7319f9d672cd0d4aa7334d6d54cbf",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-002"
+        },
+        {
+          "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-003",
+          "bytes": 67108864,
+          "sha256": "f20d15556e927b9d274ef05789a6ee722be7e9db82db38ef8c1296b5c3f27bca",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-003"
+        },
+        {
+          "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-004",
+          "bytes": 67108864,
+          "sha256": "f7f02cb27290a49706d7d32c0d337129da4e64e44865d5682a59e81fb769fbbc",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-004"
+        },
+        {
+          "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-005",
+          "bytes": 67108864,
+          "sha256": "0e6d887d2899f1ddc194efe7e69133f012b42f40bb49ca6bf271427d25a3f652",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-005"
+        },
+        {
+          "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-006",
+          "bytes": 67108864,
+          "sha256": "22a82c0fc7afbd34bf11167a83d8ef14e7bbb821124b1a7dca1dd83b7409973e",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-006"
+        },
+        {
+          "file": "LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-007",
+          "bytes": 20300937,
+          "sha256": "b799e9e79398dbf8589b080de71e2a59406b47e797202e46e4d27a0f8cdabee5",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-dev94-assets/LowAltitudeTwinPulse-Dev94-Public-Windows.zip.segment-007"
+        }
+      ],
+      "group": "windows"
+    },
+    {
+      "file": "low-altitude-legacy-editable-part01-of04.zip",
+      "bytes": 416481202,
+      "sha256": "188e90aab747cd3d31793ad3801378bff548ab8c8332296370347549e04b2d77",
+      "parts": [
+        {
+          "file": "low-altitude-legacy-editable-part01-of04.zip.segment-001",
+          "bytes": 67108864,
+          "sha256": "955177292497f3ea52229746af52ac64517cdd8622a2409496e992abc777eff5",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part01-of04.zip.segment-001"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part01-of04.zip.segment-002",
+          "bytes": 67108864,
+          "sha256": "7cc6de9e30c07f5563943c8b83df5fb4bd6abf7267445080785d6f12ea875c93",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part01-of04.zip.segment-002"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part01-of04.zip.segment-003",
+          "bytes": 67108864,
+          "sha256": "2adcd212e34502a3908e6c24b07ca465e0a8204ba548b282e79eb20f92778d2c",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part01-of04.zip.segment-003"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part01-of04.zip.segment-004",
+          "bytes": 67108864,
+          "sha256": "a76fd00f9acba07754ac2f83b196795cb71e8bd69e5be0d6e61a3ba0b3b24bcf",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part01-of04.zip.segment-004"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part01-of04.zip.segment-005",
+          "bytes": 67108864,
+          "sha256": "998e7a121ac7f2f11643a259f89bb08bb80e8a2eed063e4b36d05edcece62f49",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part01-of04.zip.segment-005"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part01-of04.zip.segment-006",
+          "bytes": 67108864,
+          "sha256": "c2849d10d16e2b7307cc4b61805f127d906c6e681ff0bb0798f9acfd293089e7",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part01-of04.zip.segment-006"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part01-of04.zip.segment-007",
+          "bytes": 13828018,
+          "sha256": "238bf334c552ccc2696c4da3fe911a8b5f615f9bc15827f4b81fb0d395721b9f",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part01-of04.zip.segment-007"
+        }
+      ],
+      "group": "legacy"
+    },
+    {
+      "file": "low-altitude-legacy-editable-part02-of04.zip",
+      "bytes": 416360623,
+      "sha256": "ef38d2113348b4b0726e3039a130ace86f4ce0404fccb4b929cbcbc1be7c5bd4",
+      "parts": [
+        {
+          "file": "low-altitude-legacy-editable-part02-of04.zip.segment-001",
+          "bytes": 67108864,
+          "sha256": "37b79fcf849e01e53f88283e4178029a5186266fea5673d45c41027ec52656e1",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part02-of04.zip.segment-001"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part02-of04.zip.segment-002",
+          "bytes": 67108864,
+          "sha256": "a92f9422896e041a5ffc3c3d0539a3ff49253301585129042d4cf072eb900b41",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part02-of04.zip.segment-002"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part02-of04.zip.segment-003",
+          "bytes": 67108864,
+          "sha256": "8a25d0699ccb650c593ef4f3cc6b1c86d5c11b216195a1d538799778dccc3820",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part02-of04.zip.segment-003"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part02-of04.zip.segment-004",
+          "bytes": 67108864,
+          "sha256": "f157580bcff679f0e0481d637243a8a9d898f63847eb321a376b3a35b4841863",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part02-of04.zip.segment-004"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part02-of04.zip.segment-005",
+          "bytes": 67108864,
+          "sha256": "39536480b6df89e43e0dd923ec3aa97d37fb46cb27d276fb56b439ff4d98bf66",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part02-of04.zip.segment-005"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part02-of04.zip.segment-006",
+          "bytes": 67108864,
+          "sha256": "663c7f227d6291240d3deebced1ee343ae5c4dc3b11a4fc56c0d25bdbd7cf3d7",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part02-of04.zip.segment-006"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part02-of04.zip.segment-007",
+          "bytes": 13707439,
+          "sha256": "e1595fbbe766de4fc8c0a66dd5f2026c133a30cde1b7228af108cbb25b15292b",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part02-of04.zip.segment-007"
+        }
+      ],
+      "group": "legacy"
+    },
+    {
+      "file": "low-altitude-legacy-editable-part03-of04.zip",
+      "bytes": 419170507,
+      "sha256": "4bc906572447a0ea218bd4aec66c05c182e6df5e62b58e822d31c13774bcd855",
+      "parts": [
+        {
+          "file": "low-altitude-legacy-editable-part03-of04.zip.segment-001",
+          "bytes": 67108864,
+          "sha256": "e4b389f17f194c24dd9675cc5502d025ab174776887fed743432e151bfd27067",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part03-of04.zip.segment-001"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part03-of04.zip.segment-002",
+          "bytes": 67108864,
+          "sha256": "57ff95a828e902cffd5c0d76c6e9e12da37ec5e678beae899e724cff3b349f81",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part03-of04.zip.segment-002"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part03-of04.zip.segment-003",
+          "bytes": 67108864,
+          "sha256": "911a55bbeec889bcf81d4a43789d6f25e12c3df1fd1e8332874d851927cf5c18",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part03-of04.zip.segment-003"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part03-of04.zip.segment-004",
+          "bytes": 67108864,
+          "sha256": "d941581d0433c3b87567f28f5bc4b20a44f9488234d55a3a248818fc8c88a6a3",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part03-of04.zip.segment-004"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part03-of04.zip.segment-005",
+          "bytes": 67108864,
+          "sha256": "b45021be6a7d57aa2d48b1283e7d2c10775510ac9d9b6b172abd812ea5909a7f",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part03-of04.zip.segment-005"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part03-of04.zip.segment-006",
+          "bytes": 67108864,
+          "sha256": "0ac8df4eb94904d987a0485e2d20ef3c13ca2659f16892000a9ef61bc1ea4f98",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part03-of04.zip.segment-006"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part03-of04.zip.segment-007",
+          "bytes": 16517323,
+          "sha256": "6988016522cbf2355f75e5e575fdd3ce29d845694701b1bbfc7c689045a700dc",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part03-of04.zip.segment-007"
+        }
+      ],
+      "group": "legacy"
+    },
+    {
+      "file": "low-altitude-legacy-editable-part04-of04.zip",
+      "bytes": 334659949,
+      "sha256": "2e95f54822c1593fe18a42edac1f97b14cfc0ce9c91bbb6d7bca9bd95b994093",
+      "parts": [
+        {
+          "file": "low-altitude-legacy-editable-part04-of04.zip.segment-001",
+          "bytes": 67108864,
+          "sha256": "07e13e3199b55a984be31a32f144e747b18ab3fa86d9a2dd0145018d83f52f1e",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part04-of04.zip.segment-001"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part04-of04.zip.segment-002",
+          "bytes": 67108864,
+          "sha256": "571ec14c9981b064fb77aa0c4b24b955f45313b910ea04dc7c38ff68c6287cc8",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part04-of04.zip.segment-002"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part04-of04.zip.segment-003",
+          "bytes": 67108864,
+          "sha256": "b33aba68831ea4914df2f34b2a802ec7b27e05710c3a92bc74e5f22f0a3856ae",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part04-of04.zip.segment-003"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part04-of04.zip.segment-004",
+          "bytes": 67108864,
+          "sha256": "5236738a2fd4e5fae19df465ca59cbf89665034ba9b77c512af808087f34380d",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part04-of04.zip.segment-004"
+        },
+        {
+          "file": "low-altitude-legacy-editable-part04-of04.zip.segment-005",
+          "bytes": 66224493,
+          "sha256": "3e35e300d06c48388a43e4ed603d2d00d6059e12ce4efa60e4d60b77dc93becf",
+          "url": "https://github.com/yangwei251003/low-altitude-twin-pulse/releases/download/v3.0.0-legacy-editable-20261027/low-altitude-legacy-editable-part04-of04.zip.segment-005"
+        }
+      ],
+      "group": "legacy"
+    }
+  ]
+}

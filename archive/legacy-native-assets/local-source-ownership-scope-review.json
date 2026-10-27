@@ -1,0 +1,171 @@
+{
+  "scope_correction": "Missing exact generator/parent linkage is a technical reproducibility gap, not evidence of external copyright. The user explicitly authorized their project sources; unconflicted local modeling/AI editing sources can be preserved under the project license while production history remains unverified. Actual embedded unknown reference images stay excluded.",
+  "examples": [
+    {
+      "path": "asset_sources/v3/clinic_ground_transition/p1/baked_source.blend",
+      "sha256": "137d3061212702d0521c13416f257f35c22979a7d51b175da81e90ea2f42e241",
+      "prior_classification": "technical-lineage-unresolved-not-a-copyright-conflict",
+      "neighbor_source_candidates": [
+        {
+          "path": "asset_sources/v3/clinic_ground_transition/p1/build_asset.py",
+          "source_sha256": "1171d3a933ccb6bb7fed43afa43a2e544e862d47522850fd39799903994cc861",
+          "shared_directory_depth": 4
+        },
+        {
+          "path": "asset_sources/v3/clinic_ground_transition/p1/failed_chip_visibility_v1/build_after_chip_before_world_fix.py",
+          "source_sha256": "bbc998adffeefe402f44331ec3ddb2953b848c3e032aaa5276132979840ac1e5",
+          "shared_directory_depth": 4
+        },
+        {
+          "path": "asset_sources/v3/clinic_ground_transition/p1/failed_chip_visibility_v1/build_asset.py",
+          "source_sha256": "1a01dfe24ddf7aa2485392ba60068c594653b20c5b61d8959795c491f6489ef6",
+          "shared_directory_depth": 4
+        }
+      ],
+      "hash_bound_production_records": [
+        {
+          "path": "asset_sources/v3/clinic_ground_transition/p1/manifest.json",
+          "sha256": "c7f550d070204ef4b45624115e64a4e59895ed01fa02313a2595abae637b461e"
+        },
+        {
+          "path": "asset_sources/v3/clinic_ground_transition/p1/production_report.json",
+          "sha256": "a9949367f628ed248545e269a052912bb1b72a18841212cfc28cd02056c4dd1b"
+        }
+      ],
+      "libraries": 0,
+      "embedded_scripts": 0,
+      "file_images": 4,
+      "packed_images": 0,
+      "unreviewed_packed_images": 0,
+      "observed_external_author_or_license_conflict": false,
+      "source_belongs_to_user_project_context": true,
+      "independent_originality_proven": false,
+      "image_references_with_known_baseline_hash": 4,
+      "missing_or_unreviewed_unpacked_images": 0
+    },
+    {
+      "path": "asset_sources/v3/root_buttress/root_buttress_form_v1.blend",
+      "sha256": "f636e8e7da1e38c87258e861a6be2a1b650f40af215e13a8e6c1fd135c347767",
+      "prior_classification": "technical-lineage-unresolved-not-a-copyright-conflict",
+      "neighbor_source_candidates": [],
+      "hash_bound_production_records": [],
+      "libraries": 0,
+      "embedded_scripts": 0,
+      "file_images": 0,
+      "packed_images": 0,
+      "unreviewed_packed_images": 0,
+      "observed_external_author_or_license_conflict": false,
+      "source_belongs_to_user_project_context": true,
+      "independent_originality_proven": false,
+      "image_references_with_known_baseline_hash": 0,
+      "missing_or_unreviewed_unpacked_images": 0
+    },
+    {
+      "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/bake_complete.blend",
+      "sha256": "2306d1a5464bd826bbdd3dbd9e43487e689dacec65624dfc92f90268016cda8d",
+      "prior_classification": "technical-lineage-unresolved-not-a-copyright-conflict",
+      "neighbor_source_candidates": [
+        {
+          "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/export_asset.py",
+          "source_sha256": "d66ea507db3374c4fe540a7aeab46ac58ad41316abbe74ff11dfaa6cefb02743",
+          "shared_directory_depth": 4
+        },
+        {
+          "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/run_bake_20261020_040637_150944/input_snapshot/export_asset.py",
+          "source_sha256": "8f6e984368b1acf6c057520cf619bb829b13e592493870d3d7aca1119a9f0402",
+          "shared_directory_depth": 4
+        },
+        {
+          "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/bake_source.py",
+          "source_sha256": "7298dbf9c3300d9ab0f0a29156c396c5ca5cf5615aabb76c8ece25b720365768",
+          "shared_directory_depth": 4
+        }
+      ],
+      "hash_bound_production_records": [
+        {
+          "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/bake_manifest.json",
+          "sha256": "16825e32e10f298c00ff40a45ee0f939c99e279868c1ff15d25df41dc0793287"
+        },
+        {
+          "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/bake_report.json",
+          "sha256": "a322796992120695a7d7f805e13341d26e465ea89eb2d8bcb27c2359ab1a243b"
+        },
+        {
+          "path": "asset_sources/v3/canal_calibration_rack/delivery_p4/manifest.json",
+          "sha256": "75823eac31ed162be576e25be70c387c0f235d65ca6c717785e7ddc7890a3588"
+        }
+      ],
+      "libraries": 0,
+      "embedded_scripts": 0,
+      "file_images": 5,
+      "packed_images": 0,
+      "unreviewed_packed_images": 0,
+      "observed_external_author_or_license_conflict": false,
+      "source_belongs_to_user_project_context": true,
+      "independent_originality_proven": false,
+      "image_references_with_known_baseline_hash": 5,
+      "missing_or_unreviewed_unpacked_images": 0
+    },
+    {
+      "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/bake_complete.blend",
+      "sha256": "2a3b0e91d2622028ca1e3756d644d0103cab126f555c4ac7d8b0780865b89c14",
+      "prior_classification": "technical-lineage-unresolved-not-a-copyright-conflict",
+      "neighbor_source_candidates": [
+        {
+          "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/bake_source.py",
+          "source_sha256": "22cc2f18b8c5937a2b7685b98f84650a88d6cb88d2b985dbf1fd79d89607e3f4",
+          "shared_directory_depth": 4
+        },
+        {
+          "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/export_asset.py",
+          "source_sha256": "ae30b2b1a203c44c106e5d790496e64ed9c5b1510595f1e0c1203f483d35f85e",
+          "shared_directory_depth": 4
+        },
+        {
+          "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/export_asset.py",
+          "source_sha256": "3d9a44a526147c8410fa4242a9d6ff89cfa9172478beccb71404d70b855a2d89",
+          "shared_directory_depth": 4
+        }
+      ],
+      "hash_bound_production_records": [
+        {
+          "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/bake_report.json",
+          "sha256": "5ef8bdb8384b57f01efdec7680176b1165ec6c1bfd6d704ffc4655ed3f0a6256"
+        },
+        {
+          "path": "asset_sources/v3/clinic_pump_shell/delivery_v8/manifest.json",
+          "sha256": "07dd78f132e23884d1c7ad9686075fffd2137ee3c39a476fd39c94f211fdb9c1"
+        }
+      ],
+      "libraries": 0,
+      "embedded_scripts": 0,
+      "file_images": 6,
+      "packed_images": 0,
+      "unreviewed_packed_images": 0,
+      "observed_external_author_or_license_conflict": false,
+      "source_belongs_to_user_project_context": true,
+      "independent_originality_proven": false,
+      "image_references_with_known_baseline_hash": 6,
+      "missing_or_unreviewed_unpacked_images": 0
+    },
+    {
+      "path": "asset_sources/v3/i2_visual_lod/runs/20261021_021300_adedde/east_maintenance_editable.blend",
+      "sha256": "e89c43973814cf52a3935f3667dc650c5ef05505fb90723364c4e79f3099da4a",
+      "prior_classification": "technical-lineage-unresolved-not-a-copyright-conflict",
+      "neighbor_source_candidates": [],
+      "hash_bound_production_records": [],
+      "libraries": 0,
+      "embedded_scripts": 0,
+      "file_images": 6,
+      "packed_images": 6,
+      "unreviewed_packed_images": 0,
+      "observed_external_author_or_license_conflict": false,
+      "source_belongs_to_user_project_context": true,
+      "independent_originality_proven": false,
+      "image_references_with_known_baseline_hash": 0,
+      "missing_or_unreviewed_unpacked_images": 0
+    }
+  ],
+  "all_163_no_unreviewed_packed_image_bytes": true,
+  "source_of_copyright_scope": "user instruction plus original project ownership; no claim of independent-originality proof"
+}

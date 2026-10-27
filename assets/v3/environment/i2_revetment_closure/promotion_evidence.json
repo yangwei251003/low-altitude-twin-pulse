@@ -1,0 +1,44 @@
+{
+  "status": "BYTE_IDENTICAL_PROMOTION_STATIC_ONLY",
+  "source_commit": "33a64688",
+  "runtime_not_executed": true,
+  "copy_checks": [
+    {
+      "source": "assets/v3/candidates/i2_revetment_closure/revetment_closure.glb",
+      "destination": "assets/v3/environment/i2_revetment_closure/revetment_closure.glb",
+      "bytes": 10627820,
+      "sha256": "9e3bce1d8871cb3c6778868cc9209d8042a7ecb8eac852d2f99b58e4ca02c67c"
+    },
+    {
+      "source": "assets/v3/candidates/i2_revetment_closure/layout_plan.json",
+      "destination": "data/v3/terrain/i2_revetment_closure_layout.json",
+      "bytes": 24119,
+      "sha256": "90246f5528d31d73633a4b22fc69ff0cd61330489ede112e33d908d8097fff7b"
+    },
+    {
+      "source": "assets/v3/candidates/i2_revetment_closure/delivery_contract.json",
+      "destination": "data/v3/terrain/i2_revetment_closure_delivery.json",
+      "bytes": 18223,
+      "sha256": "06caba2e11f88856e054c5b05e44559c47e9d7603db07e6ff15655820846c0e2"
+    }
+  ],
+  "export_boundary": "Original GLB SHA checked on build filesystem only; PCK ResourceLoader geometry/material validation does not claim original GLB byte access.",
+  "static_checks": [
+    "unchanged geometry _split_plane",
+    "unchanged geometry _footprint",
+    "unchanged geometry _bank_match",
+    "unchanged geometry _partition",
+    "no original GLB FileAccess hash at runtime",
+    "runtime provenance is explicit",
+    "no active scene requirement",
+    "no excluded candidate resource dependency",
+    "12 named pieces",
+    "exact triangles/surface contract",
+    "copied binary has 12 mesh/2 materials",
+    "copied binary has14 primitives",
+    "copied raw hash bindings match",
+    "current export paths cover production inputs"
+  ],
+  "wrapper_sha256": "b0a106b0cd0e0b89a24fed4e03bd24ca5ee2da5ed3826143c937fada9b266101",
+  "note": "Python/static/binary-only; no Godot parse/import/MAIN/PCK execution."
+}

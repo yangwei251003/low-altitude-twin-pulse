@@ -1,0 +1,1397 @@
+{
+  "schema_version": 1,
+  "content_id": "final_story_readonly_v1",
+  "status": "developed_not_playtested",
+  "narrator_id": "narrator:final_archive",
+  "contract": "Only reads committed opening_v1 Story and supplied world task banks. No state changes, rewards, objective counts or default choice. Final cards require actual final action/objective/flags and all four known choices. Markers are inspect archives, never live NPC duplicates. Current Director met/memories does not establish mortality or physical presence.",
+  "endings": {
+    "shared_stewardship": {
+      "id": "shared_stewardship_arrangement",
+      "title": "落幕 · 轮到下一班共同照料",
+      "lines": [
+        "中枢停机之后，小队没有把维护重新交给一个无人能问责的总开关。最终签下的是共同照料。",
+        "工业应急与活体脉络按实际负载共同推进。恢复不以某一边退出为前提，代价是两边都要留下值守、核对与下一班的回应。",
+        "回到旧航路时，最初救援、调查和战后的记录仍能接在一起；结束的是这一次失控，不是照料的责任。"
+      ],
+      "voice_id": "final_story_shared_stewardship_arrangement",
+      "voice_text": "共同照料已经签署。两界按实际负载恢复，下一班的维护与回应由两边共同承担。"
+    },
+    "industrial_lifeline": {
+      "id": "industrial_lifeline_arrangement",
+      "title": "落幕 · 较快复工仍要记着另一端",
+      "lines": [
+        "中枢停机之后，小队把应急与生产的恢复放在前面。较快复工与较慢的活脉扩展，属于同一份已签安排。",
+        "幼根基础养分、居民供水与撤离照旧保留。等待扩展的根床不能从照护表消失，也不能用更快的产量抵消这段等待。",
+        "重新开放的日常里，工业限流要持续公开，活脉恢复的交接也继续留着；这份选择决定先后，不宣布谁从此不重要。"
+      ],
+      "voice_id": "final_story_industrial_lifeline_arrangement",
+      "voice_text": "应急与工业先行已经签署。较快的复工伴随较慢的活脉扩展，幼根和居民底线继续保留。"
+    },
+    "living_vein": {
+      "id": "living_vein_arrangement",
+      "title": "落幕 · 根先接续，工班仍在记录里",
+      "lines": [
+        "中枢停机之后，小队把活脉与生态接续放在前面。较快的根系修复与较慢的工业扩产，属于同一份已签安排。",
+        "应急、居民供水与基本生产照旧保留。等候扩产的工班不能从轮换表消失，也不能用更快的花开抵消这段等待。",
+        "重新开放的日常里，生态照护与较慢复工的安排一起留下；这份选择决定先后，不允许任何一端失去回应。"
+      ],
+      "voice_id": "final_story_living_vein_arrangement",
+      "voice_text": "活脉与生态先行已经签署。根系较快接续，工业扩产较慢，应急和基本生产继续保留。"
+    }
+  },
+  "choices": {
+    "I2:twin_pump_guardian:decision": {
+      "clinic_reserve": {
+        "id": "water_clinic_reserve",
+        "title": "水城留下的负担 · 病房储备优先",
+        "lines": [
+          "病房储备优先是水城已经共同留下的决定。林岚负责应急回储，南湾的日常补给与部分检修需要按较慢轮换继续。",
+          "阮衡没有把南湾的等待写成故障消失：补给与检修各留一栏，病房水位与担架通路也各留一栏。",
+          "这份记录没有取消南湾基本服务。回访时可以同时看见优先得到的缓冲，以及仍需接住的日常。"
+        ],
+        "voice_id": "final_story_water_clinic_reserve",
+        "voice_text": "水城选择病房储备优先。应急缓冲较快补足，南湾较慢的日常轮换仍由下一班接住。",
+        "revisit_lines": [
+          "水城当时签下的是病房储备优先；病房的缓冲较快补足，南湾较慢的检修补给也留在同一份安排里。"
+        ]
+      },
+      "balanced_service": {
+        "id": "water_balanced_service",
+        "title": "水城留下的负担 · 两线均衡轮换",
+        "lines": [
+          "两线均衡轮换是水城已经共同留下的决定。南湾能较早接回日常，病房额外应急回储则需要较慢补足。",
+          "林岚把病房回储继续留在值守表上，阮衡把南湾检修与补给分开登记；均衡并不等于两边都已没有等待。",
+          "基本供水和居民通路不因轮换被关闭。较早恢复的便利，与尚未补足的缓冲，被写在同一份可查记录里。"
+        ],
+        "voice_id": "final_story_water_balanced_service",
+        "voice_text": "水城选择两线均衡轮换。南湾较早恢复日常，病房额外回储较慢，基本服务继续保留。",
+        "revisit_lines": [
+          "水城当时签下的是两线均衡轮换；南湾较早接回日常，病房额外回储较慢，这份负担也留在安排里。"
+        ]
+      }
+    },
+    "F2:mirror_evidence:decision": {
+      "publish_raw": {
+        "id": "evidence_publish_raw",
+        "title": "镜庭留下的工作 · 先公开原件",
+        "lines": [
+          "镜庭选择先让居民看到原件。疏谣负责保存原件索引，阮衡把尚未补齐的校时说明继续添在旁页。",
+          "相互矛盾的解读不会被算成记录无效。更正另留时间与出处，不盖住原本的页码，也不把争议变成收走原件的理由。",
+          "柳灯的灯序与末班记录可以继续提交核对；有人的工作尚未完成，就在待办里留下，而不是写成人人已读懂。"
+        ],
+        "voice_id": "final_story_evidence_publish_raw",
+        "voice_text": "镜庭先公开原件。争议与校时说明继续逐条补证，更正不覆盖原件。",
+        "revisit_lines": [
+          "镜庭当时选择先公开原件；争议与校时说明继续逐条补证，更正另留出处，不盖住原始页码。"
+        ]
+      },
+      "publish_context": {
+        "id": "evidence_publish_context",
+        "title": "镜庭留下的工作 · 连同校时说明发布",
+        "lines": [
+          "镜庭选择把原件与校时说明共同发布。疏谣与阮衡共同维护出处，让两边能沿同一时间线往回查。",
+          "等待说明的那段时间也留在记录里，不被事后的清楚解释抹掉。说明可以修订，原件与修订次序继续保留。",
+          "柳灯的灯序与末班记录可以继续提交核对；共同署名意味着持续回答，不是从此没有分歧。"
+        ],
+        "voice_id": "final_story_evidence_publish_context",
+        "voice_text": "镜庭连同校时说明共同发布。原件与修订次序保留，等待解释的代价也留在记录里。",
+        "revisit_lines": [
+          "镜庭当时选择把原件与校时说明共同发布；原件、修订次序与等待解释的那段时间都留着。"
+        ]
+      }
+    },
+    "I4:prism_array:decision": {
+      "public_caps": {
+        "id": "governance_public_caps",
+        "title": "离岸留下的工作 · 公开统一上限",
+        "lines": [
+          "公开统一上限是离岸已经签下的安排。闻序把统一数值和每次改动的出处留在见证档里，迟守负责把异常交给下一班。",
+          "特殊需要不会因为上限公开就自动被照顾。例外继续单独记录，哪一岸尚未得到回应，也要能沿记录查到。",
+          "居民供水、应急与活脉底线先满足。公开不是把所有责任交给同一个数字，而是让使用这个数字的人继续负责。"
+        ],
+        "voice_id": "final_story_governance_public_caps",
+        "voice_text": "离岸采用公开统一上限。闻序留可查的改动，迟守接班核对异常，特殊需要仍须持续回应。",
+        "revisit_lines": [
+          "离岸当时签下公开统一上限；特殊需要与例外仍需继续核查，不因同一个数已经公开就自动消失。"
+        ]
+      },
+      "regional_cosign": {
+        "id": "governance_regional_cosign",
+        "title": "离岸留下的工作 · 地区共同签署",
+        "lines": [
+          "地区共同签署是离岸已经签下的安排。闻序把两边的需要与回应并列保存，迟守把尚待答复的事项交给下一班。",
+          "协商较慢的代价没有被藏在共同二字后面。谁还没有回应、哪项改动在等待，见证档里都保留位置。",
+          "应急保底不等签字才生效。共同签署带来地方调整的余地，也要求每一边持续回答。"
+        ],
+        "voice_id": "final_story_governance_regional_cosign",
+        "voice_text": "离岸采用地区共同签署。地方可以按需要调整，较慢的协商由明确轮值接住，应急底线不等签字。",
+        "revisit_lines": [
+          "离岸当时签下地区共同签署；地方可按需要调整，较慢的协商由明确轮值接住，应急保底不等签字。"
+        ]
+      }
+    }
+  },
+  "regions": [
+    {
+      "id": "I1",
+      "title": "潮湾回访 · 第一声呼叫留下什么",
+      "marker_id": "I1:final_story_archive",
+      "position": [
+        -12,
+        3.5,
+        35
+      ],
+      "requires_actions": [
+        "I1:whale"
+      ],
+      "requires_objectives": [
+        "I1:whale:record"
+      ],
+      "requires_flags": [
+        "opening:whale_action_completed"
+      ],
+      "choice_keys": [],
+      "voice_id": "final_story_revisit_i1",
+      "chapter_lines": [
+        "南岸的救援记录与鲸机收到的原始指令放在同一份留档里。一次失联把小队带到桥后，原始指令又把调查带向更远的接收端。",
+        "留档把救援和追因分成两件都要做的事：先让困住的机体有路回来，再继续问能量去了哪里。战后回访不需要再启动鲸机。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "共同照料把港口的低灯与另一岸的幼根放进同一份长期维护安排。港务留档仍从最初那声救援呼叫开始，提醒下一班先留好回来的路。"
+        ],
+        "industrial_lifeline": [
+          "应急与工业先恢复的安排，把港口检修与复工放在较快的一端。留档同时保留活脉较慢扩展的需要，不让较快亮起的灯遮掉另一岸。"
+        ],
+        "living_vein": [
+          "活脉先恢复的安排，让港口扩产按较慢节奏继续。港务留档仍保留基本生产、应急与返航班次，不把等待中的工班从记录里省掉。"
+        ]
+      }
+    },
+    {
+      "id": "F1",
+      "title": "巨木回访 · 留下宿主与枝桥",
+      "marker_id": "F1:final_story_archive",
+      "position": [
+        -12,
+        3.5,
+        35
+      ],
+      "requires_actions": [
+        "F1:crown"
+      ],
+      "requires_objectives": [
+        "F1:crown:restore"
+      ],
+      "requires_flags": [
+        "opening:crown_action_completed"
+      ],
+      "choice_keys": [],
+      "voice_id": "final_story_revisit_f1",
+      "chapter_lines": [
+        "老根的恢复读数与寄生控制的记录各留一页。冠兽失控之前已经有异常抽取，解除控制没有成为清空整条活根的理由。",
+        "枝桥、宿主与育苗棚在留档里各有用处。回访要接着看照护，而不是把每一种回响重新当作敌人。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "共同照料把巨木的幼根照护与工业维护接在同一张长期值守表上。根谷没有被写成只负责供能的地方，也不因主线落幕失去自己的日常。"
+        ],
+        "industrial_lifeline": [
+          "活脉扩展在这份工业先行方案里恢复较慢。巨木留档把基础幼根照护与扩展分开：等候扩展不意味着允许抽干已经保留的根。"
+        ],
+        "living_vein": [
+          "活脉先行让根系接续较快推进。巨木留档仍为较慢的工业扩产留一栏，把另一岸的轮班与需要一起带进照护。"
+        ]
+      }
+    },
+    {
+      "id": "I2",
+      "title": "水城回访 · 两张交班表都留下",
+      "marker_id": "I2:final_story_archive",
+      "position": [
+        -14,
+        4,
+        21
+      ],
+      "requires_actions": [
+        "I2:twin_pump_guardian"
+      ],
+      "requires_objectives": [
+        "I2:twin_pump_guardian:decision"
+      ],
+      "requires_flags": [
+        "I2:boss_stopped",
+        "I2:chapter_decision_saved"
+      ],
+      "choice_keys": [
+        "I2:twin_pump_guardian:decision"
+      ],
+      "voice_id": "final_story_revisit_i2",
+      "chapter_lines": [
+        "水城把病房与南湾的交班记录分开保留。病房记录供水和担架通路，南湾记录工序、补给与检修；一张表不能替另一张回答所有问题。",
+        "双泵守卫的失控指令也在原始记录里。停下守卫之后签下的轮换安排，才决定下一班怎样继续接住两边。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "共同照料没有覆盖水城原来的轮换决定。病房回储与南湾日常继续依已签的先后交班，跨界维护再把两张表接起来。"
+        ],
+        "industrial_lifeline": [
+          "应急与生产较快恢复，也不把水城原来的分配决定改成默认答案。病房与南湾仍按既有轮换留档，活脉基础养分没有被划作多余。"
+        ],
+        "living_vein": [
+          "生态较快接续，水城基本供水与应急继续保留。原来由病房与南湾共同留下的轮换安排没有被终局重新选择。"
+        ]
+      },
+      "requires_choice": "I2:twin_pump_guardian:decision"
+    },
+    {
+      "id": "F2",
+      "title": "镜庭回访 · 原件之外还留下名字",
+      "marker_id": "F2:final_story_archive",
+      "position": [
+        -18,
+        6,
+        34
+      ],
+      "requires_actions": [
+        "F2:mirrorwing_warden"
+      ],
+      "requires_objectives": [
+        "F2:mirrorwing_warden:record"
+      ],
+      "requires_flags": [
+        "F2:boss_stopped",
+        "F2:region_route_open"
+      ],
+      "choice_keys": [
+        "F2:mirror_evidence:decision"
+      ],
+      "voice_id": "final_story_revisit_f2",
+      "chapter_lines": [
+        "折翼守望者的真身记录与镜庭的原始证据都被保留。曾经互相矛盾的倒影，没有替代可以反复核查的出处。",
+        "灯序关心的仍是谁能沿低檐回来。档案的去处与人的去处应当一起留着，不能只剩下那两面镜子的角度。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "共同照料让镜庭的出处索引继续服务两岸维护。记录可以帮助交班，但不能替下一班完成尚未接回的灯或未到站的护送。"
+        ],
+        "industrial_lifeline": [
+          "工业先行的较快复工与较慢活脉扩展，都能沿镜庭原件追查。档案没有把较慢的一端删成一句已经恢复。"
+        ],
+        "living_vein": [
+          "活脉先行的较快生态接续与较慢扩产，都能沿镜庭原件追查。档案没有只留下较快长出的根而省去另一岸。"
+        ]
+      },
+      "requires_choice": "F2:mirror_evidence:decision"
+    },
+    {
+      "id": "I3",
+      "title": "热崖回访 · 交付以后还有返程",
+      "marker_id": "I3:final_story_archive",
+      "position": [
+        -18,
+        6,
+        34
+      ],
+      "requires_actions": [
+        "I3:furnace_crawler"
+      ],
+      "requires_objectives": [
+        "I3:furnace_crawler:record"
+      ],
+      "requires_flags": [
+        "I3:boss_stopped",
+        "I3:region_route_open"
+      ],
+      "choice_keys": [],
+      "voice_id": "final_story_revisit_i3",
+      "chapter_lines": [
+        "热崖保留了冷却、真实高台交付和履带兽指令的原记录。旧交付不因回访重新计功，也不等于每一班的返程都已有人接住。",
+        "换班记录把下一班何时来与上一班怎样离开分成两栏。停机的故事已经留下，停机以后怎样生活仍值得回来问。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "共同照料把热崖的冷却、轮班与支脉维护一起留给下一班。换班表仍区分交付、返程与休息，避免把协作变成某一班永远不下班。"
+        ],
+        "industrial_lifeline": [
+          "应急与工业先行让热崖较快回到生产，照护表也记着活脉扩展的较慢进度。较快复工不取消冷却、返程与休息。"
+        ],
+        "living_vein": [
+          "活脉先行意味着热崖扩产较慢。换班与检修安排继续留档，较慢开工不是把基本生产、应急或工人的回应一并关掉。"
+        ]
+      }
+    },
+    {
+      "id": "F3",
+      "title": "菌谷回访 · 不用所有声音消失",
+      "marker_id": "F3:final_story_archive",
+      "position": [
+        -18,
+        6,
+        34
+      ],
+      "requires_actions": [
+        "F3:mycelial_choir"
+      ],
+      "requires_objectives": [
+        "F3:mycelial_choir:record"
+      ],
+      "requires_flags": [
+        "F3:boss_stopped",
+        "F3:region_route_open"
+      ],
+      "choice_keys": [],
+      "voice_id": "final_story_revisit_f3",
+      "chapter_lines": [
+        "命令线与养分支路曾被分清，共生体的失控记录也已留下。安静不需要靠割断所有根来证明，授粉与养分有各自的作用。",
+        "两处花开的差别继续留在照护表上。回访不是催它们同时开放，而是记住哪些连接还在养着生活。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "共同照料把菌谷的听线与养分维护接到两岸值守中。留给下一班的不是永远安静的谷，而是能分清作用与需要的记录。"
+        ],
+        "industrial_lifeline": [
+          "生态扩展在工业先行方案里较慢，菌谷仍保留基础养分与幼根照护。留档把尚未接续的支路继续放在待办上，没有宣布它们已自行长好。"
+        ],
+        "living_vein": [
+          "活脉先行让菌谷生态接续较快。照护表仍保留高处与低处不同的花期，也留着工业较慢扩产的负担，不拿一端较快恢复代替另一端的回答。"
+        ]
+      }
+    },
+    {
+      "id": "I4",
+      "title": "离岸回访 · 上限后面是谁回应",
+      "marker_id": "I4:final_story_archive",
+      "position": [
+        -18,
+        6,
+        34
+      ],
+      "requires_actions": [
+        "I4:prism_array"
+      ],
+      "requires_objectives": [
+        "I4:prism_array:decision"
+      ],
+      "requires_flags": [
+        "I4:boss_stopped",
+        "I4:chapter_decision_saved"
+      ],
+      "choice_keys": [
+        "I4:prism_array:decision"
+      ],
+      "voice_id": "final_story_revisit_i4",
+      "chapter_lines": [
+        "离岸见证档留下了配额改动与棱镜阵列的原始记录。把防御命令隔离以后，上限不再被说成无人改动过的自然常数。",
+        "值守与例外记录各有一页。回来的人可以继续问谁改了什么、谁尚未得到回应，不必把一句自动补偿当作答案。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "共同照料依然沿离岸原来签下的公开或共签安排核查改动。终局不撤销治理的取舍，长期协作要有人继续交接。"
+        ],
+        "industrial_lifeline": [
+          "工业先行的恢复安排仍受原有配额治理约束。较快生产没有得到悄悄改上限的许可，活脉底线继续保留。"
+        ],
+        "living_vein": [
+          "活脉先行的恢复安排仍受原有配额治理约束。较快生态接续没有让应急线与基本生产失去可查的回应。"
+        ]
+      },
+      "requires_choice": "I4:prism_array:decision"
+    },
+    {
+      "id": "F4",
+      "title": "冠峰回访 · 最后一笔之后",
+      "marker_id": "F4:final_story_archive",
+      "position": [
+        -18,
+        6,
+        34
+      ],
+      "requires_actions": [
+        "F4:twin_vein_core"
+      ],
+      "requires_objectives": [
+        "F4:twin_vein_core:decision"
+      ],
+      "requires_flags": [
+        "F4:boss_stopped",
+        "F4:chapter_decision_saved",
+        "F4:region_route_open"
+      ],
+      "choice_keys": [],
+      "voice_id": "final_story_revisit_f4",
+      "chapter_lines": [
+        "中枢不再攻击以后，最后的签名仍由小队自己留下。这里收存的是已经读清并签下的方案，没有另替任何人作选择。",
+        "工业应急、幼根、居民供水与撤离的底线各自留在方案里。落幕之后的回访继续读照护职责，不把尚未交接的日常写成已完成。"
+      ],
+      "postgame": {
+        "shared_stewardship": [
+          "冠峰留档把共同照料的下一班分成可接续的职责：负载核对、幼根照护与民用底线一起继续，不把均衡写成不用维护。"
+        ],
+        "industrial_lifeline": [
+          "冠峰留档把工业应急较快恢复与活脉较慢扩展并列保存。等待中的接口仍有照护责任，不被较快的产出盖过去。"
+        ],
+        "living_vein": [
+          "冠峰留档把生态较快恢复与扩产较慢安排并列保存。等待中的工班仍有回应，不被较快的根系接续盖过去。"
+        ]
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "npc:linlan",
+      "name": "林岚",
+      "region": "I2",
+      "assignment": "以水城病房为民用联络点，兼听港口救援无线电",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_linlan_shared_stewardship",
+          "title": "林岚 · 留档去向",
+          "lines": [
+            "林岚的留档去向是水城病房联络点，港口救援则继续通过无线电交接；不是让同一个人同时守在两处。",
+            "共同照料把民用需要放进跨界轮值。她负责把病房回储、担架通路与尚待接诊的需要交给下一班，不能只报一项总数。"
+          ],
+          "voice_id": "final_story_person_linlan_shared_stewardship",
+          "voice_text": "共同照料下，林岚以病房为民用联络点，继续接住港口救援与下一班的回储需要。"
+        },
+        "industrial_lifeline": {
+          "id": "person_linlan_industrial_lifeline",
+          "title": "林岚 · 留档去向",
+          "lines": [
+            "林岚仍以病房为民用联络点，兼听港口救援；较快的应急恢复不表示南湾与活脉的等待已被省去。",
+            "她把病房缓冲与居民通路分开核对，较慢恢复的一端仍留在下一班必须回应的事项里。"
+          ],
+          "voice_id": "final_story_person_linlan_industrial_lifeline",
+          "voice_text": "工业应急先行下，林岚继续核对病房与通路，也把较慢恢复的一端留在交班里。"
+        },
+        "living_vein": {
+          "id": "person_linlan_living_vein",
+          "title": "林岚 · 留档去向",
+          "lines": [
+            "林岚的留档去向仍是病房民用联络点。生态较快接续以后，居民供水与应急呼叫也必须继续有人接。",
+            "她把较慢扩产可能影响的检修与病房回储并列交班，不把另一岸的好消息当成民用工作已经结束。"
+          ],
+          "voice_id": "final_story_person_linlan_living_vein",
+          "voice_text": "活脉先行下，林岚仍守民用底线，生态接续不会替病房与救援完成下一班。"
+        }
+      },
+      "choice_key": "I2:twin_pump_guardian:decision",
+      "choice_lines": {
+        "clinic_reserve": [
+          "她接下的水城职责是先补病房应急储备，同时把南湾较慢补给明确交给检修轮换。"
+        ],
+        "balanced_service": [
+          "她接下的水城职责是与阮衡共同轮换，病房额外回储较慢这一栏继续保留。"
+        ]
+      },
+      "legacy": {
+        "id": "person_linlan_legacy",
+        "title": "林岚 · 留下的职责",
+        "lines": [
+          "这次留档不作林岚的本人近况陈述，只保留此前交接过的职责：以水城病房为民用联络点，兼听港口救援无线电。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_linlan_legacy",
+        "voice_text": "林岚的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:ruanheng",
+      "name": "阮衡",
+      "region": "I1",
+      "assignment": "以港口工程联络为起点，向南湾与冠峰交接限流、检修与原始接法",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_ruanheng_shared_stewardship",
+          "title": "阮衡 · 留档去向",
+          "lines": [
+            "阮衡的工程留档仍从港口联络台接起，南湾工序与冠峰接口通过同一份可查接法交班。",
+            "共同维护要求他把限流与现场用途一起解释，不能把所有地区的需要缩成机器已经运转。"
+          ],
+          "voice_id": "final_story_person_ruanheng_shared_stewardship",
+          "voice_text": "共同照料下，阮衡把港口、南湾和冠峰的检修接法交给两边下一班共同核查。"
+        },
+        "industrial_lifeline": {
+          "id": "person_ruanheng_industrial_lifeline",
+          "title": "阮衡 · 留档去向",
+          "lines": [
+            "阮衡负责较快复工时的公开工业限流，港口与热崖的检修接法继续留档。",
+            "工业先行带来的便利与活脉较慢扩展的负担并列保存；较快生产不允许把幼根基础养分算作余量。"
+          ],
+          "voice_id": "final_story_person_ruanheng_industrial_lifeline",
+          "voice_text": "工业先行下，阮衡公开限流与较快复工安排，也留下活脉较慢扩展的负担。"
+        },
+        "living_vein": {
+          "id": "person_ruanheng_living_vein",
+          "title": "阮衡 · 留档去向",
+          "lines": [
+            "阮衡负责向港口与热崖说明较慢的扩产安排，基本生产与应急检修继续保留。",
+            "活脉先行没有消除工班需要，他把不能立即开工的理由与下一轮接续的责任留给同伴核查。"
+          ],
+          "voice_id": "final_story_person_ruanheng_living_vein",
+          "voice_text": "活脉先行下，阮衡说明较慢扩产，继续保住基本生产与应急检修。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_ruanheng_legacy",
+        "title": "阮衡 · 留下的职责",
+        "lines": [
+          "这次留档不作阮衡的本人近况陈述，只保留此前交接过的职责：以港口工程联络为起点，向南湾与冠峰交接限流、检修与原始接法。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_ruanheng_legacy",
+        "voice_text": "阮衡的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:atai",
+      "name": "阿苔",
+      "region": "F1",
+      "assignment": "巨木神殿育苗棚与幼根看护，通过冠峰交接支脉照护",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_atai_shared_stewardship",
+          "title": "阿苔 · 留档去向",
+          "lines": [
+            "阿苔的照护留档以巨木育苗棚为根，冠峰的支脉读数通过接续记录带回来。",
+            "共同照料让她与工程班一起核对负载，但不能让核对工作挤掉日常幼根照护。"
+          ],
+          "voice_id": "final_story_person_atai_shared_stewardship",
+          "voice_text": "共同照料下，阿苔从巨木育苗棚交接支脉照护，核对与日常看护一起继续。"
+        },
+        "industrial_lifeline": {
+          "id": "person_atai_industrial_lifeline",
+          "title": "阿苔 · 留档去向",
+          "lines": [
+            "阿苔继续负责保留的幼根与基础养分，活脉扩展在工业先行安排下较慢。",
+            "等待恢复的外缘根床仍有名字与照护次序，不会因为生产较快回归就从记录里消失。"
+          ],
+          "voice_id": "final_story_person_atai_industrial_lifeline",
+          "voice_text": "工业先行下，阿苔保住幼根，较慢扩展的根床仍留在照护次序里。"
+        },
+        "living_vein": {
+          "id": "person_atai_living_vein",
+          "title": "阿苔 · 留档去向",
+          "lines": [
+            "阿苔负责较快推进的根系接续，巨木育苗棚仍要按不同花期照护。",
+            "生态先行不是无限加快生长，她把另一岸较慢扩产的需要一并留在跨界交接中。"
+          ],
+          "voice_id": "final_story_person_atai_living_vein",
+          "voice_text": "活脉先行下，阿苔推进根系接续，也继续记着另一岸较慢扩产的需要。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_atai_legacy",
+        "title": "阿苔 · 留下的职责",
+        "lines": [
+          "这次留档不作阿苔的本人近况陈述，只保留此前交接过的职责：巨木神殿育苗棚与幼根看护，通过冠峰交接支脉照护。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_atai_legacy",
+        "voice_text": "阿苔的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:shuyao",
+      "name": "疏谣",
+      "region": "F2",
+      "assignment": "镜湖原件档案与校时索引，沿无线电继续回答两岸的核查",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_shuyao_shared_stewardship",
+          "title": "疏谣 · 留档去向",
+          "lines": [
+            "疏谣的职责留在镜湖档案台，跨界维护可以沿同一份索引查到出处。",
+            "共同照料需要持续解释，争议另留答复，不把一页漂亮的总结当作大家从此都同意。"
+          ],
+          "voice_id": "final_story_person_shuyao_shared_stewardship",
+          "voice_text": "共同照料下，疏谣留在镜湖维护原件索引，让两岸下一班继续核查。"
+        },
+        "industrial_lifeline": {
+          "id": "person_shuyao_industrial_lifeline",
+          "title": "疏谣 · 留档去向",
+          "lines": [
+            "疏谣继续维护镜湖原件索引，把较快复工与较慢活脉恢复放在能相互核查的时间线上。",
+            "档案不只收藏较快完成的一岸；未得到答复的需要也应有可继续追查的页码。"
+          ],
+          "voice_id": "final_story_person_shuyao_industrial_lifeline",
+          "voice_text": "工业先行下，疏谣把较快复工和较慢活脉恢复放进同一份可查索引。"
+        },
+        "living_vein": {
+          "id": "person_shuyao_living_vein",
+          "title": "疏谣 · 留档去向",
+          "lines": [
+            "疏谣继续维护镜湖原件索引，把较快根系恢复与较慢工业扩产放在同一时间线上。",
+            "生态接续的好消息不会覆盖工班的等待，说明与原始记录都要保留修订出处。"
+          ],
+          "voice_id": "final_story_person_shuyao_living_vein",
+          "voice_text": "活脉先行下，疏谣同时留下根系接续与工班等待的出处。"
+        }
+      },
+      "choice_key": "F2:mirror_evidence:decision",
+      "choice_lines": {
+        "publish_raw": [
+          "原件先公开的争议由她继续逐条回应；校时说明另加出处，不收走原件。"
+        ],
+        "publish_context": [
+          "共同发布后的说明由她与阮衡持续署名维护；等待解释的时间也留在档案里。"
+        ]
+      },
+      "legacy": {
+        "id": "person_shuyao_legacy",
+        "title": "疏谣 · 留下的职责",
+        "lines": [
+          "这次留档不作疏谣的本人近况陈述，只保留此前交接过的职责：镜湖原件档案与校时索引，沿无线电继续回答两岸的核查。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_shuyao_legacy",
+        "voice_text": "疏谣的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:qiaoshu",
+      "name": "乔述",
+      "region": "I3",
+      "assignment": "热崖换班台的冷却与生产安排，和简禾分开记录交付、返程、休息",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_qiaoshu_shared_stewardship",
+          "title": "乔述 · 留档去向",
+          "lines": [
+            "乔述的职责仍在热崖换班台，冷却与生产要跟跨界负载一起安排。",
+            "共同照料不意味着每一班永远延长工作；简禾保留返程与休息，乔述把生产计划接到同一张表上。"
+          ],
+          "voice_id": "final_story_person_qiaoshu_shared_stewardship",
+          "voice_text": "共同照料下，乔述把热崖生产与冷却安排接进跨界轮值，返程与休息仍留着。"
+        },
+        "industrial_lifeline": {
+          "id": "person_qiaoshu_industrial_lifeline",
+          "title": "乔述 · 留档去向",
+          "lines": [
+            "乔述负责较快复工后的工区安排，冷却、制动与交付的余地仍必须留下。",
+            "工业先行不能把返程与休息算成可以压掉的空白；他与简禾把下一班的交接分清。"
+          ],
+          "voice_id": "final_story_person_qiaoshu_industrial_lifeline",
+          "voice_text": "工业先行下，乔述安排较快复工，仍保留冷却、返程和工班休息。"
+        },
+        "living_vein": {
+          "id": "person_qiaoshu_living_vein",
+          "title": "乔述 · 留档去向",
+          "lines": [
+            "乔述负责把较慢扩产说清，基本工位、检修与应急班次继续保留。",
+            "生态先行使工厂需要调整节奏，不让等待中的工班在排班表之外自己想办法。"
+          ],
+          "voice_id": "final_story_person_qiaoshu_living_vein",
+          "voice_text": "活脉先行下，乔述说明较慢扩产，让等候中的工班仍留在排班表里。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_qiaoshu_legacy",
+        "title": "乔述 · 留下的职责",
+        "lines": [
+          "这次留档不作乔述的本人近况陈述，只保留此前交接过的职责：热崖换班台的冷却与生产安排，和简禾分开记录交付、返程、休息。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_qiaoshu_legacy",
+        "voice_text": "乔述的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:lingyin",
+      "name": "聆音",
+      "region": "F3",
+      "assignment": "菌谷听线台，分辨命令、养分与照护回声",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_lingyin_shared_stewardship",
+          "title": "聆音 · 留档去向",
+          "lines": [
+            "聆音的留档去向是菌谷听线台，异常命令与养分的作用继续分开。",
+            "共同维护要求两岸都能说明切了哪一条、留下哪一条，不以所有声音消失作为日常的目标。"
+          ],
+          "voice_id": "final_story_person_lingyin_shared_stewardship",
+          "voice_text": "共同照料下，聆音留在菌谷听线台，继续分清命令、养分和照护。"
+        },
+        "industrial_lifeline": {
+          "id": "person_lingyin_industrial_lifeline",
+          "title": "聆音 · 留档去向",
+          "lines": [
+            "聆音继续核对保留的养分支路，较慢生态扩展没有把基础照护一并停止。",
+            "她把等待中的接续与仍在工作的养分分开记，让下一班知道哪里要照看，而不是把安静当成修复。"
+          ],
+          "voice_id": "final_story_person_lingyin_industrial_lifeline",
+          "voice_text": "工业先行下，聆音分开记录较慢扩展与基础养分，下一班仍能找到该照看的地方。"
+        },
+        "living_vein": {
+          "id": "person_lingyin_living_vein",
+          "title": "聆音 · 留档去向",
+          "lines": [
+            "聆音负责较快生态接续时的听线核对，根系与命令仍按用途区分。",
+            "活脉先行不允许抹去另一岸的呼叫；工班与应急的较慢安排也继续进入跨界回应。"
+          ],
+          "voice_id": "final_story_person_lingyin_living_vein",
+          "voice_text": "活脉先行下，聆音推进听线核对，也不让另一岸的呼叫消失。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_lingyin_legacy",
+        "title": "聆音 · 留下的职责",
+        "lines": [
+          "这次留档不作聆音的本人近况陈述，只保留此前交接过的职责：菌谷听线台，分辨命令、养分与照护回声。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_lingyin_legacy",
+        "voice_text": "聆音的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:wenxu",
+      "name": "闻序",
+      "region": "I4",
+      "assignment": "离岸见证档，保留配额改动、出处、例外与待答复事项",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_wenxu_shared_stewardship",
+          "title": "闻序 · 留档去向",
+          "lines": [
+            "闻序的职责留在离岸见证档。共同照料需要共同核查，原先签下的配额治理方式继续有效。",
+            "他把改动与尚未回答的需要分开留档，不让一起维护变成无人负责。"
+          ],
+          "voice_id": "final_story_person_wenxu_shared_stewardship",
+          "voice_text": "共同照料下，闻序维护离岸见证档，配额治理与待回应需要继续可查。"
+        },
+        "industrial_lifeline": {
+          "id": "person_wenxu_industrial_lifeline",
+          "title": "闻序 · 留档去向",
+          "lines": [
+            "闻序核查较快生产恢复时的配额改动，公开或共签的原安排继续有效。",
+            "工业先行不是悄悄提高上限的许可，民用与活脉底线的例外仍要有人看见。"
+          ],
+          "voice_id": "final_story_person_wenxu_industrial_lifeline",
+          "voice_text": "工业先行下，闻序核查改动，较快生产没有绕过原有配额治理。"
+        },
+        "living_vein": {
+          "id": "person_wenxu_living_vein",
+          "title": "闻序 · 留档去向",
+          "lines": [
+            "闻序核查较快生态接续时的配额改动，公开或共签的原安排继续有效。",
+            "活脉先行不是省去基本生产与应急回应的许可，较慢扩产的地方需要仍留在见证档里。"
+          ],
+          "voice_id": "final_story_person_wenxu_living_vein",
+          "voice_text": "活脉先行下，闻序核查改动，较慢扩产的地方需要仍有可查记录。"
+        }
+      },
+      "choice_key": "I4:prism_array:decision",
+      "choice_lines": {
+        "public_caps": [
+          "他维护公开统一上限，并把特殊需要单列，避免同一个数盖住例外。"
+        ],
+        "regional_cosign": [
+          "他保留地区共同签署的双方回应，较慢协商与应急保底分开记录。"
+        ]
+      },
+      "legacy": {
+        "id": "person_wenxu_legacy",
+        "title": "闻序 · 留下的职责",
+        "lines": [
+          "这次留档不作闻序的本人近况陈述，只保留此前交接过的职责：离岸见证档，保留配额改动、出处、例外与待答复事项。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_wenxu_legacy",
+        "voice_text": "闻序的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:guanzhi",
+      "name": "冠枝",
+      "region": "F4",
+      "assignment": "冠峰接续台，向下一班交接两路底线与已签的恢复先后",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_guanzhi_shared_stewardship",
+          "title": "冠枝 · 留档去向",
+          "lines": [
+            "冠枝的职责留在冠峰接续台，把工业应急与活体脉络的交接都留下。",
+            "共同照料不是让中枢替大家永远决定；值守者仍要核对实际负载，并向两岸说明下一次改动。"
+          ],
+          "voice_id": "final_story_person_guanzhi_shared_stewardship",
+          "voice_text": "共同照料下，冠枝在冠峰交接两路底线与下一班的负载核对。"
+        },
+        "industrial_lifeline": {
+          "id": "person_guanzhi_industrial_lifeline",
+          "title": "冠枝 · 留档去向",
+          "lines": [
+            "冠枝把工业应急较快恢复与活脉较慢扩展并列交班，不把先后改写成只剩一端值得照护。",
+            "幼根、居民供水与撤离底线继续列在接续记录中，较慢的一路仍有负责的人。"
+          ],
+          "voice_id": "final_story_person_guanzhi_industrial_lifeline",
+          "voice_text": "工业先行下，冠枝把较快应急恢复和较慢活脉扩展并列交班。"
+        },
+        "living_vein": {
+          "id": "person_guanzhi_living_vein",
+          "title": "冠枝 · 留档去向",
+          "lines": [
+            "冠枝把生态较快恢复与工业较慢扩产并列交班，不把先后改写成另一岸可以无人回应。",
+            "应急、基本生产与居民供水继续列在接续记录中，较慢的一路仍有负责的人。"
+          ],
+          "voice_id": "final_story_person_guanzhi_living_vein",
+          "voice_text": "活脉先行下，冠枝把较快生态接续和较慢工业扩产并列交班。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_guanzhi_legacy",
+        "title": "冠枝 · 留下的职责",
+        "lines": [
+          "这次留档不作冠枝的本人近况陈述，只保留此前交接过的职责：冠峰接续台，向下一班交接两路底线与已签的恢复先后。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_guanzhi_legacy",
+        "voice_text": "冠枝的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:liudeng",
+      "name": "柳灯",
+      "region": "F2",
+      "assignment": "镜庭低檐灯序与末班交接，未接回的灯仍留待办",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_liudeng_shared_stewardship",
+          "title": "柳灯 · 留档去向",
+          "lines": [
+            "柳灯负责镜庭低檐灯序与末班交接，照护安排要能让下一班分清亮灯与可走。",
+            "共同维护把未接回的灯继续留在待办上；只有真正交接过的记录，才进入已接回一栏。"
+          ],
+          "voice_id": "final_story_person_liudeng_shared_stewardship",
+          "voice_text": "共同照料下，柳灯继续管低檐与末班交接，未接回的灯不会被写成已经到站。"
+        },
+        "industrial_lifeline": {
+          "id": "person_liudeng_industrial_lifeline",
+          "title": "柳灯 · 留档去向",
+          "lines": [
+            "柳灯仍负责低檐灯序与末班交接。较快复工不能把未归的班次当作已经归来。",
+            "她把待接灯与已完成交接分开，给较慢恢复的一端继续留一个能被听见的位置。"
+          ],
+          "voice_id": "final_story_person_liudeng_industrial_lifeline",
+          "voice_text": "工业先行下，柳灯保留未归班次，较快复工不替代真实交接。"
+        },
+        "living_vein": {
+          "id": "person_liudeng_living_vein",
+          "title": "柳灯 · 留档去向",
+          "lines": [
+            "柳灯仍负责低檐灯序与末班交接。较快根系恢复不能替代真实的返航与到站。",
+            "她把待接灯与已完成交接分开，另一岸较慢的轮班也继续留在灯序里。"
+          ],
+          "voice_id": "final_story_person_liudeng_living_vein",
+          "voice_text": "活脉先行下，柳灯保留末班返航，根系恢复不替代真实到站。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_liudeng_legacy",
+        "title": "柳灯 · 留下的职责",
+        "lines": [
+          "这次留档不作柳灯的本人近况陈述，只保留此前交接过的职责：镜庭低檐灯序与末班交接，未接回的灯仍留待办。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_liudeng_legacy",
+        "voice_text": "柳灯的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:jianhe",
+      "name": "简禾",
+      "region": "I3",
+      "assignment": "热崖换班记录，把交付、返程与休息分开交班",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_jianhe_shared_stewardship",
+          "title": "简禾 · 留档去向",
+          "lines": [
+            "简禾负责热崖换班留档，把实际交付、返程和休息分开。",
+            "共同维护不能让同一班永远替所有人补缺口；未交接的返程继续留着，不拿旧高台成果来抵。"
+          ],
+          "voice_id": "final_story_person_jianhe_shared_stewardship",
+          "voice_text": "共同照料下，简禾把交付、返程与休息分开，未交接的工作继续保留。"
+        },
+        "industrial_lifeline": {
+          "id": "person_jianhe_industrial_lifeline",
+          "title": "简禾 · 留档去向",
+          "lines": [
+            "简禾负责较快复工时的换班记录，冷却恢复与人的下班分开。",
+            "工业先行带来的工作不能把返程和休息压成表格外的空白，尚未完成的打捞仍保留待交接。"
+          ],
+          "voice_id": "final_story_person_jianhe_industrial_lifeline",
+          "voice_text": "工业先行下，简禾安排复工交班，不把返程和休息挤出记录。"
+        },
+        "living_vein": {
+          "id": "person_jianhe_living_vein",
+          "title": "简禾 · 留档去向",
+          "lines": [
+            "简禾负责较慢扩产时的换班记录，工班的需要不被从表上划走。",
+            "生态先行不让等待中的人失去去处，基本工位、检修与下一次回应都要继续写清。"
+          ],
+          "voice_id": "final_story_person_jianhe_living_vein",
+          "voice_text": "活脉先行下，简禾留着较慢扩产的工班需要，不让等待中的人消失。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_jianhe_legacy",
+        "title": "简禾 · 留下的职责",
+        "lines": [
+          "这次留档不作简禾的本人近况陈述，只保留此前交接过的职责：热崖换班记录，把交付、返程与休息分开交班。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_jianhe_legacy",
+        "voice_text": "简禾的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:miaosheng",
+      "name": "苗笙",
+      "region": "F3",
+      "assignment": "菌谷育苗与不同花期，新根床是否交接以本次记录为准",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_miaosheng_shared_stewardship",
+          "title": "苗笙 · 留档去向",
+          "lines": [
+            "苗笙的职责留在菌谷育苗处，低处留湿与高处花粉各有次序。",
+            "共同照料不把花期催成同一刻；尚未亲手养成并交接的根床继续列作待照看，不自动写成已经恢复。"
+          ],
+          "voice_id": "final_story_person_miaosheng_shared_stewardship",
+          "voice_text": "共同照料下，苗笙保留不同花期，尚未交接的根床仍要继续照看。"
+        },
+        "industrial_lifeline": {
+          "id": "person_miaosheng_industrial_lifeline",
+          "title": "苗笙 · 留档去向",
+          "lines": [
+            "苗笙继续照看基础育苗与花期，较慢生态扩展需要更清楚的交班。",
+            "工业先行不允许把晚开的花当成可以清空的空位，未接续的新芽仍有照护次序。"
+          ],
+          "voice_id": "final_story_person_miaosheng_industrial_lifeline",
+          "voice_text": "工业先行下，苗笙守住基础育苗，较慢接续的新芽仍留在照护次序里。"
+        },
+        "living_vein": {
+          "id": "person_miaosheng_living_vein",
+          "title": "苗笙 · 留档去向",
+          "lines": [
+            "苗笙负责较快推进的育苗接续，也继续保留高低花期的差别。",
+            "活脉先行不等于每一份育苗护送都已到站；真实完成的才留入交接，尚未完成的继续等待回应。"
+          ],
+          "voice_id": "final_story_person_miaosheng_living_vein",
+          "voice_text": "活脉先行下，苗笙推进育苗，也不把未到站的护送写成已经完成。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_miaosheng_legacy",
+        "title": "苗笙 · 留下的职责",
+        "lines": [
+          "这次留档不作苗笙的本人近况陈述，只保留此前交接过的职责：菌谷育苗与不同花期，新根床是否交接以本次记录为准。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_miaosheng_legacy",
+        "voice_text": "苗笙的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:chishou",
+      "name": "迟守",
+      "region": "I4",
+      "assignment": "离岸避风换班，接住异常、例外与下一班的回应",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_chishou_shared_stewardship",
+          "title": "迟守 · 留档去向",
+          "lines": [
+            "迟守负责避风换班，把例外与待答复事项带到下一班，而不是交给一句自动补偿。",
+            "共同照料需要两边都有可接续的轮值，谁已回应、谁还未回应必须分清。"
+          ],
+          "voice_id": "final_story_person_chishou_shared_stewardship",
+          "voice_text": "共同照料下，迟守接续避风轮值，把尚未得到回应的需要带到下一班。"
+        },
+        "industrial_lifeline": {
+          "id": "person_chishou_industrial_lifeline",
+          "title": "迟守 · 留档去向",
+          "lines": [
+            "迟守继续负责较快复工时的避风换班，公开或共签的旧安排都不能被生产进度盖过。",
+            "她把异常留给下一班核对，不把真实维护载体的到站换成一项空勾选。"
+          ],
+          "voice_id": "final_story_person_chishou_industrial_lifeline",
+          "voice_text": "工业先行下，迟守核对复工时的异常，真实到站不由空勾选替代。"
+        },
+        "living_vein": {
+          "id": "person_chishou_living_vein",
+          "title": "迟守 · 留档去向",
+          "lines": [
+            "迟守继续负责较快生态接续时的避风换班，应急与基本生产的呼叫也照常进入交班。",
+            "较慢扩产的一端仍需要有人回答，不能因为另一端恢复较快就无限延后。"
+          ],
+          "voice_id": "final_story_person_chishou_living_vein",
+          "voice_text": "活脉先行下，迟守继续接听应急与工班，较慢的一端仍有人回应。"
+        }
+      },
+      "choice_key": "I4:prism_array:decision",
+      "choice_lines": {
+        "public_caps": [
+          "她交班时另留统一上限之外的特殊需要，公开数值不替代实际回应。"
+        ],
+        "regional_cosign": [
+          "她交班时另留待共同签署的事项，应急保底不跟着一起等签字。"
+        ]
+      },
+      "legacy": {
+        "id": "person_chishou_legacy",
+        "title": "迟守 · 留下的职责",
+        "lines": [
+          "这次留档不作迟守的本人近况陈述，只保留此前交接过的职责：离岸避风换班，接住异常、例外与下一班的回应。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_chishou_legacy",
+        "voice_text": "迟守的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    },
+    {
+      "id": "npc:baiyu",
+      "name": "白榆",
+      "region": "F4",
+      "assignment": "冠峰留守与后日第一班，两路维护都留下接班责任",
+      "endings": {
+        "shared_stewardship": {
+          "id": "person_baiyu_shared_stewardship",
+          "title": "白榆 · 留档去向",
+          "lines": [
+            "白榆的职责留在冠峰留守台，下一班的核对同时看工业应急与活体脉络。",
+            "共同照料把长期接班留下，后日第一声呼叫仍须亲手接起；尚未完成的委托不会因结局自动交接。"
+          ],
+          "voice_id": "final_story_person_baiyu_shared_stewardship",
+          "voice_text": "共同照料下，白榆在冠峰接下一班，两路维护与后日呼叫一起继续。"
+        },
+        "industrial_lifeline": {
+          "id": "person_baiyu_industrial_lifeline",
+          "title": "白榆 · 留档去向",
+          "lines": [
+            "白榆把工业应急较快恢复与活脉较慢扩展分开留守，未恢复的接口继续有照护责任。",
+            "较快生产不是离开峰顶后就算全部完成；下一班还要接住另一端的呼叫。"
+          ],
+          "voice_id": "final_story_person_baiyu_industrial_lifeline",
+          "voice_text": "工业先行下，白榆守住较慢扩展的接口，另一端仍有下一班回应。"
+        },
+        "living_vein": {
+          "id": "person_baiyu_living_vein",
+          "title": "白榆 · 留档去向",
+          "lines": [
+            "白榆把生态较快恢复与工业较慢扩产分开留守，应急与基本生产继续有回应。",
+            "较快根系接续不是另一岸从此不需照护；下一班还要把等待中的工班接进记录。"
+          ],
+          "voice_id": "final_story_person_baiyu_living_vein",
+          "voice_text": "活脉先行下，白榆守住应急与基本生产，等待中的工班仍留在记录。"
+        }
+      },
+      "choice_key": "",
+      "choice_lines": {},
+      "legacy": {
+        "id": "person_baiyu_legacy",
+        "title": "白榆 · 留下的职责",
+        "lines": [
+          "这次留档不作白榆的本人近况陈述，只保留此前交接过的职责：冠峰留守与后日第一班，两路维护都留下接班责任。",
+          "原始记录、尚未答复的需要与下一班的照护仍留着，不把旧录音当作新的现场回应。"
+        ],
+        "voice_id": "final_story_person_baiyu_legacy",
+        "voice_text": "白榆的留档保留此前职责，不以旧录音代替本人的新回应。"
+      }
+    }
+  ],
+  "task_revisits": [
+    {
+      "region": "I1",
+      "bank": "npc_sidejobs_v1",
+      "job": "sidejob:I1:cooling_handoff",
+      "title": "冷却液不是凭空来的",
+      "stage_count": 999,
+      "lines": [
+        "港口冷却交接已经留下了本轮带货核对、到货与冷却安全的记录；回访不会把同一趟货再发一次发现。"
+      ],
+      "ready_line": "《冷却液不是凭空来的》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I2",
+      "bank": "npc_sidejobs_v1",
+      "job": "sidejob:I2:service_handoff",
+      "title": "把用品送到不挡路的地方",
+      "stage_count": 999,
+      "lines": [
+        "南湾服务交接保留了真实供应与接收、病房通路核对的同轮记录；这份日常没有替代原水城选择。"
+      ],
+      "ready_line": "《把用品送到不挡路的地方》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F2",
+      "bank": "npc_sidejobs_v1",
+      "job": "sidejob:F2:two_mirror_watch",
+      "title": "给夜班留一条旁路",
+      "stage_count": 999,
+      "lines": [
+        "双镜守望已经交接，原两镜三段光路的记录还在；那份光路证明不要求后来每次回访都重新调镜。"
+      ],
+      "ready_line": "《给夜班留一条旁路》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I3",
+      "bank": "npc_sidejobs_v1",
+      "job": "sidejob:I3:dock_recheck",
+      "title": "两公斤，亲自复核",
+      "stage_count": 999,
+      "lines": [
+        "高台复核已经交接，原真实2kg载荷与后续巡检保留在同一份记录里；停机以后的维护没有被旧交付盖掉。"
+      ],
+      "ready_line": "《两公斤，亲自复核》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F2",
+      "bank": "field_requests_next_v1",
+      "job": "F2",
+      "title": "灯下留名",
+      "stage_count": 999,
+      "lines": [
+        "灯下留名已经交接。两处灯牌和接单后的真实送灯作业留下了，人名与灯序放在同一页。"
+      ],
+      "ready_line": "《灯下留名》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I3",
+      "bank": "field_requests_next_v1",
+      "job": "I3",
+      "title": "把休息写进工单",
+      "stage_count": 999,
+      "lines": [
+        "把休息写进工单已经交接。两处读数与本轮冷却维护把返程、休息补进了换班记录。"
+      ],
+      "ready_line": "《把休息写进工单》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F3",
+      "bank": "field_requests_next_v1",
+      "job": "F3",
+      "title": "两处花开之间",
+      "stage_count": 999,
+      "lines": [
+        "两处花开之间已经交接。两份现场记录与真实授粉保留了不同花期，不用把晚开当成故障。"
+      ],
+      "ready_line": "《两处花开之间》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I4",
+      "bank": "field_requests_next_v1",
+      "job": "I4",
+      "title": "一张能换班的值守表",
+      "stage_count": 999,
+      "lines": [
+        "一张能换班的值守表已经交接。两处现场记录与本轮巡检让到过哪里、谁来接班分开留下。"
+      ],
+      "ready_line": "《一张能换班的值守表》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F4",
+      "bank": "field_requests_next_v1",
+      "job": "F4",
+      "title": "把下一班留在峰顶",
+      "stage_count": 999,
+      "lines": [
+        "把下一班留在峰顶已经交接。应急、幼根两份留守记录与本轮接口检查留在了同一份照护表。"
+      ],
+      "ready_line": "《把下一班留在峰顶》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I1",
+      "bank": "side_stories_dev88_v1",
+      "job": "I1:job88:return_lamp",
+      "title": "末班灯先亮",
+      "stage_count": 3,
+      "lines": [
+        "末班返航信标的电、回声与实际返航路线已经交接，岸边的低灯不再只是一条没有走过的指示。"
+      ],
+      "ready_line": "《末班灯先亮》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I1",
+      "bank": "side_stories_dev88_v1",
+      "job": "I1:job88:lost_patch",
+      "title": "一块还能用的补片",
+      "stage_count": 2,
+      "lines": [
+        "维修补片已经由原推拉实际送进接收圈并完成交接；这块可再用的料有了自己的打捞记录。"
+      ],
+      "ready_line": "《一块还能用的补片》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F1",
+      "bank": "side_stories_dev88_v1",
+      "job": "F1:job88:slow_bloom",
+      "title": "晚开的也留着",
+      "stage_count": 3,
+      "lines": [
+        "檐下幼株的回温、照光与真实生长已经交接，晚开的那一株没有被当成该清掉的故障。"
+      ],
+      "ready_line": "《晚开的也留着》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F1",
+      "bank": "side_stories_dev88_v1",
+      "job": "F1:job88:twin_bells",
+      "title": "回铃不是警报",
+      "stage_count": 2,
+      "lines": [
+        "两端回铃真实重合与高低航点已经交接，回响被留下作回应，而不是又记作一场警报。"
+      ],
+      "ready_line": "《回铃不是警报》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F1",
+      "bank": "side_stories_dev88_v1",
+      "job": "F1:job88:seed_pod",
+      "title": "坡下的检修孢",
+      "stage_count": 3,
+      "lines": [
+        "检修孢匣的回温与实体打捞已经交接，坡下那段不显眼的工作也留给下一班看得见。"
+      ],
+      "ready_line": "《坡下的检修孢》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I2",
+      "bank": "side_stories_dev88_v1",
+      "job": "I2:job88:clinic_nightlight",
+      "title": "夜里仍能找到门",
+      "stage_count": 3,
+      "lines": [
+        "外缘夜航灯的电、光与实际来路已经交接。下一班可以沿记录认门，不必重做旧病房供水。"
+      ],
+      "ready_line": "《夜里仍能找到门》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I2",
+      "bank": "side_stories_dev88_v1",
+      "job": "I2:job88:shared_notice",
+      "title": "同一张轮换公告",
+      "stage_count": 2,
+      "lines": [
+        "病房与南湾的同轮公告、独立留档电源已经交接，公告保留的是原来签下的轮换方案。"
+      ],
+      "ready_line": "《同一张轮换公告》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F2",
+      "bank": "side_stories_dev88_v1",
+      "job": "F2:job88:last_light",
+      "title": "接回最后一盏灯",
+      "stage_count": 4,
+      "lines": [
+        "末班送灯信标、真实护送到站与返航路线已经交接，这次接回的灯有自己的记录，不只借用旧灯序。"
+      ],
+      "ready_line": "《接回最后一盏灯》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I3",
+      "bank": "side_stories_dev88_v1",
+      "job": "I3:job88:hot_return",
+      "title": "热崖最后一次返程",
+      "stage_count": 5,
+      "lines": [
+        "回程冷却、真实拦截解除与小维修匣打捞已经交接。旧2kg高台成果没有被重复拿来抵这一次返程。"
+      ],
+      "ready_line": "《热崖最后一次返程》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F3",
+      "bank": "side_stories_dev88_v1",
+      "job": "F3:job88:nursery_path",
+      "title": "给新芽留一条路",
+      "stage_count": 5,
+      "lines": [
+        "新根床的照料、真实育苗护送和返程已经交接，下一班拿到的是确实走过的一条路。"
+      ],
+      "ready_line": "《给新芽留一条路》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F3",
+      "bank": "side_stories_dev88_v1",
+      "job": "F3:job88:separated_echo",
+      "title": "分开的线仍能回应",
+      "stage_count": 3,
+      "lines": [
+        "两端同时回声、养分端照光与高低路线已经交接，分开命令与养分之后仍能相互回应。"
+      ],
+      "ready_line": "《分开的线仍能回应》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I4",
+      "bank": "side_stories_dev88_v1",
+      "job": "I4:job88:storm_shift",
+      "title": "风暴来前的换班",
+      "stage_count": 4,
+      "lines": [
+        "备用电、真实接管、维护载体到站与避风返程已经交接，换班表里有了一次实际到达。"
+      ],
+      "ready_line": "《风暴来前的换班》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "I4",
+      "bank": "side_stories_dev88_v1",
+      "job": "I4:job88:exception_log",
+      "title": "上限以外的一行",
+      "stage_count": 3,
+      "lines": [
+        "原始回声、降温与独立留档电源已经交接，例外有地方继续被查到，没有悄悄改写已签上限。"
+      ],
+      "ready_line": "《上限以外的一行》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F4",
+      "bank": "side_stories_dev88_v1",
+      "job": "F4:job88:both_lifelines",
+      "title": "把两端一起带回",
+      "stage_count": 6,
+      "lines": [
+        "独立试根、应急试灯、真实通路与回望路线已经交接，两端都有亲手照料的记录。"
+      ],
+      "ready_line": "《把两端一起带回》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    },
+    {
+      "region": "F4",
+      "bank": "side_stories_dev88_v1",
+      "job": "F4:job88:next_response",
+      "title": "结局之后的第一声",
+      "stage_count": 4,
+      "lines": [
+        "后日交班台的冷却、电、回声与实际返航已经交接。这是结局以后的第一班，不是另一次最终选择。"
+      ],
+      "ready_line": "《结局之后的第一声》已有现场步骤，交接还等你回委托台；原记录继续保留。"
+    }
+  ],
+  "return_card": {
+    "id": "return_to_low_altitude",
+    "title": "落幕之后 · 从低空继续",
+    "lines": [
+      "主线留下的调查、八场停机与四次决定都保留。可以从地图返回各地，重读留档，或继续尚未交接的日常。",
+      "已经交接的支线只重读回应，不再领取同一份发现；还没接下的委托也不会因为结局替你做完。",
+      "第一声呼叫曾让小队降到低空。下一次有人需要回应时，记录与通路仍在，选择留下的责任也仍在。"
+    ],
+    "voice_id": "final_story_return_to_low_altitude",
+    "voice_text": "落幕以后，八区留档与日常继续开放。已交接的记录保留，未完成的委托不会自动做完。"
+  }
+}

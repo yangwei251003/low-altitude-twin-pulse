@@ -1,0 +1,742 @@
+{
+  "schema_version": 1,
+  "status": "scene_adapter_contract_not_completed_facts",
+  "authority_rule": "Facts are derived from real host mechanisms and committed with the original Store. G is only manual reading/consent. Client target IDs or authored expected values are never proof.",
+  "entities": [
+    {
+      "id": "F2:clock_source",
+      "region": "F2",
+      "position": [
+        -10,
+        8,
+        0
+      ],
+      "tags": [
+        "photosensitive",
+        "sustained_light_source"
+      ],
+      "light_level": 1,
+      "purpose": "真实定向光源，朝+X照向镜面"
+    },
+    {
+      "id": "F2:clock_mirror",
+      "region": "F2",
+      "position": [
+        21,
+        8,
+        0
+      ],
+      "tags": [
+        "photosensitive",
+        "rotatable",
+        "movable",
+        "mechanical",
+        "hackable"
+      ],
+      "angle_degrees": 15,
+      "size": [
+        0.3,
+        4,
+        4
+      ],
+      "purpose": "薄面局部X为法线，Godot Y轴旋转约+45度可把+X光反射到+Z；以真实两段射线为准，初始15度未对准"
+    },
+    {
+      "id": "F2:clock_mirror_bypass",
+      "region": "F2",
+      "position": [
+        27.495,
+        8,
+        3.75
+      ],
+      "tags": [
+        "photosensitive",
+        "rotatable",
+        "mechanical",
+        "hackable"
+      ],
+      "angle_degrees": -15,
+      "size": [
+        0.3,
+        4,
+        4
+      ],
+      "purpose": "可选双镜反射旁路；原镜75度、旁路镜15度朝原接收正面。原镜45度单镜解不变；角度须以真实薄盒最近命中验证。"
+    },
+    {
+      "id": "F2:clock_receiver",
+      "region": "F2",
+      "position": [
+        21,
+        8,
+        15
+      ],
+      "tags": [
+        "photosensitive"
+      ],
+      "size": [
+        4,
+        4,
+        0.5
+      ],
+      "purpose": "必须命中前面且两段光线都无障碍"
+    },
+    {
+      "id": "I3:hot_cassette",
+      "region": "I3",
+      "position": [
+        8,
+        8,
+        8
+      ],
+      "tags": [
+        "thermal",
+        "movable",
+        "fieldable"
+      ],
+      "temperature": 80,
+      "heat_capacity_j_per_c": 1000,
+      "purpose": "源热量"
+    },
+    {
+      "id": "I3:cooling_sink",
+      "region": "I3",
+      "position": [
+        16,
+        8,
+        8
+      ],
+      "tags": [
+        "thermal",
+        "mechanical"
+      ],
+      "temperature": 20,
+      "heat_capacity_j_per_c": 4000,
+      "purpose": "受热端，必须计量增热及向环境散热"
+    },
+    {
+      "id": "I3:cooling_valve",
+      "region": "I3",
+      "position": [
+        12,
+        8,
+        8
+      ],
+      "tags": [
+        "movable",
+        "mechanical",
+        "hackable",
+        "conductive",
+        "electrical"
+      ],
+      "initial_yaw_degrees": 90,
+      "port_a_local": [
+        -4,
+        0,
+        0
+      ],
+      "port_b_local": [
+        4,
+        0,
+        0
+      ],
+      "purpose": "实际连接两热端；90度初始开断，旋至端口各距热端0.4m内才通，不看UI开关"
+    },
+    {
+      "id": "I3:loaded_cassette",
+      "region": "I3",
+      "position": [
+        -10,
+        3,
+        18
+      ],
+      "tags": [
+        "movable",
+        "fieldable"
+      ],
+      "purpose": "实际拾取、吊载、稳定落架；复用原Custody"
+    },
+    {
+      "id": "I3:high_dock",
+      "region": "I3",
+      "position": [
+        17,
+        11.2,
+        -3
+      ],
+      "tags": [
+        "mechanical"
+      ],
+      "purpose": "高台原生落架与rest确认"
+    },
+    {
+      "id": "F3:signal_hold",
+      "region": "F3",
+      "position": [
+        5,
+        7,
+        6
+      ],
+      "tags": [
+        "echo_operable",
+        "mechanical",
+        "hackable"
+      ],
+      "purpose": "操作/分身/锁定旁路维持的一端"
+    },
+    {
+      "id": "F3:signal_breaker",
+      "region": "F3",
+      "position": [
+        12,
+        7,
+        6
+      ],
+      "tags": [
+        "movable",
+        "fieldable",
+        "mechanical"
+      ],
+      "purpose": "真实开断重复信号；与养分线路分离"
+    },
+    {
+      "id": "F3:nutrient_bridge",
+      "region": "F3",
+      "position": [
+        16,
+        8,
+        2
+      ],
+      "tags": [
+        "growable",
+        "photosensitive",
+        "thermal"
+      ],
+      "growth": 0,
+      "temperature": 20,
+      "purpose": "原生生长碰撞与完整支撑，不能装饰替代"
+    },
+    {
+      "id": "F3:nutrient_receiver",
+      "region": "F3",
+      "position": [
+        23,
+        14,
+        15
+      ],
+      "tags": [
+        "mechanical"
+      ],
+      "purpose": "Ecology F3:nutrient_01 取货后真正到货"
+    },
+    {
+      "id": "I4:witness_source",
+      "region": "I4",
+      "position": [
+        -10,
+        12,
+        4
+      ],
+      "tags": [
+        "photosensitive",
+        "sustained_light_source"
+      ],
+      "purpose": "三份原件的真实通信通道"
+    },
+    {
+      "id": "I4:witness_receiver",
+      "region": "I4",
+      "position": [
+        20,
+        12,
+        4
+      ],
+      "tags": [
+        "photosensitive",
+        "conductive",
+        "mechanical"
+      ],
+      "purpose": "接收哈希匹配的三份原件收据"
+    },
+    {
+      "id": "I4:defence_platform",
+      "region": "I4",
+      "position": [
+        14,
+        4.4,
+        -3
+      ],
+      "size": [
+        3,
+        0.4,
+        3
+      ],
+      "tags": [
+        "movable",
+        "fieldable",
+        "mechanical"
+      ],
+      "purpose": "可固定的实际平台，保留5m旁路"
+    },
+    {
+      "id": "I4:defence_breaker",
+      "region": "I4",
+      "position": [
+        14,
+        5.2,
+        -3
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "tags": [
+        "movable",
+        "mechanical",
+        "hackable",
+        "echo_operable"
+      ],
+      "purpose": "断开防御馈线，不能关民用总线"
+    },
+    {
+      "id": "F4:limited_bus",
+      "region": "F4",
+      "position": [
+        -12,
+        9,
+        6
+      ],
+      "tags": [
+        "conductive",
+        "electrical",
+        "mechanical",
+        "hackable"
+      ],
+      "purpose": "实际限流及有负载的工业接口"
+    },
+    {
+      "id": "F4:living_emitter",
+      "region": "F4",
+      "position": [
+        5,
+        12,
+        6
+      ],
+      "tags": [
+        "photosensitive",
+        "sustained_light_source",
+        "rotatable"
+      ],
+      "purpose": "照向根冠接收面",
+      "initial_yaw_degrees": -30
+    },
+    {
+      "id": "F4:living_support",
+      "region": "F4",
+      "position": [
+        14,
+        12,
+        6
+      ],
+      "tags": [
+        "growable",
+        "photosensitive",
+        "fieldable",
+        "thermal"
+      ],
+      "growth": 0,
+      "temperature": 20,
+      "purpose": "生长后更新真实碰撞并核对支撑"
+    },
+    {
+      "id": "F4:test_hold",
+      "region": "F4",
+      "position": [
+        10,
+        16,
+        -5
+      ],
+      "tags": [
+        "echo_operable",
+        "mechanical",
+        "hackable"
+      ],
+      "purpose": "一人分身或锁定旁路维持双端负载"
+    },
+    {
+      "id": "F4:industrial_gauge",
+      "region": "F4",
+      "position": [
+        15,
+        16,
+        -5
+      ],
+      "tags": [
+        "mechanical"
+      ],
+      "purpose": "同轮工业负载原始读数"
+    },
+    {
+      "id": "F4:living_gauge",
+      "region": "F4",
+      "position": [
+        21,
+        16,
+        -5
+      ],
+      "tags": [
+        "mechanical"
+      ],
+      "purpose": "同轮活脉负载原始读数"
+    },
+    {
+      "id": "F3:nutrient_west_support",
+      "region": "F3",
+      "position": [
+        13,
+        7.5,
+        2
+      ],
+      "size": [
+        2.8,
+        1,
+        3
+      ],
+      "tags": [],
+      "purpose": "养分桥西端真实支撑，顶Y8"
+    },
+    {
+      "id": "F3:nutrient_east_support",
+      "region": "F3",
+      "position": [
+        19,
+        7.5,
+        2
+      ],
+      "size": [
+        2.8,
+        1,
+        3
+      ],
+      "tags": [],
+      "purpose": "养分桥东端真实支撑，顶Y8"
+    },
+    {
+      "id": "I4:civilian_feed",
+      "region": "I4",
+      "position": [
+        -6,
+        6,
+        -3
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "tags": [
+        "conductive",
+        "electrical"
+      ],
+      "charge": 35,
+      "powered": true,
+      "purpose": "保留民用底线供能，防御隔离不能关掉它"
+    },
+    {
+      "id": "F4:industrial_load",
+      "region": "F4",
+      "position": [
+        -6,
+        9,
+        6
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "tags": [
+        "mechanical"
+      ],
+      "rated_w": 120,
+      "purpose": "实际插接后才工作的试验负载"
+    },
+    {
+      "id": "F4:lifeline_bus",
+      "region": "F4",
+      "position": [
+        -12,
+        9,
+        12
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "tags": [
+        "conductive",
+        "electrical"
+      ],
+      "charge": 35,
+      "powered": true,
+      "purpose": "保留居民应急支路"
+    },
+    {
+      "id": "F4:living_west_support",
+      "region": "F4",
+      "position": [
+        11,
+        11.5,
+        6
+      ],
+      "size": [
+        2.8,
+        1,
+        3
+      ],
+      "tags": [],
+      "purpose": "活脉桥西端实体支撑"
+    },
+    {
+      "id": "F4:living_east_support",
+      "region": "F4",
+      "position": [
+        17,
+        11.5,
+        6
+      ],
+      "size": [
+        2.8,
+        1,
+        3
+      ],
+      "tags": [],
+      "purpose": "活脉桥东端实体支撑"
+    },
+    {
+      "id": "F4:core_charge_breaker",
+      "region": "F4",
+      "position": [
+        -5,
+        14,
+        -27
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "tags": [
+        "movable",
+        "fieldable",
+        "mechanical",
+        "hackable"
+      ],
+      "purpose": "中枢重复电荷回路，实际拉开至少1.4m才开门"
+    },
+    {
+      "id": "F4:core_thermal_sink",
+      "region": "F4",
+      "position": [
+        0,
+        13,
+        -21
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "tags": [
+        "thermal"
+      ],
+      "temperature": 80,
+      "purpose": "中枢真实热部件，冷却到35C以下"
+    },
+    {
+      "id": "F4:core_living_support",
+      "region": "F4",
+      "position": [
+        5,
+        13,
+        -27
+      ],
+      "size": [
+        3,
+        0.4,
+        3
+      ],
+      "tags": [
+        "photosensitive",
+        "growable",
+        "thermal",
+        "fieldable"
+      ],
+      "growth": 0,
+      "temperature": 20,
+      "environment_light": 0,
+      "purpose": "中枢真实生长支点，需有效光与完整碰撞支撑"
+    },
+    {
+      "id": "F4:core_living_west_support",
+      "region": "F4",
+      "position": [
+        3,
+        12.5,
+        -27
+      ],
+      "size": [
+        0.8,
+        1,
+        3
+      ],
+      "tags": [],
+      "purpose": "中枢支点西端实体承台"
+    },
+    {
+      "id": "F4:core_living_east_support",
+      "region": "F4",
+      "position": [
+        7,
+        12.5,
+        -27
+      ],
+      "size": [
+        0.8,
+        1,
+        3
+      ],
+      "tags": [],
+      "purpose": "中枢支点东端实体承台"
+    }
+  ],
+  "facts": {
+    "I2:canal_exchange_verified": {
+      "physical_entities": [
+        "original_canal_cargo_custody",
+        "original_canal_transport_executor"
+      ],
+      "proof": "原执行器完整exchange回执与两只匣实际custody/rest；路线选项从实际历史导出"
+    },
+    "I2:canal_service_verified": {
+      "physical_entities": [
+        "original_canal_workbench"
+      ],
+      "proof": "真实completed scan/calibration与唯一service_credit；同拍Store保存"
+    },
+    "F2:paired_records": {
+      "manual_markers": [
+        "F2:record_low",
+        "F2:record_high"
+      ],
+      "proof": "每份原件显式近距且无遮挡读取，两个稳定收据"
+    },
+    "F2:clock_light_path": {
+      "physical_entities": [
+        "F2:clock_source",
+        "F2:clock_mirror",
+        "F2:clock_receiver"
+      ],
+      "proof": "实际发射→镜面→接收面两段射线与真实镜法线；手动/接管方式来自最后有效操作"
+    },
+    "I3:thermal_transfer_verified": {
+      "physical_entities": [
+        "I3:hot_cassette",
+        "I3:cooling_sink",
+        "I3:cooling_valve"
+      ],
+      "proof": "实际连通，源损失=受端增热+计量散热；保存完整首样，不靠直接降温"
+    },
+    "I3:loaded_dock_verified": {
+      "physical_entities": [
+        "I3:loaded_cassette",
+        "I3:high_dock"
+      ],
+      "proof": "原运输/Custody实际载货路径与低速落架/rest，起点/终点/路线回执一致"
+    },
+    "F3:signal_isolation_verified": {
+      "physical_entities": [
+        "F3:signal_hold",
+        "F3:signal_breaker",
+        "F3:nutrient_bridge"
+      ],
+      "proof": "维持操作端、实际开断重复信号、养分仍连接；分身/双人/锁定旁路任选"
+    },
+    "F3:nutrient_delivery_verified": {
+      "physical_entities": [
+        "F3:nutrient_bridge",
+        "F3:nutrient_receiver",
+        "F3:nutrient_01"
+      ],
+      "proof": "真实支持通路+权威Ecology先pickup后transport_arrival；客机事件无效"
+    },
+    "I4:evidence_delivery_verified": {
+      "physical_entities": [
+        "I4:witness_source",
+        "I4:witness_receiver"
+      ],
+      "proof": "通道实际可用、港口/镜湖/菌谷三份原件哈希接收收据匹配"
+    },
+    "I4:storm_route_verified": {
+      "physical_entities": [
+        "layout.I4.WestServiceDeck",
+        "layout.I4.EastLookout"
+      ],
+      "proof": "房主采样连续航迹+实际抵达；无须伤害触发，不能单靠终点距离"
+    },
+    "I4:defence_isolated": {
+      "physical_entities": [
+        "I4:defence_platform",
+        "I4:defence_breaker"
+      ],
+      "proof": "平台实际静止与支持、防御电路开断、民用电路保留"
+    },
+    "F4:industrial_link_verified": {
+      "physical_entities": [
+        "F4:limited_bus"
+      ],
+      "proof": "实际连通且真实负载不超限，应急支路仍通电"
+    },
+    "F4:living_link_verified": {
+      "physical_entities": [
+        "F4:living_emitter",
+        "F4:living_support"
+      ],
+      "proof": "真实光路、可承重碰撞连续、营养保留；或实有稳定旁路"
+    },
+    "F4:dual_load_verified": {
+      "physical_entities": [
+        "F4:test_hold",
+        "F4:industrial_gauge",
+        "F4:living_gauge"
+      ],
+      "proof": "同轮测试serial的双端真实负载与回流记录，不能复用不同轮一半记录",
+      "manual_markers": [
+        "F4:industrial_gauge",
+        "F4:living_gauge"
+      ]
+    },
+    "F4:plans_reviewed": {
+      "manual_markers": [
+        "F4:choice_terminal"
+      ],
+      "proof": "同一面板展开的三方案收益与负担均显式阅读；此步不作选择"
+    }
+  },
+  "boss_fact_template": {
+    "region:boss_observed": "进入真实arena后房主观察warning→active→recovery完整一轮，输出observed",
+    "region:boss_defeated": "仅原Store已提交boss victory/encounter receipt/reward去重后输出committed",
+    "physical_part_ids": "boss_id:part_id；part_id来自bosses.json.parts，核心后缀core",
+    "weakpoint_position_rule": "Root从实体Node3D导出，禁止以静态marker命中代替",
+    "environment_rule": "从真实泵水位/镜面与投影/热与速度/信号开断/接收面/活脉支持中采样完整环境字典；未实现的物理门不默认true"
+  },
+  "chapter_choice_template": {
+    "fact": "region:chapter_choice",
+    "physical_anchor": "region:choice_terminal",
+    "proof": "展示收益与明确代价后显式确认；Root原consensus双人通过；先建独立分支再同Store提交；失败不发布对白",
+    "world_choice_storage": "world.actions.opening.choices.<objective_id>",
+    "note": "四次为I2守卫结尾、F2调查结尾、I4阵列结尾、F4中枢结尾；I2既有共用桥不消耗预算。"
+  }
+}

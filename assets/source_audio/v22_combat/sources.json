@@ -1,0 +1,99 @@
+{
+  "archive_sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+  "original_archive": "asset_sources/v2/audio/downloads/kenney_impact-sounds.zip",
+  "source_page": "https://kenney.nl/assets/impact-sounds",
+  "license": "CC0-1.0",
+  "license_verified": "2026-10-14 official Kenney asset page and bundled License.txt",
+  "selected_files": {
+    "impactPlate_light_000": {
+      "file": "originals/impactPlate_light_000.ogg",
+      "sha256": "6e797cf8a5bfc52d7ed5eb47c227974c1cf2a674954fec5b539cea7d62c7282c",
+      "archive_member": "Audio/impactPlate_light_000.ogg"
+    },
+    "impactPlate_light_001": {
+      "file": "originals/impactPlate_light_001.ogg",
+      "sha256": "947915c2eb6ac57ee08fd3a48b297fd108d69abc72076e79882c21cad0eef56e",
+      "archive_member": "Audio/impactPlate_light_001.ogg"
+    },
+    "impactPlate_light_002": {
+      "file": "originals/impactPlate_light_002.ogg",
+      "sha256": "8ac5869ea434cf0d364872774efe70b2d666a4f02ba35ddfc1e051d336721be8",
+      "archive_member": "Audio/impactPlate_light_002.ogg"
+    },
+    "impactMetal_medium_000": {
+      "file": "originals/impactMetal_medium_000.ogg",
+      "sha256": "a96f879fec0864a8938e0c745b6996a6c5679c16a234ce31a01cc995e8401003",
+      "archive_member": "Audio/impactMetal_medium_000.ogg"
+    },
+    "impactMetal_medium_001": {
+      "file": "originals/impactMetal_medium_001.ogg",
+      "sha256": "e8a9eaba7c4d27422e4eeb3e6c7100d5d7dc0f83e005efc98c960adcc5265337",
+      "archive_member": "Audio/impactMetal_medium_001.ogg"
+    },
+    "impactMetal_medium_002": {
+      "file": "originals/impactMetal_medium_002.ogg",
+      "sha256": "7e89ce2ca0dbda95ea2b78d4b50791cab35c10d20e9f5ccd45dd0b00e99ff548",
+      "archive_member": "Audio/impactMetal_medium_002.ogg"
+    },
+    "impactSoft_heavy_000": {
+      "file": "originals/impactSoft_heavy_000.ogg",
+      "sha256": "49e7ca88743fca974bb8676ea138b751cfd8f9033b5e7af8736c2a215d6edbc1",
+      "archive_member": "Audio/impactSoft_heavy_000.ogg"
+    },
+    "footstep_concrete_000": {
+      "file": "originals/footstep_concrete_000.ogg",
+      "sha256": "d7267e183067757c92c169de2a379abea592cfca6b39bb2e8feea15221ad79fe",
+      "archive_member": "Audio/footstep_concrete_000.ogg"
+    },
+    "impactSoft_heavy_001": {
+      "file": "originals/impactSoft_heavy_001.ogg",
+      "sha256": "4d0096364ba9e46119d2ff6df493fdc101bd2e1efae061da5e5f77a53b3fdcb6",
+      "archive_member": "Audio/impactSoft_heavy_001.ogg"
+    },
+    "footstep_concrete_001": {
+      "file": "originals/footstep_concrete_001.ogg",
+      "sha256": "507a75eb19b897087855a3be3cf11a12d7fa37d143ad535eeebe0b8031c7325d",
+      "archive_member": "Audio/footstep_concrete_001.ogg"
+    },
+    "impactSoft_heavy_002": {
+      "file": "originals/impactSoft_heavy_002.ogg",
+      "sha256": "d130ae541951243d3f6ed963d0057450a445ffe117fbf9a084d34eb1635cb563",
+      "archive_member": "Audio/impactSoft_heavy_002.ogg"
+    },
+    "footstep_concrete_002": {
+      "file": "originals/footstep_concrete_002.ogg",
+      "sha256": "b21fa546d74941196b25da8a20b7010abd8c05c4fcf93545d1f344e66a664e13",
+      "archive_member": "Audio/footstep_concrete_002.ogg"
+    },
+    "impactMetal_light_000": {
+      "file": "originals/impactMetal_light_000.ogg",
+      "sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d",
+      "archive_member": "Audio/impactMetal_light_000.ogg"
+    },
+    "impactMetal_light_001": {
+      "file": "originals/impactMetal_light_001.ogg",
+      "sha256": "fba69c467ddd85da7b1d82e259f936b876d9ba6a3d6f1b24bdd10468e46bfe08",
+      "archive_member": "Audio/impactMetal_light_001.ogg"
+    },
+    "impactMetal_light_002": {
+      "file": "originals/impactMetal_light_002.ogg",
+      "sha256": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29",
+      "archive_member": "Audio/impactMetal_light_002.ogg"
+    },
+    "impactMetal_heavy_000": {
+      "file": "originals/impactMetal_heavy_000.ogg",
+      "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831",
+      "archive_member": "Audio/impactMetal_heavy_000.ogg"
+    },
+    "impactMetal_heavy_001": {
+      "file": "originals/impactMetal_heavy_001.ogg",
+      "sha256": "83554049f81f4db9209379e103c30bfa63f65c42189a03f300b045c2c82e23ae",
+      "archive_member": "Audio/impactMetal_heavy_001.ogg"
+    },
+    "impactMetal_heavy_002": {
+      "file": "originals/impactMetal_heavy_002.ogg",
+      "sha256": "b914c8f1eb7c0f34bb165d7c77f4be0351f6be0660c13c53e65424e262e2c093",
+      "archive_member": "Audio/impactMetal_heavy_002.ogg"
+    }
+  }
+}

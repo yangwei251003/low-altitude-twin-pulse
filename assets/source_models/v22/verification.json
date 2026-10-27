@@ -1,0 +1,152 @@
+{
+  "kind": "exported_model_validation_not_gameplay",
+  "count": 13,
+  "total_unique_triangles": 6799,
+  "checks": [
+    {
+      "id": "weather_station",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 3,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 25
+    },
+    {
+      "id": "ventilator",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 2,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 20
+    },
+    {
+      "id": "gantry_crane",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 3,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 36
+    },
+    {
+      "id": "lift_platform",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 24
+    },
+    {
+      "id": "shore_bank",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 15
+    },
+    {
+      "id": "bridge_deck",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 34
+    },
+    {
+      "id": "floating_dock",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 32
+    },
+    {
+      "id": "pedestrian_worker",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 1,
+      "animations": 1,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 16
+    },
+    {
+      "id": "pedestrian_walker",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 1,
+      "animations": 2,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 15
+    },
+    {
+      "id": "pedestrian_citizen",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 1,
+      "animations": 3,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 15
+    },
+    {
+      "id": "construction_barrier",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 12
+    },
+    {
+      "id": "shore_reeds",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 1,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 40
+    },
+    {
+      "id": "seagull",
+      "color_attributes": true,
+      "normal_attributes": true,
+      "surfaces": 3,
+      "skins": 0,
+      "animations": 0,
+      "sha256_matches_manifest": true,
+      "editable_blend_loaded": true,
+      "editable_object_count": 5
+    }
+  ],
+  "render": "assets/source_models/v22/catalog_cpu_render.png",
+  "render_engine": "Blender Cycles CPU"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "namespace": "world.npc_sidejobs_v1",
+  "optional": true,
+  "max_active": 4,
+  "id": "sidejob:I1:cooling_handoff",
+  "region": "I1",
+  "npc_id": "I1:water_01",
+  "title": "冷却液不是凭空来的",
+  "offer": "下一趟冷却水要交给检修台。装好水以后帮我核一次货，再跟到交接处，看看这趟水有没有顺利送到。",
+  "steps": [
+    "联络运水机，接下本轮交接",
+    "装水后，靠近带货的运水机按{contact}验货",
+    "等这轮水送到冷却工位，确认有液、未过热后回报"
+  ],
+  "work_hint": "保持装水点供能，留意热交换旁路。找带着本轮水的运水机，按{contact}核货，再跟到交接处。",
+  "ready": "这轮水已到检修台。等台里还有冷却液、旁路低于85℃，靠近我按{contact}交接。",
+  "consequence": "这趟冷却水交接已经记下了。谢谢你一路跟到检修台；下次见面，我还记得是你帮忙核的货。",
+  "reward_id": "npc_sidejob:I1:cooling_handoff",
+  "load_target": "I1:water_service",
+  "arrival_target": "I1:maintenance_cooling",
+  "evidence": "原Host Ecology本轮cargo_loaded→近距NpcContact当前cargo=true且cycles相同→同cycle transport_arrival，均source_serial大于接受基线；回报读真实coolant>=1、thermal<85。",
+  "not_a_claim": "生态路线载货，不是PinJoint刚体运输；不凭coolant下降当维修证明。",
+  "acceptance": "首次近距联络仅展示邀约；逐句结束后再按{contact}近距联络才确认接受。提示键名由当前玩家UI传入。",
+  "failure_policy": "断电/风暴按原NPC策略返供、等候或避风，不自动判任务失败。离区保留已提交进度，未提交观察不回补；保存失败不显示完成或发奖。",
+  "reward_policy": "只新增该条唯一personal.discovery与NPC完成对白，沿原Store同事务和原Guest回执/重连catchup去重；不增加货币、补血或84主线奖励。"
+}

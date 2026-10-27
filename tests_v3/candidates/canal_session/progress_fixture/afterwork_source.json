@@ -1,0 +1,7 @@
+{
+  "source": "evidence\\departure_20261020_220204_b80a06\\result.json",
+  "source_sha256": "84149699b96b7539c2103b081550f32995ec14f80f3eaf1cef9f42944bfb8f9a",
+  "fixture_sha256": "423a6921a2da27c2d072c39fc3f8891926a2f784b0ac14344c0c855b2800c184",
+  "record": "snapshots.latest_roundtrip.saved",
+  "scope": "Actual commit, one work receipt, lift and all three departure routes already captured/Store/restored. Source run 179 checks/1 failed: real same-anchor carrier pickup could not descend from high work hold. This fixture retains the real blocked pending pickup and original momentum; no Safe terminal/claim is synthesized."
+}

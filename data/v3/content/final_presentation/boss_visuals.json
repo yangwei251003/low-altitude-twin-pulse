@@ -1,0 +1,36 @@
+{
+  "schema":1,
+  "status":"developed_not_playtested",
+  "visual_contract":"Visual children only. Existing target IDs, positions, collision spheres, health, attack rules, warning geometry and authoritative victory remain unchanged. Decorative structure is matte and never carries weak-point highlights.",
+  "bosses":{
+    "I2":{"id":"twin_pump_guardian","name":"双泵守卫","silhouette":"two unequal pump barrels joined by a dark return manifold","weakpoints":{"low_pump":"low impeller hub","high_pump":"high impeller hub","core":"split manifold regulator"},"reuse":{"path":"res://assets/v3/thermal_bypass/thermal_bypass.glb","nodes":["StaticHousing","FanBlades"]},"dormant":"pump shutters folded down, rotors dark, manifold remains on its suspension"},
+    "F2":{"id":"mirrorwing_warden","name":"折翼守望者","silhouette":"asymmetric broken wing and complete wing around a narrow avian archive core","weakpoints":{"true_left_wing":"cracked left mirror hinge","true_right_wing":"right mirror hinge","core":"true-body archive lens"},"reuse":{"path":"res://assets/v3/crown/parasitic_crown.glb","nodes":["LeafMembrane_-1","LeafMembrane_1","CoreSeed"]},"dormant":"wings fold inward with their original hinges; archive lens goes dark, no replacement illusion target"},
+    "I3":{"id":"furnace_crawler","name":"熔炉履带兽","silhouette":"existing physical chassis with two dark tread bands and a furnace vent crown","weakpoints":{"radiator_west":"west cooling fan","radiator_east":"east cooling fan","core":"furnace inspection throat"},"reuse":{"path":"res://assets/v3/thermal_bypass/thermal_bypass.glb","nodes":["FanBlades","HeatPipes"]},"dormant":"tread bands stop, fan shutters slump, furnace throat is extinguished"},
+    "F3":{"id":"mycelial_choir","name":"鸣菌共生体","silhouette":"three unequal voice caps and a gilled command crown; nutrient roots remain distinct","weakpoints":{"west_voice":"west command gill","upper_voice":"upper command gill","east_voice":"east command gill","core":"central command spore"},"reuse":{"path":"res://assets/v3/fantasy_kit/photosensitive_roots.glb","nodes":["Static_Core","LeafPivot_N_FK_Leaf"]},"dormant":"command gills close and droop while intact matte nutrient tendrils remain"},
+    "I4":{"id":"prism_array","name":"棱镜防御阵列","silhouette":"two triangular prism sockets joined to a hexagonal optical distributor","weakpoints":{"west_prism":"west prism shutter","east_prism":"east prism shutter","core":"hexagonal distributor aperture"},"reuse":{"path":"res://assets/v3/industrial_kit/power_relay_cabinet.glb","nodes":["Terminal_A","Terminal_B","Terminal_C"]},"dormant":"prism vanes tilt into their cages and the optical distributor is unlit"},
+    "F4":{"id":"twin_vein_core","name":"共脉中枢","silhouette":"braided industrial and living support with three visibly different return pods","weakpoints":{"charge_return":"copper return coil","thermal_return":"thermal fan crown","living_return":"living support bud","core":"shared seed and industrial retaining ring"},"reuse":{"path":"res://assets/v3/crown/parasitic_crown.glb","nodes":["CoreSeed","LeafMembrane_1"]},"dormant":"return shutters rest open but dark; the shared seed remains held by both lifelines, without choosing an ending"}
+  },
+  "source_assets":[
+    {"glb":"res://assets/v3/thermal_bypass/thermal_bypass.glb","editable":"asset_sources/v3/thermal_bypass/thermal_bypass.blend"},
+    {"glb":"res://assets/v3/crown/parasitic_crown.glb","editable":"asset_sources/v3/crown/parasitic_crown.blend"},
+    {"glb":"res://assets/v3/fantasy_kit/photosensitive_roots.glb","editable":"asset_sources/v3/fantasy_kit/photosensitive_roots.blend"},
+    {"glb":"res://assets/v3/industrial_kit/power_relay_cabinet.glb","editable":"asset_sources/v3/industrial_kit/power_relay_cabinet.blend"}
+  ],
+  "regions":{
+    "I1":{"casing":"aebfbc","dark":"455d68","trim":"7d9699","accent":"d0b07a","organic":"8d9d80","mirror":"a7bec5","signal":"e2b957","district":"潮湾科技港"},
+    "F1":{"casing":"aab19a","dark":"596c5a","trim":"829173","accent":"c9ba85","organic":"8ba47a","mirror":"adc6b5","signal":"e2b957","district":"巨木神殿"},
+    "I2":{"casing":"b6c6c0","dark":"455e68","trim":"7b9ba0","accent":"d2b47d","organic":"8eaa96","mirror":"afd0cc","signal":"e2b957","district":"潮汐水城"},
+    "F2":{"casing":"b3b89f","dark":"566c62","trim":"8b9c8e","accent":"c9c39a","organic":"8caa8b","mirror":"bad7d0","signal":"e2b957","district":"镜湖悬庭"},
+    "I3":{"casing":"aeb7ad","dark":"465c65","trim":"87918c","accent":"be9268","organic":"879b7f","mirror":"a5bfc3","signal":"e2b957","district":"热崖制造带"},
+    "F3":{"casing":"b1b29a","dark":"586a59","trim":"8b927a","accent":"b9a7bd","organic":"8ca68b","mirror":"a8c7b7","signal":"e2b957","district":"鸣菌幽谷"},
+    "I4":{"casing":"b2bfc1","dark":"455d6b","trim":"8199a6","accent":"c4b184","organic":"91a594","mirror":"b6cedd","signal":"e2b957","district":"离岸共振阵列"},
+    "F4":{"casing":"b5baa0","dark":"586b60","trim":"8b9c84","accent":"d0c196","organic":"8faa88","mirror":"b2d2c2","signal":"e2b957","district":"天脉冠峰"}
+  },
+  "integration":{
+    "decorate":"Call once after arena targets and any I3 PhysicalCrawlerChassis have been created; Root may hide only returned original_meshes.",
+    "apply_view":"Call after the original arena.apply_view(state,open_parts,defeated). No self-processing or tween clock exists.",
+    "victory":"Only the supplied authoritative defeated boolean enables independent DormantRemains. core_hp=0 by itself does not display a saved victory.",
+    "region_material":"Shared eight-region finish pool for additive scenery; does not replace original ground/water shaders.",
+    "make_region_badge":"A compact editable eight-region identity plate for an existing sign or landmark face; not an automatic prop scatter."
+  }
+}

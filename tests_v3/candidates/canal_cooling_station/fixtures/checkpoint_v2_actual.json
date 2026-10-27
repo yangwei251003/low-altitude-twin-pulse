@@ -1,0 +1,439 @@
+{
+  "checkpoint": {
+    "beneficiary": {
+      "angular_velocity": [
+        -0.000236926265642978,
+        -8.67252026637289e-07,
+        0.000207608754863031
+      ],
+      "health": 100.0,
+      "id": "I2:canal_beneficiary_0",
+      "maximum_health": 100.0,
+      "pose": [
+        0.99999326467514,
+        0.00366361020132899,
+        3.19232640322298e-10,
+        -0.00366358831524849,
+        0.999987363815308,
+        -0.00344571052119136,
+        -1.26240593090188e-05,
+        0.00344568723812699,
+        0.999994039535522,
+        14.8320875167847,
+        1.79999804496765,
+        14.0551166534424
+      ],
+      "velocity": [
+        0.0182282403111458,
+        -5.29998711584767e-09,
+        0.0172070097178221
+      ]
+    },
+    "cargos": {
+      "I2:canal_cassette_0": {
+        "angular_velocity": [
+          -5.2528148444253e-06,
+          -7.4159153484743e-08,
+          -7.50577555663767e-06
+        ],
+        "holder": "north_work",
+        "pose": [
+          0.994970202445984,
+          0.0193311981856823,
+          -0.0982881039381027,
+          -0.0186687335371971,
+          0.999796390533447,
+          0.00765534862875938,
+          0.0984160751104355,
+          -0.00578192993998528,
+          0.995128571987152,
+          10.5373773574829,
+          0.444936752319336,
+          5.99860334396362
+        ],
+        "stable_usec": 350000,
+        "support_gap_m": -0.0100451409816742,
+        "velocity": [
+          1.48177969094832e-06,
+          -6.6309723933955e-07,
+          -1.04026184999384e-06
+        ]
+      },
+      "I2:canal_cassette_1": {
+        "angular_velocity": [
+          0.0,
+          -4.65661287307739e-10,
+          0.0
+        ],
+        "holder": "south_1",
+        "pose": [
+          0.999770045280457,
+          -0.0201202668249607,
+          -0.00741556566208601,
+          0.0201156698167324,
+          0.999797403812408,
+          -0.00069381546927616,
+          0.00742802303284407,
+          0.000544486858416349,
+          0.999972283840179,
+          7.71228694915771,
+          0.446044385433197,
+          23.917121887207
+        ],
+        "stable_usec": 350000,
+        "support_gap_m": -0.00804805755615234,
+        "velocity": [
+          -7.27595761418343e-12,
+          0.0,
+          -9.09494701772928e-11
+        ]
+      }
+    },
+    "carrier": {
+      "angular_velocity": [
+        -0.00012213496665936,
+        -4.66157104028753e-07,
+        0.000292579148663208
+      ],
+      "health": 100.0,
+      "id": "carrier",
+      "maximum_health": 100.0,
+      "pose": [
+        0.999993979930878,
+        0.00347557617351413,
+        -1.86960278369952e-08,
+        -0.00347555847838521,
+        0.999988913536072,
+        -0.00318329408764839,
+        -1.10450855572708e-05,
+        0.00318327499553561,
+        0.999994933605194,
+        10.6187238693237,
+        2.19999623298645,
+        6.01790952682495
+      ],
+      "velocity": [
+        -0.000682129466440529,
+        4.35930269304663e-06,
+        -0.00141702801920474
+      ]
+    },
+    "carrier_anchor": "north_work",
+    "cooling": {
+      "axis": {
+        "algorithm": "guided_axis_v1",
+        "config_sha256": "9e5d7915ae1f9927a88fd2238558850a10369d223e686904f661e7de7f2da762",
+        "last_serial": {
+          "1": 9
+        },
+        "position_m": 0.116931304157173,
+        "velocity_mps": 0.216137379764724
+      },
+      "charge": 35.0,
+      "charge_serial": 7,
+      "contact_observation": {
+        "south_0": "",
+        "south_1": "I2:canal_cassette_1"
+      },
+      "id": "I2:canal_cooling_station_0",
+      "layout_sha256": "bad3d14bfcc40018c427f6b824f60449b3158383aab3db95af328e1ee5ef3ce6",
+      "paused": false,
+      "revision": 27,
+      "version": 1
+    },
+    "tools": {
+      "ProbeArm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.25,
+        1.01999998092651,
+        4.65000009536743
+      ],
+      "ProbeCarriage": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.25,
+        1.05250000953674,
+        4.65000009536743
+      ],
+      "ProbeHead": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.25,
+        0.939999997615814,
+        4.65000009536743
+      ],
+      "ProbeNeck": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.25,
+        0.990000009536743,
+        4.65000009536743
+      ]
+    },
+    "workbench_charge": 20.0,
+    "workbench_charge_serial": 1
+  },
+  "history": {
+    "first_departure": {
+      "beneficiary_id": "I2:canal_beneficiary_0",
+      "route_end": [
+        14.75,
+        1.79999995231628,
+        14.0
+      ],
+      "work_serial": 11
+    },
+    "first_work": {
+      "action": {
+        "actor": "workbench",
+        "cassette_id": "I2:canal_cassette_0",
+        "destination": "north_work",
+        "job": 1,
+        "kind": "work",
+        "route": "stationary",
+        "serial": 11,
+        "source": "north_work"
+      },
+      "beneficiary_id": "I2:canal_beneficiary_0",
+      "beneficiary_pose": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.60001134872437,
+        0.560000002384186,
+        5.99999666213989
+      ],
+      "frame": 10635,
+      "measurements": [
+        {
+          "bounds_position": [
+            5.90001153945923,
+            0.319999992847443,
+            5.29999685287476
+          ],
+          "bounds_size": [
+            1.39999961853027,
+            0.480000019073486,
+            1.39999961853027
+          ],
+          "frame": 9883,
+          "gap_m": 0.0999999642372131,
+          "hit": [
+            6.25,
+            0.800000011920929,
+            6.0
+          ],
+          "stage": 0,
+          "tool": [
+            6.25,
+            0.939999997615814,
+            6.0
+          ]
+        },
+        {
+          "bounds_position": [
+            5.90001153945923,
+            0.319999992847443,
+            5.29999685287476
+          ],
+          "bounds_size": [
+            1.39999961853027,
+            0.480000019073486,
+            1.39999961853027
+          ],
+          "frame": 10074,
+          "gap_m": 0.0999999642372131,
+          "hit": [
+            6.94999980926514,
+            0.800000011920929,
+            6.0
+          ],
+          "stage": 1,
+          "tool": [
+            6.94999980926514,
+            0.939999997615814,
+            6.0
+          ]
+        },
+        {
+          "bounds_position": [
+            5.90001153945923,
+            0.319999992847443,
+            5.29999685287476
+          ],
+          "bounds_size": [
+            1.39999961853027,
+            0.480000019073486,
+            1.39999961853027
+          ],
+          "frame": 10265,
+          "gap_m": 0.0999999642372131,
+          "hit": [
+            6.25,
+            0.800000011920929,
+            6.0
+          ],
+          "stage": 2,
+          "tool": [
+            6.25,
+            0.939999997615814,
+            6.0
+          ]
+        }
+      ],
+      "scan_distance_m": 1.39999961853027
+    }
+  },
+  "kind": "canal_capture_only_v2",
+  "layout": {
+    "id": "I2:canal_workbench_site_v1",
+    "schema": 2,
+    "sha256": "eea40cfed809423aca335653242c152031f84d8588b8b78ceb502b63cfac9aae"
+  },
+  "physics": {
+    "frame": 12135,
+    "observed_usec": 350000,
+    "rate_hz": 60
+  },
+  "rules": {
+    "action_serial": 11,
+    "algorithm": "canal-service-work-priority-thermal-v2",
+    "buffer_enabled": false,
+    "carrier_anchor": "north_work",
+    "cassettes": {
+      "I2:canal_cassette_0": {
+        "energy_mj": 25000000,
+        "holder": "north_work",
+        "mass_g": 2000
+      },
+      "I2:canal_cassette_1": {
+        "energy_mj": 50000000,
+        "holder": "south_1",
+        "mass_g": 2000
+      }
+    },
+    "command_serial": 0,
+    "flow_credit_usec": 0,
+    "heat_credit": {
+      "I2:canal_cassette_0": {
+        "gain": 0,
+        "loss": 0
+      },
+      "I2:canal_cassette_1": {
+        "gain": 0,
+        "loss": 0
+      }
+    },
+    "job_requested": false,
+    "jobs_completed": 1,
+    "pending_action": {},
+    "pending_usec": 33333,
+    "pilots": {
+      "pilot_a": {
+        "enabled": false,
+        "peer_id": 0
+      },
+      "pilot_b": {
+        "enabled": false,
+        "peer_id": 0
+      }
+    },
+    "policy": "staggered",
+    "pump_total_ml": 0,
+    "revision": 11092,
+    "service_credit": 1,
+    "service_serial": 0,
+    "services_consumed": 0,
+    "thermal_ledger": {
+      "ability_added": 0,
+      "ability_removed": 0,
+      "ambient_added": 0,
+      "ambient_removed": 0,
+      "work_added": 25000000
+    },
+    "version": 1,
+    "water": {
+      "algorithm": "bounded-mix-v1",
+      "definition_digest": "c5a572a7de4f59fc41daa0e79703842932a8a9b59908c8032b0c554597e81df1",
+      "definition_id": "I2:canal_cooling_closed_v1",
+      "definition_version": 1,
+      "edges": {
+        "I2:canal_cooling_drain": {
+          "flow_carry": 0,
+          "last_direction": 0,
+          "last_transfer_ml": 0,
+          "open_permille": 0,
+          "powered": false
+        },
+        "I2:canal_cooling_pump": {
+          "flow_carry": 0,
+          "last_direction": 0,
+          "last_transfer_ml": 0,
+          "open_permille": 0,
+          "powered": false
+        },
+        "I2:canal_cooling_recirculate": {
+          "flow_carry": 0,
+          "last_direction": 0,
+          "last_transfer_ml": 0,
+          "open_permille": 0,
+          "powered": false
+        }
+      },
+      "nodes": {
+        "I2:canal_cooling_jacket": {
+          "clean_ml": 950,
+          "dirty_ml": 50
+        },
+        "I2:canal_cooling_reservoir": {
+          "clean_ml": 5700,
+          "dirty_ml": 300
+        },
+        "I2:canal_cooling_return": {
+          "clean_ml": 950,
+          "dirty_ml": 50
+        }
+      },
+      "pending_usec": 0,
+      "schema_version": 1,
+      "tick": 1844
+    },
+    "water_energy_mj": 0
+  },
+  "version": 2
+}

@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "project": "Low Altitude / 低空小队",
+  "game_version": "3.0.0-dev.94-public1",
+  "verified_on": "2026-10-26",
+  "target": "Windows x86_64 offline, embedded PCK",
+  "engine": {
+    "name": "Godot standard / GDScript",
+    "version": "4.7.2.stable.official.ed1daf0bf",
+    "source": "https://godotengine.org/download/archive/4.7.2-stable/",
+    "local_console": "%LOCALAPPDATA%/Programs/Godot/4.7.2/Godot_v4.7.2-stable_win64_console.exe",
+    "console_sha256": "c8f0a6bc45a19b33541501e57f6f7cd972ab18453743266339d495cbbe846643",
+    "renderer": "Current source: Forward+ / Direct3D12 on Windows; public migration headless checks do not prove GPU performance",
+    "physics": "Jolt / 60 ticks per second"
+  },
+  "windows_templates": {
+    "version": "4.7.2.stable",
+    "source": "https://godot-releases.nbg1.your-objectstorage.com/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz",
+    "release_sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+    "debug_sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107"
+  },
+  "asset_editor": {
+    "name": "Blender",
+    "version": "5.2.1 LTS",
+    "source": "https://download.blender.org/release/Blender5.2/",
+    "local_executable": "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe",
+    "sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb"
+  },
+  "test_framework": {
+    "name": "GUT",
+    "version": "9.7.1",
+    "source": "https://github.com/bitwes/Gut/archive/refs/tags/v9.7.1.zip",
+    "archive_sha256": "14969aa46adc84aa08cdd21b9f6d1a64addd92ae60b36f02d0521ed305aa4086"
+  },
+  "development_only": {
+    "python": "3.12.6",
+    "git": "2.55.0.windows.5"
+  },
+  "runtime_dependencies": "Portable Windows build embeds Godot; source requires Godot 4.7.2 and restored project asset attachments."
+}

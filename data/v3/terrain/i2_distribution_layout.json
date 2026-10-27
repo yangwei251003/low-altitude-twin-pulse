@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "id": "i2_distribution_cabinet_v1",
+  "stage": "independent_replaceable_graybox",
+  "origin": [
+    18,
+    0,
+    -10
+  ],
+  "bounds": {
+    "min": [
+      -3,
+      0,
+      -3
+    ],
+    "max": [
+      3,
+      7.2,
+      3
+    ]
+  },
+  "fixed_solids": [
+    {
+      "id": "ServiceFloor",
+      "min": [
+        -2.2,
+        1,
+        -2.33
+      ],
+      "max": [
+        2.2,
+        1.2,
+        3
+      ],
+      "color": "607c82"
+    },
+    {
+      "id": "ServiceFloorRearStrip",
+      "min": [
+        -2.2,
+        1,
+        -2.8
+      ],
+      "max": [
+        2.2,
+        1.2,
+        -2.55
+      ],
+      "color": "607c82"
+    },
+    {
+      "id": "ServiceFloorLeftSocketRim",
+      "min": [
+        -2.2,
+        1,
+        -2.55
+      ],
+      "max": [
+        -1.66,
+        1.2,
+        -2.33
+      ],
+      "color": "607c82"
+    },
+    {
+      "id": "ServiceFloorCentralWeb",
+      "min": [
+        -1.44,
+        1,
+        -2.55
+      ],
+      "max": [
+        1.44,
+        1.2,
+        -2.33
+      ],
+      "color": "607c82"
+    },
+    {
+      "id": "ServiceFloorRightSocketRim",
+      "min": [
+        1.66,
+        1,
+        -2.55
+      ],
+      "max": [
+        2.2,
+        1.2,
+        -2.33
+      ],
+      "color": "607c82"
+    },
+    {
+      "id": "LeftWall",
+      "min": [
+        -2.2,
+        1.2,
+        -2.6
+      ],
+      "max": [
+        -2,
+        3.78,
+        0.88
+      ],
+      "color": "849a9b"
+    },
+    {
+      "id": "RightWall",
+      "min": [
+        2,
+        1.2,
+        -2.6
+      ],
+      "max": [
+        2.2,
+        3.78,
+        0.88
+      ],
+      "color": "849a9b"
+    },
+    {
+      "id": "BackWall",
+      "min": [
+        -2.2,
+        1.2,
+        -2.8
+      ],
+      "max": [
+        2.2,
+        3.98,
+        -2.6
+      ],
+      "color": "536d75"
+    },
+    {
+      "id": "DoorJambLeft",
+      "min": [
+        -2,
+        1.2,
+        0.9
+      ],
+      "max": [
+        -1.71,
+        7.015,
+        1.1
+      ],
+      "color": "417c86"
+    },
+    {
+      "id": "DoorJambRight",
+      "min": [
+        1.71,
+        1.2,
+        0.9
+      ],
+      "max": [
+        2,
+        7.015,
+        1.1
+      ],
+      "color": "417c86"
+    },
+    {
+      "id": "DoorTopStop",
+      "min": [
+        -2,
+        7.015,
+        0.9
+      ],
+      "max": [
+        2,
+        7.2,
+        1.1
+      ],
+      "color": "417c86"
+    },
+    {
+      "id": "RoofLeft",
+      "min": [
+        -2.2,
+        3.78,
+        -2.6
+      ],
+      "max": [
+        -0.5,
+        3.98,
+        0.88
+      ],
+      "color": "697f84"
+    },
+    {
+      "id": "RoofRight",
+      "min": [
+        0.5,
+        3.78,
+        -2.6
+      ],
+      "max": [
+        2.2,
+        3.98,
+        0.88
+      ],
+      "color": "697f84"
+    },
+    {
+      "id": "RoofBack",
+      "min": [
+        -0.5,
+        3.78,
+        -2.6
+      ],
+      "max": [
+        0.5,
+        3.98,
+        -2.3
+      ],
+      "color": "697f84"
+    },
+    {
+      "id": "RoofFront",
+      "min": [
+        -0.5,
+        3.78,
+        -0.6
+      ],
+      "max": [
+        0.5,
+        3.98,
+        0.88
+      ],
+      "color": "697f84"
+    },
+    {
+      "id": "UpperDeckLeft",
+      "min": [
+        -2.2,
+        4.8,
+        -2.6
+      ],
+      "max": [
+        -0.5,
+        5,
+        0.88
+      ],
+      "color": "789296"
+    },
+    {
+      "id": "UpperDeckRight",
+      "min": [
+        0.5,
+        4.8,
+        -2.6
+      ],
+      "max": [
+        2.2,
+        5,
+        0.88
+      ],
+      "color": "789296"
+    },
+    {
+      "id": "UpperDeckBack",
+      "min": [
+        -0.5,
+        4.8,
+        -2.6
+      ],
+      "max": [
+        0.5,
+        5,
+        -2.3
+      ],
+      "color": "789296"
+    },
+    {
+      "id": "UpperDeckFront",
+      "min": [
+        -0.5,
+        4.8,
+        -0.6
+      ],
+      "max": [
+        0.5,
+        5,
+        0.88
+      ],
+      "color": "789296"
+    },
+    {
+      "id": "UpperFrontApron",
+      "min": [
+        -2.2,
+        4.8,
+        1.15
+      ],
+      "max": [
+        2.2,
+        5,
+        3
+      ],
+      "color": "789296"
+    },
+    {
+      "id": "CoverRailBack",
+      "min": [
+        -0.7,
+        4.0,
+        -2.52
+      ],
+      "max": [
+        1.9,
+        4.18,
+        -2.43
+      ],
+      "color": "ba9759"
+    },
+    {
+      "id": "CoverRailFront",
+      "min": [
+        -0.7,
+        4.0,
+        -0.47
+      ],
+      "max": [
+        1.9,
+        4.18,
+        -0.38
+      ],
+      "color": "ba9759"
+    },
+    {
+      "id": "CoverLeftStop",
+      "min": [
+        -0.75,
+        4,
+        -2.4
+      ],
+      "max": [
+        -0.61,
+        4.16,
+        -0.5
+      ],
+      "color": "ba9759"
+    },
+    {
+      "id": "CoverRightStop",
+      "min": [
+        1.81,
+        4,
+        -2.4
+      ],
+      "max": [
+        1.95,
+        4.16,
+        -0.5
+      ],
+      "color": "ba9759"
+    },
+    {
+      "id": "PipeBranchA",
+      "min": [
+        -1.3,
+        2.76,
+        -2.5
+      ],
+      "max": [
+        -0.18,
+        2.88,
+        -2.34
+      ],
+      "color": "bd9a59"
+    },
+    {
+      "id": "PipeBranchAUp",
+      "min": [
+        -1.3,
+        2.88,
+        -2.5
+      ],
+      "max": [
+        -1.18,
+        3.65,
+        -2.34
+      ],
+      "color": "bd9a59"
+    },
+    {
+      "id": "PipeBranchB",
+      "min": [
+        0.18,
+        3.4,
+        -2.5
+      ],
+      "max": [
+        1.3,
+        3.52,
+        -2.34
+      ],
+      "color": "59a4ba"
+    },
+    {
+      "id": "PipeBranchBDown",
+      "min": [
+        1.18,
+        1.55,
+        -2.5
+      ],
+      "max": [
+        1.3,
+        3.4,
+        -2.34
+      ],
+      "color": "59a4ba"
+    }
+  ],
+  "cover": {
+    "center": [
+      0,
+      4.08,
+      -1.45
+    ],
+    "size": [
+      1.2,
+      0.16,
+      1.9
+    ],
+    "travel_m": 1.2,
+    "mass_kg": 2,
+    "damping_per_second": 0.8,
+    "max_speed_mps": 2,
+    "max_impulse_ns": 9
+  },
+  "door": {
+    "center": [
+      0,
+      2.605,
+      1
+    ],
+    "size": [
+      3.4,
+      2.8,
+      0.2
+    ],
+    "travel_m": 3,
+    "stroke_seconds": 2
+  },
+  "targets": [
+    {
+      "id": "I2:distribution_relay",
+      "center": [
+        2.2,
+        2.1,
+        2.5
+      ],
+      "size": [
+        0.4,
+        0.7,
+        0.35
+      ],
+      "color": "4c9f9c"
+    },
+    {
+      "id": "I2:distribution_lock",
+      "center": [
+        2.35,
+        2.1,
+        1.5
+      ],
+      "size": [
+        0.4,
+        0.6,
+        0.3
+      ],
+      "color": "ba9759"
+    }
+  ],
+  "panels": [
+    {
+      "id": "I2:distribution_outlet_a",
+      "center": [
+        -0.2,
+        2.85,
+        -2.2
+      ],
+      "size": [
+        0.24,
+        0.16,
+        0.06
+      ],
+      "color": "e8bd68"
+    },
+    {
+      "id": "I2:distribution_outlet_b",
+      "center": [
+        0.2,
+        3.45,
+        -2.2
+      ],
+      "size": [
+        0.24,
+        0.16,
+        0.06
+      ],
+      "color": "65c5dd"
+    }
+  ],
+  "observation": {
+    "sensor_offset": [
+      0,
+      0,
+      0
+    ],
+    "max_distance_m": 4.5,
+    "min_facing_dot": 0.35,
+    "min_hits": 3,
+    "well": {
+      "min": [
+        -0.5,
+        3.98,
+        -2.3
+      ],
+      "max": [
+        0.5,
+        5,
+        -0.6
+      ]
+    },
+    "door_opening": {
+      "min": [
+        -1.7,
+        1.2,
+        0.9
+      ],
+      "max": [
+        1.7,
+        4,
+        1.1
+      ]
+    },
+    "interior": {
+      "min": [
+        -2,
+        1.2,
+        -2.6
+      ],
+      "max": [
+        2,
+        3.78,
+        0.88
+      ]
+    }
+  }
+}

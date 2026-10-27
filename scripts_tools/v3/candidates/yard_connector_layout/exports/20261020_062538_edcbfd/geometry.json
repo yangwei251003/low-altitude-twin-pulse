@@ -1,0 +1,879 @@
+{
+  "contract_sha256": "9b78abf20f852c1d7287f035a89b62e0cc5c0fb1752ec8540f11a944df7c7970",
+  "coordinates": "world Godot X/Y-up/Z metres; all visible vertices exactly Y0",
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "geometry_input_sha256_after": {
+    "data/v3/terrain/i2_clinic_layout.json": "c239fc9b45a00ee9166bad429b3923ac95340b883cb757099b76f40db0e8ed55",
+    "data/v3/terrain/i2_revetment_closure_delivery.json": "06caba2e11f88856e054c5b05e44559c47e9d7603db07e6ff15655820846c0e2",
+    "data/v3/terrain/i2_revetment_closure_layout.json": "90246f5528d31d73633a4b22fc69ff0cd61330489ede112e33d908d8097fff7b",
+    "data/v3/terrain/i2_shared_access_layout.json": "ad357fc68c68692a99f2d5394f8774569e3fa3caceaade0920a917468104b556",
+    "scripts/v3/art/twin_clinic_ground_art.gd": "00ab16498a7f9a439875ed8e52d3bdc7860b2dc86bc4a10af44f7469a232f4fe",
+    "scripts/v3/art/twin_clinic_pump_art.gd": "a16d4c84bdcccb3f46c524140a35f8af3690f80f531daf96ad1eac206e2f3706",
+    "scripts/v3/art/twin_i2_east_maintenance_art.gd": "6a09645bd5d413c1391de672626038b9d2707cb667360490124d8b8fa8ee99ce",
+    "scripts/v3/art/twin_i2_east_revetment_art.gd": "e7ed76bedac404a54ad0f59f5fef802497b66ce892182ffba13b0ab48a6bda05",
+    "scripts/v3/art/twin_i2_inspection_pit_art.gd": "a69686f137da9e322726464a75fb0c583f340e0faec9ee12c7f01c9343f270d4",
+    "scripts/v3/art/twin_i2_revetment_art.gd": "c9386963f3a8d94ee9e22441b49f5babd5427b0b2a79c25afd13411f0cc7b7d2",
+    "scripts/v3/art/twin_i2_revetment_closure_art.gd": "b0a106b0cd0e0b89a24fed4e03bd24ca5ee2da5ed3826143c937fada9b266101",
+    "scripts/v3/art/twin_i2_revetment_partition.gd": "b2f0a69f150dc62222a6608f08cef57c2189f7d925b7b58fefd1fe2f5465bdac",
+    "scripts/v3/art/twin_maintenance_paving_art.gd": "a51d7988289994c97b71e52926509852f61044ae2fa47fc8857b3c1baa903f2d",
+    "scripts/v3/twin_test_world.gd": "1a4e83184dc5dc32894f467683b7bdc206f1117773a38cf2f8022e18b3125e25",
+    "scripts/v3/world/twin_clinic_waterworks.gd": "3760cdbf35366d6ac5b01cd572830112041970d5b491288ed6e6ebe178f296e5",
+    "scripts/v3/world/twin_i2_inspection_pit.gd": "20a365d07d34360603b5d415647d284f9b8c9b132c36fef6ace2a3275cba5954",
+    "scripts/v3/world/twin_i2_waterfront_terrain.gd": "59aff35004d318ab7b5838cf333467998dc99ce2b22cc5da03c2f6780b9f580d",
+    "scripts/v3/world/twin_shared_access_bridge.gd": "5bbde642e5d291718dbc0adddf3dd43cb001f05be3d904521f31f78efe16cf18"
+  },
+  "geometry_input_sha256_before": {
+    "data/v3/terrain/i2_clinic_layout.json": "c239fc9b45a00ee9166bad429b3923ac95340b883cb757099b76f40db0e8ed55",
+    "data/v3/terrain/i2_revetment_closure_delivery.json": "06caba2e11f88856e054c5b05e44559c47e9d7603db07e6ff15655820846c0e2",
+    "data/v3/terrain/i2_revetment_closure_layout.json": "90246f5528d31d73633a4b22fc69ff0cd61330489ede112e33d908d8097fff7b",
+    "data/v3/terrain/i2_shared_access_layout.json": "ad357fc68c68692a99f2d5394f8774569e3fa3caceaade0920a917468104b556",
+    "scripts/v3/art/twin_clinic_ground_art.gd": "00ab16498a7f9a439875ed8e52d3bdc7860b2dc86bc4a10af44f7469a232f4fe",
+    "scripts/v3/art/twin_clinic_pump_art.gd": "a16d4c84bdcccb3f46c524140a35f8af3690f80f531daf96ad1eac206e2f3706",
+    "scripts/v3/art/twin_i2_east_maintenance_art.gd": "6a09645bd5d413c1391de672626038b9d2707cb667360490124d8b8fa8ee99ce",
+    "scripts/v3/art/twin_i2_east_revetment_art.gd": "e7ed76bedac404a54ad0f59f5fef802497b66ce892182ffba13b0ab48a6bda05",
+    "scripts/v3/art/twin_i2_inspection_pit_art.gd": "a69686f137da9e322726464a75fb0c583f340e0faec9ee12c7f01c9343f270d4",
+    "scripts/v3/art/twin_i2_revetment_art.gd": "c9386963f3a8d94ee9e22441b49f5babd5427b0b2a79c25afd13411f0cc7b7d2",
+    "scripts/v3/art/twin_i2_revetment_closure_art.gd": "b0a106b0cd0e0b89a24fed4e03bd24ca5ee2da5ed3826143c937fada9b266101",
+    "scripts/v3/art/twin_i2_revetment_partition.gd": "b2f0a69f150dc62222a6608f08cef57c2189f7d925b7b58fefd1fe2f5465bdac",
+    "scripts/v3/art/twin_maintenance_paving_art.gd": "a51d7988289994c97b71e52926509852f61044ae2fa47fc8857b3c1baa903f2d",
+    "scripts/v3/twin_test_world.gd": "1a4e83184dc5dc32894f467683b7bdc206f1117773a38cf2f8022e18b3125e25",
+    "scripts/v3/world/twin_clinic_waterworks.gd": "3760cdbf35366d6ac5b01cd572830112041970d5b491288ed6e6ebe178f296e5",
+    "scripts/v3/world/twin_i2_inspection_pit.gd": "20a365d07d34360603b5d415647d284f9b8c9b132c36fef6ace2a3275cba5954",
+    "scripts/v3/world/twin_i2_waterfront_terrain.gd": "59aff35004d318ab7b5838cf333467998dc99ce2b22cc5da03c2f6780b9f580d",
+    "scripts/v3/world/twin_shared_access_bridge.gd": "5bbde642e5d291718dbc0adddf3dd43cb001f05be3d904521f31f78efe16cf18"
+  },
+  "godot_origin": [
+    -5.7,
+    0,
+    19.25
+  ],
+  "groups": {
+    "remainder": {
+      "files": {
+        "faces": {
+          "bytes": 3780,
+          "file": "remainder.faces.f32le",
+          "sha256": "c5d8c9884883c99d1c334e773d0bab0d9d8b90355c9e868a4cc57429dbf5acfa"
+        },
+        "normals": {
+          "bytes": 3780,
+          "file": "remainder.normals.f32le",
+          "sha256": "afbb6adf89ddf85f1f69bd64a66237e5ece09280f28a7980cfb9d828275e6253"
+        },
+        "tangents": {
+          "bytes": 5040,
+          "file": "remainder.tangents.f32le",
+          "sha256": "b1d3805d02d09587a21260753ab56f1ef5f6e736b87a9a462939553b74abc42d"
+        },
+        "uv": {
+          "bytes": 2520,
+          "file": "remainder.uv.f32le",
+          "sha256": "47212f483c2fe32aa6935479ccd28332d9b2a980872646e21142ea547fb636e0"
+        }
+      },
+      "ok": true,
+      "source_final_triangle_ids": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        23,
+        23,
+        26,
+        27,
+        27,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        29,
+        29,
+        30,
+        31,
+        31,
+        31,
+        32,
+        32,
+        33,
+        33,
+        33,
+        33,
+        33,
+        34,
+        34,
+        34,
+        35,
+        35,
+        35,
+        36,
+        36,
+        36,
+        36,
+        36,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        56,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        78,
+        79,
+        79,
+        92,
+        93,
+        94,
+        95
+      ],
+      "triangle_count": 105,
+      "vertex_count": 315
+    },
+    "source": {
+      "files": {
+        "faces": {
+          "bytes": 3456,
+          "file": "source.faces.f32le",
+          "sha256": "f47fd31e548e7ddd079499bbdf9f5e1ac42534734261c1064d4d9d90af7e914e"
+        },
+        "normals": {
+          "bytes": 3456,
+          "file": "source.normals.f32le",
+          "sha256": "7605c07faa1e6a21aa0b83c06c6e56875292b2a8c975d873b30045f777997e3d"
+        },
+        "tangents": {
+          "bytes": 4608,
+          "file": "source.tangents.f32le",
+          "sha256": "3c36fb9214828fe820440837360cb51d49594e0255e3eea5b38bcd2713954ae2"
+        },
+        "uv": {
+          "bytes": 2304,
+          "file": "source.uv.f32le",
+          "sha256": "821a51e8c03b96010f0be28feb08b4b3503ee643e3fb9766fb10c75ea6c04851"
+        }
+      },
+      "ok": true,
+      "source_final_triangle_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "triangle_count": 96,
+      "vertex_count": 288
+    },
+    "under_structures": {
+      "files": {
+        "faces": {
+          "bytes": 576,
+          "file": "under_structures.faces.f32le",
+          "sha256": "e5b3203a452d5416a12672ed15dd412c50c51a503e8ea21c10f7473d23f50cf2"
+        },
+        "normals": {
+          "bytes": 576,
+          "file": "under_structures.normals.f32le",
+          "sha256": "b8ed24d2806e634d3259906ca28d8243546c30adb17ee951c93bb83a38c3ad0b"
+        },
+        "tangents": {
+          "bytes": 768,
+          "file": "under_structures.tangents.f32le",
+          "sha256": "ac4b953465453a26ccac205d917c5f4172430c3031f27089addd3421bab786da"
+        },
+        "uv": {
+          "bytes": 384,
+          "file": "under_structures.uv.f32le",
+          "sha256": "97a435cc50b21c89c3cc0c2b8e4f9ddbbbeb9c2be5e0e8736ca49c8e8a144290"
+        }
+      },
+      "ok": true,
+      "source_final_triangle_ids": [
+        28,
+        28,
+        28,
+        28,
+        31,
+        31,
+        33,
+        33,
+        33,
+        33,
+        34,
+        35,
+        36,
+        36,
+        36,
+        36
+      ],
+      "triangle_count": 16,
+      "vertex_count": 48
+    },
+    "visible": {
+      "files": {
+        "faces": {
+          "bytes": 4212,
+          "file": "visible.faces.f32le",
+          "sha256": "d8aea7074bdca9278d0b315c8708b07865b589e6a7bc5659ede289a20a952d58"
+        },
+        "normals": {
+          "bytes": 4212,
+          "file": "visible.normals.f32le",
+          "sha256": "34d2221979316fdb6a99236889aba901b2647d5d90b24dadd9f431a0c907cfdc"
+        },
+        "tangents": {
+          "bytes": 5616,
+          "file": "visible.tangents.f32le",
+          "sha256": "b04983f1a05811b207948317740c41e572e7c4be843e8a7c8a1bbdab82ae7292"
+        },
+        "uv": {
+          "bytes": 2808,
+          "file": "visible.uv.f32le",
+          "sha256": "04f565d318491dc6a78dbe4fa9e4ece6419a7ffa1c039088616e362a827ca579"
+        }
+      },
+      "ok": true,
+      "source_final_triangle_ids": [
+        23,
+        23,
+        24,
+        25,
+        26,
+        26,
+        27,
+        28,
+        29,
+        30,
+        30,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        32,
+        33,
+        33,
+        36,
+        36,
+        37,
+        38,
+        54,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        59,
+        59,
+        59,
+        59,
+        60,
+        60,
+        60,
+        61,
+        61,
+        61,
+        62,
+        62,
+        62,
+        62,
+        62,
+        63,
+        63,
+        63,
+        64,
+        64,
+        64,
+        64,
+        64,
+        65,
+        65,
+        65,
+        65,
+        65,
+        76,
+        76,
+        77,
+        78,
+        78,
+        79,
+        80,
+        81,
+        81,
+        81,
+        82,
+        82,
+        82,
+        83,
+        83,
+        83,
+        84,
+        84,
+        84,
+        84,
+        84,
+        85,
+        85,
+        85,
+        85,
+        85,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        87,
+        87,
+        87,
+        87,
+        87,
+        87,
+        87,
+        87,
+        87,
+        88,
+        89,
+        89,
+        89,
+        89,
+        89,
+        89,
+        89,
+        89,
+        89,
+        90,
+        91
+      ],
+      "triangle_count": 117,
+      "vertex_count": 351
+    }
+  },
+  "kind": "actual_final_i2_yard_connector_input",
+  "ok": true,
+  "rect_xz": [
+    -24,
+    10.5,
+    36.6,
+    17.5
+  ],
+  "report": {
+    "actual_world_identity": true,
+    "area_accounting_tolerance_m2": 0.0005,
+    "court_and_approach_area_m2": 288.0,
+    "exclusions": [
+      {
+        "id": "PumpFloor",
+        "node": "/root/@SubViewport@2/Mechanics_I2/ClinicWaterworks/PumpFloor",
+        "ok": true,
+        "rect": [
+          -12.0,
+          4.0,
+          10.0,
+          8.0
+        ],
+        "rid": 150323855361,
+        "role": "retain_existing_structural_footprint_no_roof_shadow",
+        "world_max": [
+          -2.0,
+          0.4000000059604645,
+          12.0
+        ],
+        "world_min": [
+          -12.0,
+          0.0,
+          4.0
+        ]
+      },
+      {
+        "id": "PumpWestWall",
+        "node": "/root/@SubViewport@2/Mechanics_I2/ClinicWaterworks/PumpWestWall",
+        "ok": true,
+        "rect": [
+          -12.25,
+          4.0,
+          0.25,
+          8.0
+        ],
+        "rid": 171798691842,
+        "role": "retain_existing_structural_footprint_no_roof_shadow",
+        "world_max": [
+          -12.0,
+          3.1999998092651367,
+          12.0
+        ],
+        "world_min": [
+          -12.25,
+          0.3999999761581421,
+          4.0
+        ]
+      },
+      {
+        "id": "PumpEastWall",
+        "node": "/root/@SubViewport@2/Mechanics_I2/ClinicWaterworks/PumpEastWall",
+        "ok": true,
+        "rect": [
+          -2.0,
+          4.0,
+          0.25,
+          8.0
+        ],
+        "rid": 193273528323,
+        "role": "retain_existing_structural_footprint_no_roof_shadow",
+        "world_max": [
+          -1.75,
+          3.1999998092651367,
+          12.0
+        ],
+        "world_min": [
+          -2.0,
+          0.3999999761581421,
+          4.0
+        ]
+      },
+      {
+        "id": "PumpNorthWall",
+        "node": "/root/@SubViewport@2/Mechanics_I2/ClinicWaterworks/PumpNorthWall",
+        "ok": true,
+        "rect": [
+          -12.0,
+          3.75,
+          10.0,
+          0.25
+        ],
+        "rid": 214748364804,
+        "role": "retain_existing_structural_footprint_no_roof_shadow",
+        "world_max": [
+          -2.0,
+          3.1999998092651367,
+          4.0
+        ],
+        "world_min": [
+          -12.0,
+          0.3999999761581421,
+          3.75
+        ]
+      },
+      {
+        "id": "PumpSouthWestJamb",
+        "node": "/root/@SubViewport@2/Mechanics_I2/ClinicWaterworks/PumpSouthWestJamb",
+        "ok": true,
+        "rect": [
+          -12.0,
+          12.0,
+          3.3000001907348633,
+          0.25
+        ],
+        "rid": 236223201285,
+        "role": "retain_existing_structural_footprint_no_roof_shadow",
+        "world_max": [
+          -8.699999809265137,
+          3.1999998092651367,
+          12.25
+        ],
+        "world_min": [
+          -12.0,
+          0.3999999761581421,
+          12.0
+        ]
+      },
+      {
+        "id": "PumpSouthEastJamb",
+        "node": "/root/@SubViewport@2/Mechanics_I2/ClinicWaterworks/PumpSouthEastJamb",
+        "ok": true,
+        "rect": [
+          -5.300000190734863,
+          12.0,
+          3.3000001907348633,
+          0.25
+        ],
+        "rid": 257698037766,
+        "role": "retain_existing_structural_footprint_no_roof_shadow",
+        "world_max": [
+          -2.0,
+          3.1999998092651367,
+          12.25
+        ],
+        "world_min": [
+          -5.300000190734863,
+          0.3999999761581421,
+          12.0
+        ]
+      },
+      {
+        "id": "WestFoot2",
+        "node": "/root/@SubViewport@2/Mechanics_I2/SharedAccessBridge/WestFoot2",
+        "ok": true,
+        "rect": [
+          8.559999465942383,
+          13.359999656677246,
+          0.6800000071525574,
+          0.6800000071525574
+        ],
+        "rid": 17802639442508,
+        "role": "retain_existing_structural_footprint_no_roof_shadow",
+        "world_max": [
+          9.239999771118164,
+          0.1599999964237213,
+          14.039999961853027
+        ],
+        "world_min": [
+          8.559999465942383,
+          0.0,
+          13.359999656677246
+        ]
+      }
+    ],
+    "final_post_pit_exact_match": true,
+    "ground_collision_sha256": "d665779e1312e2783a2992ab30538164394a3d7d31e76fa8221ba242d9e709fc",
+    "ground_collision_unchanged": true,
+    "ground_instance": 51506054660,
+    "ground_rid": 124554051584,
+    "guarded_existing_surfaces": [
+      {
+        "kind": "authored_paving",
+        "rect": [
+          -22.0,
+          12.0,
+          18.0,
+          12.0
+        ],
+        "source_overlap_m2": 2.179145258196513e-05
+      },
+      {
+        "kind": "authored_paving",
+        "rect": [
+          -4.0,
+          12.0,
+          12.0,
+          6.0
+        ],
+        "source_overlap_m2": 0.0
+      },
+      {
+        "kind": "authored_paving",
+        "rect": [
+          14.5,
+          -14.0,
+          10.0,
+          16.0
+        ],
+        "source_overlap_m2": 0.0
+      },
+      {
+        "kind": "inspection_pit",
+        "rect": [
+          -22.0,
+          1.0,
+          8.75,
+          9.5
+        ],
+        "source_overlap_m2": 0.0
+      },
+      {
+        "footprint": [
+          [
+            12.6,
+            15.6
+          ],
+          [
+            9.5,
+            19.0
+          ],
+          [
+            9.15,
+            18.86439342263038
+          ],
+          [
+            12.126358708868874,
+            15.6
+          ]
+        ],
+        "id": "WestWiden",
+        "kind": "authored_closure_top",
+        "source_overlap_m2": 0.0
+      },
+      {
+        "footprint": [
+          [
+            9.5,
+            19.0
+          ],
+          [
+            9.5,
+            28.0
+          ],
+          [
+            9.15,
+            28.0
+          ],
+          [
+            9.15,
+            18.86439342263038
+          ]
+        ],
+        "id": "WestMouth",
+        "kind": "authored_closure_top",
+        "source_overlap_m2": 0.0
+      },
+      {
+        "footprint": [
+          [
+            16.9,
+            15.6
+          ],
+          [
+            22.5,
+            19.0
+          ],
+          [
+            22.80927458984242,
+            18.778315374264633
+          ],
+          [
+            17.574402208700672,
+            15.6
+          ]
+        ],
+        "id": "EastWiden",
+        "kind": "authored_closure_top",
+        "source_overlap_m2": 8.183205864042975e-06
+      },
+      {
+        "footprint": [
+          [
+            22.5,
+            19.0
+          ],
+          [
+            24.5,
+            28.0
+          ],
+          [
+            24.85853784000583,
+            28.0
+          ],
+          [
+            22.80927458984242,
+            18.778315374264633
+          ]
+        ],
+        "id": "EastMouth",
+        "kind": "authored_closure_top",
+        "source_overlap_m2": 0.0
+      },
+      {
+        "footprint": [
+          [
+            12.25,
+            2.3
+          ],
+          [
+            16.9,
+            2.3
+          ],
+          [
+            16.9,
+            2.0
+          ],
+          [
+            12.25,
+            2.0
+          ]
+        ],
+        "id": "NorthHead",
+        "kind": "authored_closure_top",
+        "source_overlap_m2": 0.0
+      },
+      {
+        "kind": "original_west_top",
+        "rect": [
+          12.25,
+          2.3,
+          0.35,
+          13.3
+        ],
+        "source_overlap_m2": 0.0
+      }
+    ],
+    "raw_array_format": 34359738391,
+    "raw_vertex_sha256": "f47fd31e548e7ddd079499bbdf9f5e1ac42534734261c1064d4d9d90af7e914e",
+    "rectangle_intersection_m2": 312.7930235192107,
+    "retained_m2": 1977.2075715648011,
+    "retained_under_structures_m2": 16.21240136027336,
+    "scope": "actual_final_dry_surface_visual_input_only; not collision replacement or art acceptance",
+    "source_area_m2": 2273.7881996216183,
+    "source_attributes_sha256": "fad898d7e9f55191ba8f82fe0c761b9f43037c329303c1c98b379e7d42fb6631",
+    "source_node": "/root/@SubViewport@2/Mechanics_I2/ClinicWaterworks/I2WaterfrontTerrainA/dry_surface",
+    "source_triangles": 96,
+    "visible_replacement_m2": 296.5806329701022,
+    "visible_triangles": 117
+  },
+  "schema_version": 1,
+  "scope": "read-only actual World build; no scene/mesh/collision replacement, no gameplay or art verdict",
+  "source_method": "surface_get_arrays; no Mesh.get_faces/BVH quantization",
+  "tool_sha256": {
+    "exporter": "5f4121889fb542ad063c8743aa46c4003e4b6881fd0218ec9b702f63dbc3def1",
+    "geometry": "d4b5f9ee904e869cd278f56f39f2a4cf1df2854b192dcc3be8e5c5659d1c942d"
+  }
+}

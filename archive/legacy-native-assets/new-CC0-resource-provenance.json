@@ -1,0 +1,228 @@
+[
+  {
+    "asset": "rock_07",
+    "path": "asset_sources/v3/clinic_ground_transition/p12/inputs/polyhaven_rock_07_1k/textures/rock_07_diff_1k.jpg",
+    "bytes": 635452,
+    "sha256": "8ff1965aa1664cc4abcc0131c44ee2b97ab14d6e131d7a51429ff261eeb101c8",
+    "official_md5_matches": true,
+    "official_md5": "b68ac1824bb3bd3867641b830ad02099",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_07/rock_07_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "asset_page": "https://polyhaven.com/a/rock_07",
+    "metadata": {
+      "exif_blocks": [
+        {
+          "tiff_valid": true,
+          "gps_ifd": false,
+          "device_or_owner_unique_tags": []
+        }
+      ],
+      "png_text_chunks": [],
+      "private_path_metadata": false,
+      "suspicious_credential_metadata": false
+    },
+    "exr_private_or_GPS_attributes": []
+  },
+  {
+    "asset": "rock_07",
+    "path": "asset_sources/v3/clinic_ground_transition/p12/inputs/polyhaven_rock_07_1k/textures/rock_07_nor_gl_1k.exr",
+    "bytes": 1651547,
+    "sha256": "ecf06ffadebdae6897dca07cbaa484b4028be2bdf383253753ef60cebd284628",
+    "official_md5_matches": true,
+    "official_md5": "bd03d02784c1aa79b6b5f6df8969aa26",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/rock_07/rock_07_nor_gl_1k.exr",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "asset_page": "https://polyhaven.com/a/rock_07",
+    "metadata": {
+      "exif_blocks": [],
+      "png_text_chunks": [],
+      "private_path_metadata": false,
+      "suspicious_credential_metadata": false
+    },
+    "exr_private_or_GPS_attributes": []
+  },
+  {
+    "asset": "rock_07",
+    "path": "asset_sources/v3/clinic_ground_transition/p12/inputs/polyhaven_rock_07_1k/textures/rock_07_rough_1k.exr",
+    "bytes": 374888,
+    "sha256": "b115b3985ffd08c2e96e48313ff47d2048ad70fe1a6237d9d0d0468ae2de0261",
+    "official_md5_matches": true,
+    "official_md5": "92adfbc932e5cad744b814823374a380",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/rock_07/rock_07_rough_1k.exr",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "asset_page": "https://polyhaven.com/a/rock_07",
+    "metadata": {
+      "exif_blocks": [],
+      "png_text_chunks": [],
+      "private_path_metadata": false,
+      "suspicious_credential_metadata": false
+    },
+    "exr_private_or_GPS_attributes": []
+  },
+  {
+    "asset": "boulder_01",
+    "path": "asset_sources/v3/growth_approach/resource_recovery/boulder_01/textures/boulder_01_diff_1k.jpg",
+    "bytes": 987467,
+    "sha256": "c38f0e918f6dc16b8d386ba3cdd89805c78320c119a1ceec85856f82b09a65b8",
+    "official_md5_matches": true,
+    "official_md5": "25f8a843f13369d56d37f49db05ea8c3",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/boulder_01/boulder_01_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "asset_page": "https://polyhaven.com/a/boulder_01",
+    "metadata": {
+      "exif_blocks": [
+        {
+          "tiff_valid": true,
+          "gps_ifd": false,
+          "device_or_owner_unique_tags": []
+        }
+      ],
+      "png_text_chunks": [],
+      "private_path_metadata": false,
+      "suspicious_credential_metadata": false
+    },
+    "exr_private_or_GPS_attributes": []
+  },
+  {
+    "asset": "boulder_01",
+    "path": "asset_sources/v3/growth_approach/resource_recovery/boulder_01/textures/boulder_01_nor_gl_1k.exr",
+    "bytes": 2421732,
+    "sha256": "9ed94c347a8ddcb0485e59c47cfd1c6abdfceef937c9a7e9186abd4c32438b2d",
+    "official_md5_matches": true,
+    "official_md5": "8313f3c7c6b1df797512ddeb54f176d2",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/boulder_01/boulder_01_nor_gl_1k.exr",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "asset_page": "https://polyhaven.com/a/boulder_01",
+    "metadata": {
+      "exif_blocks": [],
+      "png_text_chunks": [],
+      "private_path_metadata": false,
+      "suspicious_credential_metadata": false
+    },
+    "exr_private_or_GPS_attributes": []
+  },
+  {
+    "asset": "boulder_01",
+    "path": "asset_sources/v3/growth_approach/resource_recovery/boulder_01/textures/boulder_01_rough_1k.exr",
+    "bytes": 496072,
+    "sha256": "8f70563b37e26abc8c389a9bae8e7d42d8b73758e75e4341e929f25ed732ffd2",
+    "official_md5_matches": true,
+    "official_md5": "9c5f53182895bcf50d57e9fe5a2e7379",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/boulder_01/boulder_01_rough_1k.exr",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "asset_page": "https://polyhaven.com/a/boulder_01",
+    "metadata": {
+      "exif_blocks": [],
+      "png_text_chunks": [],
+      "private_path_metadata": false,
+      "suspicious_credential_metadata": false
+    },
+    "exr_private_or_GPS_attributes": []
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG.usdc",
+    "bytes": 3007,
+    "sha256": "ae86d1c7a87e4631b77fa06937139ebfaa8069e9520c5605a451cf5cc7cfbb51",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG.usdc"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG_Color.png",
+    "bytes": 445046,
+    "sha256": "3ee176198f3c3f20a4b328bbb3b5476811f17da5a76f2d8004139f080359265d",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG_Color.png"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG_Displacement.png",
+    "bytes": 1809433,
+    "sha256": "ef03bd1657c15decc3129c45d9487d5ad4ba03d832fdf7f647a28dd8b49a1416",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG_Displacement.png"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG_Metalness.png",
+    "bytes": 798,
+    "sha256": "a7a42ccdb662efc7af2fc7b96e190ff0aab22ca7038cc70b36dc28e0b80f22fe",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG_Metalness.png"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG_NormalDX.png",
+    "bytes": 4079558,
+    "sha256": "5a4ad15d6281d351fcfbae6d8afa13b3f4152ca19b6afed61298ffd3d5e8772a",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG_NormalDX.png"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG_NormalGL.png",
+    "bytes": 4079364,
+    "sha256": "8c04eb729bdf675f23c37a90a141357129a975dd662cfbf8db29d5cd5ac69dcf",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG_NormalGL.png"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG_Roughness.png",
+    "bytes": 425285,
+    "sha256": "9cd0739a076cf2ead6155adc4deeaa1e23c56216130dfa826316740dd5625114",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG_Roughness.png"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG.mtlx",
+    "bytes": 2595,
+    "sha256": "6ff4f033850767dc66a856f5da7aa526cb98ed8b4539875266a0cf551c34b686",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG.mtlx"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012_1K-PNG.tres",
+    "bytes": 1003,
+    "sha256": "19b90a40a5a8acf5ff4fae864b2a14c89bebbdeb322617198c13fd048ce48332",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012_1K-PNG.tres"
+  },
+  {
+    "path": "asset_sources/third_party/ambientCG/Metal012_1K-PNG/Metal012.png",
+    "bytes": 322856,
+    "sha256": "d5ca7fa15826dc630c81dc76c253bd093d58c66b0cebcb7bc1c3eda611b90f65",
+    "license": "CC0-1.0",
+    "source_url": "https://ambientcg.com/view?id=Metal012",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "source_archive_sha256": "359672a722290379a4e268955a96ad706a2996f8ab1ee6de591992badee040ca",
+    "source_archive_entry": "Metal012.png"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "content_id": "opening_clinic_extension_v1",
+  "extends_content_id": "opening_v1",
+  "title": "接回下层病房",
+  "status": "data_candidate_pending_integration",
+  "scope_note": "第八行动四目标；按opening、whale、crown、underdeck、clinic顺序合并后共八行动三十一目标。数据不执行供水、物理检查或保存。5–8分钟仅为首次体验设计目标，尚无真人时长验收，不靠降低流速或强制返航凑时间。",
+  "requires_action_ids": ["I1:underdeck"],
+  "requires_character_ids": ["npc:ruanheng", "npc:linlan"],
+  "characters": [],
+  "markers": [
+    {"id": "I2:clinic_demand", "region": "I2", "position": [7, 5.8, -3], "kind": "inspect", "label": "下层病房 · 供水与通路核对", "radius": 3},
+    {"id": "I2:clinic_water_check", "region": "I2", "position": [7, 5.8, -3], "kind": "inspect", "label": "下层病房 · 恢复确认", "radius": 3}
+  ],
+  "actions": [
+    {
+      "id": "I2:clinic_supply",
+      "title": "接回下层病房",
+      "completion_text": "行动完成 · 病房供水与齐平通路已确认并保存。\n配流失序的线索已留存，无需返回港口领奖。",
+      "region_id": "I2",
+      "prerequisites": ["I1:underdeck"],
+      "target_minutes": [5, 8],
+      "objectives": [
+        {
+          "id": "I2:clinic_supply:diagnose",
+          "text": "到下层病房核对缺水与断开的通路",
+          "hint": "靠近病房检查点，保持无遮挡视线，按 G 核对病房箱、水源和浮台。上层储备罐仍有清水；核对原先断开的配流关系，不需要回港口找材料。",
+          "after": [],
+          "events": [{"type": "fact", "target_id": "I2:clinic_demand", "options": ["identified"]}],
+          "effects": [
+            {"type": "dialogue", "character_id": "npc:linlan", "lines": ["下层病房要恢复接诊，先让供水接上，也让担架能平稳过这段断口。高处的储备罐还有清水，问题不在水源耗尽。", "不用先回来交差。就在病房核对，接通之后也在这里确认。"]},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["有两条现成路线：飞到高罐旁，沿轨道推动机械滑阀；或者从低层南门进泵室，给继电器充能，再接管选择阀。", "选择阀要走满行程才通水；高阀还开着时，互锁会等它回闭端。看实际阀位和灯，不必两人同时操作。"]}
+          ]
+        },
+        {
+          "id": "I2:clinic_supply:connect",
+          "text": "选高位机械旁路或低层电泵，接通病房进水",
+          "hint": "高位路线用推拉让滑阀真正到开端；低层路线给继电器充能，再接管选择阀完成行程。水实际从清水罐进入病房箱才算接通，两条路线只记一次成果。",
+          "after": ["I2:clinic_supply:diagnose"],
+          "events": [{"type": "fact", "target_id": "I2:clinic_feed", "options": ["gravity", "pump"]}],
+          "effects": [
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["清水确实进入病房箱了。高处旁路利用高低水位，低处电泵靠继电器供能；我们留下实际用过的接法，不重复计功。", "现在可以返回病房看水位和浮台。让开台面及连杆的上升范围；有东西挡住，进水会暂停等通路清空。"]}
+          ]
+        },
+        {
+          "id": "I2:clinic_supply:stabilize",
+          "text": "确认进水止住，浮台与两岸通路齐平",
+          "hint": "观察病房箱水位与浮台，不必守在阀边。达到本次供水量后入口自动止水；台面和两端通路都稳定，才进入最后核对。受阻时先清空上升范围。",
+          "after": ["I2:clinic_supply:connect"],
+          "events": [{"type": "fact", "target_id": "I2:clinic_water_ready", "options": ["verified"]}],
+          "effects": [
+            {"type": "dialogue", "character_id": "npc:linlan", "lines": ["水位停住了，浮台也与两边接平。居民走的是这条通路，飞过去看起来能过，还不等于担架能过。", "靠近病房检查点再按 G，把眼前的供水和通路一起核对并留下记录。"]}
+          ]
+        },
+        {
+          "id": "I2:clinic_supply:confirm",
+          "text": "在病房就地确认恢复，留存配流失序的线索",
+          "hint": "靠近病房恢复确认点，保持无遮挡视线，按 G。会重新核对水量、止水和实际通路；保存成功后才宣布服务恢复，不需要再抽一轮水。",
+          "after": ["I2:clinic_supply:stabilize"],
+          "events": [{"type": "fact", "target_id": "I2:clinic_water_check", "options": ["commissioned"]}],
+          "effects": [
+            {"type": "flag", "key": "I2:clinic_ready", "value": true},
+            {"type": "discovery", "discovery_id": "I2:clinic_priority_misroute", "title": "储备罐有水，病房支路却断开：配流失序影响了居民接诊与通行"},
+            {"type": "character_memory", "character_id": "npc:ruanheng", "memory": "I2:clinic_restored_patient_access"},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["储备没有空，病房的配流却断了；这条记录能说明失序影响到了哪里，还不能说明是谁做的。", "接回水，也接平居民要走的路，这次修复才算落到了用处上。我会把你采用的接法一并记住。"]},
+            {"type": "dialogue", "character_id": "npc:linlan", "lines": ["病房这段供水和通路已经确认，记录也保存了。你们可以继续在水城查看，不用为领奖再飞回港口。"]}
+          ]
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "character_reply_extensions": [
+    {"character_id": "npc:ruanheng", "replies": [
+      {"after": "I2:clinic_supply:diagnose", "lines": ["高位机械旁路和低层电泵都能接回病房。选你看得清、飞得进去的路线，实际进水才算接通。"]},
+      {"after": "I2:clinic_supply:connect", "lines": ["水已经进了病房箱。返回病房看浮台与两边是否齐平，别停在连杆的上升范围里。"]},
+      {"after": "I2:clinic_supply:confirm", "lines": ["这次留下了完整的供水与通路记录。配流失序影响了病房，但现有证据还不足以归罪某一方。"]}
+    ]},
+    {"character_id": "npc:linlan", "replies": [
+      {"after": "I2:clinic_supply:stabilize", "lines": ["到病房就地核对，再把恢复结果保存。不需要回来找我，也不用重新放水。"]},
+      {"after": "I2:clinic_supply:confirm", "lines": ["病房这段供水和居民通路恢复了。后面的调查从这里继续。"]}
+    ]}
+  ],
+  "host_bindings": {
+    "status": "adapter_contract_pending_runtime_validation_not_executed_by_director",
+    "marker_selection": "I2:clinic_demand与I2:clinic_water_check同点；只显示并允许当前目标对应的人工调查，不能由距离并列时的首项决定。",
+    "I2:clinic_demand": {"requires_explicit_interaction": true, "requires_line_of_sight": true, "marker_id": "I2:clinic_demand", "option": "identified", "source": "host_verified_manual_demand_inspection"},
+    "I2:clinic_feed": {"requires_explicit_interaction": false, "source": "first_actual_clean_transfer", "source_node": "I2:clean_cistern", "destination_node": "I2:clinic_tank", "options": ["gravity", "pump"], "navigation_targets": ["I2:clinic_gravity_valve", "I2:clinic_pump"], "retain_before_objective": true, "note": "保存首次实际转移证据及其路线；允许先操作后调查，不能用当前阀位或容量独自猜路线。"},
+    "I2:clinic_water_ready": {"requires_explicit_interaction": false, "navigation_marker_id": "I2:clinic_water_check", "source": "authoritative_water_and_actual_passage", "volume_ml": 2000000, "minimum_clean_fraction": 0.95, "deck_top_y": 5.0, "minimum_passage_width_m": 3.0, "stable_seconds": 2.0, "inlet_closed": true, "option": "verified"},
+    "I2:clinic_water_check": {"requires_explicit_interaction": true, "requires_line_of_sight": true, "marker_id": "I2:clinic_water_check", "revalidate_ready": true, "option": "commissioned", "commit_before_publish": true, "same_commit": ["world.actions.opening", "world.environment.I2_water", "world.flags.I2:clinic_ready", "personal.discoveries", "guest_rewards"], "note": "稳定发现ID同时用作访客收据reward_id；失败保留候选，未保存前不发成功对白、持久服务或发现。"}
+  }
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File ".\asset_sources\v3\west_landing_platform\p1\build_source.py", line 173, in <module>
+    try:main()
+        ~~~~^^
+  File ".\asset_sources\v3\west_landing_platform\p1\build_source.py", line 153, in main
+    assert reread['geometry_sha256']==report['geometry_sha256'],'Reopened geometry/UV/normals changed'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Reopened geometry/UV/normals changed

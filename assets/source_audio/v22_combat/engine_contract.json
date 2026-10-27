@@ -1,0 +1,14 @@
+{
+	"capture_mode": false,
+	"checks": 108,
+	"driver": "Dummy",
+	"failures": [],
+	"manifest_sha256": "aa4e359828aca9564ffea0ea01eb5f4ef3a19ab5d4fc834472912c6ddcfbffc0",
+	"passed": true,
+	"physical_listening_verified": false,
+	"scope": "Contract/real physics occlusion; optional real SFX pre-fader output capture. Synthetic stimuli do not prove gameplay event generation.",
+	"script_sha256": "1b9c6fbf86d1faa3e840e25b1d0885212e75f7c4238492ec49e327e0ffb8b94c",
+	"seconds_of_assets": 37.475,
+	"stages": [],
+	"suite": "v22_combat_audio"
+}

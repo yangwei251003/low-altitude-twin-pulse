@@ -1,0 +1,18 @@
+Low Altitude Squad V2 street kit
+
+car_sedan.glb, car_suv.glb, car_delivery.glb, car_van.glb
+Original source: Car Kit (3.1), created/distributed by Kenney (www.kenney.nl)
+https://kenney.nl/assets/car-kit
+Creative Commons Zero (CC0 1.0 Universal)
+https://creativecommons.org/publicdomain/zero/1.0/
+Edited for this game: real-world meter scale, centered footprint, ground origin.
+Original license text and unmodified source pack are retained in
+asset_sources/v2/streets/third_party/kenney_car_kit/License.txt
+
+All other GLB models in this directory were originally modeled for this
+project; editable component-level .blend sources and construction scripts
+are retained under asset_sources/v2/streets/.
+
+Source URLs, archive SHA-256 and actual downloaded license evidence:
+asset_sources/v2/streets/third_party/provenance.json
+Per-model runtime SHA-256 and geometry statistics: manifest.json

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "source_manifest_sha256": "d337d057cda1beadfa45f915a2c33900713174440e52b4f3d38a759c4bd536f1",
+  "visible_area_m2": 296.58063269983404,
+  "components": 5,
+  "holes": 2,
+  "triangles": 117,
+  "files": {
+    "boundary_world_xz.json": "2b7e6c8412e1a7a31f16b83dab2a0c02f6bc0bff5be8f8eed6edd5c79b164b31",
+    "visible_triangles_world.json": "664b407243aaf87e43532d5445f71102bae712089c46efd3a9fac956094d839f",
+    "yard_visible_blender_local.obj": "7b0cb37e43212a63eb8565588b27010fbc5f310d96bc23dedecce9e938658f15"
+  },
+  "scope": "Actual site input for later editable art; not runtime/collision change or final art approval"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "namespace": "world.npc_sidejobs_v1",
+  "optional": true,
+  "max_active": 4,
+  "id": "sidejob:F2:two_mirror_watch",
+  "region": "F2",
+  "npc_id": "F2:lamp_01",
+  "title": "给夜班留一条旁路",
+  "offer": "夜班需要一条备用光路。能帮我调好两面镜，让光绕过来，照到接收器正面吗？",
+  "steps": [
+    "联络送灯机，接下夜班旁路记录",
+    "选用光束，把两面镜实际对成有效三段光路",
+    "回到送灯机身边，按{contact}登记这次旁路"
+  ],
+  "work_hint": "先选择光束，锁定镜子，再按{ability}调节。让光依次经过两面镜，照到接收器正面；避开遮挡。",
+  "ready": "两面镜已经把光送到了接收器正面。靠近送灯机按{contact}，登记这次夜班旁路。",
+  "consequence": "夜班备用光路的记录留下了。谢谢你替夜班多找了一条路；下次见面，我会记得这次两镜演示。",
+  "reward_id": "npc_sidejob:F2:two_mirror_watch",
+  "evidence": "接受后新的原mechanism tick；原OpticalPath.trace valid/receiver_front、turns=2、segments=3、mirror_hits依次为原镜和新增旁路镜，source真实light_level>=.5；记录原生段端点摘要，不能用原四字段history冒充双镜。",
+  "not_a_claim": "不写主线fact/history、不修改光路，不把角度理想推导当有效光路。",
+  "acceptance": "首次近距联络仅展示邀约；逐句结束后再按{contact}近距联络才确认接受。提示键名由当前玩家UI传入。",
+  "failure_policy": "断电/风暴按原NPC策略返供、等候或避风，不自动判任务失败。离区保留已提交进度，未提交观察不回补；保存失败不显示完成或发奖。",
+  "reward_policy": "只新增该条唯一personal.discovery与NPC完成对白，沿原Store同事务和原Guest回执/重连catchup去重；不增加货币、补血或84主线奖励。",
+  "input_labels": "{contact}/{ability}/{brake}仅从当前玩家实际UI输入标签替换；不能拿flight_interact的F标签冒充Story近距联络G。"
+}

@@ -1,0 +1,85 @@
+{
+  "purpose": "Historical verified dev29 hydraulic state for raised-platform art observation only; not newly played/completed action",
+  "source": "docs/v3/evidence/dev29-package/capture/capture.json",
+  "source_sha256": "004f3462958c830c70af4c736823bff4c788d6ed8d4a32dca33b1acfb997f19a",
+  "source_shot": "I2-full-water",
+  "state": {
+    "axis": {
+      "algorithm": "guided_axis_v1",
+      "config_sha256": "ba53b6fda10b56e614b18c8feda435432bccde05012428ffa3fa805ab545fead",
+      "last_serial": {
+        "1": 1
+      },
+      "position_m": 1.2,
+      "velocity_mps": 0.0
+    },
+    "gravity_blocked": false,
+    "gravity_fraction": 1.0,
+    "gravity_pinned": false,
+    "gravity_speed": 0.0,
+    "interlock_waiting": false,
+    "layout_sha256": "b58b78bdfe122a70039270369e4a2efb907ba54d0541fb60d7f2af3d950a5177",
+    "platform_blocked": false,
+    "powered": false,
+    "pump_fraction": 0.0,
+    "pump_latched": false,
+    "runtime": {
+      "algorithm": "clinic-float-cutoff-v1",
+      "facts": {
+        "gravity_open_permille": 1000,
+        "platform_blocked": false,
+        "pump_open_permille": 0,
+        "pump_powered": false
+      },
+      "fractional_usec": 3.11410985887051e-09,
+      "pending_usec": 0,
+      "schema_version": 1,
+      "simulation": {
+        "algorithm": "bounded-mix-v1",
+        "definition_digest": "0483f5224f9db2fe296c57814979e688e2205393ba6ea125f3e7c60bd4058e21",
+        "definition_id": "I2:clinic_network_v1",
+        "definition_version": 1,
+        "edges": {
+          "I2:clean_pump_to_clinic": {
+            "flow_carry": 0,
+            "last_direction": 0,
+            "last_transfer_ml": 0,
+            "open_permille": 0,
+            "powered": false
+          },
+          "I2:clean_to_clinic": {
+            "flow_carry": 0,
+            "last_direction": 0,
+            "last_transfer_ml": 0,
+            "open_permille": 0,
+            "powered": false
+          }
+        },
+        "nodes": {
+          "I2:clean_cistern": {
+            "clean_ml": 1200000,
+            "dirty_ml": 0
+          },
+          "I2:clinic_tank": {
+            "clean_ml": 2000000,
+            "dirty_ml": 0
+          },
+          "I2:rain_tank": {
+            "clean_ml": 60000,
+            "dirty_ml": 240000
+          },
+          "I2:waste_sump": {
+            "clean_ml": 10000,
+            "dirty_ml": 190000
+          }
+        },
+        "pending_usec": 0,
+        "schema_version": 1,
+        "tick": 428
+      }
+    },
+    "schema_version": 2,
+    "selector_blocked": false,
+    "serial": 2568
+  }
+}

@@ -1,0 +1,2326 @@
+{
+  "schema_version": 1,
+  "status": "greybox_layouts_not_camera_or_collision_verified",
+  "regions": [
+    {
+      "id": "F2",
+      "name": "镜湖悬庭",
+      "status": "greybox_layout_candidate",
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ],
+      "layers": "低湖檐、洞檐、上层镜台、北部巡守庭",
+      "use_areas": "低檐运镜、上庭档案、灯机补光",
+      "main_path_description": "湖檐读原件→西庭询问→上层转镜→北庭辨真身",
+      "main_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -20,
+          10,
+          20
+        ],
+        [
+          -12,
+          10,
+          8
+        ],
+        [
+          18,
+          17,
+          5
+        ],
+        [
+          0,
+          13,
+          -16
+        ],
+        [
+          0,
+          13,
+          -28
+        ]
+      ],
+      "bypass_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -32,
+          7,
+          20
+        ],
+        [
+          -32,
+          7,
+          -10
+        ],
+        [
+          -22,
+          14,
+          -26
+        ]
+      ],
+      "high_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          32,
+          20,
+          22
+        ],
+        [
+          32,
+          20,
+          -10
+        ],
+        [
+          20,
+          20,
+          -26
+        ]
+      ],
+      "minimum_flight_lane_width_m": 5,
+      "minimum_vertical_opening_m": 4,
+      "boss_arena": {
+        "centre": [
+          0,
+          12,
+          -28
+        ],
+        "half_extents": [
+          16,
+          9,
+          11
+        ],
+        "entry_z": -21,
+        "briefing_safe_z": -18,
+        "retry_position": [
+          0,
+          12,
+          -16
+        ],
+        "actor_ground_y": 7.2
+      },
+      "enemy_spawns": [
+        {
+          "id": "F2:patrol_01",
+          "position": [
+            -4,
+            8,
+            8
+          ],
+          "behavior": "short_patrol_then_warn",
+          "route": [
+            [
+              -4,
+              8,
+              8
+            ],
+            [
+              6,
+              8,
+              4
+            ]
+          ],
+          "purpose": "可绕行的单敌遭遇"
+        },
+        {
+          "id": "F2:sentry_01",
+          "position": [
+            24,
+            12,
+            -7
+          ],
+          "behavior": "guard_cone_then_recover",
+          "route": [
+            [
+              24,
+              12,
+              -7
+            ],
+            [
+              26,
+              12,
+              2
+            ]
+          ],
+          "purpose": "侧路上的观察与战斗"
+        }
+      ],
+      "palette": {
+        "ground": "283e36",
+        "platform": "62775e",
+        "edge": "8b825c",
+        "cover": "495e46"
+      },
+      "solids": [
+        {
+          "id": "Ground",
+          "position": [
+            0,
+            -0.5,
+            0
+          ],
+          "size": [
+            80,
+            1,
+            80
+          ],
+          "tone": "ground",
+          "purpose": "连续灰盒地表；非可游泳水面"
+        },
+        {
+          "id": "Pad0",
+          "position": [
+            -22,
+            6.8,
+            20
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "疏谣 · 镜湖档案庭的实际支撑台"
+        },
+        {
+          "id": "Support0",
+          "position": [
+            -22,
+            3.2,
+            20
+          ],
+          "size": [
+            1,
+            6.4,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad1",
+          "position": [
+            -12,
+            1.8000000000000003,
+            10
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "湖檐 · 原始记录的实际支撑台"
+        },
+        {
+          "id": "Support1",
+          "position": [
+            -12,
+            0.7000000000000001,
+            10
+          ],
+          "size": [
+            1,
+            1.4000000000000001,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad2",
+          "position": [
+            16,
+            11.799999999999999,
+            -4
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "悬庭 · 原始记录的实际支撑台"
+        },
+        {
+          "id": "Support2",
+          "position": [
+            16,
+            5.699999999999999,
+            -4
+          ],
+          "size": [
+            1,
+            11.399999999999999,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad3",
+          "position": [
+            21,
+            6.8,
+            15
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "校时刻度石的实际支撑台"
+        },
+        {
+          "id": "Support3",
+          "position": [
+            21,
+            3.2,
+            15
+          ],
+          "size": [
+            1,
+            6.4,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "NorthArena",
+          "position": [
+            0,
+            6.6,
+            -26
+          ],
+          "size": [
+            32,
+            1.2,
+            24
+          ],
+          "tone": "platform",
+          "purpose": "Boss实体战区；入口在南缘，周边可飞行绕行"
+        },
+        {
+          "id": "CoverWest",
+          "position": [
+            -12,
+            9,
+            -27
+          ],
+          "size": [
+            3,
+            4,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，顶部可越过"
+        },
+        {
+          "id": "CoverEast",
+          "position": [
+            12,
+            10,
+            -24
+          ],
+          "size": [
+            3,
+            6,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，不挡中央通道"
+        },
+        {
+          "id": "SouthLanding",
+          "position": [
+            -24,
+            1,
+            31
+          ],
+          "size": [
+            12,
+            2,
+            10
+          ],
+          "tone": "platform",
+          "purpose": "出生/返回安全落台"
+        },
+        {
+          "id": "WestServiceDeck",
+          "position": [
+            -32,
+            2,
+            2
+          ],
+          "size": [
+            5,
+            1,
+            42
+          ],
+          "tone": "edge",
+          "purpose": "西侧低层旁路，前后留有垂直空域"
+        },
+        {
+          "id": "EastLookout",
+          "position": [
+            32,
+            14,
+            10
+          ],
+          "size": [
+            6,
+            1,
+            12
+          ],
+          "tone": "edge",
+          "purpose": "东侧高层备用观察台"
+        }
+      ],
+      "optional_events": [
+        {
+          "id": "F2:side:1",
+          "title": "找回被风吹歪的路镜",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "F2:side:2",
+          "title": "护送灯机绕过巡守",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "F2:side:3",
+          "title": "让瀑布洞檐的接收石重亮",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        }
+      ],
+      "secrets": [
+        {
+          "id": "F2:secret:1",
+          "title": "洞檐背光刻字",
+          "status": "authored_not_bound",
+          "position": [
+            -35,
+            5,
+            14
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F2:secret:2",
+          "title": "上庭镜背校时",
+          "status": "authored_not_bound",
+          "position": [
+            33,
+            16,
+            10
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F2:secret:3",
+          "title": "西湖旧航标",
+          "status": "authored_not_bound",
+          "position": [
+            -22,
+            12,
+            -8
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F2:secret:4",
+          "title": "停机后展开的翼内图",
+          "status": "authored_not_bound",
+          "position": [
+            15,
+            13,
+            -35
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "name": "热崖制造带",
+      "status": "greybox_layout_candidate",
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ],
+      "layers": "崖脚、厂房检修层、冷却高台、炉轨战区",
+      "use_areas": "轮班休息、冷却维修、重载检修",
+      "main_path_description": "换班台→中层账目→东换热台→高泊位→北轨道",
+      "main_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -20,
+          10,
+          20
+        ],
+        [
+          -12,
+          10,
+          8
+        ],
+        [
+          18,
+          17,
+          5
+        ],
+        [
+          0,
+          9,
+          -16
+        ],
+        [
+          0,
+          9,
+          -28
+        ]
+      ],
+      "bypass_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -32,
+          7,
+          20
+        ],
+        [
+          -32,
+          7,
+          -10
+        ],
+        [
+          -22,
+          10,
+          -26
+        ]
+      ],
+      "high_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          32,
+          20,
+          22
+        ],
+        [
+          32,
+          20,
+          -10
+        ],
+        [
+          20,
+          20,
+          -26
+        ]
+      ],
+      "minimum_flight_lane_width_m": 5,
+      "minimum_vertical_opening_m": 4,
+      "boss_arena": {
+        "centre": [
+          0,
+          8,
+          -28
+        ],
+        "half_extents": [
+          16,
+          9,
+          11
+        ],
+        "entry_z": -21,
+        "briefing_safe_z": -18,
+        "retry_position": [
+          0,
+          8,
+          -16
+        ],
+        "actor_ground_y": 3.2
+      },
+      "enemy_spawns": [
+        {
+          "id": "I3:patrol_01",
+          "position": [
+            -4,
+            8,
+            8
+          ],
+          "behavior": "short_patrol_then_warn",
+          "route": [
+            [
+              -4,
+              8,
+              8
+            ],
+            [
+              6,
+              8,
+              4
+            ]
+          ],
+          "purpose": "可绕行的单敌遭遇"
+        },
+        {
+          "id": "I3:sentry_01",
+          "position": [
+            24,
+            12,
+            -7
+          ],
+          "behavior": "guard_cone_then_recover",
+          "route": [
+            [
+              24,
+              12,
+              -7
+            ],
+            [
+              26,
+              12,
+              2
+            ]
+          ],
+          "purpose": "侧路上的观察与战斗"
+        }
+      ],
+      "palette": {
+        "ground": "35424a",
+        "platform": "6f8287",
+        "edge": "54636b",
+        "cover": "7b7568"
+      },
+      "solids": [
+        {
+          "id": "Ground",
+          "position": [
+            0,
+            -0.5,
+            0
+          ],
+          "size": [
+            80,
+            1,
+            80
+          ],
+          "tone": "ground",
+          "purpose": "连续灰盒地表；非可游泳水面"
+        },
+        {
+          "id": "Pad0",
+          "position": [
+            -22,
+            2.8000000000000003,
+            20
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "乔述 · 换班检修台的实际支撑台"
+        },
+        {
+          "id": "Support0",
+          "position": [
+            -22,
+            1.2000000000000002,
+            20
+          ],
+          "size": [
+            1,
+            2.4000000000000004,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad1",
+          "position": [
+            -15,
+            3.8000000000000003,
+            8
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "冷却配额记录的实际支撑台"
+        },
+        {
+          "id": "Support1",
+          "position": [
+            -15,
+            1.7000000000000002,
+            8
+          ],
+          "size": [
+            1,
+            3.4000000000000004,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad2",
+          "position": [
+            16,
+            6.8,
+            8
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "隔离换热台的实际支撑台"
+        },
+        {
+          "id": "Support2",
+          "position": [
+            16,
+            3.2,
+            8
+          ],
+          "size": [
+            1,
+            6.4,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad3",
+          "position": [
+            17,
+            10.799999999999999,
+            -3
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "热匣安全泊位的实际支撑台"
+        },
+        {
+          "id": "Support3",
+          "position": [
+            17,
+            5.199999999999999,
+            -3
+          ],
+          "size": [
+            1,
+            10.399999999999999,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "NorthArena",
+          "position": [
+            0,
+            2.6,
+            -26
+          ],
+          "size": [
+            32,
+            1.2,
+            24
+          ],
+          "tone": "platform",
+          "purpose": "Boss实体战区；入口在南缘，周边可飞行绕行"
+        },
+        {
+          "id": "CoverWest",
+          "position": [
+            -12,
+            5,
+            -27
+          ],
+          "size": [
+            3,
+            4,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，顶部可越过"
+        },
+        {
+          "id": "CoverEast",
+          "position": [
+            12,
+            6,
+            -24
+          ],
+          "size": [
+            3,
+            6,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，不挡中央通道"
+        },
+        {
+          "id": "SouthLanding",
+          "position": [
+            -24,
+            1,
+            31
+          ],
+          "size": [
+            12,
+            2,
+            10
+          ],
+          "tone": "platform",
+          "purpose": "出生/返回安全落台"
+        },
+        {
+          "id": "WestServiceDeck",
+          "position": [
+            -32,
+            2,
+            2
+          ],
+          "size": [
+            5,
+            1,
+            42
+          ],
+          "tone": "edge",
+          "purpose": "西侧低层旁路，前后留有垂直空域"
+        },
+        {
+          "id": "EastLookout",
+          "position": [
+            32,
+            14,
+            10
+          ],
+          "size": [
+            6,
+            1,
+            12
+          ],
+          "tone": "edge",
+          "purpose": "东侧高层备用观察台"
+        }
+      ],
+      "optional_events": [
+        {
+          "id": "I3:side:1",
+          "title": "恢复换班灯号",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "I3:side:2",
+          "title": "给停工货梯接应急旁路",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "I3:side:3",
+          "title": "清理工人休息台的热脉冲",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        }
+      ],
+      "secrets": [
+        {
+          "id": "I3:secret:1",
+          "title": "旧班组的维修刻记",
+          "status": "authored_not_bound",
+          "position": [
+            -35,
+            5,
+            14
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "I3:secret:2",
+          "title": "烟囱背后的低温航洞",
+          "status": "authored_not_bound",
+          "position": [
+            33,
+            16,
+            10
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "I3:secret:3",
+          "title": "高台备用刹车靴",
+          "status": "authored_not_bound",
+          "position": [
+            -22,
+            12,
+            -8
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "I3:secret:4",
+          "title": "炉车底盘原始铭牌",
+          "status": "authored_not_bound",
+          "position": [
+            15,
+            9,
+            -35
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "name": "鸣菌幽谷",
+      "status": "greybox_layout_candidate",
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ],
+      "layers": "根拱低谷、菌膜台、地下光网、静声台",
+      "use_areas": "养分配送、授粉照料、信号隔离",
+      "main_path_description": "样本低层→养护棚→双点隔离→育苗台→北声场",
+      "main_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -20,
+          10,
+          20
+        ],
+        [
+          -12,
+          10,
+          8
+        ],
+        [
+          18,
+          17,
+          5
+        ],
+        [
+          0,
+          11,
+          -16
+        ],
+        [
+          0,
+          11,
+          -28
+        ]
+      ],
+      "bypass_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -32,
+          7,
+          20
+        ],
+        [
+          -32,
+          7,
+          -10
+        ],
+        [
+          -22,
+          12,
+          -26
+        ]
+      ],
+      "high_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          32,
+          20,
+          22
+        ],
+        [
+          32,
+          20,
+          -10
+        ],
+        [
+          20,
+          20,
+          -26
+        ]
+      ],
+      "minimum_flight_lane_width_m": 5,
+      "minimum_vertical_opening_m": 4,
+      "boss_arena": {
+        "centre": [
+          0,
+          10,
+          -28
+        ],
+        "half_extents": [
+          16,
+          9,
+          11
+        ],
+        "entry_z": -21,
+        "briefing_safe_z": -18,
+        "retry_position": [
+          0,
+          10,
+          -16
+        ],
+        "actor_ground_y": 5.2
+      },
+      "enemy_spawns": [
+        {
+          "id": "F3:patrol_01",
+          "position": [
+            -4,
+            8,
+            8
+          ],
+          "behavior": "short_patrol_then_warn",
+          "route": [
+            [
+              -4,
+              8,
+              8
+            ],
+            [
+              6,
+              8,
+              4
+            ]
+          ],
+          "purpose": "可绕行的单敌遭遇"
+        },
+        {
+          "id": "F3:sentry_01",
+          "position": [
+            24,
+            12,
+            -7
+          ],
+          "behavior": "guard_cone_then_recover",
+          "route": [
+            [
+              24,
+              12,
+              -7
+            ],
+            [
+              26,
+              12,
+              2
+            ]
+          ],
+          "purpose": "侧路上的观察与战斗"
+        }
+      ],
+      "palette": {
+        "ground": "283e36",
+        "platform": "62775e",
+        "edge": "8b825c",
+        "cover": "495e46"
+      },
+      "solids": [
+        {
+          "id": "Ground",
+          "position": [
+            0,
+            -0.5,
+            0
+          ],
+          "size": [
+            80,
+            1,
+            80
+          ],
+          "tone": "ground",
+          "purpose": "连续灰盒地表；非可游泳水面"
+        },
+        {
+          "id": "Pad0",
+          "position": [
+            -24,
+            3.8000000000000003,
+            20
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "苓音 · 养护棚的实际支撑台"
+        },
+        {
+          "id": "Support0",
+          "position": [
+            -24,
+            1.7000000000000002,
+            20
+          ],
+          "size": [
+            1,
+            3.4000000000000004,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad1",
+          "position": [
+            -12,
+            2.8000000000000003,
+            8
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "带热痕的菌根样本的实际支撑台"
+        },
+        {
+          "id": "Support1",
+          "position": [
+            -12,
+            1.2000000000000002,
+            8
+          ],
+          "size": [
+            1,
+            2.4000000000000004,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad2",
+          "position": [
+            12,
+            5.8,
+            6
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "光网隔离接口的实际支撑台"
+        },
+        {
+          "id": "Support2",
+          "position": [
+            12,
+            2.7,
+            6
+          ],
+          "size": [
+            1,
+            5.4,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad3",
+          "position": [
+            20,
+            7.799999999999999,
+            -4
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "养分试送接收台的实际支撑台"
+        },
+        {
+          "id": "Support3",
+          "position": [
+            20,
+            3.6999999999999997,
+            -4
+          ],
+          "size": [
+            1,
+            7.3999999999999995,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "NorthArena",
+          "position": [
+            0,
+            4.6,
+            -26
+          ],
+          "size": [
+            32,
+            1.2,
+            24
+          ],
+          "tone": "platform",
+          "purpose": "Boss实体战区；入口在南缘，周边可飞行绕行"
+        },
+        {
+          "id": "CoverWest",
+          "position": [
+            -12,
+            7,
+            -27
+          ],
+          "size": [
+            3,
+            4,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，顶部可越过"
+        },
+        {
+          "id": "CoverEast",
+          "position": [
+            12,
+            8,
+            -24
+          ],
+          "size": [
+            3,
+            6,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，不挡中央通道"
+        },
+        {
+          "id": "SouthLanding",
+          "position": [
+            -24,
+            1,
+            31
+          ],
+          "size": [
+            12,
+            2,
+            10
+          ],
+          "tone": "platform",
+          "purpose": "出生/返回安全落台"
+        },
+        {
+          "id": "WestServiceDeck",
+          "position": [
+            -32,
+            2,
+            2
+          ],
+          "size": [
+            5,
+            1,
+            42
+          ],
+          "tone": "edge",
+          "purpose": "西侧低层旁路，前后留有垂直空域"
+        },
+        {
+          "id": "EastLookout",
+          "position": [
+            32,
+            14,
+            10
+          ],
+          "size": [
+            6,
+            1,
+            12
+          ],
+          "tone": "edge",
+          "purpose": "东侧高层备用观察台"
+        }
+      ],
+      "optional_events": [
+        {
+          "id": "F3:side:1",
+          "title": "接回西棚授粉环",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "F3:side:2",
+          "title": "护送养分机穿过回声带",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "F3:side:3",
+          "title": "听完三处不会同步的旧歌",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        }
+      ],
+      "secrets": [
+        {
+          "id": "F3:secret:1",
+          "title": "根拱里的空响孔",
+          "status": "authored_not_bound",
+          "position": [
+            -35,
+            5,
+            14
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F3:secret:2",
+          "title": "菌膜背面的旧路",
+          "status": "authored_not_bound",
+          "position": [
+            33,
+            16,
+            10
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F3:secret:3",
+          "title": "地下光网的异色结",
+          "status": "authored_not_bound",
+          "position": [
+            -22,
+            12,
+            -8
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F3:secret:4",
+          "title": "静声后出现的幼菌群",
+          "status": "authored_not_bound",
+          "position": [
+            15,
+            11,
+            -35
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        }
+      ]
+    },
+    {
+      "id": "I4",
+      "name": "离岸共振阵列",
+      "status": "greybox_layout_candidate",
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ],
+      "layers": "海面平台、挡风廊、转镜天线层、北防御台",
+      "use_areas": "风暴值守、证据见证、平台维修",
+      "main_path_description": "值守台→协议匣→东见证器→低避风路→北阵列",
+      "main_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -20,
+          10,
+          20
+        ],
+        [
+          -12,
+          10,
+          8
+        ],
+        [
+          18,
+          17,
+          5
+        ],
+        [
+          0,
+          13,
+          -16
+        ],
+        [
+          0,
+          13,
+          -28
+        ]
+      ],
+      "bypass_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -32,
+          7,
+          20
+        ],
+        [
+          -32,
+          7,
+          -10
+        ],
+        [
+          -22,
+          14,
+          -26
+        ]
+      ],
+      "high_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          32,
+          20,
+          22
+        ],
+        [
+          32,
+          20,
+          -10
+        ],
+        [
+          20,
+          20,
+          -26
+        ]
+      ],
+      "minimum_flight_lane_width_m": 5,
+      "minimum_vertical_opening_m": 4,
+      "boss_arena": {
+        "centre": [
+          0,
+          12,
+          -28
+        ],
+        "half_extents": [
+          16,
+          9,
+          11
+        ],
+        "entry_z": -21,
+        "briefing_safe_z": -18,
+        "retry_position": [
+          0,
+          12,
+          -16
+        ],
+        "actor_ground_y": 7.2
+      },
+      "enemy_spawns": [
+        {
+          "id": "I4:patrol_01",
+          "position": [
+            -4,
+            8,
+            8
+          ],
+          "behavior": "short_patrol_then_warn",
+          "route": [
+            [
+              -4,
+              8,
+              8
+            ],
+            [
+              6,
+              8,
+              4
+            ]
+          ],
+          "purpose": "可绕行的单敌遭遇"
+        },
+        {
+          "id": "I4:sentry_01",
+          "position": [
+            24,
+            12,
+            -7
+          ],
+          "behavior": "guard_cone_then_recover",
+          "route": [
+            [
+              24,
+              12,
+              -7
+            ],
+            [
+              26,
+              12,
+              2
+            ]
+          ],
+          "purpose": "侧路上的观察与战斗"
+        }
+      ],
+      "palette": {
+        "ground": "35424a",
+        "platform": "6f8287",
+        "edge": "54636b",
+        "cover": "7b7568"
+      },
+      "solids": [
+        {
+          "id": "Ground",
+          "position": [
+            0,
+            -0.5,
+            0
+          ],
+          "size": [
+            80,
+            1,
+            80
+          ],
+          "tone": "ground",
+          "purpose": "连续灰盒地表；非可游泳水面"
+        },
+        {
+          "id": "Pad0",
+          "position": [
+            -24,
+            4.8,
+            20
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "闻序 · 风暴值守台的实际支撑台"
+        },
+        {
+          "id": "Support0",
+          "position": [
+            -24,
+            2.2,
+            20
+          ],
+          "size": [
+            1,
+            4.4,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad1",
+          "position": [
+            -12,
+            6.8,
+            7
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "原始补偿协议的实际支撑台"
+        },
+        {
+          "id": "Support1",
+          "position": [
+            -12,
+            3.2,
+            7
+          ],
+          "size": [
+            1,
+            6.4,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad2",
+          "position": [
+            20,
+            10.799999999999999,
+            4
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "公开见证接收器的实际支撑台"
+        },
+        {
+          "id": "Support2",
+          "position": [
+            20,
+            5.199999999999999,
+            4
+          ],
+          "size": [
+            1,
+            10.399999999999999,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad3",
+          "position": [
+            14,
+            3.8000000000000003,
+            -3
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "值守检修避风台的实际支撑台"
+        },
+        {
+          "id": "Support3",
+          "position": [
+            14,
+            1.7000000000000002,
+            -3
+          ],
+          "size": [
+            1,
+            3.4000000000000004,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "NorthArena",
+          "position": [
+            0,
+            6.6,
+            -26
+          ],
+          "size": [
+            32,
+            1.2,
+            24
+          ],
+          "tone": "platform",
+          "purpose": "Boss实体战区；入口在南缘，周边可飞行绕行"
+        },
+        {
+          "id": "CoverWest",
+          "position": [
+            -12,
+            9,
+            -27
+          ],
+          "size": [
+            3,
+            4,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，顶部可越过"
+        },
+        {
+          "id": "CoverEast",
+          "position": [
+            12,
+            10,
+            -24
+          ],
+          "size": [
+            3,
+            6,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，不挡中央通道"
+        },
+        {
+          "id": "SouthLanding",
+          "position": [
+            -24,
+            1,
+            31
+          ],
+          "size": [
+            12,
+            2,
+            10
+          ],
+          "tone": "platform",
+          "purpose": "出生/返回安全落台"
+        },
+        {
+          "id": "WestServiceDeck",
+          "position": [
+            -32,
+            2,
+            2
+          ],
+          "size": [
+            5,
+            1,
+            42
+          ],
+          "tone": "edge",
+          "purpose": "西侧低层旁路，前后留有垂直空域"
+        },
+        {
+          "id": "EastLookout",
+          "position": [
+            32,
+            14,
+            10
+          ],
+          "size": [
+            6,
+            1,
+            12
+          ],
+          "tone": "edge",
+          "purpose": "东侧高层备用观察台"
+        }
+      ],
+      "optional_events": [
+        {
+          "id": "I4:side:1",
+          "title": "送回风窗观测器",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "I4:side:2",
+          "title": "恢复值守台求援频闪",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "I4:side:3",
+          "title": "护送巡检机绕过强风侧",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        }
+      ],
+      "secrets": [
+        {
+          "id": "I4:secret:1",
+          "title": "旧协议签署板",
+          "status": "authored_not_bound",
+          "position": [
+            -35,
+            5,
+            14
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "I4:secret:2",
+          "title": "挡风廊的手动限流杆",
+          "status": "authored_not_bound",
+          "position": [
+            33,
+            16,
+            10
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "I4:secret:3",
+          "title": "未上报的维修短讯",
+          "status": "authored_not_bound",
+          "position": [
+            -22,
+            12,
+            -8
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "I4:secret:4",
+          "title": "停机阵列内侧的海图",
+          "status": "authored_not_bound",
+          "position": [
+            15,
+            13,
+            -35
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "name": "天脉冠峰",
+      "status": "greybox_layout_candidate",
+      "spawn": [
+        -24,
+        5,
+        31
+      ],
+      "bounds": [
+        -40,
+        -1,
+        -40,
+        40,
+        27,
+        40
+      ],
+      "layers": "裂谷边、根冠台、双界接口层、失落中枢",
+      "use_areas": "两界会合、支脉照料、负载观测",
+      "main_path_description": "接续台→工业接口→根冠接口→高负载台→北中枢",
+      "main_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -20,
+          10,
+          20
+        ],
+        [
+          -12,
+          10,
+          8
+        ],
+        [
+          18,
+          17,
+          5
+        ],
+        [
+          0,
+          15,
+          -16
+        ],
+        [
+          0,
+          15,
+          -28
+        ]
+      ],
+      "bypass_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          -32,
+          7,
+          20
+        ],
+        [
+          -32,
+          7,
+          -10
+        ],
+        [
+          -22,
+          16,
+          -26
+        ]
+      ],
+      "high_route": [
+        [
+          -24,
+          6,
+          31
+        ],
+        [
+          32,
+          20,
+          22
+        ],
+        [
+          32,
+          20,
+          -10
+        ],
+        [
+          20,
+          20,
+          -26
+        ]
+      ],
+      "minimum_flight_lane_width_m": 5,
+      "minimum_vertical_opening_m": 4,
+      "boss_arena": {
+        "centre": [
+          0,
+          14,
+          -28
+        ],
+        "half_extents": [
+          16,
+          9,
+          11
+        ],
+        "entry_z": -21,
+        "briefing_safe_z": -18,
+        "retry_position": [
+          0,
+          14,
+          -16
+        ],
+        "actor_ground_y": 9.2
+      },
+      "enemy_spawns": [
+        {
+          "id": "F4:patrol_01",
+          "position": [
+            -4,
+            8,
+            8
+          ],
+          "behavior": "short_patrol_then_warn",
+          "route": [
+            [
+              -4,
+              8,
+              8
+            ],
+            [
+              6,
+              8,
+              4
+            ]
+          ],
+          "purpose": "可绕行的单敌遭遇"
+        },
+        {
+          "id": "F4:sentry_01",
+          "position": [
+            24,
+            12,
+            -7
+          ],
+          "behavior": "guard_cone_then_recover",
+          "route": [
+            [
+              24,
+              12,
+              -7
+            ],
+            [
+              26,
+              12,
+              2
+            ]
+          ],
+          "purpose": "侧路上的观察与战斗"
+        }
+      ],
+      "palette": {
+        "ground": "283e36",
+        "platform": "62775e",
+        "edge": "8b825c",
+        "cover": "495e46"
+      },
+      "solids": [
+        {
+          "id": "Ground",
+          "position": [
+            0,
+            -0.5,
+            0
+          ],
+          "size": [
+            80,
+            1,
+            80
+          ],
+          "tone": "ground",
+          "purpose": "连续灰盒地表；非可游泳水面"
+        },
+        {
+          "id": "Pad0",
+          "position": [
+            -24,
+            6.8,
+            20
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "冠枝 · 冠峰接续台的实际支撑台"
+        },
+        {
+          "id": "Support0",
+          "position": [
+            -24,
+            3.2,
+            20
+          ],
+          "size": [
+            1,
+            6.4,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad1",
+          "position": [
+            -12,
+            7.799999999999999,
+            6
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "工业支脉接口的实际支撑台"
+        },
+        {
+          "id": "Support1",
+          "position": [
+            -12,
+            3.6999999999999997,
+            6
+          ],
+          "size": [
+            1,
+            7.3999999999999995,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad2",
+          "position": [
+            14,
+            10.799999999999999,
+            6
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "活脉支路接口的实际支撑台"
+        },
+        {
+          "id": "Support2",
+          "position": [
+            14,
+            5.199999999999999,
+            6
+          ],
+          "size": [
+            1,
+            10.399999999999999,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "Pad3",
+          "position": [
+            18,
+            14.799999999999999,
+            -5
+          ],
+          "size": [
+            6,
+            0.8,
+            6
+          ],
+          "tone": "platform",
+          "purpose": "两界负载试验台的实际支撑台"
+        },
+        {
+          "id": "Support3",
+          "position": [
+            18,
+            7.199999999999999,
+            -5
+          ],
+          "size": [
+            1,
+            14.399999999999999,
+            1
+          ],
+          "tone": "edge",
+          "purpose": "平台支撑，禁止在此虚构通道"
+        },
+        {
+          "id": "NorthArena",
+          "position": [
+            0,
+            8.6,
+            -26
+          ],
+          "size": [
+            32,
+            1.2,
+            24
+          ],
+          "tone": "platform",
+          "purpose": "Boss实体战区；入口在南缘，周边可飞行绕行"
+        },
+        {
+          "id": "CoverWest",
+          "position": [
+            -12,
+            11,
+            -27
+          ],
+          "size": [
+            3,
+            4,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，顶部可越过"
+        },
+        {
+          "id": "CoverEast",
+          "position": [
+            12,
+            12,
+            -24
+          ],
+          "size": [
+            3,
+            6,
+            5
+          ],
+          "tone": "cover",
+          "purpose": "真实射线遮挡掩体，不挡中央通道"
+        },
+        {
+          "id": "SouthLanding",
+          "position": [
+            -24,
+            1,
+            31
+          ],
+          "size": [
+            12,
+            2,
+            10
+          ],
+          "tone": "platform",
+          "purpose": "出生/返回安全落台"
+        },
+        {
+          "id": "WestServiceDeck",
+          "position": [
+            -32,
+            2,
+            2
+          ],
+          "size": [
+            5,
+            1,
+            42
+          ],
+          "tone": "edge",
+          "purpose": "西侧低层旁路，前后留有垂直空域"
+        },
+        {
+          "id": "EastLookout",
+          "position": [
+            32,
+            14,
+            10
+          ],
+          "size": [
+            6,
+            1,
+            12
+          ],
+          "tone": "edge",
+          "purpose": "东侧高层备用观察台"
+        }
+      ],
+      "optional_events": [
+        {
+          "id": "F4:side:1",
+          "title": "接回伙伴的旧联络信标",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "F4:side:2",
+          "title": "恢复峰南的幼根看护点",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        },
+        {
+          "id": "F4:side:3",
+          "title": "让两界维护机走通同一条路线",
+          "status": "authored_not_bound",
+          "completion": "真实环境/战斗/NPC回执；不得接近即完成"
+        }
+      ],
+      "secrets": [
+        {
+          "id": "F4:secret:1",
+          "title": "看护者的旧誓词",
+          "status": "authored_not_bound",
+          "position": [
+            -35,
+            5,
+            14
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F4:secret:2",
+          "title": "裂谷侧翼的返航捷径",
+          "status": "authored_not_bound",
+          "position": [
+            33,
+            16,
+            10
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F4:secret:3",
+          "title": "中枢前的双界刻度",
+          "status": "authored_not_bound",
+          "position": [
+            -22,
+            12,
+            -8
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        },
+        {
+          "id": "F4:secret:4",
+          "title": "结局后共同照料的留念台",
+          "status": "authored_not_bound",
+          "position": [
+            15,
+            15,
+            -35
+          ],
+          "completion": "近距显式检查且视线无遮挡；一次发现收据"
+        }
+      ]
+    }
+  ]
+}

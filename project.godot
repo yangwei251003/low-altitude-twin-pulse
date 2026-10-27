@@ -1,0 +1,37 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+config/name="低空小队：两界共脉 · 开发中"
+config/version="3.0.0-dev.94"
+config/icon="res://assets/ui/icon.svg"
+run/main_scene="res://scenes/v3/app.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+config/description="A small world. A skilled pilot. An open sky."
+config/use_custom_user_dir=true
+config/custom_user_dir_name="LowAltitudeTwinPulsePublic"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+renderer/rendering_method="forward_plus"
+renderer/rendering_method.mobile="mobile"
+rendering_device/driver.windows="d3d12"
+lights_and_shadows/directional_shadow/size=1024
+textures/default_filters/use_nearest_mipmap_filter=false
+anti_aliasing/quality/msaa_3d=0
+environment/defaults/default_clear_color=Color(0.06,0.12,0.16,1)
+
+[physics]
+common/physics_ticks_per_second=60
+3d/physics_engine="Jolt Physics"
+
+[audio]
+driver/enable_input=false
+

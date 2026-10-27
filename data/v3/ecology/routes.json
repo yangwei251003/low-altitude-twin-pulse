@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "content_id": "opening_ecology_routes_v1",
+  "status": "logic_implemented_scene_validation_pending",
+  "coordinate_system": "Godot Y-up metres; route edges are authored flight corridors, not collision guarantees",
+  "regions": [
+    {"id":"I1","nodes":[
+      {"id":"dock","position":[-8,8,36],"neighbors":["junction","shelter"]},
+      {"id":"junction","position":[-3,8,20],"neighbors":["dock","relay","water"]},
+      {"id":"relay","position":[-14,5.5,16],"neighbors":["junction","maintenance","bypass"]},
+      {"id":"maintenance","position":[-29,5.3,13],"neighbors":["relay","bypass"]},
+      {"id":"water","position":[18,7,16],"neighbors":["junction","bypass","shelter"]},
+      {"id":"bypass","position":[-4,11,8],"neighbors":["relay","maintenance","water"]},
+      {"id":"shelter","position":[8,9,37],"neighbors":["dock","water"]}
+    ]},
+    {"id":"F1","nodes":[
+      {"id":"nest","position":[-11,13,32],"neighbors":["grove","refuge","west_bloom"]},
+      {"id":"west_bloom","position":[-31,14,10],"neighbors":["nest","upper","refuge"]},
+      {"id":"upper","position":[-17,14,-3],"neighbors":["west_bloom","east_bloom"]},
+      {"id":"east_bloom","position":[16,15,13],"neighbors":["upper","grove"]},
+      {"id":"grove","position":[5,14,31],"neighbors":["nest","east_bloom"]},
+      {"id":"refuge","position":[-29,14,32],"neighbors":["nest","west_bloom"]}
+    ]}
+  ],
+  "actors": [
+    {"id":"I1:inspection_01","name":"港务巡检机 01","region":"I1","role":"inspection","purpose":"往返检查供能继电与南部输水接点；危险封路时改走高位旁路。","start_node":"dock","shelter_node":"shelter","speed":3.2,"power_policy":{"channel":"powered","loss":"wait","reserve_seconds":0,"supply_node":"dock"},"shelter_weather":["storm"],"jobs":[
+      {"node":"relay","kind":"inspect","target_id":"I1:relay","work_seconds":3},
+      {"node":"water","kind":"inspect","target_id":"I1:water_service","work_seconds":4},
+      {"node":"dock","kind":"inspect","target_id":"I1:inspection_dock","work_seconds":2}
+    ]},
+    {"id":"I1:water_01","name":"运水机 01","region":"I1","role":"water_transport","purpose":"在水务接点装水，再运到检修区冷却工位；没有装载就不能到货。","start_node":"water","shelter_node":"shelter","speed":2.2,"power_policy":{"channel":"supply_powered","loss":"return_supply","reserve_seconds":0,"supply_node":"water"},"shelter_weather":["storm"],"jobs":[
+      {"node":"water","kind":"pickup","target_id":"I1:water_service","work_seconds":5},
+      {"node":"maintenance","kind":"deliver","target_id":"I1:maintenance_cooling","work_seconds":4}
+    ]},
+    {"id":"I1:repair_01","name":"检修机 01","region":"I1","role":"repair","purpose":"复查热交换旁路与继电接点，供能恢复后继续未完成的检修。","start_node":"maintenance","shelter_node":"shelter","speed":2.7,"power_policy":{"channel":"maintenance_powered","loss":"reserve","reserve_seconds":45,"supply_node":"maintenance"},"shelter_weather":["storm"],"jobs":[
+      {"node":"maintenance","kind":"repair","target_id":"I1:thermal","work_seconds":7},
+      {"node":"relay","kind":"repair","target_id":"I1:relay","work_seconds":6}
+    ]},
+    {"id":"F1:pollinator_01","name":"青脉授粉飞虫","region":"F1","role":"pollination","purpose":"在西侧和东侧花簇间携粉授粉；雨天回到根冠避风处等待。","start_node":"west_bloom","shelter_node":"refuge","speed":2.5,"power_policy":{"channel":"powered","loss":"ignore","reserve_seconds":0,"supply_node":"nest"},"shelter_weather":["rain","storm"],"jobs":[
+      {"node":"west_bloom","kind":"pollinate","target_id":"F1:west_bloom","work_seconds":4},
+      {"node":"east_bloom","kind":"pollinate","target_id":"F1:east_bloom","work_seconds":5}
+    ]},
+    {"id":"F1:forest_01","name":"巡林机 01","region":"F1","role":"forest_care","purpose":"检查巨木根冠和上层支脉，记录枯损并做小范围维护；危险航点恢复后再返回。","start_node":"grove","shelter_node":"refuge","speed":3.0,"power_policy":{"channel":"maintenance_powered","loss":"reserve","reserve_seconds":30,"supply_node":"grove"},"shelter_weather":["storm"],"jobs":[
+      {"node":"upper","kind":"inspect","target_id":"F1:upper_vein","work_seconds":3},
+      {"node":"grove","kind":"repair","target_id":"F1:grove_care","work_seconds":6}
+    ]}
+  ]
+}

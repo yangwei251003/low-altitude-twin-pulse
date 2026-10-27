@@ -1,0 +1,9 @@
+{
+  "source": "tests_v3/candidates/canal_session/evidence/20261020_083741_5e5ceb/result.json",
+  "source_sha256": "6c31ddc7cda014eb4aef1aa14bc7d2dd21aae693727402a5fe355b3b76d82c83",
+  "subtree": "snapshots.saved_wait",
+  "fixture_sha256": "85da0cd7541076c33b7a00ce5ed3aa5ad83904b06feb0dd263602788aebbc9ea",
+  "source_checks": 78,
+  "source_failures": [],
+  "scope": "Historical actual MAIN carried WAIT. New tests restore it then physically create a new scan; not a saved scan or new transport proof."
+}

@@ -1,0 +1,2545 @@
+{
+  "schema_version": 1,
+  "content_id": "side_stories_dev88_v1",
+  "status": "developed_not_playtested",
+  "voice_status": "字幕完整；临时中文合成语音由presentation88制作，不代表真人配音。",
+  "contract": "15条新增可选事件，旧四委托/Dev87巡访/本批总active≤4。所有推进依赖接单后成功原生能力、真实物理/实际飞行、新遭遇保存记录；不改84主线、四选择或旧奖励。",
+  "jobs": [
+    {
+      "id": "I1:job88:return_lamp",
+      "region": "I1",
+      "title": "末班灯先亮",
+      "speaker_name": "林岚 · 港务联络",
+      "character_id": "npc:linlan",
+      "role": "linlan",
+      "contact": {
+        "id": "I1:job88:return_lamp:contact",
+        "position": [
+          -31,
+          4,
+          31
+        ]
+      },
+      "reward_id": "side_story88:I1:job88:return_lamp",
+      "voice_base": "story88_i1_job88_return_lamp",
+      "offer": [
+        "末班船靠的是岸边那盏低灯，不是高处的广告灯。请帮我给返航信标充足电，再把旧呼叫回声接上。",
+        "随后沿三处低空灯环飞一遍，用真正的返航路线核对它；不用启动鲸机，也不改病房的供水。"
+      ],
+      "accepted": [
+        "接单了。先锁定末班信标充电两次，再用回声复核；接着按灯环顺序走，进圈前减速。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "返航信标的电与回声都接上，三段低空返程也留下了实际飞行记录。",
+        "我把末班返航班次补进港务记录。下一声失联呼叫来时，岸边有人知道该看哪盏灯。"
+      ],
+      "entities": [
+        {
+          "id": "I1:job88_return_lamp_lamp",
+          "name": "末班返航信标",
+          "position": [
+            -33,
+            2.0,
+            25
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 末班灯先亮；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "补足返航电源",
+          "hint": "锁定末班信标，使用电荷使读数达到70。",
+          "targets": [
+            "I1:job88_return_lamp_lamp"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "I1:job88_return_lamp_lamp",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "接回旧呼叫",
+          "hint": "对同一信标使用回声。",
+          "targets": [
+            "I1:job88_return_lamp_lamp"
+          ],
+          "abilities": [
+            "echo"
+          ],
+          "requires": [
+            {
+              "target": "I1:job88_return_lamp_lamp",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "route",
+          "label": "沿末班返程飞行",
+          "hint": "依次穿过低路、抬升和返航三环；进圈速度≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              -34,
+              4,
+              20
+            ],
+            [
+              -27,
+              7,
+              21
+            ],
+            [
+              -29,
+              5,
+              28
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -33,
+            0.6,
+            25
+          ],
+          "size": [
+            5,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "I1:job88:lost_patch",
+      "region": "I1",
+      "title": "一块还能用的补片",
+      "speaker_name": "阮衡 · 护岸检修",
+      "character_id": "npc:ruanheng",
+      "role": "ruanheng",
+      "contact": {
+        "id": "I1:job88:lost_patch:contact",
+        "position": [
+          30,
+          4,
+          30
+        ]
+      },
+      "reward_id": "side_story88:I1:job88:lost_patch",
+      "voice_base": "story88_i1_job88_lost_patch",
+      "offer": [
+        "潮水退后，有块维修补片落在外缘。别把还能用的东西连着旧故障一起丢掉。",
+        "用推拉把它送到接收圈，慢下来再交；这次只在独立打捞托盘作业，不动原检修廊。"
+      ],
+      "accepted": [
+        "补片是有质量的实体。先在托盘边锁定它使用推拉，再把它稳进北端接收圈。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "推拉与实体归位都已记录，补片没有凭一张清单回到仓库。",
+        "这块料会留在护岸班的交接记录里。维修不只靠换新件，也靠有人愿意把旧件带回来。"
+      ],
+      "entities": [
+        {
+          "id": "I1:job88_lost_patch_patch",
+          "name": "待打捞维修补片",
+          "position": [
+            34,
+            3.25,
+            24
+          ],
+          "size": [
+            1.0,
+            0.7,
+            1.2
+          ],
+          "tags": [
+            "movable",
+            "fieldable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": true,
+          "hint": "委托 · 一块还能用的补片；按当前步骤使用原能力。",
+          "mass": 1.4
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "实际推动补片",
+          "hint": "靠近并锁定补片，使用推拉；反向使用可以拉回。",
+          "targets": [
+            "I1:job88_lost_patch_patch"
+          ],
+          "abilities": [
+            "push_pull"
+          ],
+          "requires": []
+        },
+        {
+          "type": "dock",
+          "label": "把打捞物稳进接收圈",
+          "hint": "用原推拉能力把实物缓慢送进接收圈；空间力场可稳住它，归位时物体速度需低于1.8m/s。",
+          "body": "I1:job88_lost_patch_patch",
+          "position": [
+            34,
+            3.25,
+            16
+          ],
+          "radius": 2.0,
+          "max_speed": 1.8
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            34,
+            2.6,
+            20
+          ],
+          "size": [
+            7,
+            0.4,
+            15
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F1:job88:slow_bloom",
+      "region": "F1",
+      "title": "晚开的也留着",
+      "speaker_name": "阿苔 · 林下照护",
+      "character_id": "npc:atai",
+      "role": "atai",
+      "contact": {
+        "id": "F1:job88:slow_bloom:contact",
+        "position": [
+          -32,
+          4,
+          30
+        ]
+      },
+      "reward_id": "side_story88:F1:job88:slow_bloom",
+      "voice_base": "story88_f1_job88_slow_bloom",
+      "offer": [
+        "这株幼苗被雨檐遮住，先冷下来，才慢慢停了生长。晚开不等于该拔掉。",
+        "帮它回温、接一束光，再看真正的生长。若之前已照料过，接单后再照光复核就行，不必把它变回病株。"
+      ],
+      "accepted": [
+        "先把温度调到10到60度，再照光，生长到70%；已经长好的幼株可照光复核。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "幼苗的温度、光与新一轮照料都留下了，叶片也确实展开了。",
+        "我把它留在林下照护表里。我们不需要每朵花都赶在同一天开放。"
+      ],
+      "entities": [
+        {
+          "id": "F1:job88_slow_bloom_sprout",
+          "name": "檐下晚生幼株",
+          "position": [
+            -34,
+            2,
+            23
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "organic",
+            "plant",
+            "thermal",
+            "photosensitive",
+            "growable",
+            "sustained_light_source"
+          ],
+          "properties": {
+            "temperature": -10.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 晚开的也留着；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "把幼株回温",
+          "hint": "使用热量，使温度在10到60度。",
+          "targets": [
+            "F1:job88_slow_bloom_sprout"
+          ],
+          "abilities": [
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F1:job88_slow_bloom_sprout",
+              "field": "temperature",
+              "op": "gte",
+              "value": 10
+            },
+            {
+              "target": "F1:job88_slow_bloom_sprout",
+              "field": "temperature",
+              "op": "lte",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "给檐下接光",
+          "hint": "锁定幼株照光。",
+          "targets": [
+            "F1:job88_slow_bloom_sprout"
+          ],
+          "abilities": [
+            "light"
+          ],
+          "requires": [
+            {
+              "target": "F1:job88_slow_bloom_sprout",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "照料出真实新生",
+          "hint": "有光且温度合适时使用生长两次；已达70%可再照光复核。",
+          "targets": [
+            "F1:job88_slow_bloom_sprout"
+          ],
+          "abilities": [
+            "growth",
+            "light",
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F1:job88_slow_bloom_sprout",
+              "field": "growth",
+              "op": "gte",
+              "value": 0.7
+            },
+            {
+              "target": "F1:job88_slow_bloom_sprout",
+              "field": "temperature",
+              "op": "gte",
+              "value": 0
+            },
+            {
+              "target": "F1:job88_slow_bloom_sprout",
+              "field": "temperature",
+              "op": "lte",
+              "value": 60
+            }
+          ]
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -34,
+            0.6,
+            23
+          ],
+          "size": [
+            5,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F1:job88:twin_bells",
+      "region": "F1",
+      "title": "回铃不是警报",
+      "speaker_name": "疏谣 · 林庭记录",
+      "character_id": "npc:shuyao",
+      "role": "shuyao",
+      "contact": {
+        "id": "F1:job88:twin_bells:contact",
+        "position": [
+          25,
+          5,
+          30
+        ]
+      },
+      "reward_id": "side_story88:F1:job88:twin_bells",
+      "voice_base": "story88_f1_job88_twin_bells",
+      "offer": [
+        "这里曾把每一声回响都记成警报。两端回铃同时出现时，才能听出这是通路的回应。",
+        "用回声让两端重合，再沿低枝和高枝两环核对方向。它不替代冠兽主线，也不销毁旧记录。"
+      ],
+      "accepted": [
+        "两个回铃相距很近，单人也能依次回声保持。听清重合后，再沿两处灯环核对高差。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "两端真实回声重合过，低枝与高枝的方向也核对过。",
+        "记录里添上一句：回响有时是在回应同伴，不是要求我们切断所有连接。"
+      ],
+      "entities": [
+        {
+          "id": "F1:job88_twin_bells_bell_low",
+          "name": "低枝回铃",
+          "position": [
+            28,
+            5,
+            36
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "echo_operable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 回铃不是警报；按当前步骤使用原能力。"
+        },
+        {
+          "id": "F1:job88_twin_bells_bell_high",
+          "name": "高枝回铃",
+          "position": [
+            34,
+            7,
+            36
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "echo_operable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 回铃不是警报；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "让两声回铃重合",
+          "hint": "两处回铃相距6米；分别使用回声，让两端同时保持。",
+          "targets": [
+            "F1:job88_twin_bells_bell_low",
+            "F1:job88_twin_bells_bell_high"
+          ],
+          "abilities": [
+            "echo"
+          ],
+          "requires": [
+            {
+              "target": "F1:job88_twin_bells_bell_low",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "target": "F1:job88_twin_bells_bell_high",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "route",
+          "label": "顺着回声辨方向",
+          "hint": "先穿低枝环，再抬升到高枝环；进圈≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              28,
+              6,
+              38
+            ],
+            [
+              35,
+              8,
+              32
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            31,
+            3.3,
+            36
+          ],
+          "size": [
+            11,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F1:job88:seed_pod",
+      "region": "F1",
+      "title": "坡下的检修孢",
+      "speaker_name": "阿苔 · 苔桥看护",
+      "character_id": "npc:atai",
+      "role": "atai",
+      "contact": {
+        "id": "F1:job88:seed_pod:contact",
+        "position": [
+          -31,
+          4,
+          8
+        ]
+      },
+      "reward_id": "side_story88:F1:job88:seed_pod",
+      "voice_base": "story88_f1_job88_seed_pod",
+      "offer": [
+        "检修孢匣滚到了坡下。先给外壳回温，再把它沿独立托盘送回接收圈。",
+        "别把推拉当成直接取回：这个匣子会真的撞到边缘，慢一点，力场能帮你稳住。"
+      ],
+      "accepted": [
+        "先回温到15度以上，再使用推拉把孢匣送往北端接收圈。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "孢匣的外壳回温了，实体也稳稳到了接收圈。",
+        "我把这次打捞留给下一班看：坡下的工作也有人去做，不会因为看不见就算没发生。"
+      ],
+      "entities": [
+        {
+          "id": "F1:job88_seed_pod_pod",
+          "name": "滚落的检修孢匣",
+          "position": [
+            -34,
+            1.25,
+            0
+          ],
+          "size": [
+            1,
+            0.7,
+            1
+          ],
+          "tags": [
+            "movable",
+            "fieldable",
+            "mechanical",
+            "thermal"
+          ],
+          "properties": {
+            "temperature": -10.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": true,
+          "hint": "委托 · 坡下的检修孢；按当前步骤使用原能力。",
+          "mass": 1.4
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "给孢匣回温",
+          "hint": "锁定孢匣使用热量，使外壳≥15度。",
+          "targets": [
+            "F1:job88_seed_pod_pod"
+          ],
+          "abilities": [
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F1:job88_seed_pod_pod",
+              "field": "temperature",
+              "op": "gte",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "把孢匣实际移出",
+          "hint": "使用原推拉能力移动孢匣。",
+          "targets": [
+            "F1:job88_seed_pod_pod"
+          ],
+          "abilities": [
+            "push_pull"
+          ],
+          "requires": []
+        },
+        {
+          "type": "dock",
+          "label": "把打捞物稳进接收圈",
+          "hint": "用原推拉能力把实物缓慢送进接收圈；空间力场可稳住它，归位时物体速度需低于1.8m/s。",
+          "body": "F1:job88_seed_pod_pod",
+          "position": [
+            -34,
+            1.25,
+            -8
+          ],
+          "radius": 2.0,
+          "max_speed": 1.8
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -34,
+            0.6,
+            -4
+          ],
+          "size": [
+            7,
+            0.4,
+            15
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "I2:job88:clinic_nightlight",
+      "region": "I2",
+      "title": "夜里仍能找到门",
+      "speaker_name": "林岚 · 病房联络",
+      "character_id": "npc:linlan",
+      "role": "linlan",
+      "contact": {
+        "id": "I2:job88:clinic_nightlight:contact",
+        "position": [
+          -24,
+          7.5,
+          26
+        ]
+      },
+      "reward_id": "side_story88:I2:job88:clinic_nightlight",
+      "voice_base": "story88_i2_job88_clinic_nightlight",
+      "offer": [
+        "病房水路已经有人接着看，今晚我想补的是外缘的夜航灯。亮着，不等于从低处也能认清方向。",
+        "给独立灯座充电、照光，再沿外缘两环试一遍。不会抽走病房储水，也不用重新做旧泵站工序。"
+      ],
+      "accepted": [
+        "给外缘灯座充电到70，再照光；沿南侧外缘两环看高低处的来路。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "灯座的供能和两段实际夜航路线都接上了。",
+        "下一班送水与接诊的人，能沿同一份记录找到门。水和通路，各自都有人继续看。"
+      ],
+      "entities": [
+        {
+          "id": "I2:job88_clinic_nightlight_lamp",
+          "name": "病房外缘夜航灯",
+          "position": [
+            -24,
+            6,
+            23
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable",
+            "photosensitive",
+            "sustained_light_source",
+            "solar"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 夜里仍能找到门；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "补足独立夜灯电源",
+          "hint": "锁定外缘灯座充电到70。",
+          "targets": [
+            "I2:job88_clinic_nightlight_lamp"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "I2:job88_clinic_nightlight_lamp",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "照亮来路",
+          "hint": "对外缘灯座照光，灯面会显示亮起。",
+          "targets": [
+            "I2:job88_clinic_nightlight_lamp"
+          ],
+          "abilities": [
+            "light"
+          ],
+          "requires": [
+            {
+              "target": "I2:job88_clinic_nightlight_lamp",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "type": "route",
+          "label": "核对南侧夜航线",
+          "hint": "从灯座旁进入西侧高环，再到南侧低环；进圈≤4m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              -25,
+              9,
+              19
+            ],
+            [
+              -17,
+              6,
+              25
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 4
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -24,
+            4.3,
+            24
+          ],
+          "size": [
+            6,
+            0.4,
+            7
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "I2:job88:shared_notice",
+      "region": "I2",
+      "title": "同一张轮换公告",
+      "speaker_name": "阮衡 · 南湾排班",
+      "character_id": "npc:ruanheng",
+      "role": "ruanheng",
+      "contact": {
+        "id": "I2:job88:shared_notice:contact",
+        "position": [
+          20,
+          7.5,
+          26
+        ]
+      },
+      "reward_id": "side_story88:I2:job88:shared_notice",
+      "voice_base": "story88_i2_job88_shared_notice",
+      "offer": [
+        "你们的水城决定已经有原终端负责。决定以后，两边还得听到同一轮公告。",
+        "等原章节决定保存后，来把两个独立公告端同时接上，再给留档箱补电；不改水量和旧选择。"
+      ],
+      "accepted": [
+        "先让两端回声同时保持，再充电留档。这里记录的是已签方案的后续工作。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "两边同时接到过这一轮公告，留档箱的独立电源也补足了。",
+        "承诺要让承担较慢那一端也能查到。公告记录保存了你们已有的选择，没有替换它。"
+      ],
+      "entities": [
+        {
+          "id": "I2:job88_shared_notice_receiver_a",
+          "name": "病房公告接收端",
+          "position": [
+            16,
+            6,
+            24
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "echo_operable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 同一张轮换公告；按当前步骤使用原能力。"
+        },
+        {
+          "id": "I2:job88_shared_notice_receiver_b",
+          "name": "南湾公告接收端",
+          "position": [
+            23,
+            6,
+            24
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "echo_operable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 同一张轮换公告；按当前步骤使用原能力。"
+        },
+        {
+          "id": "I2:job88_shared_notice_archive",
+          "name": "轮换留档箱",
+          "position": [
+            20,
+            6,
+            24
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 同一张轮换公告；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "让两边听到同一轮公告",
+          "hint": "两端分别使用回声，同时保持本轮公告。",
+          "targets": [
+            "I2:job88_shared_notice_receiver_a",
+            "I2:job88_shared_notice_receiver_b"
+          ],
+          "abilities": [
+            "echo"
+          ],
+          "requires": [
+            {
+              "target": "I2:job88_shared_notice_receiver_a",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "target": "I2:job88_shared_notice_receiver_b",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "把公告留给下一班",
+          "hint": "给轮换留档箱充电至70。",
+          "targets": [
+            "I2:job88_shared_notice_archive"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "I2:job88_shared_notice_archive",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            19,
+            4.3,
+            24
+          ],
+          "size": [
+            13,
+            0.4,
+            6
+          ]
+        }
+      ],
+      "requires_choice": "I2:twin_pump_guardian:decision",
+      "prerequisite_hint": "先在原水城章节终端读清并签下轮换安排，再来接公告后续。",
+      "choice_key": "I2:twin_pump_guardian:decision",
+      "choice_replies": {
+        "clinic_reserve": [
+          "病房储备优先已写在公告上；南湾较慢的日常补给也写在同一页，没有被藏起来。"
+        ],
+        "balanced_service": [
+          "两线均衡轮换已写在公告上；病房额外回储较慢，这份负担也留在同一页。"
+        ]
+      },
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F2:job88:last_light",
+      "region": "F2",
+      "title": "接回最后一盏灯",
+      "speaker_name": "柳灯 · 悬庭照灯员",
+      "character_id": "npc:liudeng",
+      "role": "lamplighter",
+      "contact": {
+        "id": "F2:job88:last_light:contact",
+        "position": [
+          -11,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:F2:job88:last_light",
+      "voice_base": "story88_f2_job88_last_light",
+      "offer": [
+        "巡访把灯序记下了，这次要接回被截在高湾的末班送灯线。请亲手把待接信标接上电与光，再去东侧护送站。",
+        "载体需要真正到站。沿回航两环核对低路以后，来把末班交接留下。"
+      ],
+      "accepted": [
+        "先充电，再照光。随后完成东高湾护送站，沿两处回航灯环返程。旧巡访与本单独立，不用重读两块牌。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "新信标的电与光、真实护送到站和回航路线都已接上。",
+        "最后一盏灯的交接留住了。我在灯序旁添上末班的名字，不再把未归的一盏当成空白。"
+      ],
+      "entities": [
+        {
+          "id": "F2:job88_last_light_lamp",
+          "name": "待接回的送灯信标",
+          "position": [
+            -7,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable",
+            "photosensitive",
+            "sustained_light_source",
+            "solar"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 接回最后一盏灯；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "给待接信标补电",
+          "hint": "接单后亲手充电，达到70。",
+          "targets": [
+            "F2:job88_last_light_lamp"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "F2:job88_last_light_lamp",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "打开待接灯面",
+          "hint": "对待接信标照光。",
+          "targets": [
+            "F2:job88_last_light_lamp"
+          ],
+          "abilities": [
+            "light"
+          ],
+          "requires": [
+            {
+              "target": "F2:job88_last_light_lamp",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "type": "combat",
+          "label": "接回被围住的航路",
+          "hint": "到东侧高湾联络护送站，保护真实载体到站。先前已完成的同站记录也有效；不要求重刷。",
+          "site_id": "F2:combat88:service_guard"
+        },
+        {
+          "type": "route",
+          "label": "把回航方向连起来",
+          "hint": "依次穿过南侧抬升环与西侧返航环；进入时≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              -6,
+              9,
+              32
+            ],
+            [
+              -17,
+              6,
+              34
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -7,
+            3.2,
+            35
+          ],
+          "size": [
+            5,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "choice_key": "F2:mirror_evidence:decision",
+      "choice_replies": {
+        "publish_raw": [
+          "原件已先公开，校时说明还在逐条补；这次真正的末班到站也作为可查记录保留。"
+        ],
+        "publish_context": [
+          "原件与校时说明共同发布，等待的代价仍被记着；这次末班交接给说明添上真实一页。"
+        ]
+      },
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "I3:job88:hot_return",
+      "region": "I3",
+      "title": "热崖最后一次返程",
+      "speaker_name": "简禾 · 换班记录员",
+      "character_id": "npc:jianhe",
+      "role": "shift_recorder",
+      "contact": {
+        "id": "I3:job88:hot_return:contact",
+        "position": [
+          -11,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:I3:job88:hot_return",
+      "voice_base": "story88_i3_job88_hot_return",
+      "offer": [
+        "旧高台交付已经有自己的记录，这单不让你再搬那只2kg匣子。先把回程冷却匣降温、补电，再解除南湾拦截。",
+        "另有一只小维修匣落在独立托盘，把它真实送进接收圈，才算把这一班的返程接住。"
+      ],
+      "accepted": [
+        "冷却匣从80度降到35度以下，再充到70。南湾清出通路后，推拉小维修匣进南缘接收圈。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "冷却、通路与实体打捞都完成了。旧高台交付没被重复计入，这次返程有自己的记录。",
+        "我把回程也写进换班表。做完一件工件的人，终于不用在表格外面自己想办法回去。"
+      ],
+      "entities": [
+        {
+          "id": "I3:job88_hot_return_cooler",
+          "name": "回程冷却匣",
+          "position": [
+            -7,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable",
+            "thermal"
+          ],
+          "properties": {
+            "temperature": 80.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 热崖最后一次返程；按当前步骤使用原能力。"
+        },
+        {
+          "id": "I3:job88_hot_return_cart",
+          "name": "热崖待接维修匣",
+          "position": [
+            21,
+            1.25,
+            34
+          ],
+          "size": [
+            1,
+            0.7,
+            1.2
+          ],
+          "tags": [
+            "movable",
+            "fieldable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": true,
+          "hint": "委托 · 热崖最后一次返程；按当前步骤使用原能力。",
+          "mass": 1.4
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "给返程降温",
+          "hint": "使用热量反向冷却，把冷却匣降至35度以下。",
+          "targets": [
+            "I3:job88_hot_return_cooler"
+          ],
+          "abilities": [
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "I3:job88_hot_return_cooler",
+              "field": "temperature",
+              "op": "lte",
+              "value": 35
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "补足返程电源",
+          "hint": "给回程冷却匣充电到70。",
+          "targets": [
+            "I3:job88_hot_return_cooler"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "I3:job88_hot_return_cooler",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "combat",
+          "label": "解除拦截小队",
+          "hint": "到南湾巡逻站，解除拦截与后续护卫。先前已完成的同站记录也有效；不要求重刷。",
+          "site_id": "I3:combat88:scout_lane"
+        },
+        {
+          "type": "ability",
+          "label": "实际带动小维修匣",
+          "hint": "在南缘托盘锁定小维修匣，使用推拉。",
+          "targets": [
+            "I3:job88_hot_return_cart"
+          ],
+          "abilities": [
+            "push_pull"
+          ],
+          "requires": []
+        },
+        {
+          "type": "dock",
+          "label": "把打捞物稳进接收圈",
+          "hint": "用原推拉能力把实物缓慢送进接收圈；空间力场可稳住它，归位时物体速度需低于1.8m/s。",
+          "body": "I3:job88_hot_return_cart",
+          "position": [
+            29,
+            1.25,
+            34
+          ],
+          "radius": 2.0,
+          "max_speed": 1.8
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -7,
+            3.2,
+            35
+          ],
+          "size": [
+            5,
+            0.4,
+            5
+          ]
+        },
+        {
+          "position": [
+            25,
+            0.6,
+            34
+          ],
+          "size": [
+            13,
+            0.4,
+            6
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F3:job88:nursery_path",
+      "region": "F3",
+      "title": "给新芽留一条路",
+      "speaker_name": "苗笙 · 菌谷育苗人",
+      "character_id": "npc:miaosheng",
+      "role": "nursery_keeper",
+      "contact": {
+        "id": "F3:job88:nursery_path:contact",
+        "position": [
+          -11,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:F3:job88:nursery_path",
+      "voice_base": "story88_f3_job88_nursery_path",
+      "offer": [
+        "花开的记录留下了，新芽却还要过眼前的路。这次请亲手把外缘根床回温、接光、养起来，再去东高湾接育苗载体。",
+        "真实到站以后，沿两处外缘灯环核对回来的路。不是等一轮生态自己替你完成。"
+      ],
+      "accepted": [
+        "先给根床回温到合适范围，照光后生长到70%；再完成东高湾护送站并沿外缘两环返程。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "新根床的照料、真实育苗护送与返程都已留下。",
+        "菌谷的差别继续存在，也有新芽能沿保留的路回来。我把这条实际可走的路写给下一班。"
+      ],
+      "entities": [
+        {
+          "id": "F3:job88_nursery_path_bed",
+          "name": "外缘育苗根床",
+          "position": [
+            -7,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "organic",
+            "plant",
+            "thermal",
+            "photosensitive",
+            "growable",
+            "sustained_light_source"
+          ],
+          "properties": {
+            "temperature": -10.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 给新芽留一条路；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "给育苗根床回温",
+          "hint": "使用热量，使温度10到60度。",
+          "targets": [
+            "F3:job88_nursery_path_bed"
+          ],
+          "abilities": [
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F3:job88_nursery_path_bed",
+              "field": "temperature",
+              "op": "gte",
+              "value": 10
+            },
+            {
+              "target": "F3:job88_nursery_path_bed",
+              "field": "temperature",
+              "op": "lte",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "把光留给新芽",
+          "hint": "对根床照光。",
+          "targets": [
+            "F3:job88_nursery_path_bed"
+          ],
+          "abilities": [
+            "light"
+          ],
+          "requires": [
+            {
+              "target": "F3:job88_nursery_path_bed",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "真正养出支根",
+          "hint": "生长到70%；先前已养成的可接单后照光复核。",
+          "targets": [
+            "F3:job88_nursery_path_bed"
+          ],
+          "abilities": [
+            "growth",
+            "light",
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F3:job88_nursery_path_bed",
+              "field": "growth",
+              "op": "gte",
+              "value": 0.7
+            },
+            {
+              "target": "F3:job88_nursery_path_bed",
+              "field": "temperature",
+              "op": "gte",
+              "value": 0
+            },
+            {
+              "target": "F3:job88_nursery_path_bed",
+              "field": "temperature",
+              "op": "lte",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "type": "combat",
+          "label": "接回被围住的航路",
+          "hint": "到东侧高湾联络护送站，保护真实载体到站。先前已完成的同站记录也有效；不要求重刷。",
+          "site_id": "F3:combat88:service_guard"
+        },
+        {
+          "type": "route",
+          "label": "核对新芽返程",
+          "hint": "依次经过南侧低环与上缘观察环；进圈≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              -16,
+              5,
+              34
+            ],
+            [
+              -17,
+              10,
+              28
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -7,
+            3.2,
+            35
+          ],
+          "size": [
+            5,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F3:job88:separated_echo",
+      "region": "F3",
+      "title": "分开的线仍能回应",
+      "speaker_name": "聆音 · 菌谷听线",
+      "character_id": "npc:lingyin",
+      "role": "lingyin",
+      "contact": {
+        "id": "F3:job88:separated_echo:contact",
+        "position": [
+          12,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:F3:job88:separated_echo",
+      "voice_base": "story88_f3_job88_separated_echo",
+      "offer": [
+        "主线分开的命令与养分，不应该再被一句都断了混在一起。我们在外缘留了两个独立试端。",
+        "先让两端同一轮回应，再给养分端留光，沿高低两环把差别听清。它们不连接原主线电路，也不改养分供应。"
+      ],
+      "accepted": [
+        "两端回声同时保持，再给养分见证端照光；沿高低两环核对方向。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "两端回声同在、养分端留光和实际路线都有了记录。",
+        "分开不等于不再回应。以后遇到乱响，我们有一份亲手做过的对照，不必先让整个谷安静。"
+      ],
+      "entities": [
+        {
+          "id": "F3:job88_separated_echo_signal",
+          "name": "独立命令试端",
+          "position": [
+            15,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "echo_operable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 分开的线仍能回应；按当前步骤使用原能力。"
+        },
+        {
+          "id": "F3:job88_separated_echo_feed",
+          "name": "独立养分见证端",
+          "position": [
+            21,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "echo_operable",
+            "mechanical",
+            "photosensitive",
+            "sustained_light_source"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 分开的线仍能回应；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "同时听见两端",
+          "hint": "给命令试端与养分见证端分别使用回声，两端同时保持才记录。",
+          "targets": [
+            "F3:job88_separated_echo_signal",
+            "F3:job88_separated_echo_feed"
+          ],
+          "abilities": [
+            "echo"
+          ],
+          "requires": [
+            {
+              "target": "F3:job88_separated_echo_signal",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "target": "F3:job88_separated_echo_feed",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "让养分端可辨认",
+          "hint": "对养分见证端照光。",
+          "targets": [
+            "F3:job88_separated_echo_feed"
+          ],
+          "abilities": [
+            "light"
+          ],
+          "requires": [
+            {
+              "target": "F3:job88_separated_echo_feed",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "type": "route",
+          "label": "听清高低的差别",
+          "hint": "先低环，再高环；进圈≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              24,
+              6,
+              34
+            ],
+            [
+              25,
+              11,
+              29
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            18,
+            3.2,
+            35
+          ],
+          "size": [
+            11,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "I4:job88:storm_shift",
+      "region": "I4",
+      "title": "风暴来前的换班",
+      "speaker_name": "迟守 · 阵列值守员",
+      "character_id": "npc:chishou",
+      "role": "array_watch",
+      "contact": {
+        "id": "I4:job88:storm_shift:contact",
+        "position": [
+          -11,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:I4:job88:storm_shift",
+      "voice_base": "story88_i4_job88_storm_shift",
+      "offer": [
+        "值守表有人名，还得真有人能到接班的位置。先把外缘备用台充好电，再亲手接管一次，确认本轮权限。",
+        "东高湾的维护载体需要护送到站。完成后，沿避风两环回到这里；别用一份清单代替实际到达。"
+      ],
+      "accepted": [
+        "给接管台充到70，再接管；完成东高湾维护护送，沿两处避风环返程。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "备用电、实际接管、真实到站和避风返程都接上了。",
+        "换班不再依赖一句系统会补偿。下一班可以照这次的记录到达，也知道轮到谁回应。"
+      ],
+      "entities": [
+        {
+          "id": "I4:job88_storm_shift_console",
+          "name": "外缘换班接管台",
+          "position": [
+            -7,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable",
+            "hackable"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 风暴来前的换班；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "补足备用电",
+          "hint": "给外缘接管台充电至70。",
+          "targets": [
+            "I4:job88_storm_shift_console"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "I4:job88_storm_shift_console",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "亲手确认本轮权限",
+          "hint": "对接管台使用接管；只采原能力成功后的真实controlled状态。",
+          "targets": [
+            "I4:job88_storm_shift_console"
+          ],
+          "abilities": [
+            "takeover"
+          ],
+          "requires": [
+            {
+              "target": "I4:job88_storm_shift_console",
+              "field": "controlled",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "combat",
+          "label": "接回被围住的航路",
+          "hint": "到东侧高湾联络护送站，保护真实载体到站。先前已完成的同站记录也有效；不要求重刷。",
+          "site_id": "I4:combat88:service_guard"
+        },
+        {
+          "type": "route",
+          "label": "沿避风线接班",
+          "hint": "先低处避风环，再西侧交班环；进圈≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              -14,
+              5,
+              34
+            ],
+            [
+              -17,
+              8,
+              29
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -7,
+            3.2,
+            35
+          ],
+          "size": [
+            5,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "choice_key": "I4:prism_array:decision",
+      "choice_replies": {
+        "public_caps": [
+          "公开统一上限仍要有人核查例外。我把这次维护和下一班一起留在公开记录里。"
+        ],
+        "regional_cosign": [
+          "地区共同签署回应较慢。我把这次换班接上，让协商不再成为无人回应的空白。"
+        ]
+      },
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "I4:job88:exception_log",
+      "region": "I4",
+      "title": "上限以外的一行",
+      "speaker_name": "闻序 · 公开记录",
+      "character_id": "npc:wenxu",
+      "role": "wenxu",
+      "contact": {
+        "id": "I4:job88:exception_log:contact",
+        "position": [
+          12,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:I4:job88:exception_log",
+      "voice_base": "story88_i4_job88_exception_log",
+      "offer": [
+        "你们已经决定谁来改动配额。现在请把一条真实例外留给下一班：先接上原始回声，再给独立留档箱降温、补电。",
+        "原件和已签选择不会被这里修改。不同方案的负担，都要有地方继续写。"
+      ],
+      "accepted": [
+        "对留档箱回声复核，再降到35度以下，充电到70；不必重开阵列首领。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "原始回声、降温与独立留档电源都留下了。",
+        "这行记录不会替上限作决定，却让上限遗漏的人还有地方被看见。"
+      ],
+      "entities": [
+        {
+          "id": "I4:job88_exception_log_archive",
+          "name": "例外记录独立留档箱",
+          "position": [
+            18,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable",
+            "thermal"
+          ],
+          "properties": {
+            "temperature": 80.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 上限以外的一行；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "保留原始回声",
+          "hint": "对独立留档箱使用回声。",
+          "targets": [
+            "I4:job88_exception_log_archive"
+          ],
+          "abilities": [
+            "echo"
+          ],
+          "requires": [
+            {
+              "target": "I4:job88_exception_log_archive",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "让记录安全留存",
+          "hint": "将留档箱降至35度以下。",
+          "targets": [
+            "I4:job88_exception_log_archive"
+          ],
+          "abilities": [
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "I4:job88_exception_log_archive",
+              "field": "temperature",
+              "op": "lte",
+              "value": 35
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "留给下一班可查的电源",
+          "hint": "充电到70。",
+          "targets": [
+            "I4:job88_exception_log_archive"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "I4:job88_exception_log_archive",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            18,
+            3.2,
+            35
+          ],
+          "size": [
+            6,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "requires_choice": "I4:prism_array:decision",
+      "choice_key": "I4:prism_array:decision",
+      "choice_replies": {
+        "public_caps": [
+          "统一上限可以核查，也可能漏掉特殊需要。这次例外记录不绕开上限，更不会关闭民用底线。"
+        ],
+        "regional_cosign": [
+          "共同签署可以接住地方需要，也会更慢。这次记录让尚未答复的一端仍留在值守表上。"
+        ]
+      },
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F4:job88:both_lifelines",
+      "region": "F4",
+      "title": "把两端一起带回",
+      "speaker_name": "白榆 · 接续照护员",
+      "character_id": "npc:baiyu",
+      "role": "vein_caretaker",
+      "contact": {
+        "id": "F4:job88:both_lifelines:contact",
+        "position": [
+          -11,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:F4:job88:both_lifelines",
+      "voice_base": "story88_f4_job88_both_lifelines",
+      "offer": [
+        "最后的方案还在原终端等你们知情决定。这条委托只想让两端各留一份亲手照料的记录。",
+        "给独立试根降温、照光、生长；给应急试灯补电。再清出南湾拦截，沿两处回望灯环回来。原生命线不由这里替换。"
+      ],
+      "accepted": [
+        "先照料试根到70%，再给应急试灯充到70。南湾通路解除后，沿两处回望灯环返程。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "试根、试灯、南湾真实通路和回望路线都已交接。",
+        "恢复先后仍由你们自己决定；这份委托只证明另一端也被亲手带回来，不会从照护表上消失。"
+      ],
+      "entities": [
+        {
+          "id": "F4:job88_both_lifelines_root",
+          "name": "峰缘照护试根",
+          "position": [
+            -7,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "organic",
+            "plant",
+            "thermal",
+            "photosensitive",
+            "growable",
+            "sustained_light_source"
+          ],
+          "properties": {
+            "temperature": 80.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 把两端一起带回；按当前步骤使用原能力。"
+        },
+        {
+          "id": "F4:job88_both_lifelines_lamp",
+          "name": "峰缘应急试灯",
+          "position": [
+            -1,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 把两端一起带回；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "让试根降温",
+          "hint": "把试根调到0至60度。",
+          "targets": [
+            "F4:job88_both_lifelines_root"
+          ],
+          "abilities": [
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F4:job88_both_lifelines_root",
+              "field": "temperature",
+              "op": "gte",
+              "value": 0
+            },
+            {
+              "target": "F4:job88_both_lifelines_root",
+              "field": "temperature",
+              "op": "lte",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "给试根接光",
+          "hint": "对试根照光。",
+          "targets": [
+            "F4:job88_both_lifelines_root"
+          ],
+          "abilities": [
+            "light"
+          ],
+          "requires": [
+            {
+              "target": "F4:job88_both_lifelines_root",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "照料出真实支根",
+          "hint": "生长到70%；已养成的可接单后照光复核。",
+          "targets": [
+            "F4:job88_both_lifelines_root"
+          ],
+          "abilities": [
+            "growth",
+            "light",
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F4:job88_both_lifelines_root",
+              "field": "growth",
+              "op": "gte",
+              "value": 0.7
+            },
+            {
+              "target": "F4:job88_both_lifelines_root",
+              "field": "temperature",
+              "op": "gte",
+              "value": 0
+            },
+            {
+              "target": "F4:job88_both_lifelines_root",
+              "field": "temperature",
+              "op": "lte",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "给另一端补足应急电",
+          "hint": "给独立试灯充电到70。",
+          "targets": [
+            "F4:job88_both_lifelines_lamp"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "F4:job88_both_lifelines_lamp",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "combat",
+          "label": "解除拦截小队",
+          "hint": "到南湾巡逻站，解除拦截与后续护卫。先前已完成的同站记录也有效；不要求重刷。",
+          "site_id": "F4:combat88:scout_lane"
+        },
+        {
+          "type": "route",
+          "label": "把两边的回望连起来",
+          "hint": "依次经过西侧低环和南缘高环；进圈≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              -16,
+              6,
+              34
+            ],
+            [
+              -14,
+              12,
+              30
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            -4,
+            3.2,
+            35
+          ],
+          "size": [
+            12,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "choice_key": "F4:twin_vein_core:decision",
+      "choice_replies": {
+        "shared_stewardship": [
+          "共同照料已经签下。两份亲手记录会交给两边下一班共同维护。"
+        ],
+        "industrial_lifeline": [
+          "工业应急先行已经签下。试根的记录仍在，等待中的活脉没有被从照护表删除。"
+        ],
+        "living_vein": [
+          "活脉先行已经签下。应急试灯的记录仍在，另一岸的基本生产和灯也没有被忘掉。"
+        ]
+      },
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    },
+    {
+      "id": "F4:job88:next_response",
+      "region": "F4",
+      "title": "结局之后的第一声",
+      "speaker_name": "白榆 · 峰顶下一班",
+      "character_id": "npc:baiyu",
+      "role": "vein_caretaker",
+      "contact": {
+        "id": "F4:job88:next_response:contact",
+        "position": [
+          12,
+          6,
+          35
+        ]
+      },
+      "reward_id": "side_story88:F4:job88:next_response",
+      "voice_base": "story88_f4_job88_next_response",
+      "offer": [
+        "原终局方案保存后，这里才开始下一班。不是让你再做一次最终选择，而是把第一声日常呼叫真正接起来。",
+        "给独立交班台降温、补电、回声，然后沿返航两环走一次。结局不会清空日常，也不会替任何一边免除照料。"
+      ],
+      "accepted": [
+        "给后日交班台降温到35度以下，充到70，再回声；沿南缘两环核对第一趟返航。"
+      ],
+      "ready": [
+        "现场步骤都已经由真实操作与保存记录接上了。靠近委托台，再按{contact}正式交接；本次确认成功才记唯一发现。"
+      ],
+      "complete": [
+        "第一声后日呼叫接上了，真实返航路线也已经留下。",
+        "这一页不是新的终局签署。它只是说明，结束一场失控以后，仍有人愿意接下一班。"
+      ],
+      "entities": [
+        {
+          "id": "F4:job88_next_response_relay",
+          "name": "后日交班联络台",
+          "position": [
+            18,
+            5,
+            35
+          ],
+          "size": [
+            1.0,
+            0.8,
+            1.0
+          ],
+          "tags": [
+            "mechanical",
+            "conductive",
+            "electrical",
+            "echo_operable",
+            "thermal"
+          ],
+          "properties": {
+            "temperature": 80.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "powered": false,
+            "angle": 0.0
+          },
+          "dynamic": false,
+          "hint": "委托 · 结局之后的第一声；按当前步骤使用原能力。"
+        }
+      ],
+      "stages": [
+        {
+          "type": "ability",
+          "label": "让交班台冷却下来",
+          "hint": "把交班台降至35度以下。",
+          "targets": [
+            "F4:job88_next_response_relay"
+          ],
+          "abilities": [
+            "heat"
+          ],
+          "requires": [
+            {
+              "target": "F4:job88_next_response_relay",
+              "field": "temperature",
+              "op": "lte",
+              "value": 35
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "接回下一班电源",
+          "hint": "给交班台充电到70。",
+          "targets": [
+            "F4:job88_next_response_relay"
+          ],
+          "abilities": [
+            "charge"
+          ],
+          "requires": [
+            {
+              "target": "F4:job88_next_response_relay",
+              "field": "charge",
+              "op": "gte",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "ability",
+          "label": "回应第一声日常呼叫",
+          "hint": "对交班台使用回声。",
+          "targets": [
+            "F4:job88_next_response_relay"
+          ],
+          "abilities": [
+            "echo"
+          ],
+          "requires": [
+            {
+              "target": "F4:job88_next_response_relay",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "route",
+          "label": "真的走一趟后日返航",
+          "hint": "先南侧低环，再高处回望环；进圈≤5m/s。 若开始就在环内，先退出当前灯环，再减速飞入。",
+          "points": [
+            [
+              24,
+              6,
+              34
+            ],
+            [
+              25,
+              11,
+              29
+            ]
+          ],
+          "radius": 2.5,
+          "max_speed": 5.0
+        }
+      ],
+      "pads": [
+        {
+          "position": [
+            18,
+            3.2,
+            35
+          ],
+          "size": [
+            6,
+            0.4,
+            5
+          ]
+        }
+      ],
+      "requires_choice": "F4:twin_vein_core:decision",
+      "prerequisite_hint": "先在原终章终端读清并明确确认最终方案，再来接后日第一班。这里不会替你选择或消耗主线抉择。",
+      "choice_key": "F4:twin_vein_core:decision",
+      "choice_replies": {
+        "shared_stewardship": [
+          "共同照料的下一班，依靠两边继续回应。这个承诺在结局之后仍要有人做。"
+        ],
+        "industrial_lifeline": [
+          "应急与工业先恢复，但白榆的表里仍留着幼根的照护日期。"
+        ],
+        "living_vein": [
+          "活脉先恢复，但白榆的表里仍留着工班和应急线的回应。"
+        ]
+      },
+      "status": "developed_not_playtested",
+      "replay": [
+        "这条委托已经交接，原发现与世界记录保留；可以回来看实体与对白，不会重复发奖。"
+      ]
+    }
+  ]
+}

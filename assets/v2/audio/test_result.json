@@ -1,0 +1,12 @@
+{
+	"audio_driver": "Dummy",
+	"checks": 60,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"not_tested": [
+		"human_listening",
+		"speaker_headphone_mix",
+		"game_output_capture"
+	],
+	"status": "PASS"
+}

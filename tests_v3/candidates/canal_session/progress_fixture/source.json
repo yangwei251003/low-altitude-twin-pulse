@@ -1,0 +1,7 @@
+{
+  "source": "evidence\\20261020_210846_c423f4\\result.json",
+  "source_sha256": "5fa500c3d36bcfda2be9c235b0d98d927b7092acdf902d5ff844e253dd79ac97",
+  "fixture_sha256": "56afda69dbac803f0986539203a4a582fb476b8cabfc7705ece27195828ba3fa",
+  "record": "snapshots.original_scan",
+  "scope": "Actual original transport 10 receipts and partial scan. Source run 95 checks/1 failed bad-sample test: cold holder was set to the already existing same WORK value. Root fixed the negative test; this recorded real snapshot itself validated and restored. No synthetic completed work or service."
+}

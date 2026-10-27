@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "content_id": "opening_crown_extension_v1",
+  "extends_content_id": "opening_v1",
+  "title": "让老根重新呼吸",
+  "status": "runtime_candidate",
+  "scope_note": "第六行动四个目标，须在opening_v1与whale扩展之后合并。主线合计六行动二十三目标；已接入真实宿主、冠兽、持久胜利和手动恢复调查；候选物理/存档检查通过，最终美术、真人试玩与节奏仍未验收。5–8分钟仅为本行动设计目标。",
+  "requires_action_ids": ["I1:whale"],
+  "requires_character_ids": ["npc:atai", "npc:ruanheng", "npc:linlan"],
+  "characters": [],
+  "markers": [
+    {
+      "id": "F1:crown_briefing",
+      "region": "F1",
+      "position": [0, 11, -1],
+      "kind": "inspect",
+      "label": "阿苔 · 老根道远程联络",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "F1:crown",
+      "completion_text": "行动完成 · 宿主恢复，两界异常的时间对上了。\n返回科技港的西北检修廊，查看维修员留下的通行记录。",
+      "title": "让老根重新呼吸",
+      "region_id": "F1",
+      "prerequisites": ["I1:whale"],
+      "target_minutes": [5, 8],
+      "objectives": [
+        {
+          "id": "F1:crown:brief",
+          "text": "在根桥南侧接通阿苔，辨认冠兽与老根的关系",
+          "hint": "取回鲸机原始记录后返回巨木；升到根桥南侧联络点，按 G 听取两种解除控制的方法。",
+          "after": [],
+          "events": [{"type": "inspect", "target_id": "F1:crown_briefing", "options": ["confirm_plan"]}],
+          "effects": [
+            {"type": "flag", "key": "opening:crown_briefed", "value": true},
+            {"type": "character_memory", "character_id": "npc:atai", "memory": "opening:crown_hosts_matter"},
+            {"type": "dialogue", "character_id": "npc:atai", "lines": ["失光先发生，冠兽才开始在老根间失控。异常抽取扰动了寄生源，不能把这里的活根一并当成敌人。", "给宿主光，再催生根缠住它；也能局部加热，逼它脱离。等核心露出再解除控制，别毁掉整条根脉。"]},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["两种办法都行，也可以交替用。加热后留意灼孢，束缚窗口也有限；先读预警，再找射击位置。"]}
+          ]
+        },
+        {
+          "id": "F1:crown:engage",
+          "text": "离开联络点，接近冠兽并观察它附着的宿主",
+          "hint": "进入真实战区后才会开始交战。辨认可作用的宿主表面，观察冠兽换位与高低层攻击的预警。",
+          "after": ["F1:crown:brief"],
+          "events": [{"type": "fact", "target_id": "F1:crown_engaged", "options": ["started"]}],
+          "effects": [
+            {"type": "flag", "key": "opening:crown_engaged", "value": true},
+            {"type": "dialogue", "character_id": "npc:atai", "lines": ["它换宿主前会松开附着的根。先看清要去哪里，再决定束缚当前宿主，还是提前给下一处设伏。"]}
+          ]
+        },
+        {
+          "id": "F1:crown:disable",
+          "text": "利用宿主暴露核心，解除冠兽对老根的控制",
+          "hint": "光照与生长、局部加热逼退都能创造窗口，单人也可完成。半血换位后重新读招；房主保存本次胜利后，才确认控制解除。",
+          "after": ["F1:crown:engage"],
+          "events": [{"type": "fact", "target_id": "F1:crown_defeated", "options": ["committed"]}],
+          "effects": [
+            {"type": "flag", "key": "opening:crown_control_released", "value": true},
+            {"type": "character_memory", "character_id": "npc:atai", "memory": "opening:crown_control_released"},
+            {"type": "dialogue", "character_id": "npc:atai", "lines": ["控制解除了。留下来的宿主还能恢复，不必为了通行把它们清空。", "靠近恢复后的西侧根脉，按 G 看看它重新传回的脉流。打赢这一场，还不等于查清了失衡。"]}
+          ]
+        },
+        {
+          "id": "F1:crown:restore",
+          "text": "近距离检查恢复的西侧根脉，比对两界失衡痕迹",
+          "hint": "靠近真实恢复宿主的可作用表面，保持无遮挡视线并按 G 检查；远处锁定、自动胜利和经过附近都不会代替调查。",
+          "after": ["F1:crown:disable"],
+          "events": [{"type": "fact", "target_id": "F1:crown_recovered", "options": ["verified"]}],
+          "effects": [
+            {"type": "discovery", "discovery_id": "opening:crown_imbalance_evidence", "title": "恢复的根脉与鲸机记录留下同节律的抽取缺口"},
+            {"type": "character_memory", "character_id": "npc:atai", "memory": "opening:living_hosts_recovered"},
+            {"type": "character_memory", "character_id": "npc:ruanheng", "memory": "opening:crossworld_imbalance_compared"},
+            {"type": "character_memory", "character_id": "npc:linlan", "memory": "opening:both_shores_evidence_shared"},
+            {"type": "dialogue", "character_id": "npc:atai", "lines": ["根脉重新能传光了，抽取留下的缺口还在。寄生源是在失衡后失控的；只清掉冠兽，解释不了它为什么变成这样。"]},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["这些缺口的间隔和鲸机记录对得上。两边承受的是同一段异常抽取，不是彼此偷走了能量。", "它能证明两界一起失衡，还不能证明哪个阵营下了命令。上游中继之后的来源，仍要继续查。"]},
+            {"type": "dialogue", "character_id": "npc:linlan", "lines": ["先把证据留完整。两岸的人都还靠这条脉络生活，我们下一步的改动，也得给他们留下可用的路。"]}
+          ]
+        }
+      ],
+      "effects": [
+        {"type": "flag", "key": "opening:crown_action_completed", "value": true},
+        {"type": "flag", "key": "opening:crossworld_imbalance_evidence", "value": true}
+      ]
+    }
+  ],
+  "character_reply_extensions": [
+    {
+      "character_id": "npc:atai",
+      "replies": [
+        {"after": "F1:crown:brief", "lines": ["束缚宿主，或局部加热逼它脱离，都能创造机会。目标是解除控制，留下还能传光的活根。"]},
+        {"after": "F1:crown:disable", "lines": ["控制已经解除。请亲自靠近恢复的西侧根脉检查，别只凭停战就判定这里的失衡结束了。"]},
+        {"after": "F1:crown:restore", "lines": ["活根恢复了，异常抽取的痕迹也留下了。冠兽不是最早的起因，继续往上游找，别急着把责任推给另一岸。"]}
+      ]
+    },
+    {
+      "character_id": "npc:ruanheng",
+      "replies": [
+        {"after": "F1:crown:restore", "lines": ["根脉与鲸机记录的缺口节律一致，两界都在承受抽取。证据指向上游中继，还没有指向某个阵营。"]}
+      ]
+    },
+    {
+      "character_id": "npc:linlan",
+      "replies": [
+        {"after": "F1:crown:restore", "lines": ["两岸的证据已能相互印证。先保住仍可使用的支脉，再查是谁、又为了什么改变了抽取配额。"]}
+      ]
+    }
+  ],
+  "host_bindings": {
+    "status": "integration_contract_not_interpreted_by_current_director",
+    "F1:crown_engaged": {
+      "source": "host_verified_encounter_start",
+      "encounter_id": "parasitic_crown",
+      "required_objective": "F1:crown:brief",
+      "trigger_role": "CrownEngagementVolume",
+      "trigger_position": "resolve_from_real_arena_not_briefing_marker",
+      "option": "started"
+    },
+    "F1:crown_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "encounter_id": "parasitic_crown",
+      "required_objective": "F1:crown:engage",
+      "world_victory_flag": "F1_boss",
+      "campaign_victory_flag": "campaign_crown_v1",
+      "campaign_receipt_id": "boss:F1:parasitic_crown:opening_v1",
+      "personal_reward_id": "boss:F1:parasitic_crown",
+      "accepted_combat_routes": ["light_root", "thermal_ejection", "mixed"],
+      "route_policy": "same_committed_fact_no_extra_route_objectives",
+      "option": "committed"
+    },
+    "F1:crown_recovered": {
+      "source": "host_verified_manual_inspection",
+      "required_objective": "F1:crown:disable",
+      "region": "F1",
+      "interaction_kind": "inspect",
+      "input_action": "explore",
+      "input_key_hint": "G",
+      "host_anchor_id": "F1:crown_host_west",
+      "anchor_role": "target_position",
+      "anchor_position": "resolve_live_from_restored_world_host_target",
+      "interaction_radius_m": 3,
+      "requires_recovered_host": true,
+      "requires_line_of_sight": true,
+      "requires_explicit_interaction": true,
+      "missing_anchor_policy": "unavailable_no_origin_fallback",
+      "option": "verified"
+    }
+  }
+}

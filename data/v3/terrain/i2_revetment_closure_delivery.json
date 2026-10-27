@@ -1,0 +1,768 @@
+{
+  "status": "EXPORTED_VERIFIED",
+  "glb_sha256": "9e3bce1d8871cb3c6778868cc9209d8042a7ecb8eac852d2f99b58e4ca02c67c",
+  "bytes": 10627820,
+  "pieces": {
+    "EastMouth_01": {
+      "triangles": 2716,
+      "surfaces": 1,
+      "geometry_sha256": "616bb430a7c9b7d7964cc77d85b55b5d6edf98a65cee7ed2e5d098f7e27faba7",
+      "bounds": {
+        "min": [
+          22.5,
+          -2.799999952316284,
+          18.7783145904541
+        ],
+        "max": [
+          23.508333206176758,
+          0.0,
+          22.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "EastMouth_02": {
+      "triangles": 2666,
+      "surfaces": 1,
+      "geometry_sha256": "76231510ac3ab9568119b4fe7ea5f73421212253066f985d64a306c7017bbba8",
+      "bounds": {
+        "min": [
+          23.16666603088379,
+          -2.799999952316284,
+          21.924074172973633
+        ],
+        "max": [
+          24.174999237060547,
+          0.0,
+          25.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "EastMouth_03": {
+      "triangles": 2784,
+      "surfaces": 2,
+      "geometry_sha256": "e47b940066bcf1fea66f630613408d11049d07980880a48be1b43f02083bf561",
+      "bounds": {
+        "min": [
+          23.833332061767578,
+          -2.799999952316284,
+          24.924074172973633
+        ],
+        "max": [
+          24.858537673950195,
+          0.0,
+          28.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "EastWiden_01": {
+      "triangles": 3333,
+      "surfaces": 1,
+      "geometry_sha256": "72674431f4e97b71eb32042fa3936b4cc32375144c8a266665f15e3ff32dbf24",
+      "bounds": {
+        "min": [
+          16.899999618530273,
+          -2.799999952316284,
+          15.600000381469727
+        ],
+        "max": [
+          19.881641387939453,
+          0.0,
+          17.30000114440918
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "EastWiden_02": {
+      "triangles": 4386,
+      "surfaces": 1,
+      "geometry_sha256": "6eafd2125c93196c7a59207c4195e4c03dc0b9556d2addaa8049e5cf8dd9dcc8",
+      "bounds": {
+        "min": [
+          19.700000762939453,
+          -2.799999952316284,
+          17.000823974609375
+        ],
+        "max": [
+          22.809274673461914,
+          0.0,
+          19.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "NorthHead_01": {
+      "triangles": 1957,
+      "surfaces": 1,
+      "geometry_sha256": "f617407d688da23e9f113742b463cedcbebe0cd37281f79c104b96ba40bf7d0a",
+      "bounds": {
+        "min": [
+          12.25,
+          -2.799999952316284,
+          2.0
+        ],
+        "max": [
+          14.575000762939453,
+          0.0,
+          2.299999952316284
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "NorthHead_02": {
+      "triangles": 1997,
+      "surfaces": 1,
+      "geometry_sha256": "3d3274151cd5127690fa694ca40e989afc9eca1eabe9d279b7b2e877c93c9f8f",
+      "bounds": {
+        "min": [
+          14.574999809265137,
+          -2.799999952316284,
+          2.0
+        ],
+        "max": [
+          16.899999618530273,
+          0.0,
+          2.299999952316284
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "WestMouth_01": {
+      "triangles": 2658,
+      "surfaces": 1,
+      "geometry_sha256": "00488b70a761c7fd4816addd0356a4a358e9596ad8b1c386acbfd8b801f49ec6",
+      "bounds": {
+        "min": [
+          9.149999618530273,
+          -2.799999952316284,
+          18.86439323425293
+        ],
+        "max": [
+          9.5,
+          0.0,
+          22.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "WestMouth_02": {
+      "triangles": 2604,
+      "surfaces": 1,
+      "geometry_sha256": "83b426511cb3b5cb04ef5c9693c806583e75d5c1c89db6f9d8264de3f4e1b558",
+      "bounds": {
+        "min": [
+          9.149999618530273,
+          -2.799999952316284,
+          22.0
+        ],
+        "max": [
+          9.5,
+          0.0,
+          25.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "WestMouth_03": {
+      "triangles": 2719,
+      "surfaces": 2,
+      "geometry_sha256": "d742c8719e1f831ebbd0e256eee88b07276e707677de38a14d52c5491f91b37b",
+      "bounds": {
+        "min": [
+          9.149999618530273,
+          -2.799999952316284,
+          25.0
+        ],
+        "max": [
+          9.5,
+          0.0,
+          28.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "WestWiden_01": {
+      "triangles": 2146,
+      "surfaces": 1,
+      "geometry_sha256": "f2e292ff95712e3fe58d673b3c06d8df56fe4afe6a8b21098ccdf315d99c4c49",
+      "bounds": {
+        "min": [
+          10.791365623474121,
+          -2.799999952316284,
+          15.600000381469727
+        ],
+        "max": [
+          12.59999942779541,
+          0.0,
+          17.30000114440918
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    },
+    "WestWiden_02": {
+      "triangles": 2156,
+      "surfaces": 1,
+      "geometry_sha256": "f76cb26c6bd6be73d4f1864b19f71491cae3fdb4877a614bf674c19526f893dd",
+      "bounds": {
+        "min": [
+          9.149999618530273,
+          -2.799999952316284,
+          17.064186096191406
+        ],
+        "max": [
+          11.049999237060547,
+          0.0,
+          19.0
+        ]
+      },
+      "local_matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "parent": "I2RevetmentClosureDelivery"
+    }
+  },
+  "meshes": 12,
+  "surfaces": 14,
+  "materials": 2,
+  "triangles": 32122,
+  "images": [
+    {
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "bytes": 59579,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+      "bytes": 5245778,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+      "bytes": 84412,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "sha256": "b46892c7c910bbf936ecd5e718c5f4dd9439c992f629dea2863132ce00caad2f",
+      "bytes": 4188,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "sha256": "c59610779daeac47580904c322ce28fc53369649212bb70d4b8b2948150879d2",
+      "bytes": 410676,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "sha256": "e507ac686cc451f38e2a030c4388cd126de11bd428ef45df0389910650b7bd94",
+      "bytes": 5676,
+      "size": [
+        1024,
+        256
+      ]
+    }
+  ],
+  "uv_max_error": 2.9802322387695312e-08,
+  "source_normal_max_degrees": 0.00480283901213452,
+  "plan_sha256": "90246f5528d31d73633a4b22fc69ff0cd61330489ede112e33d908d8097fff7b",
+  "source_sha256": "2b8be5939de4f3a98f87aa9e7b940fdb94a1d18c41ce673077c48e0fc991fcdd",
+  "editable_source": "asset_sources\\v3\\i2_revetment_closure\\p1\\output\\i2_revetment_closure_editable.blend",
+  "collision": "None; original Ground remains authoritative",
+  "root_name": "I2RevetmentClosureDelivery",
+  "source_transfer": {
+    "mapped_triangles": 31913,
+    "equivalent_boundary_candidates": 2,
+    "exact_validated_memo_hits": 24469,
+    "max_errors": {
+      "position_m": 1.2747143340874345e-07,
+      "outside_m": 2.384185791015625e-07,
+      "source_uv": 2.6813907805234294e-07,
+      "attribute": 1.930454319176711e-06
+    },
+    "retained_area_weighted_density_px_per_m": 331.51883366776025,
+    "resampling": false
+  },
+  "cap_atlas": {
+    "size": [
+      1024,
+      256
+    ],
+    "density_px_per_m": 320.0,
+    "margin_px": 3,
+    "actual_min_island_gap_px": 8.0,
+    "islands": [
+      {
+        "piece": "EastMouth_03",
+        "pixel_bounds": [
+          4,
+          4,
+          900.0,
+          118.7321116768689
+        ],
+        "area_m2": 0.9968247743697847,
+        "triangles": 94
+      },
+      {
+        "piece": "WestMouth_03",
+        "pixel_bounds": [
+          4,
+          126.7321116768689,
+          900.0,
+          238.73210976952026
+        ],
+        "area_m2": 0.9687476780734275,
+        "triangles": 115
+      }
+    ],
+    "coverage": 0.7678017392356298,
+    "mesh": {
+      "triangles": 209,
+      "minimum_uv_area": 2.3498191059623252e-08,
+      "sum_uv_area": 0.7678017697192892,
+      "normal_encoding_max_degrees": 0.019553978826860243,
+      "normal_encoding": {
+        "object": "ClosureCapBakeProxy",
+        "corners": 627,
+        "maximum_degrees": 0.019553978826860243,
+        "maximum_raw_component_delta": 0.00034128132392652333,
+        "maximum_unit_component_delta": 0.0003412813040515049,
+        "count_above_previous_0_01_degrees": 34,
+        "project_limit_degrees": 0.1,
+        "count_above_project_limit": 0,
+        "formula": "normalized float64 atan2(length(cross(a,b)), dot(a,b))",
+        "worst_corners": [
+          {
+            "degrees": 0.019553978826860243,
+            "raw_max_component_delta": 0.00034128132392652333,
+            "unit_max_component_delta": 0.0003412813040515049,
+            "source_length": 1.0000000582364699,
+            "actual_length": 1.0,
+            "source": [
+              0.00034128132392652333,
+              -1.0,
+              3.423847516614842e-08
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 348,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2087,
+            "position": [
+              24.5,
+              -28.0,
+              -0.9950000047683716
+            ]
+          },
+          {
+            "degrees": 0.019127092095834353,
+            "raw_max_component_delta": 0.0003338307433295995,
+            "unit_max_component_delta": 0.00033383072472805683,
+            "source_length": 1.0000000557214819,
+            "actual_length": 1.0,
+            "source": [
+              0.0003338307433295995,
+              -1.0,
+              4.065805470077066e-08
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 528,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2147,
+            "position": [
+              24.85643768310547,
+              -28.0,
+              -0.002050252165645361
+            ]
+          },
+          {
+            "degrees": 0.01772263278366968,
+            "raw_max_component_delta": 0.00030931830406188965,
+            "unit_max_component_delta": 0.0003093182892644412,
+            "source_length": 1.0000000478389055,
+            "actual_length": 1.0,
+            "source": [
+              0.00030931830406188965,
+              -1.0,
+              0.0
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 552,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2155,
+            "position": [
+              24.858537673950195,
+              -28.0,
+              -0.016234755516052246
+            ]
+          },
+          {
+            "degrees": 0.01772263278366968,
+            "raw_max_component_delta": 0.00030931830406188965,
+            "unit_max_component_delta": 0.0003093182892644412,
+            "source_length": 1.0000000478389055,
+            "actual_length": 1.0,
+            "source": [
+              0.00030931830406188965,
+              -1.0,
+              0.0
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 553,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2155,
+            "position": [
+              24.858537673950195,
+              -28.0,
+              -0.0110236881300807
+            ]
+          },
+          {
+            "degrees": 0.01772263278366968,
+            "raw_max_component_delta": 0.00030931830406188965,
+            "unit_max_component_delta": 0.0003093182892644412,
+            "source_length": 1.0000000478389055,
+            "actual_length": 1.0,
+            "source": [
+              0.00030931830406188965,
+              -1.0,
+              0.0
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 554,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2155,
+            "position": [
+              24.857297897338867,
+              -28.0,
+              -0.004079511854797602
+            ]
+          },
+          {
+            "degrees": 0.015242420609547095,
+            "raw_max_component_delta": 0.0002660304307937622,
+            "unit_max_component_delta": 0.0002660304213799845,
+            "source_length": 1.0000000353860947,
+            "actual_length": 1.0,
+            "source": [
+              0.0002660304307937622,
+              -1.0,
+              2.4109979790409852e-08
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 532,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2148,
+            "position": [
+              24.85643768310547,
+              -28.0,
+              -0.002050252165645361
+            ]
+          },
+          {
+            "degrees": 0.015177917177550248,
+            "raw_max_component_delta": 0.0002646595239639282,
+            "unit_max_component_delta": 0.0002646595146777584,
+            "source_length": 1.000000035087232,
+            "actual_length": 1.0,
+            "source": [
+              0.0002646595239639282,
+              -1.0,
+              1.1393058230169117e-05
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 443,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2118,
+            "position": [
+              24.8576602935791,
+              -28.0,
+              -2.7950680255889893
+            ]
+          },
+          {
+            "degrees": 0.014608921415187352,
+            "raw_max_component_delta": 0.00025497376918792725,
+            "unit_max_component_delta": 0.0002549737760974187,
+            "source_length": 0.9999999729011682,
+            "actual_length": 1.0,
+            "source": [
+              -0.00025497376918792725,
+              -0.9999999403953552,
+              0.0
+            ],
+            "actual": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "corner": 472,
+            "source_object": "EastMouth_03_Surface",
+            "source_triangle": 2128,
+            "position": [
+              24.5,
+              -28.0,
+              -0.7850000262260437
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "same_byte_reimport_report": "asset_sources\\v3\\i2_revetment_closure\\delivery_p1\\same_byte_reimport\\report.json",
+  "acceptance": "candidate only; root must inspect real MAIN default/south/north joints"
+}

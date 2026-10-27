@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "notes": [
+    {
+      "id": "I1:secret:tide_priority",
+      "region": "I1",
+      "position": [-40, 4.7, 3],
+      "kind": "inspect",
+      "label": "潮线与避险灯标记",
+      "radius": 2.8,
+      "discovery_id": "secret:port:tide_priority",
+      "title": "停工可以补，撤离不能摸黑",
+      "character_id": "npc:linlan",
+      "lines": [
+        "排水口上方的灯标，是暴潮时最后允许断电的一路。",
+        "装卸照明可以先停，避险灯必须留着。这里的备用电，从来不只算产量。"
+      ],
+      "optional": true
+    },
+    {
+      "id": "I1:secret:shared_repairs",
+      "region": "I1",
+      "position": [-28, 8.7, -5],
+      "kind": "inspect",
+      "label": "补片旁的交班记号",
+      "radius": 2.8,
+      "discovery_id": "secret:port:shared_repairs",
+      "title": "没有统一派单的修补",
+      "character_id": "npc:ruanheng",
+      "lines": [
+        "补片旁那些短记号，是不同班组留下的孔距和尺寸。",
+        "谁有合适的余料，就接着上一班修。统一的维修单还没来，这段护岸已经撑过好几次潮。"
+      ],
+      "optional": true
+    },
+    {
+      "id": "F1:secret:seasonal_rest",
+      "region": "F1",
+      "position": [-35, 1.4, -12],
+      "kind": "inspect",
+      "label": "洞口内外的苔色",
+      "radius": 2.8,
+      "discovery_id": "secret:grove:seasonal_rest",
+      "title": "褪色不总是死亡",
+      "character_id": "npc:atai",
+      "lines": [
+        "外侧的苔先褪黄，背阴处还留着绿。每到旱季，湿气都会退到这些岩缝里。",
+        "有些细根只是在休眠。把所有褪色都当成病，反而会伤到它们。"
+      ],
+      "optional": true
+    },
+    {
+      "id": "F1:secret:upstream_scars",
+      "region": "F1",
+      "position": [35, 8.5, -13],
+      "kind": "inspect",
+      "label": "朝上游加深的根痕",
+      "radius": 2.8,
+      "discovery_id": "secret:grove:upstream_scars",
+      "title": "伤痕指向更高处",
+      "character_id": "npc:atai",
+      "lines": [
+        "这些窄痕隔得太齐，和洞口那种季节性褪色不同。",
+        "伤痕沿主根向更高处加深，没有朝港口延伸。",
+        "先记下方向：也许还有别的东西接着这条脉络，但这一处还不能说明是谁。"
+      ],
+      "optional": true
+    }
+  ]
+}

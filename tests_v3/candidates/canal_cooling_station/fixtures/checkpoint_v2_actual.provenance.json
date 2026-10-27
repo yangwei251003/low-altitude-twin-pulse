@@ -1,0 +1,7 @@
+{
+  "source": "artifacts/v3/canal-checkpoint-v2-20261020_032127_ced056/result.json",
+  "source_sha256": "f9b16972cdd0264c525004dffa23a88782bc0fcad9150bd88a79c5db2a832cc1",
+  "selector": "checkpoint_evidence.envelope",
+  "fixture_sha256": "795009aa979aa5e3a4c96e88afa01d1b10ae0aeaa64a896ef6578c1767e6f5a8",
+  "scope": "Explicit QA initialization from published actual completed capture. Source result JSON did not retain every native float bit; this is not reconstruction of unlogged binary precision or whole-world restore."
+}

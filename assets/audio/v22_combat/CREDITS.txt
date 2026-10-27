@@ -1,0 +1,8 @@
+V2.2 Combat Audio Credits
+
+Kenney — Impact Sounds
+https://kenney.nl/assets/impact-sounds
+CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Selected metal, plate, soft impact and concrete foley; layered, filtered, edited, leveled and converted to 48 kHz mono PCM.
+
+Original layers: project procedural sound design. Editable Python generator and deterministic seeds supplied.

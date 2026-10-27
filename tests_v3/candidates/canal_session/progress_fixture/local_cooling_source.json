@@ -1,0 +1,7 @@
+{
+  "source": "evidence\\20261020_210529_48e920\\result.json",
+  "source_sha256": "00e3b90a6bd520bae01ff912b6015057984574ad32aa10b6076e9c17536a4060",
+  "fixture_sha256": "993f21bbffac50b9e61964e2e2afdf143d43a6cab0104f2726f401fb750fa6d4",
+  "record": "snapshots.original_scan",
+  "scope": "Actual original Rules/LOS ability removed 25kJ from initial WORK cassette1, then original stationary first work #1 partial scan. Zero transport receipts; initial cassette0 remains on real PinJoint. Source96 checks/0 failures. No route exchange, completed work, claim, Story fact or reward synthesized."
+}

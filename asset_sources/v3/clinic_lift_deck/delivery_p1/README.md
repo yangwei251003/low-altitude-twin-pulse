@@ -1,0 +1,15 @@
+# ClinicLiftDeck P1 delivery
+
+Root approved the original single-object reference and the source preview. This is an asset candidate with explicit GLB and same-byte numeric readback, not game-camera or movement acceptance.
+
+Open `../p1/clinic_lift_deck_editable.blend` for the 41 independent low parts and four high-only tread objects. Its five original PNG dependencies are in `../p1/source_inputs/`; their provenance is in `../p1/provenance/`. Open `clinic_lift_deck_delivery.blend` for the two identity runtime meshes and standard baked PBR. Keep the directory structure: its six maps are in `textures/`. The delivery blend also retains unused source-material datablocks referring to the five local `source_inputs/` copies, so those dependencies are selected explicitly rather than silently left missing. No extra engine run was used to purge them.
+
+Runtime candidate: `assets/v3/candidates/clinic_lift_deck/clinic_lift_deck.glb` from the project root. `ClinicLiftDeck` directly owns `DeckSteel` (656 triangles) and `DeckPaint` (572); all transforms are identity. Mount at the existing moving Deck body centre. Local Godot bounds are X/Z ±2 m, Y ±0.175 m. The original collider, movement and other eight linkage bodies remain Root's responsibility and must be retained.
+
+Steel BaseColor/ORM/Normal are 2K; paint is 1K. ORM uses constant R=1 in occupied UVs because AO was not baked. The GLB has no occlusion texture claim. Actual Paint Normal is neutral; steel contains the matched high-only 1.5 mm shallow treads. No baked light/shadow, no emission, no collision, camera or animation is exported. Original fine NormalGL strength 0.25 is applied once in source; final NormalMap strength is 1.
+
+The actual run chain was `p1/run_preview.py`, then `delivery_p1/run_stage.py bake`, then `delivery_p1/run_stage.py export`, each under the project's existing `dev.execute_command` private Job with CPU2. Export includes binary checks and numerical import of the same bytes; it does not render. Scripts intentionally reject overwriting an existing final GLB. Reproduction must use a newly authorized output directory, preserving these frozen artifacts; missing intermediate bake files can be regenerated from the editable source rather than archived in bulk.
+
+Selected `manifest.json` records source, dependencies, six baked maps, delivery blend/GLB, candidate copy, approved preview/reference, scripts and the three process logs. Duplicate input snapshots are not selected: the manifest records that each is byte-identical to its selected canonical script. Large UV/bake checkpoints, the duplicate delivery editable source, `.blend1`, unused alternatives and old asset directories are excluded. External runner is recorded as a read-only environment dependency, not copied or changed.
+
+Known visual limits: steel is relatively uniform/cool and top fasteners have weak same-material contrast. Root accepted these for actual MAIN review. The 1.5 mm plate inset supports the baked tread while the existing conservative top collision remains unchanged; no extra motion or reach is implied.

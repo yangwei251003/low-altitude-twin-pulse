@@ -1,0 +1,13 @@
+{
+  "production": "local offline synthetic speech authoring; no playback or game execution",
+  "clips_produced": 9,
+  "prior_owned_content_keys_reused": 360,
+  "total_authored_clips": 369,
+  "actual_installed_voices": {
+    "Microsoft Huihui Desktop": 114,
+    "Microsoft Kangkang": 112,
+    "Microsoft Yaoyao": 143
+  },
+  "format": "22050 Hz / PCM 16 bit / mono",
+  "status": "developed_not_playtested_not_human_mix_evaluated"
+}

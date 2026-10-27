@@ -1,0 +1,250 @@
+{
+  "version": "V2.2",
+  "units": "meters",
+  "up_axis": "Y",
+  "front_axis": "+Z",
+  "license": "CC0-1.0",
+  "models": [
+    {
+      "id": "weather_station",
+      "path": "res://assets/models/v22/weather_station.glb",
+      "source": "assets/source_models/v22/weather_station.blend",
+      "footprint": [
+        1.68,
+        1.25
+      ],
+      "height": 3.71,
+      "triangles": 681,
+      "surface_count": 3,
+      "motion_groups": [
+        "Body",
+        "WindVane",
+        "Anemometer"
+      ],
+      "usage": "Readable wind direction/speed and weather selection",
+      "license": "CC0-1.0",
+      "sha256": "ceee0e43e755fc007bb1d2fe7db412eefc262fe0c20e91a09d3600ffd972bebc"
+    },
+    {
+      "id": "ventilator",
+      "path": "res://assets/models/v22/ventilator.glb",
+      "source": "assets/source_models/v22/ventilator.blend",
+      "footprint": [
+        2.66,
+        1.8
+      ],
+      "height": 2.95,
+      "triangles": 426,
+      "surface_count": 2,
+      "motion_groups": [
+        "Body",
+        "FanRotor"
+      ],
+      "usage": "Switchable +Z air jet with rotating protected impeller",
+      "license": "CC0-1.0",
+      "sha256": "128dca4f4d3768a0d75bf7b1e85bd46105cde673aca325d3b36ded57a39bb6e0"
+    },
+    {
+      "id": "gantry_crane",
+      "path": "res://assets/models/v22/gantry_crane.glb",
+      "source": "assets/source_models/v22/gantry_crane.blend",
+      "footprint": [
+        8.8,
+        4.2
+      ],
+      "height": 6.4,
+      "triangles": 988,
+      "surface_count": 3,
+      "motion_groups": [
+        "Body",
+        "Trolley",
+        "Hook"
+      ],
+      "usage": "Port gantry with physical supports, moving hook and warning cycle",
+      "license": "CC0-1.0",
+      "sha256": "2858e1c076bb2a40b3fd08ed1987417ebdfcad67f79ec79079dcfafa5344c509"
+    },
+    {
+      "id": "lift_platform",
+      "path": "res://assets/models/v22/lift_platform.glb",
+      "source": "assets/source_models/v22/lift_platform.blend",
+      "footprint": [
+        4.6,
+        3.4
+      ],
+      "height": 0.519,
+      "triangles": 432,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Animatable platform; collider top is local Y=0.45m",
+      "license": "CC0-1.0",
+      "sha256": "7546f08015521c4e65bd1d1a3758c56b8879fedd786b85c18645bc734bd7f916"
+    },
+    {
+      "id": "shore_bank",
+      "path": "res://assets/models/v22/shore_bank.glb",
+      "source": "assets/source_models/v22/shore_bank.blend",
+      "footprint": [
+        8.0,
+        4.325
+      ],
+      "height": 1.65,
+      "triangles": 236,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Visible sloping riprap edge; static collision supplied by terrain owner",
+      "license": "CC0-1.0",
+      "sha256": "c70938631c699957cd63caae78e2260b7c89c0439f5fb437a2b5f4bad67c30a0"
+    },
+    {
+      "id": "bridge_deck",
+      "path": "res://assets/models/v22/bridge_deck.glb",
+      "source": "assets/source_models/v22/bridge_deck.blend",
+      "footprint": [
+        12.0,
+        5.6
+      ],
+      "height": 1.295,
+      "triangles": 984,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Real bridge deck, railings, expansion joints; local top Y=.46m",
+      "license": "CC0-1.0",
+      "sha256": "1ef5e13adc2434904a196aaa31b3b56d20859bd2a435ad510db424f10628d740"
+    },
+    {
+      "id": "floating_dock",
+      "path": "res://assets/models/v22/floating_dock.glb",
+      "source": "assets/source_models/v22/floating_dock.blend",
+      "footprint": [
+        3.23,
+        5.1
+      ],
+      "height": 1.11,
+      "triangles": 988,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Near-shore low-amplitude floating landing platform; deck Y=.65m",
+      "license": "CC0-1.0",
+      "sha256": "1d9f4ec97dce3102acbbc6ff123ae00310898a344b8994e0230d5294e2a82f14"
+    },
+    {
+      "id": "pedestrian_worker",
+      "path": "res://assets/models/v22/pedestrian_worker.glb",
+      "source": "assets/source_models/v22/pedestrian_worker.blend",
+      "footprint": [
+        0.939,
+        0.375
+      ],
+      "height": 1.81,
+      "triangles": 356,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Shared five-bone walk cycle, low-poly pedestrian; no physical flight blocker",
+      "license": "CC0-1.0",
+      "sha256": "9c99308ed5656114f7d44edeb221b531e56c8b98c30a9c984ab2afaeb32d90b9"
+    },
+    {
+      "id": "pedestrian_walker",
+      "path": "res://assets/models/v22/pedestrian_walker.glb",
+      "source": "assets/source_models/v22/pedestrian_walker.blend",
+      "footprint": [
+        0.939,
+        0.37
+      ],
+      "height": 1.77,
+      "triangles": 344,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Shared five-bone walk cycle, low-poly pedestrian; no physical flight blocker",
+      "license": "CC0-1.0",
+      "sha256": "97aac8530716e232f1bfd2bfee8e561b9fec6ed23624817d0d314a728d287419"
+    },
+    {
+      "id": "pedestrian_citizen",
+      "path": "res://assets/models/v22/pedestrian_citizen.glb",
+      "source": "assets/source_models/v22/pedestrian_citizen.blend",
+      "footprint": [
+        0.939,
+        0.37
+      ],
+      "height": 1.77,
+      "triangles": 344,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Shared five-bone walk cycle, low-poly pedestrian; no physical flight blocker",
+      "license": "CC0-1.0",
+      "sha256": "99b8ae8477ab27f22421575db5b3099b7c9b87e315d0c5666c03317d3bcf5e8e"
+    },
+    {
+      "id": "construction_barrier",
+      "path": "res://assets/models/v22/construction_barrier.glb",
+      "source": "assets/source_models/v22/construction_barrier.blend",
+      "footprint": [
+        3.1,
+        0.8
+      ],
+      "height": 1.74,
+      "triangles": 224,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Solid weighted construction rail with warning beacon",
+      "license": "CC0-1.0",
+      "sha256": "dd9fa00524a9232ae35298c65c18f11fb71d4897b4969c8c475d907db4b72faa"
+    },
+    {
+      "id": "shore_reeds",
+      "path": "res://assets/models/v22/shore_reeds.glb",
+      "source": "assets/source_models/v22/shore_reeds.blend",
+      "footprint": [
+        1.718,
+        0.995
+      ],
+      "height": 1.425,
+      "triangles": 749,
+      "surface_count": 1,
+      "motion_groups": [
+        "Body"
+      ],
+      "usage": "Native coastal reeds; vertex wind anchored at ground",
+      "license": "CC0-1.0",
+      "sha256": "a37cb435101ba3a9f230ade20bc15df992a0094efbc31c728308ed04aedfbd82"
+    },
+    {
+      "id": "seagull",
+      "path": "res://assets/models/v22/seagull.glb",
+      "source": "assets/source_models/v22/seagull.blend",
+      "footprint": [
+        1.7,
+        0.802
+      ],
+      "height": 0.33,
+      "triangles": 47,
+      "surface_count": 3,
+      "motion_groups": [
+        "Body",
+        "WingLeft",
+        "WingRight"
+      ],
+      "usage": "Small banked shore flock; low-cost articulated wings",
+      "license": "CC0-1.0",
+      "sha256": "f61e840d23e0c0df5646b86f9d88cf36939a375da0e4010ddd2030d0d3f150ae"
+    }
+  ]
+}

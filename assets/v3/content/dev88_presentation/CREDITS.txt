@@ -1,0 +1,40 @@
+Low Altitude / Twin Pulse Dev88 - reusable visual and speech production
+
+Selected visual directions remain I-B industrial and F-B fantasy.
+Editable visual sources:
+  scripts/v3/content/dev88_presentation/twin_dev88_presentation.gd
+  data/v3/content/dev88_presentation/presentation.json
+The prior editable primitive factory and explicit project GLBs are reused.
+Human-shaped figures are clearly marked radio contact projections; no real
+person's likeness is used and no authoritative resident simulation is added.
+
+Reused small low-detail human GLBs:
+  assets/models/v22/pedestrian_worker.glb
+  assets/models/v22/pedestrian_walker.glb
+  assets/models/v22/pedestrian_citizen.glb
+Their existing editable Blender sources remain under assets/source_models/v22/.
+The existing manifest lists these model resources as CC0-1.0; it remains the
+project source of model license records. No duplicate textures are produced.
+
+Key Mandarin dialogue is explicitly temporary local synthetic speech.
+The original authored captions and per-line source pointers are retained in:
+  data/v3/content/dev88_presentation/voice_lines.json
+Editable collection and offline production sources:
+  scripts/v3/content/dev88_presentation/collect_voice_lines.py
+  scripts/v3/content/dev88_presentation/build_voice_assets.ps1
+Locally installed Windows SAPI voices distinguish roles: Microsoft Huihui
+Desktop, Microsoft Kangkang and Microsoft Yaoyao, at small speed differences.
+Only generated WAVs are distributed. No speech engine or voice package is
+copied. No actor or celebrity is imitated. Nothing is uploaded or purchased.
+
+Speech covers key primary story, chapter/Boss exchanges, explicit choice text,
+ending cards and optional side-story exchanges. It is not every possible line,
+not a human performance and not final human-evaluated mixing.
+
+New sounds use the existing TwinAudioV3 UI event bus, volume settings and
+delivery. The local interface presents one caption at a time; speech follows
+that displayed line, with the previous speech stopped when the next appears.
+No gameplay fact, save, input binding, reward or network authority is created
+by voice authoring or by the pure routing helper.
+
+Production status: developed, not playtested or listened to by this agent.

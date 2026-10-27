@@ -1,0 +1,1380 @@
+{
+  "version": "2.2",
+  "music": [
+    {
+      "id": "morning",
+      "file": "music/morning.ogg",
+      "title": "Morning",
+      "author": "Kevin MacLeod",
+      "contexts": [
+        "hangar",
+        "explore"
+      ],
+      "license": "CC-BY-4.0",
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2300003",
+      "original_sha256": "25a18be2e8b47ee75c336d9e27ac709bf71f0409806d696ab49ea2bddc113d80",
+      "normalization": {
+        "input_i": "-18.05",
+        "input_tp": "-4.29",
+        "input_lra": "3.60",
+        "input_thresh": "-28.11",
+        "output_i": "-19.99",
+        "output_tp": "-6.37",
+        "output_lra": "3.50",
+        "output_thresh": "-30.04",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.01"
+      },
+      "seconds": 153.312667,
+      "channels": 2,
+      "sample_rate": 48000,
+      "rms_dbfs": -22.285,
+      "peak_dbfs": -6.249,
+      "clipped_samples": 0,
+      "sha256": "5c6e2f3c66152bda545e7c63927bbacca7e2ae3f947a2a7924392223dc37aec8",
+      "bytes": 2726743,
+      "author_url": "https://incompetech.com/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "wholesome",
+      "file": "music/wholesome.ogg",
+      "title": "Wholesome",
+      "author": "Kevin MacLeod",
+      "contexts": [
+        "explore",
+        "hangar"
+      ],
+      "license": "CC-BY-4.0",
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900022",
+      "original_sha256": "9eadc79a1a2cb68cd63be1432ebf8f8ae3387cb9d2e85f9b8dbc74ba5a96b231",
+      "normalization": {
+        "input_i": "-16.50",
+        "input_tp": "-2.57",
+        "input_lra": "1.40",
+        "input_thresh": "-26.52",
+        "output_i": "-19.97",
+        "output_tp": "-5.89",
+        "output_lra": "1.50",
+        "output_thresh": "-29.98",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.03"
+      },
+      "seconds": 363.807354,
+      "channels": 2,
+      "sample_rate": 48000,
+      "rms_dbfs": -22.121,
+      "peak_dbfs": -5.953,
+      "clipped_samples": 0,
+      "sha256": "24a96471d27580afb1c50707153867d0c720a9c1e4ca02be98268542960e6a4e",
+      "bytes": 6854411,
+      "author_url": "https://incompetech.com/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "carefree",
+      "file": "music/carefree.ogg",
+      "title": "Carefree",
+      "author": "Kevin MacLeod",
+      "contexts": [
+        "explore",
+        "action"
+      ],
+      "license": "CC-BY-4.0",
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+      "original_sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+      "normalization": {
+        "input_i": "-20.24",
+        "input_tp": "-3.18",
+        "input_lra": "3.60",
+        "input_thresh": "-30.31",
+        "output_i": "-20.32",
+        "output_tp": "-3.36",
+        "output_lra": "3.50",
+        "output_thresh": "-30.34",
+        "normalization_type": "dynamic",
+        "target_offset": "0.32"
+      },
+      "seconds": 205.139604,
+      "channels": 2,
+      "sample_rate": 48000,
+      "rms_dbfs": -22.409,
+      "peak_dbfs": -3.447,
+      "clipped_samples": 0,
+      "sha256": "bde8cc7d449ec3d5ac21662fa9af86d3367e579436c9894ade492fe3e6578aad",
+      "bytes": 4349897,
+      "author_url": "https://incompetech.com/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "montauk_point",
+      "file": "music/montauk_point.ogg",
+      "title": "Montauk Point",
+      "author": "Kevin MacLeod",
+      "contexts": [
+        "explore",
+        "action"
+      ],
+      "license": "CC-BY-4.0",
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400013",
+      "original_sha256": "bba425149807011f6a9cfd1db38bb06cab3d0e82e8a1d9ecaf280f71e5fc2b1b",
+      "normalization": {
+        "input_i": "-19.00",
+        "input_tp": "-2.25",
+        "input_lra": "7.70",
+        "input_thresh": "-29.21",
+        "output_i": "-19.09",
+        "output_tp": "-3.00",
+        "output_lra": "5.70",
+        "output_thresh": "-29.27",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.91"
+      },
+      "seconds": 219.715937,
+      "channels": 2,
+      "sample_rate": 48000,
+      "rms_dbfs": -21.29,
+      "peak_dbfs": -3.162,
+      "clipped_samples": 0,
+      "sha256": "1130cdfefc58c8263d081e99d4897c2a0531fc40571b4e6f64075f4d81984414",
+      "bytes": 4214029,
+      "author_url": "https://incompetech.com/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "easy_lemon",
+      "file": "music/easy_lemon.ogg",
+      "title": "Easy Lemon",
+      "author": "Kevin MacLeod",
+      "contexts": [
+        "explore",
+        "hangar"
+      ],
+      "license": "CC-BY-4.0",
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+      "original_sha256": "2486b8ecfe4575f9ab31613a2c03c2ee45e6e5280301d05b4dd7237c9e1c2531",
+      "normalization": {
+        "input_i": "-15.83",
+        "input_tp": "-0.05",
+        "input_lra": "4.20",
+        "input_thresh": "-26.23",
+        "output_i": "-19.64",
+        "output_tp": "-3.84",
+        "output_lra": "3.80",
+        "output_thresh": "-29.93",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.36"
+      },
+      "seconds": 126.380417,
+      "channels": 2,
+      "sample_rate": 48000,
+      "rms_dbfs": -21.072,
+      "peak_dbfs": -4.199,
+      "clipped_samples": 0,
+      "sha256": "6f8e07fcf4de83e85f2d477a045dcf14341f5829fb92df2ebc54a9c68ba263c7",
+      "bytes": 2306714,
+      "author_url": "https://incompetech.com/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "heartwarming",
+      "file": "music/heartwarming.ogg",
+      "title": "Heartwarming",
+      "author": "Kevin MacLeod",
+      "contexts": [
+        "hangar",
+        "explore"
+      ],
+      "license": "CC-BY-4.0",
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100207",
+      "original_sha256": "a621a943ab940567f4136060e0f1f0637038b8a03c10ff8926f956e1b2ef34e7",
+      "normalization": {
+        "input_i": "-17.90",
+        "input_tp": "-4.19",
+        "input_lra": "7.90",
+        "input_thresh": "-28.53",
+        "output_i": "-21.16",
+        "output_tp": "-7.08",
+        "output_lra": "6.60",
+        "output_thresh": "-31.71",
+        "normalization_type": "dynamic",
+        "target_offset": "1.16"
+      },
+      "seconds": 72.024,
+      "channels": 2,
+      "sample_rate": 48000,
+      "rms_dbfs": -23.059,
+      "peak_dbfs": -6.507,
+      "clipped_samples": 0,
+      "sha256": "de931bd269aafd83dd2b4380ebbd42b237e44943ac7e052cadf0d98bdb5fba27",
+      "bytes": 1141951,
+      "author_url": "https://incompetech.com/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "environment": [
+    {
+      "id": "environment/bird_00",
+      "file": "environment/bird_00.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.511,
+      "peak_dbfs": -12.957,
+      "clipped_samples": 0,
+      "sha256": "0728180d79193f8ecd1cb18969fedc74af6ea56269597e75ec4655d1e6f65467",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bird_01",
+      "file": "environment/bird_01.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.526,
+      "peak_dbfs": -13.773,
+      "clipped_samples": 0,
+      "sha256": "d363213484b258634e21ee06d179e141ccb4d4a785cf9b5ba8d1cbe0c01aaf3c",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bird_02",
+      "file": "environment/bird_02.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.528,
+      "peak_dbfs": -13.431,
+      "clipped_samples": 0,
+      "sha256": "11adc7ebf362a0cb37573d9705cd1359c1b560e590a177ac6689977e0804a632",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bird_03",
+      "file": "environment/bird_03.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.504,
+      "peak_dbfs": -13.407,
+      "clipped_samples": 0,
+      "sha256": "570291fdbd0b9eee244141056815b6021f0f3cafff4c3c16ee3ebf69452a8c8d",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bird_04",
+      "file": "environment/bird_04.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.526,
+      "peak_dbfs": -11.242,
+      "clipped_samples": 0,
+      "sha256": "e5e65dd7c52f05531d0b504857eeb63110ec262e9ba2374f86909d4d18d36171",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bird_05",
+      "file": "environment/bird_05.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.751,
+      "peak_dbfs": -12.324,
+      "clipped_samples": 0,
+      "sha256": "1c28ca89ab34c0336941e0a873a0fba38522f6032a040e55f13ae2a58f885a1f",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bird_06",
+      "file": "environment/bird_06.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.501,
+      "peak_dbfs": -12.754,
+      "clipped_samples": 0,
+      "sha256": "4d0c3ea1216ebd125d39ae253ece75a715df6176da7f0c141d091a414936b2e5",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bird_07",
+      "file": "environment/bird_07.wav",
+      "loop": false,
+      "source_ids": [
+        "birds"
+      ],
+      "seconds": 2.05,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -27.504,
+      "peak_dbfs": -15.635,
+      "clipped_samples": 0,
+      "sha256": "d9421ce73ba9886c092f57d10c1043e1712ca1de27e27b9809c545b01891ca8b",
+      "bytes": 196844
+    },
+    {
+      "id": "environment/bed_R1",
+      "file": "environment/bed_R1.wav",
+      "loop": true,
+      "source_ids": [
+        "waves",
+        "project_original_synthesis"
+      ],
+      "seconds": 32.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -30.0,
+      "peak_dbfs": -15.856,
+      "clipped_samples": 0,
+      "sha256": "69e5ccb5bab1b6831079ef3cb0e5f2cc092d2ec267d6d1dcef48cca01626b7b6",
+      "bytes": 3072044
+    },
+    {
+      "id": "environment/bed_R2",
+      "file": "environment/bed_R2.wav",
+      "loop": true,
+      "source_ids": [
+        "waves",
+        "project_original_synthesis"
+      ],
+      "seconds": 32.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -30.0,
+      "peak_dbfs": -16.366,
+      "clipped_samples": 0,
+      "sha256": "ac54c15497d4ab1d206c16d9a1e3bdb8a1ac51a8f3aa8b6fecec4e1ff14a92e5",
+      "bytes": 3072044
+    },
+    {
+      "id": "environment/bed_R3",
+      "file": "environment/bed_R3.wav",
+      "loop": true,
+      "source_ids": [
+        "waves",
+        "project_original_synthesis"
+      ],
+      "seconds": 32.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -30.0,
+      "peak_dbfs": -13.136,
+      "clipped_samples": 0,
+      "sha256": "4c096c88dc2238a186c84a541f9cd81348ff4c72974e8a904803c2c6ee223c85",
+      "bytes": 3072044
+    },
+    {
+      "id": "environment/bed_R4",
+      "file": "environment/bed_R4.wav",
+      "loop": true,
+      "source_ids": [
+        "waves",
+        "project_original_synthesis"
+      ],
+      "seconds": 32.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -30.0,
+      "peak_dbfs": -15.823,
+      "clipped_samples": 0,
+      "sha256": "0f64fa857b98c30e4fc95ef459f8d6b1e58822d5503aad49b544f25872b90d03",
+      "bytes": 3072044
+    },
+    {
+      "id": "environment/wind",
+      "file": "environment/wind.wav",
+      "loop": true,
+      "source_ids": [
+        "project_original_synthesis"
+      ],
+      "seconds": 32.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -25.0,
+      "peak_dbfs": -10.858,
+      "clipped_samples": 0,
+      "sha256": "dc96a4353191e1a8f3369ca79bf80409e9f08b67aeb3fc88e9ea91b005d9ba74",
+      "bytes": 3072044
+    },
+    {
+      "id": "environment/rain_00",
+      "file": "environment/rain_00.wav",
+      "loop": true,
+      "source_ids": [
+        "rain"
+      ],
+      "seconds": 27.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -26.559,
+      "peak_dbfs": -9.0,
+      "clipped_samples": 0,
+      "sha256": "16d1abcfc1243b19417070603d20f2f7d5458af419d1efbd038a256ddd9d9f4b",
+      "bytes": 2592044
+    },
+    {
+      "id": "environment/rain_01",
+      "file": "environment/rain_01.wav",
+      "loop": true,
+      "source_ids": [
+        "rain"
+      ],
+      "seconds": 26.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -26.0,
+      "peak_dbfs": -10.956,
+      "clipped_samples": 0,
+      "sha256": "42d10ee055080a31819b3f9469ffa55f177822429e64d5861455414a55de6781",
+      "bytes": 2496044
+    },
+    {
+      "id": "environment/rain_02",
+      "file": "environment/rain_02.wav",
+      "loop": true,
+      "source_ids": [
+        "rain"
+      ],
+      "seconds": 45.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -28.934,
+      "peak_dbfs": -9.0,
+      "clipped_samples": 0,
+      "sha256": "73d75fad86c05010cac9aa2a016f0716258a866dafaa7d9d2e593723ce3878bf",
+      "bytes": 4320044
+    },
+    {
+      "id": "environment/rain_03",
+      "file": "environment/rain_03.wav",
+      "loop": true,
+      "source_ids": [
+        "rain"
+      ],
+      "seconds": 37.5,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -30.041,
+      "peak_dbfs": -9.0,
+      "clipped_samples": 0,
+      "sha256": "750f964932471d75d0dede7beec961714598e403d12e8e9093c2a5a579da829c",
+      "bytes": 3600044
+    },
+    {
+      "id": "environment/vehicle_start",
+      "file": "environment/vehicle_start.wav",
+      "loop": false,
+      "source_ids": [
+        "vehicle_start"
+      ],
+      "seconds": 1.797333,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -25.829,
+      "peak_dbfs": -7.001,
+      "clipped_samples": 0,
+      "sha256": "714af179ab2dd61f02cacbaa4ec1a9f5bc4f4107faf90d078ba422db5aa21bd1",
+      "bytes": 172588
+    },
+    {
+      "id": "environment/vehicle_pass_0",
+      "file": "environment/vehicle_pass_0.wav",
+      "loop": false,
+      "source_ids": [
+        "vehicle_loop",
+        "project_original_synthesis"
+      ],
+      "seconds": 5.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -26.0,
+      "peak_dbfs": -16.466,
+      "clipped_samples": 0,
+      "sha256": "1c659212efe99e8b451fc41b21f74a19875e9abcd2dafd8031fe6ede6513ed9f",
+      "bytes": 480044
+    },
+    {
+      "id": "environment/vehicle_pass_1",
+      "file": "environment/vehicle_pass_1.wav",
+      "loop": false,
+      "source_ids": [
+        "vehicle_loop",
+        "project_original_synthesis"
+      ],
+      "seconds": 6.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -26.0,
+      "peak_dbfs": -16.088,
+      "clipped_samples": 0,
+      "sha256": "703afdfc749cb280d2f019e2d561ea721e68fadbc5e5e2c80a2c58357aee1c31",
+      "bytes": 576044
+    },
+    {
+      "id": "environment/vehicle_pass_2",
+      "file": "environment/vehicle_pass_2.wav",
+      "loop": false,
+      "source_ids": [
+        "vehicle_loop",
+        "project_original_synthesis"
+      ],
+      "seconds": 7.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -26.0,
+      "peak_dbfs": -16.326,
+      "clipped_samples": 0,
+      "sha256": "5b423a7f9bb861ef351a9d94455e833ab78401adf684a7f6bec0c0a8a56aaf4b",
+      "bytes": 672044
+    },
+    {
+      "id": "environment/traffic",
+      "file": "environment/traffic.wav",
+      "loop": true,
+      "source_ids": [
+        "traffic"
+      ],
+      "seconds": 40.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -29.0,
+      "peak_dbfs": -10.528,
+      "clipped_samples": 0,
+      "sha256": "45efb713364030fd69e57a0a4790204c07883c5a00797216cc1dd2fff66a2be2",
+      "bytes": 3840044
+    },
+    {
+      "id": "environment/machinery",
+      "file": "environment/machinery.wav",
+      "loop": true,
+      "source_ids": [
+        "project_original_synthesis"
+      ],
+      "seconds": 24.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -28.0,
+      "peak_dbfs": -16.473,
+      "clipped_samples": 0,
+      "sha256": "39cd32ae84e08bb18d42727e0551504b6a3979d5415238752cfd83b28aec8f9f",
+      "bytes": 2304044
+    },
+    {
+      "id": "environment/mechanical_0",
+      "file": "environment/mechanical_0.wav",
+      "loop": false,
+      "source_ids": [
+        "kenney_impacts"
+      ],
+      "seconds": 0.29875,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -28.945,
+      "peak_dbfs": -11.679,
+      "clipped_samples": 0,
+      "sha256": "50bcde47327185517d630cbe93b7f87e13e4b8510d157c0e16688234b0db08f9",
+      "bytes": 28724
+    },
+    {
+      "id": "environment/mechanical_1",
+      "file": "environment/mechanical_1.wav",
+      "loop": false,
+      "source_ids": [
+        "kenney_impacts"
+      ],
+      "seconds": 0.268875,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -29.159,
+      "peak_dbfs": -11.797,
+      "clipped_samples": 0,
+      "sha256": "f967555de36bbe57c0f53a9dcef464c39706bd016fdc6993e802480c448aec22",
+      "bytes": 25856
+    },
+    {
+      "id": "environment/mechanical_2",
+      "file": "environment/mechanical_2.wav",
+      "loop": false,
+      "source_ids": [
+        "kenney_impacts"
+      ],
+      "seconds": 0.244438,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -29.335,
+      "peak_dbfs": -12.304,
+      "clipped_samples": 0,
+      "sha256": "600eeffa28c40ab1656c3dac6531745c175cab4f14a78e964221c01a45ba1cab",
+      "bytes": 23510
+    }
+  ],
+  "voice": [
+    {
+      "id": "lobby_welcome",
+      "file": "voice/lobby_welcome.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.609187,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.412,
+      "clipped_samples": 0,
+      "sha256": "948ae7c3c3f1521a445459df390e6a5b8a871ef0bd3ff9ac5804189e6c607f7e",
+      "bytes": 442526,
+      "text": "欢迎来到低空小队。先熟悉机库，再开始你的第一次飞行。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_profile",
+      "file": "voice/lobby_profile.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.376979,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -6.636,
+      "clipped_samples": 0,
+      "sha256": "4da1c1c785ebc620eb6dbdc07ab8dc5d5048cb76624ff47246f0537b2f49e50b",
+      "bytes": 420234,
+      "text": "这里是驾驶员档案。查看你的飞行记录和获得的奖励。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_fleet",
+      "file": "voice/lobby_fleet.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.876333,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -5.086,
+      "clipped_samples": 0,
+      "sha256": "cdd61349767408b1db3b26e94e6ab7c5424a976189eecbe7a9cfac82c408eb04",
+      "bytes": 468172,
+      "text": "打开机队，选择一架无人机。不同机型有不同的飞行特点。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_loadout",
+      "file": "voice/lobby_loadout.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.775437,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.991,
+      "peak_dbfs": -4.0,
+      "clipped_samples": 0,
+      "sha256": "d34d4e8b16e516c0bba6c75286981371403877e7d73d1a191cc75ae41fb5e3c7",
+      "bytes": 458486,
+      "text": "打开装配，查看飞机的模块。选好装备，再去执行任务。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_mission",
+      "file": "voice/lobby_mission.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.190938,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.203,
+      "clipped_samples": 0,
+      "sha256": "582b4ad4fcce2215c80e10d901d70cd39cf2babf42fb0a9a481aa62717273b8e",
+      "bytes": 402374,
+      "text": "打开任务板，选择基础飞行训练。每一步都有提示。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_prepare",
+      "file": "voice/lobby_prepare.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.716875,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.288,
+      "peak_dbfs": -4.0,
+      "clipped_samples": 0,
+      "sha256": "c9e181a3e52ab0fa4a3ad87a6d06292f42a75a350ad112addfa0b6324ba6a0e9",
+      "bytes": 452864,
+      "text": "准备起飞。先看看操作提示，你可以随时暂停和调整设置。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_complete",
+      "file": "voice/lobby_complete.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.81275,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.565,
+      "clipped_samples": 0,
+      "sha256": "b6c029567749cea6e4f5b47bafb8f6c54e6eff9249d2d66382be1498f50ed237",
+      "bytes": 462068,
+      "text": "做得好，机库导览完成了。现在可以选择任务，继续探索。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_device",
+      "file": "voice/lobby_device.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.284083,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.212,
+      "clipped_samples": 0,
+      "sha256": "fc9dc8ebd04cf48339aaffbe220aced761189a299f01e5dec1eb01b8e2ccaffe",
+      "bytes": 411316,
+      "text": "点击设备，查看操控连接。手机可以稍后再配对。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_settings",
+      "file": "voice/lobby_settings.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 3.552667,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -22.053,
+      "peak_dbfs": -4.0,
+      "clipped_samples": 0,
+      "sha256": "23a69c738e564a6886638a871c32583275ba090e6aec7b160a0621c0c896b778",
+      "bytes": 341100,
+      "text": "点击设置，调整声音、字号和飞行方式。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "lobby_tutorial",
+      "file": "voice/lobby_tutorial.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.024146,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -6.452,
+      "clipped_samples": 0,
+      "sha256": "466a16fef15e2049fc953f3a643bea8a97a0ff87447020d4dc8b8565cc6f5954",
+      "bytes": 386362,
+      "text": "点击教学，真实飞行课程会按你的操作逐步引导。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "training_complete",
+      "file": "voice/training_complete.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 5.660396,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.692,
+      "clipped_samples": 0,
+      "sha256": "9a5f7762a5ac81789f2892304cfbc80963fc144c21d8b09328063fd31a47057e",
+      "bytes": 543442,
+      "text": "做得好，这项训练已经完成。你可以继续练习，也可以选择下一个任务。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_lift",
+      "file": "voice/flight_lift.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.285812,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.593,
+      "peak_dbfs": -4.0,
+      "clipped_samples": 0,
+      "sha256": "e8ea309527ea4f1000c00a407e014f579275ed3d79101f07bf8890b43c3b98aa",
+      "bytes": 411482,
+      "text": "轻轻增加升力，把飞机升到离地约三米，然后松开。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_hover",
+      "file": "voice/flight_hover.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 3.831313,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.863,
+      "clipped_samples": 0,
+      "sha256": "9cbbdd9fb4e6538b542f2da631e58d2408eab0a4d99cdea2cdd3fc9ad3bbfb88",
+      "bytes": 367850,
+      "text": "让飞机稳定悬停，保持两秒。小幅调整就好。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_yaw",
+      "file": "voice/flight_yaw.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.446625,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.441,
+      "clipped_samples": 0,
+      "sha256": "b858ed132c12a1d6f9c6ef20d9485f7afaa80521c46d79ae6f8119f4c7d92129",
+      "bytes": 426920,
+      "text": "原地转动机头，大约九十度。注意机头朝向的变化。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_forward",
+      "file": "voice/flight_forward.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 3.860354,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.874,
+      "clipped_samples": 0,
+      "sha256": "218cfaa18c65faa1a32ef76f1c2f5b93eba2126f1b776c6ceb5a524d683d6611",
+      "bytes": 370638,
+      "text": "轻轻向前飞，移动大约四米。留意前方的空间。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_strafe",
+      "file": "voice/flight_strafe.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 3.157917,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -7.475,
+      "clipped_samples": 0,
+      "sha256": "a009c3fd45986959e4b9e552a457458b54d4f01fd82ae845f901d9ae8b84a1f6",
+      "bytes": 303204,
+      "text": "保持机头朝向，向一侧平移大约三米。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_brake",
+      "file": "voice/flight_brake.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.295708,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.322,
+      "clipped_samples": 0,
+      "sha256": "ae8fe3608fa815f47dc6ea176d61593ab6786cc0524edd11a8ef669f630fcdcd",
+      "bytes": 412432,
+      "text": "先向前飞起来，再按住刹车，直到飞机稳稳停下。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_land",
+      "file": "voice/flight_land.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 3.057896,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -6.519,
+      "clipped_samples": 0,
+      "sha256": "7f40e6e384a56efa73245b02fd79e77093e8bbf0851f047255f90927e18499c3",
+      "bytes": 293602,
+      "text": "慢慢降低高度，在标记区域轻轻着陆。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "flight_zoom",
+      "file": "voice/flight_zoom.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.330542,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -6.249,
+      "clipped_samples": 0,
+      "sha256": "05da1691abb3a40cc5f6b9bc054b5c0b7440da38a1ceceb69d6045ec29a58d1d",
+      "bytes": 415776,
+      "text": "调整一下视野大小，找到看得清飞机和周围环境的距离。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "cargo_pickup",
+      "file": "voice/cargo_pickup.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.290292,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -4.171,
+      "clipped_samples": 0,
+      "sha256": "d03e34be60ecb78d4e910f034615088a832237f248c01f60fb3373d2c1279138",
+      "bytes": 411912,
+      "text": "靠近货物并稳定悬停，再使用互动操作挂上货物。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "cargo_swing",
+      "file": "voice/cargo_swing.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.295708,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.153,
+      "peak_dbfs": -4.0,
+      "clipped_samples": 0,
+      "sha256": "ea7afb27f1a1a29d89604afb38ac3f0a248fe6f1ba071701f7414bbb37acd5e9",
+      "bytes": 412432,
+      "text": "轻推轻停，让货物摆角回到十五度内，并稳定两秒。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "cargo_delivery",
+      "file": "voice/cargo_delivery.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.504688,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -5.7,
+      "clipped_samples": 0,
+      "sha256": "27be82098a32593ac9ceac985df5274100e3d855b247ade560f0595bd2a04205",
+      "bytes": 432494,
+      "text": "把货物带到交付区，稳住飞机，再按提示完成交付。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "cargo_wind",
+      "file": "voice/cargo_wind.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.461875,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -6.041,
+      "clipped_samples": 0,
+      "sha256": "ac9869aad16e89e5a94639df099aabf9f217ddd6ede2029f65d5804288d23dd9",
+      "bytes": 428384,
+      "text": "风会影响飞机和货物。小幅修正，留出足够的安全距离。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "scan",
+      "file": "voice/scan.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 3.901792,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -6.226,
+      "clipped_samples": 0,
+      "sha256": "f4c5fd6584b4d615e2cef6882d6c0af6a05cd27a521a519f5c9a20a2340bf683",
+      "bytes": 374616,
+      "text": "靠近扫描目标，使用扫描工具，并保持稳定。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "route",
+      "file": "voice/route.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 5.513167,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.215,
+      "peak_dbfs": -4.0,
+      "clipped_samples": 0,
+      "sha256": "4366897ffcc4b9f6ff9984e6715f1c164e7fee5a053091f7273abd9aa5e3a881",
+      "bytes": 529308,
+      "text": "沿着任务标记完成一段取货和交付。观察路口，选择宽敞的通道。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "interference",
+      "file": "voice/interference.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.852771,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -5.164,
+      "clipped_samples": 0,
+      "sha256": "8cbae3560ab90d2096fa709c26ab813ab335e3741cede0508c90b46eec84a589",
+      "bytes": 465910,
+      "text": "靠近分流塔，观察干扰提示。然后离开，让信号恢复。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    },
+    {
+      "id": "cover",
+      "file": "voice/cover.wav",
+      "loop": false,
+      "source_ids": [
+        "melotts_zh_en"
+      ],
+      "seconds": 4.437833,
+      "channels": 1,
+      "sample_rate": 48000,
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -5.901,
+      "clipped_samples": 0,
+      "sha256": "52b7c0d818dd53dc33e5a9308277568dd1c8d36848ef5f153fdbe25ede19788a",
+      "bytes": 426076,
+      "text": "警报出现后，利用建筑挡住敌机的视线，保持至少一秒。",
+      "synthesizer": "sherpa-onnx 1.13.8",
+      "model": "MeloTTS-Chinese ONNX",
+      "speaker_id": 0,
+      "speed": 0.96
+    }
+  ],
+  "bird_gain_policy": {
+    "source_target_rms_dbfs": -27.5,
+    "bus_default": 0.5,
+    "player_db": -2,
+    "interval_seconds": [
+      12,
+      30
+    ],
+    "old_baked_birds_removed": true,
+    "old_source_target_rms_dbfs": -20,
+    "source_rms_reduction_db": 7.5,
+    "reference_mix_reduction_db_approx": 9,
+    "spatial_max_distance_m": 75,
+    "note": "Reference unit-distance gain target; real attenuation varies with source distance. Human listening still required."
+  },
+  "credits_text": "V2.2 Audio Credits\nMusic compositions/recordings: Kevin MacLeod (incompetech.com), CC BY 4.0.\nhttps://creativecommons.org/licenses/by/4.0/\nComplete works retained; loudness normalization and Ogg encoding applied.\n\nMorning — Kevin MacLeod\nhttps://incompetech.com/music/royalty-free/index.html?isrc=USUAN2300003\nCC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/\nLoudness normalization and Ogg encoding; complete composition retained.\n\nWholesome — Kevin MacLeod\nhttps://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900022\nCC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/\nLoudness normalization and Ogg encoding; complete composition retained.\n\nCarefree — Kevin MacLeod\nhttps://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037\nCC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/\nLoudness normalization and Ogg encoding; complete composition retained.\n\nMontauk Point — Kevin MacLeod\nhttps://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400013\nCC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/\nLoudness normalization and Ogg encoding; complete composition retained.\n\nEasy Lemon — Kevin MacLeod\nhttps://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076\nCC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/\nLoudness normalization and Ogg encoding; complete composition retained.\n\nHeartwarming — Kevin MacLeod\nhttps://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100207\nCC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/\nLoudness normalization and Ogg encoding; complete composition retained.\n\nRain (loopable) — Ylmir\nhttps://opengameart.org/content/rain-loopable\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nSelected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.\n\nCar engine Start Up 02 — looneybits\nhttps://opengameart.org/content/car-engine-start-up-02\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nSelected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.\n\nRacing car engine sound loops — domasx2\nhttps://opengameart.org/content/racing-car-engine-sound-loops\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nSelected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.\n\nHigh traffic road sounds — IgnasD\nhttps://opengameart.org/content/high-traffic-road-sounds\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nSelected, leveled, converted to mono PCM; engine loop used in designed vehicle passes.\n\nUI Audio — Kenney\nhttps://kenney.nl/assets/ui-audio\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nRetained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.\n\nImpact Sounds — Kenney\nhttps://kenney.nl/assets/impact-sounds\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nRetained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.\n\nAmbient Bird Sounds — isaiah658\nhttps://opengameart.org/content/ambient-bird-sounds\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nRetained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.\n\nBeach Ocean Waves — jasinski; edited by qubodup\nhttps://opengameart.org/content/beach-ocean-waves\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nRetained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.\n\nDrone Flying — Sheyvan\nhttps://freesound.org/people/Sheyvan/sounds/470127/\nCC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/\nRetained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds.\n\nMeloTTS-Chinese (offline Mandarin voice generation) — MyShell.ai\nhttps://huggingface.co/myshell-ai/MeloTTS-Chinese\nMIT — https://github.com/myshell-ai/MeloTTS/blob/main/LICENSE\nProject-written Mandarin text rendered offline (27 clips); model is not part of the game runtime.\n\nsherpa-onnx (offline voice tool) — k2-fsa contributors\nhttps://github.com/k2-fsa/sherpa-onnx\nApache-2.0 — https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE\nUsed only during audio production; no inference in the game.\n",
+  "credits": [
+    {
+      "title": "Morning",
+      "author": "Kevin MacLeod",
+      "author_url": "https://incompetech.com/",
+      "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2300003",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Loudness normalization and Ogg encoding; complete composition retained."
+    },
+    {
+      "title": "Wholesome",
+      "author": "Kevin MacLeod",
+      "author_url": "https://incompetech.com/",
+      "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900022",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Loudness normalization and Ogg encoding; complete composition retained."
+    },
+    {
+      "title": "Carefree",
+      "author": "Kevin MacLeod",
+      "author_url": "https://incompetech.com/",
+      "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Loudness normalization and Ogg encoding; complete composition retained."
+    },
+    {
+      "title": "Montauk Point",
+      "author": "Kevin MacLeod",
+      "author_url": "https://incompetech.com/",
+      "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400013",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Loudness normalization and Ogg encoding; complete composition retained."
+    },
+    {
+      "title": "Easy Lemon",
+      "author": "Kevin MacLeod",
+      "author_url": "https://incompetech.com/",
+      "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Loudness normalization and Ogg encoding; complete composition retained."
+    },
+    {
+      "title": "Heartwarming",
+      "author": "Kevin MacLeod",
+      "author_url": "https://incompetech.com/",
+      "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100207",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Loudness normalization and Ogg encoding; complete composition retained."
+    },
+    {
+      "title": "Rain (loopable)",
+      "author": "Ylmir",
+      "author_url": "https://opengameart.org/content/rain-loopable",
+      "source_url": "https://opengameart.org/content/rain-loopable",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes."
+    },
+    {
+      "title": "Car engine Start Up 02",
+      "author": "looneybits",
+      "author_url": "https://opengameart.org/content/car-engine-start-up-02",
+      "source_url": "https://opengameart.org/content/car-engine-start-up-02",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes."
+    },
+    {
+      "title": "Racing car engine sound loops",
+      "author": "domasx2",
+      "author_url": "https://opengameart.org/content/racing-car-engine-sound-loops",
+      "source_url": "https://opengameart.org/content/racing-car-engine-sound-loops",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes."
+    },
+    {
+      "title": "High traffic road sounds",
+      "author": "IgnasD",
+      "author_url": "https://opengameart.org/content/high-traffic-road-sounds",
+      "source_url": "https://opengameart.org/content/high-traffic-road-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Selected, leveled, converted to mono PCM; engine loop used in designed vehicle passes."
+    },
+    {
+      "title": "UI Audio",
+      "author": "Kenney",
+      "author_url": "https://kenney.nl/assets/ui-audio",
+      "source_url": "https://kenney.nl/assets/ui-audio",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds."
+    },
+    {
+      "title": "Impact Sounds",
+      "author": "Kenney",
+      "author_url": "https://kenney.nl/assets/impact-sounds",
+      "source_url": "https://kenney.nl/assets/impact-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds."
+    },
+    {
+      "title": "Ambient Bird Sounds",
+      "author": "isaiah658",
+      "author_url": "https://opengameart.org/content/ambient-bird-sounds",
+      "source_url": "https://opengameart.org/content/ambient-bird-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds."
+    },
+    {
+      "title": "Beach Ocean Waves",
+      "author": "jasinski; edited by qubodup",
+      "author_url": "https://opengameart.org/content/beach-ocean-waves",
+      "source_url": "https://opengameart.org/content/beach-ocean-waves",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds."
+    },
+    {
+      "title": "Drone Flying",
+      "author": "Sheyvan",
+      "author_url": "https://freesound.org/people/Sheyvan/sounds/470127/",
+      "source_url": "https://freesound.org/people/Sheyvan/sounds/470127/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Retained V2 flight/UI/contact sounds; birds split into quiet spatial one-shots; water reused in bird-free beds."
+    },
+    {
+      "title": "MeloTTS-Chinese (offline Mandarin voice generation)",
+      "author": "MyShell.ai",
+      "author_url": "https://github.com/myshell-ai",
+      "source_url": "https://huggingface.co/myshell-ai/MeloTTS-Chinese",
+      "license": "MIT",
+      "license_url": "https://github.com/myshell-ai/MeloTTS/blob/main/LICENSE",
+      "changes": "Project-written Mandarin text rendered offline (27 clips); model is not part of the game runtime."
+    },
+    {
+      "title": "sherpa-onnx (offline voice tool)",
+      "author": "k2-fsa contributors",
+      "author_url": "https://github.com/k2-fsa",
+      "source_url": "https://github.com/k2-fsa/sherpa-onnx",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE",
+      "changes": "Used only during audio production; no inference in the game."
+    }
+  ]
+}

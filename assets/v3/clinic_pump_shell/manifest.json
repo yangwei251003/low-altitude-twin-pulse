@@ -1,0 +1,47 @@
+{
+  "status": "EXPORTED_CANDIDATE_PENDING_GODOT_AND_FINAL_ART_REVIEW",
+  "source_v8_sha256": "ab35e616404bc156ada04e7bccdb189d7c4438ff362d768b839c298dd90e1e3d",
+  "source_directory": ".\\asset_sources\\v3\\clinic_pump_shell\\prototype_v8",
+  "world_origin_godot": [
+    -7,
+    0,
+    8
+  ],
+  "nodes": [
+    "FloorSurface",
+    "WallFeetAndJambs",
+    "WestCover",
+    "EastCover",
+    "NorthCover",
+    "RoofCover"
+  ],
+  "all_node_transforms_identity": true,
+  "triangles": 13600,
+  "material_count": 1,
+  "collision": "None exported; original seven root-owned boxes retained",
+  "files": [
+    {
+      "path": "clinic_pump_shell.glb",
+      "bytes": 10149560,
+      "sha256": "7d5d51d8134967b890c26b0cc7f541096e882bb0ce463a51c2fc52a534cb7100"
+    },
+    {
+      "path": "PumpV8_BaseColor.png",
+      "bytes": 5469237,
+      "sha256": "9e1e72966351e12d1d319c3e30f2545c15e74af96398c6f46f13909d3c4da381"
+    },
+    {
+      "path": "PumpV8_ORM.png",
+      "bytes": 2121536,
+      "sha256": "b0db068be48a3ee0845c7943abfed16bf92af34e475dbc854e25070b9bd32cbd"
+    },
+    {
+      "path": "PumpV8_Normal.png",
+      "bytes": 1211961,
+      "sha256": "5eac61fe83c6066d1729410d89e94c63d4068e994ebca82479d3c49968b185cf"
+    }
+  ],
+  "source_report": ".\\asset_sources\\v3\\clinic_pump_shell\\delivery_v8\\delivery_report.json",
+  "metal012_source": "https://ambientcg.com/view?id=Metal012",
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "content_id": "campaign_i3_extension_v1",
+  "extends_content_id": "opening_v1",
+  "status": "authored_candidate_not_scene_integrated",
+  "scope_note": "行动数据与真实状态绑定契约。目标数量、5–8分钟均为制作预算；本文件不证明地区可玩、实体机制、趣味或体验时长。坐标需Root以默认镜头及真实碰撞核对。",
+  "characters": [
+    {
+      "id": "npc:qiaoshu",
+      "name": "乔述",
+      "role": "热崖轮班维修员",
+      "region_id": "I3",
+      "greeting_lines": [
+        "停炉不难，难的是让这一班人的工作和下面的住区都能继续。先看隔离回路。"
+      ],
+      "replies": [
+        {
+          "after": "I3:furnace_crawler:record",
+          "lines": [
+            "行动完成 · 履带兽的备用指令来自鸣菌地下光网，乔述留下轮班记录并接管本地冷却维护。"
+          ]
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "npc:qiaoshu",
+      "region": "I3",
+      "position": [
+        -22,
+        4,
+        20
+      ],
+      "kind": "npc",
+      "label": "乔述 · 换班检修台",
+      "radius": 3
+    },
+    {
+      "id": "I3:cooling_ledger",
+      "region": "I3",
+      "position": [
+        -15,
+        5,
+        8
+      ],
+      "kind": "inspect",
+      "label": "冷却配额记录",
+      "radius": 3
+    },
+    {
+      "id": "I3:cooling_test",
+      "region": "I3",
+      "position": [
+        16,
+        8,
+        8
+      ],
+      "kind": "inspect",
+      "label": "隔离换热台",
+      "radius": 3
+    },
+    {
+      "id": "I3:brake_dock",
+      "region": "I3",
+      "position": [
+        17,
+        12,
+        -3
+      ],
+      "kind": "reach",
+      "label": "热匣安全泊位",
+      "radius": 3
+    },
+    {
+      "id": "I3:boss_briefing",
+      "region": "I3",
+      "position": [
+        0,
+        6,
+        -18
+      ],
+      "kind": "inspect",
+      "label": "熔炉轨道 · 避让台",
+      "radius": 3
+    },
+    {
+      "id": "I3:boss_record",
+      "region": "I3",
+      "position": [
+        0,
+        6,
+        -25
+      ],
+      "kind": "inspect",
+      "label": "熔炉控制匣",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "I3:cooling_route",
+      "title": "把热留在该去的地方",
+      "region_id": "I3",
+      "prerequisites": [
+        "F2:mirrorwing_warden"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 工厂保留冷却线，履带兽的检修通道开放。",
+      "objectives": [
+        {
+          "id": "I3:cooling_route:brief",
+          "text": "听乔述说明生产与住区共用冷却线的风险",
+          "hint": "先接通换班检修台；本次使用隔离回路，不切整条生产线。",
+          "after": [],
+          "events": [
+            {
+              "type": "talk",
+              "target_id": "npc:qiaoshu",
+              "options": [
+                "cooling_plan"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:qiaoshu",
+              "lines": [
+                "有人把备用冷却配额当成可抽取余量。我们先用隔离台做一份真实热量记录，别拿工人的房间当散热器。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3:cooling_route:ledger",
+          "text": "读取热崖收到的配额与冷却账目",
+          "hint": "记录在中层厂房；到侧面看清记录匣再按 G。核对发送端，保留工厂应急手动改接的记录。",
+          "after": [
+            "I3:cooling_route:brief"
+          ],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I3:cooling_ledger",
+              "options": [
+                "record"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "I3:cooling_overdraft",
+              "title": "上游把冷却储备误计入可外送余量"
+            }
+          ]
+        },
+        {
+          "id": "I3:cooling_route:exchange",
+          "text": "在隔离台把热匣热量导入有效冷却端",
+          "hint": "靠近热交换阀，Tab锁定后按G转至连通位置，让热匣的热量实际流入冷却热汇。观察两端温度和转移记录；此处不需要用5/X直接冷却热匣，直接降温不能代替这份转移记录。",
+          "after": [
+            "I3:cooling_route:ledger"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I3:thermal_transfer_verified",
+              "options": [
+                "manual_sink",
+                "pumped_sink"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I3:cooling_ready",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:qiaoshu",
+              "lines": [
+                "这份记录有来源也有去处，才知道热没有被甩给别人。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3:cooling_route:dock",
+          "text": "载匣经外廊或升流段，到高台制动落架",
+          "hint": "先到低泊位，机腹对准检修吊载匣，Tab锁定后按G挂接并制动稳住。绕外廊时，按1→2→3顺序飞过空中路标，再去高台；也可借上升流实际载货爬升。到高台货架上方按住空格制动，按G请求落架后继续稳住，等货匣落稳；直接飞到高台不算外廊通行。",
+          "after": [
+            "I3:cooling_route:exchange"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I3:loaded_dock_verified",
+              "options": [
+                "updraft",
+                "outer_corridor"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "character_memory",
+              "character_id": "npc:qiaoshu",
+              "memory": "I3:kept_worker_cooling"
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "I3:stoppable_route",
+              "title": "高差与载荷下仍可安全刹停的检修路线"
+            }
+          ]
+        }
+      ],
+      "effects": []
+    },
+    {
+      "id": "I3:furnace_crawler",
+      "title": "在它冲过来前停住",
+      "region_id": "I3",
+      "prerequisites": [
+        "I3:cooling_route"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 履带兽的备用指令来自鸣菌地下光网，乔述留下轮班记录并接管本地冷却维护。",
+      "objectives": [
+        {
+          "id": "I3:furnace_crawler:plan",
+          "text": "核对战区退路，确认停机方案",
+          "hint": "先横移或换高度避开锁定冲线。选5热量，Tab锁定履带散热器后按X降至35℃以内，并确认车架停稳；恢复窗口处理亮起的散热片，两侧停下后再攻核心。半血后散热片重装，重新看当前亮起的一侧。空格制动不能抵消正面攻击。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I3:boss_briefing",
+              "options": [
+                "plan"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:qiaoshu",
+              "lines": [
+                "先横移或换高度避开锁定冲线。选5热量，Tab锁定履带散热器后按X降至35℃以内，并确认车架停稳；恢复窗口处理亮起的散热片，两侧停下后再攻核心。半血后散热片重装，重新看当前亮起的一侧。空格制动不能抵消正面攻击。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3:furnace_crawler:engage",
+          "text": "进入战区，观察一次完整预警与恢复窗口",
+          "hint": "离开安全台才会交战；先看形状、高度和可用掩体。倒地可救援，全灭可整场重试，不扣已有资产。",
+          "after": [
+            "I3:furnace_crawler:plan"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I3:boss_observed",
+              "options": [
+                "observed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I3:boss_pattern_observed",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "I3:furnace_crawler:stop",
+          "text": "处理关键部件，停下失控核心",
+          "hint": "按本区机制创造窗口；射击、能力和环境操作可组合。半血后重新观察节奏；结算保存成功才算停机。",
+          "after": [
+            "I3:furnace_crawler:engage"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I3:boss_defeated",
+              "options": [
+                "committed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I3:boss_stopped",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:qiaoshu",
+              "lines": [
+                "失控核心已停下，先保留它的运行记录。停机不能替我们决定接下来把支脉交给谁。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3:furnace_crawler:record",
+          "text": "近距读取停机记录，核对下一段真实去向",
+          "hint": "靠近核心侧记录台按 G；需看见目标。只有停机保存后才能读取；无需返回起点领奖。",
+          "after": [
+            "I3:furnace_crawler:stop"
+          ],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "I3:boss_record",
+              "options": [
+                "record"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "I3:operation_record",
+              "title": "履带兽的备用指令来自鸣菌地下光网，乔述留下轮班记录并接管本地冷却维护。"
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:qiaoshu",
+              "memory": "I3:record_shared"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:qiaoshu",
+              "lines": [
+                "履带兽的备用指令来自鸣菌地下光网，乔述留下轮班记录并接管本地冷却维护。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "type": "flag",
+          "key": "I3:region_route_open",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "character_reply_extensions": [],
+  "host_bindings": {
+    "I3:thermal_transfer_verified": {
+      "source": "conserved_isolated_heat_exchange",
+      "options": [
+        "manual_sink",
+        "pumped_sink"
+      ],
+      "navigation_marker_id": "I3:cooling_test",
+      "required_validation": [
+        "source_energy_loss_equals_sink_gain_plus_measured_dissipation",
+        "real_connected_sink",
+        "worker_loop_isolated",
+        "stable_completion_receipt"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "I3:loaded_dock_verified": {
+      "source": "host_loaded_arrival_and_custody_receipt",
+      "options": [
+        "updraft",
+        "outer_corridor"
+      ],
+      "navigation_marker_id": "I3:brake_dock",
+      "required_validation": [
+        "actual_routed_flight",
+        "speed_below_dock_limit",
+        "cassette_rest_and_custody_confirmed"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "I3:boss_observed": {
+      "source": "host_observed_full_telegraph_active_recovery_cycle",
+      "options": [
+        "observed"
+      ],
+      "navigation_marker_id": "I3:boss_briefing",
+      "required_validation": [
+        "real_arena_entry",
+        "player_present_and_alive",
+        "one_full_pattern_cycle"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "furnace_crawler"
+    },
+    "I3:boss_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "options": [
+        "committed"
+      ],
+      "navigation_marker_id": "I3:boss_briefing",
+      "required_validation": [
+        "authoritative_encounter_completed",
+        "same_store_victory_flag_and_receipt",
+        "guest_reward_deduplicated"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "furnace_crawler",
+      "campaign_receipt_id": "boss:I3:furnace_crawler:opening_v1",
+      "reward_id": "boss:I3:furnace_crawler",
+      "world_victory_flag": "I3_boss"
+    }
+  }
+}

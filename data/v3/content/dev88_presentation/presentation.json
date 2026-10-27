@@ -1,0 +1,79 @@
+{
+  "schema":1,
+  "status":"developed_not_playtested",
+  "character_representation":"clearly marked radio contact projections, no added living actors or authoritative NPC simulation",
+  "character_models":{
+    "worker":"res://assets/models/v22/pedestrian_worker.glb",
+    "walker":"res://assets/models/v22/pedestrian_walker.glb",
+    "citizen":"res://assets/models/v22/pedestrian_citizen.glb"
+  },
+  "characters":{
+    "npc:linlan":{"name":"林岚","role":"救援调度","model":"worker","accent":"d88a64","accessory":"rescue","voice":"Microsoft Huihui Desktop","rate":0},
+    "npc:ruanheng":{"name":"阮衡","role":"值班工程师","model":"worker","accent":"c6b374","accessory":"toolpack","voice":"Microsoft Kangkang","rate":-1},
+    "npc:atai":{"name":"阿苔","role":"根谷守林人","model":"walker","accent":"98b987","accessory":"leaves","voice":"Microsoft Yaoyao","rate":-1},
+    "npc:shuyao":{"name":"疏谣","role":"档案守护者","model":"citizen","accent":"aaa6c7","accessory":"folio","voice":"Microsoft Huihui Desktop","rate":-1},
+    "npc:qiaoshu":{"name":"乔述","role":"工区协调","model":"worker","accent":"c89569","accessory":"toolpack","voice":"Microsoft Kangkang","rate":0},
+    "npc:lingyin":{"name":"苓音","role":"菌谷倾听人","model":"walker","accent":"b8a0c1","accessory":"fungi","voice":"Microsoft Yaoyao","rate":0},
+    "npc:wenxu":{"name":"闻序","role":"阵列记录员","model":"citizen","accent":"83b8c8","accessory":"aerial","voice":"Microsoft Kangkang","rate":-1},
+    "npc:guanzhi":{"name":"冠枝","role":"共脉联络人","model":"walker","accent":"d1c497","accessory":"crown","voice":"Microsoft Yaoyao","rate":-1},
+    "F2:field_contact_next":{"name":"柳灯","role":"悬庭照灯员","model":"walker","accent":"d9c891","accessory":"lantern","voice":"Microsoft Yaoyao","rate":0},
+    "I3:field_contact_next":{"name":"简禾","role":"换班记录员","model":"worker","accent":"d6af82","accessory":"folio","voice":"Microsoft Huihui Desktop","rate":0},
+    "F3:field_contact_next":{"name":"苗笙","role":"菌谷育苗人","model":"walker","accent":"91bcaa","accessory":"seedbasket","voice":"Microsoft Yaoyao","rate":-1},
+    "I4:field_contact_next":{"name":"迟守","role":"阵列值守员","model":"worker","accent":"87a6bc","accessory":"aerial","voice":"Microsoft Kangkang","rate":-1},
+    "F4:field_contact_next":{"name":"白榆","role":"接续照护员","model":"citizen","accent":"c5c3a2","accessory":"crown","voice":"Microsoft Huihui Desktop","rate":-1}
+  },
+  "regions":{
+    "F2":{"theme":"悬庭的日常与灯序","props":[
+      {"kind":"root_terrace","position":[-43,-1.8,3],"scale":0.42,"yaw":90},
+      {"kind":"archive_stela","position":[-42,2.1,7],"scale":1.3,"yaw":90},
+      {"kind":"memorial_lantern","position":[-42,2.1,0],"scale":1.35},
+      {"kind":"root_canopy","position":[42,10,-22],"scale":1.35,"yaw":90},
+      {"kind":"archive_stela","position":[41,10,-29],"scale":1.1,"yaw":-90},
+      {"kind":"memorial_lantern","position":[-30,2.03,34.3],"scale":0.45},
+      {"kind":"memorial_lantern","position":[-18,2.03,34.3],"scale":0.45}
+    ],"relief":"mirror_mosaic","backdrop":"mirror_chimes"},
+    "I3":{"theme":"热崖检修与换班","props":[
+      {"kind":"work_terrace","position":[-44,-1.4,0],"scale":0.38,"yaw":90},
+      {"kind":"coolant_stack","position":[-42,2.1,6],"scale":1.4},
+      {"kind":"maintenance_niche","position":[-42,2.1,-5],"scale":1.25,"yaw":90},
+      {"kind":"coolant_stack","position":[42,9,-26],"scale":1.5,"yaw":-90},
+      {"kind":"wind_vane","position":[41,9,-32],"scale":1.3},
+      {"kind":"freight_buoy","position":[10,0,38],"scale":0.65},
+      {"kind":"maintenance_niche","position":[-27,2.03,35],"scale":0.43}
+    ],"relief":"shift_stripes","backdrop":"heat_exchange_rack"},
+    "F3":{"theme":"菌谷养分与不同花期","props":[
+      {"kind":"root_terrace","position":[-43,-1.8,0],"scale":0.4,"yaw":90},
+      {"kind":"fungus_garden","position":[-42,2.0,6],"scale":1.8},
+      {"kind":"fungus_garden","position":[-42,2.0,-6],"scale":1.4,"variant":2},
+      {"kind":"root_canopy","position":[42,9,-24],"scale":1.6,"yaw":90},
+      {"kind":"fungus_garden","position":[42,9,-32],"scale":1.6,"variant":1},
+      {"kind":"fungus_garden","position":[-28,2.03,34.2],"scale":0.45},
+      {"kind":"memorial_lantern","position":[-18.5,2.03,34.3],"scale":0.45}
+    ],"relief":"mycelium_paths","backdrop":"nursery_ring"},
+    "I4":{"theme":"离岸共签与交班航路","props":[
+      {"kind":"work_terrace","position":[-44,-1.6,1],"scale":0.4,"yaw":90},
+      {"kind":"resonance_pylon","position":[-42,2,7],"scale":1.4},
+      {"kind":"wind_vane","position":[-42,2,-5],"scale":1.5},
+      {"kind":"resonance_pylon","position":[42,9,-24],"scale":1.5},
+      {"kind":"freight_buoy","position":[42,9,-32],"scale":1.35},
+      {"kind":"freight_buoy","position":[10,0,38],"scale":0.65},
+      {"kind":"route_beacon","position":[37,14,18],"scale":0.65}
+    ],"relief":"cosign_channels","backdrop":"offshore_watch"},
+    "F4":{"theme":"两界同行与接续照护","props":[
+      {"kind":"root_terrace","position":[-44,-1.6,0],"scale":0.42,"yaw":90},
+      {"kind":"root_canopy","position":[-42,2.0,6],"scale":1.7,"yaw":90},
+      {"kind":"memorial_lantern","position":[-42,2.0,-6],"scale":1.5},
+      {"kind":"resonance_pylon","position":[42,10,-25],"scale":1.5},
+      {"kind":"root_canopy","position":[42,10,-33],"scale":1.4,"yaw":90},
+      {"kind":"memorial_lantern","position":[-29.5,2.03,34.3],"scale":0.45},
+      {"kind":"memorial_lantern","position":[-18.5,2.03,34.3],"scale":0.45}
+    ],"relief":"twin_lifelines","backdrop":"shared_care_crown"}
+  },
+  "production_notes":[
+    "All new scene layers are visual only. Original physics, flight, interactions and Host authority are retained.",
+    "Wide forms are outside existing playable lateral boundaries. Small relief is flush with known solid south work surfaces.",
+    "The Dev88 combat south bay x[-8,16]/y[3,14]/z[18,30] and east high bay x[19,38]/y[18,26]/z[-13,18] remain visually open.",
+    "Character positions derive from live original Story markers and retain their original input radius.",
+    "Existing editable GLB sources and original credits remain at their original paths. No project copy or duplicate texture set is introduced."
+  ]
+}

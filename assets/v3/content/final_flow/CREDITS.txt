@@ -1,0 +1,7 @@
+Final story voice supplement for Low Altitude: Twin Pulse.
+Chinese synthetic speech, generated offline with the installed Microsoft Huihui,
+Kangkang and Yaoyao voices. This is not human character performance.
+Editable captions: data/v3/content/final_story/voice_lines.json.
+Editable routing and production manifests: data/v3/content/final_flow/.
+Production source: scripts/v3/content/final_flow/build_final_voices.ps1 and prepare_final_voices.py.
+No music or third-party sound recordings were added by this supplement.

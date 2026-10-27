@@ -1,0 +1,1242 @@
+[
+  {
+    "native_path": "asset_sources/v3/clinic_gravity/production_candidate/clinic_gravity_production_candidate.blend",
+    "image_path": "asset_sources/v3/clinic_gravity/structure_v2/textures/CG_SurfaceAtlas_BaseColor.png",
+    "image_path_sha256": "a59c09f1cec77ebc5079afee288472becf0b0db69edc047824a0a9a2113a5ef1",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_gravity/production_candidate/clinic_gravity_production_candidate.blend",
+    "image_path": "asset_sources/v3/clinic_gravity/structure_v2/textures/CG_SurfaceAtlas_Metallic.png",
+    "image_path_sha256": "8ba6efbea773fe5fa9e140420bb40769cc3d2cedb3b8c7d8aed1eaa4c7a2132c",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_gravity/production_candidate/clinic_gravity_production_candidate.blend",
+    "image_path": "asset_sources/v3/clinic_gravity/structure_v2/textures/CG_SurfaceAtlas_Normal.png",
+    "image_path_sha256": "5ffb76e77c192b1cbcf26e47da841106832bd981e0acc4f5a794d73d197a0805",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_gravity/production_candidate/clinic_gravity_production_candidate.blend",
+    "image_path": "asset_sources/v3/clinic_gravity/structure_v2/textures/CG_SurfaceAtlas_Roughness.png",
+    "image_path_sha256": "3b8b58c40cc79d84c9139727c0a31d0973788bc0ad5d5a9cc3387e918da7a99a",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/p12_isolated_study/isolated_diagnostic.blend",
+    "image_path": null,
+    "image_path_sha256": "5bf132dc62f23af94e4324a8425218c170b4fcf9397c01efdfe25036a104b737",
+    "status": "outside-approved-project-or-unresolvable",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/p12_isolated_study/isolated_diagnostic.blend",
+    "image_path": "asset_sources/v3/p10/vendor/polyhaven_rocky_trail/rocky_trail_diff_2k.png",
+    "image_path_sha256": "dee795616f67101724d1620c750640dcd374507691e904888921f74737f8fdf7",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/p12_isolated_study/isolated_diagnostic.blend",
+    "image_path": "asset_sources/v3/p10/vendor/polyhaven_rocky_trail/rocky_trail_nor_gl_2k.png",
+    "image_path_sha256": "b742badfeeec2c15a7fa7c7b76c0e3b6968d8fa4ecce92349d4641b6c851906b",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/p12_isolated_study/isolated_diagnostic.blend",
+    "image_path": "asset_sources/v3/p10/vendor/polyhaven_rocky_trail/rocky_trail_rough_2k.png",
+    "image_path_sha256": "300b1f6b82133ffbfe125b0ccb1bd72ce68f9f7e1eaabac8d5de48000ef7a7d4",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/p12_isolated_study/isolated_diagnostic.blend",
+    "image_path": "asset_sources/v3/p9/vendor/polyhaven_sandy_gravel_02/sandy_gravel_02_diff_2k.png",
+    "image_path_sha256": "b5fc08a533ff3b7fd6efcf3fbb3f6b4dcb1bced56bf0a66e78242e7cad0a5184",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/p12_isolated_study/isolated_diagnostic.blend",
+    "image_path": "asset_sources/v3/p9/vendor/polyhaven_sandy_gravel_02/sandy_gravel_02_nor_gl_2k.png",
+    "image_path_sha256": "8e8cad56ca26e5b7fe265d7c134e57e1c4a50f63d5fb685fb76e2344a695b824",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/p12_isolated_study/isolated_diagnostic.blend",
+    "image_path": "asset_sources/v3/p9/vendor/polyhaven_sandy_gravel_02/sandy_gravel_02_rough_2k.png",
+    "image_path_sha256": "dcc691f796f3cc6f4fc5138c0eec61d2e60613ae4704b945ae87ca0a01c00887",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_bottom.png",
+    "image_path_sha256": "da71f2228802ac17c5bb2d6dabc1e7b84d977ef23274cef38890b3817b3927cc",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_bottom.png",
+    "image_path_sha256": "da71f2228802ac17c5bb2d6dabc1e7b84d977ef23274cef38890b3817b3927cc",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_side.png",
+    "image_path_sha256": "15ddb4bd5c7e96818a798dfd6671e2cb55e3d01c90cdc45596409377a862d64f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_side.png",
+    "image_path_sha256": "15ddb4bd5c7e96818a798dfd6671e2cb55e3d01c90cdc45596409377a862d64f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_top.png",
+    "image_path_sha256": "4b9562797d9495c990296d9739bf0129f705d324f583b638e1b28c01542aaef5",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_top.png",
+    "image_path_sha256": "4b9562797d9495c990296d9739bf0129f705d324f583b638e1b28c01542aaef5",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_00.png",
+    "image_path_sha256": "f03ab33939654e68d47d46a88fdbc09b70cf188be204ef73836eda7f16967dab",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_00.png",
+    "image_path_sha256": "f03ab33939654e68d47d46a88fdbc09b70cf188be204ef73836eda7f16967dab",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_01.png",
+    "image_path_sha256": "770a9e141a0322651e7f5bb8d75a6e3ef04a9ecf0cdaf1e4fe7b12aa3fbeb4c4",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_01.png",
+    "image_path_sha256": "770a9e141a0322651e7f5bb8d75a6e3ef04a9ecf0cdaf1e4fe7b12aa3fbeb4c4",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_02.png",
+    "image_path_sha256": "f1c7171327b153ff2d7116817d5f4a79c021f74b2abb990bfe79ad6980b4277b",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_02.png",
+    "image_path_sha256": "f1c7171327b153ff2d7116817d5f4a79c021f74b2abb990bfe79ad6980b4277b",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_03.png",
+    "image_path_sha256": "a31fcbb1a491119d129c90f0a75048b353a371ea35df341ea2c6e70f6ee8cfc9",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_03.png",
+    "image_path_sha256": "a31fcbb1a491119d129c90f0a75048b353a371ea35df341ea2c6e70f6ee8cfc9",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_04.png",
+    "image_path_sha256": "98b6fd917104a2a7e63ec525553545cbc216652c294cd9ecf0ff24ff9b72e789",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_04.png",
+    "image_path_sha256": "98b6fd917104a2a7e63ec525553545cbc216652c294cd9ecf0ff24ff9b72e789",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_05.png",
+    "image_path_sha256": "d21cae82b27e813e05796a5a7c4ec43cb7f9dcb29737db0654238092e6cf5c26",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_05.png",
+    "image_path_sha256": "d21cae82b27e813e05796a5a7c4ec43cb7f9dcb29737db0654238092e6cf5c26",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_06.png",
+    "image_path_sha256": "187f59fc19acbc60b5d3b31c786a28edbef6a1ec2adde38adbbd22238c57ba81",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_06.png",
+    "image_path_sha256": "187f59fc19acbc60b5d3b31c786a28edbef6a1ec2adde38adbbd22238c57ba81",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_07.png",
+    "image_path_sha256": "26d39e6a0ffa55e9efe552a334b4fe3a64b97f105833e182ded98f13b9b41b90",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_07.png",
+    "image_path_sha256": "26d39e6a0ffa55e9efe552a334b4fe3a64b97f105833e182ded98f13b9b41b90",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/textures/Boundary_ORM.png",
+    "image_path_sha256": "54c65e18979585bbe4df3221d5051a4dd7dea816fb0e95a477de0d99231d0765",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/boundary_AO_repair.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/textures/Boundary_ORM.png",
+    "image_path_sha256": "54c65e18979585bbe4df3221d5051a4dd7dea816fb0e95a477de0d99231d0765",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_bottom.png",
+    "image_path_sha256": "da71f2228802ac17c5bb2d6dabc1e7b84d977ef23274cef38890b3817b3927cc",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_side.png",
+    "image_path_sha256": "15ddb4bd5c7e96818a798dfd6671e2cb55e3d01c90cdc45596409377a862d64f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_ground_top.png",
+    "image_path_sha256": "4b9562797d9495c990296d9739bf0129f705d324f583b638e1b28c01542aaef5",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_00.png",
+    "image_path_sha256": "f03ab33939654e68d47d46a88fdbc09b70cf188be204ef73836eda7f16967dab",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_01.png",
+    "image_path_sha256": "770a9e141a0322651e7f5bb8d75a6e3ef04a9ecf0cdaf1e4fe7b12aa3fbeb4c4",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_02.png",
+    "image_path_sha256": "f1c7171327b153ff2d7116817d5f4a79c021f74b2abb990bfe79ad6980b4277b",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_03.png",
+    "image_path_sha256": "a31fcbb1a491119d129c90f0a75048b353a371ea35df341ea2c6e70f6ee8cfc9",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_04.png",
+    "image_path_sha256": "98b6fd917104a2a7e63ec525553545cbc216652c294cd9ecf0ff24ff9b72e789",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_05.png",
+    "image_path_sha256": "d21cae82b27e813e05796a5a7c4ec43cb7f9dcb29737db0654238092e6cf5c26",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_06.png",
+    "image_path_sha256": "187f59fc19acbc60b5d3b31c786a28edbef6a1ec2adde38adbbd22238c57ba81",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/raw_AO/AO_solid_07.png",
+    "image_path_sha256": "26d39e6a0ffa55e9efe552a334b4fe3a64b97f105833e182ded98f13b9b41b90",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/high_material_fix/run_20261020_030752_532086/corrected_high_reference.blend",
+    "image_path": "asset_sources/v3/clinic_ground_transition/recovery_sample_v2/repair_02/complete_04/run_20261020_025228_148711/textures/Boundary_ORM.png",
+    "image_path_sha256": "54c65e18979585bbe4df3221d5051a4dd7dea816fb0e95a477de0d99231d0765",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/source_inputs/material_atlas_v1_UNEDITED.png",
+    "image_path_sha256": "c6f3e93dfcd992c007a2e8e26301c9396853778259234a01aa3d55ada8fea038",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/source_inputs/material_atlas_v2_UNEDITED.png",
+    "image_path_sha256": "4f5000c49896a301460cd877ae35b98573927eb06f1ef72dee5138df3a147266",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/source_inputs/Metal012_1K-PNG_Color.png",
+    "image_path_sha256": "e370770a0b340bfce70270d175bb53be94a8f24d1343aed15834fc7aa157dcb4",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "image_path_sha256": "96a3d87b854a98cce28ee0fd8a051c6641d0e12664a4c8f39fc198a74a00432b",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "image_path_sha256": "3ceaed4a4cb4388b287b0dcde51c6f8a20513a99332d4ef63a09c6d98079fd21",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "image_path_sha256": "7e76c306cefe6492e65b2852d339b5a3fb379a777159a7375b34a0e8be615a7d",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/textures/PumpV8_BaseColor.png",
+    "image_path_sha256": "ae71b58fa850c419dfebfc23d80c61f2659faa703a6f248d207a590610f96b44",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/textures/PumpV8_Normal.png",
+    "image_path_sha256": "8ba65a41144289cb3dec42095168d5df54d11ad3cb9b97fd92268b7398493197",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/clinic_pump_shell_delivery.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/delivery_v8/failed_export_normal_threshold_v1/textures/PumpV8_ORM.png",
+    "image_path_sha256": "b0202c2dd58823c5e84075a36b4e3cc50f4e9b35ca93d88080a2e9f539e59b77",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/prototype_v4/failed_lazy_image_read/pump_shell_prototype.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/prototype_v4/failed_lazy_image_read/source_inputs/material_atlas_v1_UNEDITED.png",
+    "image_path_sha256": "c6f3e93dfcd992c007a2e8e26301c9396853778259234a01aa3d55ada8fea038",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_pump_shell/prototype_v4/failed_lazy_image_read/pump_shell_prototype.blend",
+    "image_path": "asset_sources/v3/clinic_pump_shell/prototype_v4/failed_lazy_image_read/source_inputs/material_atlas_v2_UNEDITED.png",
+    "image_path_sha256": "4f5000c49896a301460cd877ae35b98573927eb06f1ef72dee5138df3a147266",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/clinic_reception_support_v1.blend",
+    "image_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/source_inputs/CG_V4_BaseColor.png",
+    "image_path_sha256": "48ead45bc8792eed2fecb1c7ba8fcd655c5de8c3753c50abf9eb1a8eacac155d",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/clinic_reception_support_v1.blend",
+    "image_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/source_inputs/CG_V4_Metallic.png",
+    "image_path_sha256": "e756a2665aa01fb99abfb6526e4204355db9b1bdaf8c0915804366d8f595126c",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/clinic_reception_support_v1.blend",
+    "image_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/source_inputs/CG_V4_Normal.png",
+    "image_path_sha256": "15398e5758d7952fbbeec83777e59988a932a56cbd1aa040d33edc3eebd46852",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/clinic_reception_support_v1.blend",
+    "image_path": "asset_sources/v3/clinic_reception/support_v1/failure_framing/source_inputs/CG_V4_Roughness.png",
+    "image_path_sha256": "994a549300e42180457c8177edc5dda49f2bc6c6c53229d62b6aa62a298edfe5",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/f1_thermal_stone/delivery_p1/delivery_20261020_210356_971083/f1_thermal_stone_delivery.blend",
+    "image_path": "asset_sources/v3/f1_thermal_stone/delivery_p1/delivery_20261020_210356_971083/Moss_Roughness.png",
+    "image_path_sha256": "68382c8ed3da6c53023fc8384d068bef6bf1758e9f8c2524ba235c76713b3150",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/f1_thermal_stone/delivery_p1/delivery_20261020_210356_971083/f1_thermal_stone_delivery.blend",
+    "image_path": "asset_sources/v3/f1_thermal_stone/delivery_p1/delivery_20261020_210356_971083/RootBindings_Roughness.png",
+    "image_path_sha256": "8d5960e0fb9a6ce36deccc7d73327894bb2e002c1af6523ef89d86f7cb805275",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/f1_thermal_stone/delivery_p1/delivery_20261020_210356_971083/f1_thermal_stone_delivery.blend",
+    "image_path": "asset_sources/v3/f1_thermal_stone/delivery_p1/delivery_20261020_210356_971083/StoneBody_Roughness.png",
+    "image_path_sha256": "16780a9d1bc5de4fa4cea6568a8200f11941eda84798e458ddd32e184a03b975",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/namaqualand_boulder_03_1k.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_diff_1k.jpg",
+    "image_path_sha256": "510fedba0541f76f3931925a09e351a53a149303335a63985303598e0b3c3168",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/namaqualand_boulder_03_1k.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_nor_gl_1k.exr",
+    "image_path_sha256": "fbf5259f3b9536b14051988a77b598db3c33d74217e2e3bd77b889a5877decdd",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/namaqualand_boulder_03_1k.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_rough_1k.exr",
+    "image_path_sha256": "09f8bc4ab6040b8ec2c64a2f749b1ab388e9cd878d993160495cf8621503df0e",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/growth_approach/west_p5/growth_approach_west_p5.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_diff_1k.jpg",
+    "image_path_sha256": "57e7da258b9863d4dc0213692bf2f7b9005afb3598ca8785f3f8a2d41d30059f",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/growth_approach/west_p5/growth_approach_west_p5.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_nor_gl_1k.exr",
+    "image_path_sha256": "2baea016efe0a854374dc1381762a262a8ddea59d6e1f038c28e6a1b30552c47",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/growth_approach/west_p5/growth_approach_west_p5.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_rough_1k.exr",
+    "image_path_sha256": "e48044ebfa896858db3ea6946bd663f35745135ef1f385df9d21ef1fa8a0b089",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/seal_foundation/p2/seal_foundation_p2.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_diff_1k.jpg",
+    "image_path_sha256": "95a11c3387ad778236352c019b2c1e2d51a993ff1c6a396fe250608b3066a4d6",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/seal_foundation/p2/seal_foundation_p2.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_nor_gl_1k.exr",
+    "image_path_sha256": "bb8d1d51d3b74cc4f982318dbc3a0f7ffb64507a9eaea4d5e59dd9f040966b85",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/seal_foundation/p2/seal_foundation_p2.blend",
+    "image_path": "asset_sources/v3/growth_approach/resource_recovery/namaqualand_boulder_03/textures/namaqualand_boulder_03_rough_1k.exr",
+    "image_path_sha256": "97a8c2ea45ee9ddbf736c58076b5b8e0b9865bb87012aa70db12564cb22be48f",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/shared_access_bridge_deck_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "image_path_sha256": "6285b057f63a5077588d77f9f5f9ec02557552be38259008910999fb83368722",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/shared_access_bridge_deck_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/textures/SharedBridgeDeck_BaseColor.png",
+    "image_path_sha256": "1ca1a3b01e76c6b04ee4ebe679ddae69f9cb021f2fad0e1ae8cc7fd551e8dfea",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/shared_access_bridge_deck_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/textures/SharedBridgeDeck_Normal.png",
+    "image_path_sha256": "e36b31afbc7ad363f761e4fcdf39b1533e81d76d80e7ef6b9226ba3f7e0b5a3e",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/shared_access_bridge_deck_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_bridge_deck/delivery_p4/failed_02_export_lazy_image/textures/SharedBridgeDeck_ORM.png",
+    "image_path_sha256": "524e6b29ada04241272a9d82cdc3b65f1e7bc6c781542a09981a477b5cd4853a",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/shared_access_landings_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/LandingTread_SurfaceMask.png",
+    "image_path_sha256": "01293c7ffcda18f4184fc71944e85a8bc79c413fcdf3dc6e2a03849f9c88dad7",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/shared_access_landings_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "image_path_sha256": "390d9fe2066584f818bdb4aaa2e988f3e157d3d88c249f6463a4d8b83f8a02e1",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/shared_access_landings_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/textures/SharedLandings_Coating_BaseColor.png",
+    "image_path_sha256": "968fd47a4acfa1c4f07ca2b8cdd78a99786cfd4d9805a6f9433ada876f468765",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/shared_access_landings_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/textures/SharedLandings_Coating_ORM.png",
+    "image_path_sha256": "a428e60d097e793728770f2b5eb133f0dc0dbd7a17ca768479d4c610a7ef134e",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/shared_access_landings_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/textures/SharedLandings_Deck_BaseColor.png",
+    "image_path_sha256": "65622d779c81bb0f86f6fbcc5bb4d059fb89eb16d6fd86065420d2f43545dc75",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/shared_access_landings_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/textures/SharedLandings_Deck_Normal.png",
+    "image_path_sha256": "db81f484399b03bac07e7b53bb3790c85e5d2d9564eecec1ba13f968638f2fa3",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/shared_access_landings_delivery.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/textures/SharedLandings_Deck_ORM.png",
+    "image_path_sha256": "2d14987c0fc8067dfe731d6223290fb438f3fd50a38eadde43545e2f507ad334",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/uv_checkpoint.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/LandingTread_SurfaceMask.png",
+    "image_path_sha256": "01293c7ffcda18f4184fc71944e85a8bc79c413fcdf3dc6e2a03849f9c88dad7",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/failed_missing_paint_20261019_1636/uv_checkpoint.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "image_path_sha256": "390d9fe2066584f818bdb4aaa2e988f3e157d3d88c249f6463a4d8b83f8a02e1",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/run-20261019_163111_09f1da/uv_checkpoint.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/run-20261019_163111_09f1da/LandingTread_SurfaceMask.png",
+    "image_path_sha256": "01293c7ffcda18f4184fc71944e85a8bc79c413fcdf3dc6e2a03849f9c88dad7",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/shared_access_landings/delivery_p4/run-20261019_163111_09f1da/uv_checkpoint.blend",
+    "image_path": "asset_sources/v3/shared_access_landings/delivery_p4/source_inputs/painted_steel_material_v1_UNEDITED.png",
+    "image_path_sha256": "390d9fe2066584f818bdb4aaa2e988f3e157d3d88c249f6463a4d8b83f8a02e1",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_BluePaint_BaseColor.png",
+    "image_path_sha256": "0d7fd355b5c5435a2d5522c3690830bc33908f9dad6a24886e96b89733c65fb8",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_BluePaint_Normal.png",
+    "image_path_sha256": "87c5a4362d12c2727b979261a0dc7dca957d39ee1077a006da6ccb5a44d54b74",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_BluePaint_Roughness.png",
+    "image_path_sha256": "d33318a69b2a67747744d905d029dc4c56c02bb706034ae600a7f9b1cb8c8e25",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_CopperHeat_BaseColor.png",
+    "image_path_sha256": "ef972ffcd258f10a87b8e9e1cc5b458e0b1f2b22d6e2b75b567d1155a7fcdf75",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_CopperHeat_Normal.png",
+    "image_path_sha256": "67ae10c4eb85730946f966d7a9a141997df82ef69bde0a22c67be1977f2efd39",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_CopperHeat_Roughness.png",
+    "image_path_sha256": "5866344c666c88133be61ef959cea93b9e36b3785f3dcd1e8d3bf37b7b3bf4be",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_DarkSteel_BaseColor.png",
+    "image_path_sha256": "da6f423b263347760be447d9cc81eb15c37c03b68e1e2779981b3cffcc94b24a",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_DarkSteel_Normal.png",
+    "image_path_sha256": "1581cc8cc3222414b09ec18334aad2ab95f342783107efd957d3c753cde3945b",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_DarkSteel_Roughness.png",
+    "image_path_sha256": "a49fcdc02591f7eaf1f09b166d70d0f78e3b3a98836ccc3391ae01fdcd83c290",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_IvoryPaint_BaseColor.png",
+    "image_path_sha256": "123a7f00fe91188aa2fb21358a91310b304ed742870bd423b45093f1119fe815",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_IvoryPaint_Normal.png",
+    "image_path_sha256": "96a391acc8f41c2dea8ead45cda6c46df62cc33e577e70966c4232e15cda77a8",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_IvoryPaint_Roughness.png",
+    "image_path_sha256": "4f415f14535b915ed89d413177ba26a46bb3cb7f76f346142c76fa11edc98b23",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_SafetyWear_BaseColor.png",
+    "image_path_sha256": "0c565163e55aadb778d7a1c87928e07b5d1c72c10c5851d347b3baca1b68b0b9",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_SafetyWear_Normal.png",
+    "image_path_sha256": "da425ec39811ca5eb6a622e357a03a2b1b783e5698e21fcc7d4a7a6695349eb7",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_SafetyWear_Roughness.png",
+    "image_path_sha256": "339ba333abaff9a871a8d86b3728d92a3d4bfd58a904be350d264accf179e5e5",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/thermal_bypass.blend",
+    "image_path": "asset_sources/v3/thermal_bypass/evidence/rejected_v1/textures/TB_StatusLens_BaseColor.png",
+    "image_path_sha256": "a7ae028349ae5b5bb93051b39142ae13fd85e5a6773813c37fca6fa6a3a747a2",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_BareSteel_BaseColor.png",
+    "image_path_sha256": "8ce5f1e29c76fe9243a59fb3754d5cbc1be96ea5f796de97c694397f7f0e02b2",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_BareSteel_Normal.png",
+    "image_path_sha256": "86af5b70d45e984461feda7b937516e218fd12d78bf557529dde6161a73c8c2b",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_BareSteel_Roughness.png",
+    "image_path_sha256": "cdbc89c7fc4430cbfc07c5b047d488f89832285c26e2d65946ed250717b882c6",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_Galvanized_BaseColor.png",
+    "image_path_sha256": "6216a724d40eaf174b77d1cbd1e822016b164c95b5e997eaed24bab2068daf8e",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_Galvanized_Metallic.png",
+    "image_path_sha256": "4fdeda850cb2f5b1199eaac360c9a0a2cd0ebb5c19e99c9353938b835a69140d",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_Galvanized_Normal.png",
+    "image_path_sha256": "ced82b4d6bd9705f9eb80b55cb3485e3607aa827037c3f358c6e807c4da5f817",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_Galvanized_Roughness.png",
+    "image_path_sha256": "a58f4eac0226c406c1d938fe603040c46c61e6d0410587ba1e93928e62fcee1f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_PetrolPaint_BaseColor.png",
+    "image_path_sha256": "c33d2f6a465c55ce5820766ee41bbf4d1f396f43f8e8119a292322f27cba4fc1",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_PetrolPaint_Normal.png",
+    "image_path_sha256": "5c1c06490c38e2867604ab1d96ebda944b0c951a9e5d25971da815af7dbd9607",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_PetrolPaint_Roughness.png",
+    "image_path_sha256": "7b4d67ff85de1ca9f1b0f884ad0b2356e489b42e8880d91e992a7090b401e67f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_SafetyBand_BaseColor.png",
+    "image_path_sha256": "3d5175934e4e9d1e4efab1eff0658cc4c596dad7621552341ee9f9b099fabafc",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_SafetyBand_Normal.png",
+    "image_path_sha256": "8330766430923d0b1cd7c2e9ee5ddc76766a450abc3760cbe71cf9dc4ccf1764",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v1/textures/UD_SafetyBand_Roughness.png",
+    "image_path_sha256": "107793df1c933047629992de34cf353ffd03ab1a5c6dd54b3beba6f1a88b1973",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_BareSteel_BaseColor.png",
+    "image_path_sha256": "8ce5f1e29c76fe9243a59fb3754d5cbc1be96ea5f796de97c694397f7f0e02b2",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_BareSteel_Normal.png",
+    "image_path_sha256": "86af5b70d45e984461feda7b937516e218fd12d78bf557529dde6161a73c8c2b",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_BareSteel_Roughness.png",
+    "image_path_sha256": "cdbc89c7fc4430cbfc07c5b047d488f89832285c26e2d65946ed250717b882c6",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_Galvanized_BaseColor.png",
+    "image_path_sha256": "6216a724d40eaf174b77d1cbd1e822016b164c95b5e997eaed24bab2068daf8e",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_Galvanized_Metallic.png",
+    "image_path_sha256": "4fdeda850cb2f5b1199eaac360c9a0a2cd0ebb5c19e99c9353938b835a69140d",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_Galvanized_Normal.png",
+    "image_path_sha256": "ced82b4d6bd9705f9eb80b55cb3485e3607aa827037c3f358c6e807c4da5f817",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_Galvanized_Roughness.png",
+    "image_path_sha256": "a58f4eac0226c406c1d938fe603040c46c61e6d0410587ba1e93928e62fcee1f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_PetrolPaint_BaseColor.png",
+    "image_path_sha256": "c33d2f6a465c55ce5820766ee41bbf4d1f396f43f8e8119a292322f27cba4fc1",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_PetrolPaint_Normal.png",
+    "image_path_sha256": "5c1c06490c38e2867604ab1d96ebda944b0c951a9e5d25971da815af7dbd9607",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_PetrolPaint_Roughness.png",
+    "image_path_sha256": "7b4d67ff85de1ca9f1b0f884ad0b2356e489b42e8880d91e992a7090b401e67f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_SafetyBand_BaseColor.png",
+    "image_path_sha256": "3d5175934e4e9d1e4efab1eff0658cc4c596dad7621552341ee9f9b099fabafc",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_SafetyBand_Normal.png",
+    "image_path_sha256": "8330766430923d0b1cd7c2e9ee5ddc76766a450abc3760cbe71cf9dc4ccf1764",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v2/textures/UD_SafetyBand_Roughness.png",
+    "image_path_sha256": "107793df1c933047629992de34cf353ffd03ab1a5c6dd54b3beba6f1a88b1973",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_Galvanized_BaseColor.png",
+    "image_path_sha256": "6216a724d40eaf174b77d1cbd1e822016b164c95b5e997eaed24bab2068daf8e",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_Galvanized_Metallic.png",
+    "image_path_sha256": "4fdeda850cb2f5b1199eaac360c9a0a2cd0ebb5c19e99c9353938b835a69140d",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_Galvanized_Normal.png",
+    "image_path_sha256": "ced82b4d6bd9705f9eb80b55cb3485e3607aa827037c3f358c6e807c4da5f817",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_Galvanized_Roughness.png",
+    "image_path_sha256": "a58f4eac0226c406c1d938fe603040c46c61e6d0410587ba1e93928e62fcee1f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_PetrolPaint_BaseColor.png",
+    "image_path_sha256": "c33d2f6a465c55ce5820766ee41bbf4d1f396f43f8e8119a292322f27cba4fc1",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_PetrolPaint_Normal.png",
+    "image_path_sha256": "5c1c06490c38e2867604ab1d96ebda944b0c951a9e5d25971da815af7dbd9607",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_PetrolPaint_Roughness.png",
+    "image_path_sha256": "7b4d67ff85de1ca9f1b0f884ad0b2356e489b42e8880d91e992a7090b401e67f",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_SafetyBand_BaseColor.png",
+    "image_path_sha256": "3d5175934e4e9d1e4efab1eff0658cc4c596dad7621552341ee9f9b099fabafc",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_SafetyBand_Normal.png",
+    "image_path_sha256": "8330766430923d0b1cd7c2e9ee5ddc76766a450abc3760cbe71cf9dc4ccf1764",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/underdeck_door.blend",
+    "image_path": "asset_sources/v3/underdeck_door/evidence/rejected_material_v3/textures/UD_SafetyBand_Roughness.png",
+    "image_path_sha256": "107793df1c933047629992de34cf353ffd03ab1a5c6dd54b3beba6f1a88b1973",
+    "status": "inside-project-resource-hashed",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/underdeck_shell.blend",
+    "image_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/textures/UDS_SharedAtlas_BaseColor.png",
+    "image_path_sha256": "93a707396738779d55ec00ca3ed566d320def797c3e5f7c6cb62707471bacbd3",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/underdeck_shell.blend",
+    "image_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/textures/UDS_SharedAtlas_Metallic.png",
+    "image_path_sha256": "224895d8930354fb0396940a51fd15deb09f349036daafcae179c9644a9b54dd",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/underdeck_shell.blend",
+    "image_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/textures/UDS_SharedAtlas_Normal.png",
+    "image_path_sha256": "b05b0448fa03fbf70ec827f0e5a1511ebcf094dc4fb7d6a8b56b541721a6c18f",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/underdeck_shell.blend",
+    "image_path": "asset_sources/v3/underdeck_shell/evidence/rejected_v1/files/textures/UDS_SharedAtlas_Roughness.png",
+    "image_path_sha256": "97c195cb8684422d51c1573f0ed801d01f57708fa2afb0a808599e943e5afca0",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/west_offset_room_editable.blend",
+    "image_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/source_inputs/material_atlas_v2.png",
+    "image_path_sha256": "d848f6774230466337bab50c3ffcc711341f7d1cc83da493bf62cfaf4bcf9f10",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/west_offset_room_editable.blend",
+    "image_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/source_inputs/Metal012_1K-PNG_Color.png",
+    "image_path_sha256": "e370770a0b340bfce70270d175bb53be94a8f24d1343aed15834fc7aa157dcb4",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/west_offset_room_editable.blend",
+    "image_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "image_path_sha256": "96a3d87b854a98cce28ee0fd8a051c6641d0e12664a4c8f39fc198a74a00432b",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/west_offset_room_editable.blend",
+    "image_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "image_path_sha256": "3ceaed4a4cb4388b287b0dcde51c6f8a20513a99332d4ef63a09c6d98079fd21",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/west_offset_room_editable.blend",
+    "image_path": "asset_sources/v3/west_offset_room/p1/failed_midband_overlap/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "image_path_sha256": "7e76c306cefe6492e65b2852d339b5a3fb379a777159a7375b34a0e8be615a7d",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/west_service_room_editable.blend",
+    "image_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/source_inputs/material_atlas_v2.png",
+    "image_path_sha256": "d848f6774230466337bab50c3ffcc711341f7d1cc83da493bf62cfaf4bcf9f10",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/west_service_room_editable.blend",
+    "image_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/source_inputs/Metal012_1K-PNG_Color.png",
+    "image_path_sha256": "e370770a0b340bfce70270d175bb53be94a8f24d1343aed15834fc7aa157dcb4",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/west_service_room_editable.blend",
+    "image_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/source_inputs/Metal012_1K-PNG_Metalness.png",
+    "image_path_sha256": "96a3d87b854a98cce28ee0fd8a051c6641d0e12664a4c8f39fc198a74a00432b",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/west_service_room_editable.blend",
+    "image_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/source_inputs/Metal012_1K-PNG_NormalGL.png",
+    "image_path_sha256": "3ceaed4a4cb4388b287b0dcde51c6f8a20513a99332d4ef63a09c6d98079fd21",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  },
+  {
+    "native_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/west_service_room_editable.blend",
+    "image_path": "asset_sources/v3/west_service_room/p1/failed_cap_overlap/source_inputs/Metal012_1K-PNG_Roughness.png",
+    "image_path_sha256": "7e76c306cefe6492e65b2852d339b5a3fb379a777159a7375b34a0e8be615a7d",
+    "status": "project-resource-absent",
+    "included_image_bytes": false,
+    "requires_manual_recovery": true
+  }
+]

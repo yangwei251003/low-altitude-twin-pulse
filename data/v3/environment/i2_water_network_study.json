@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "I2:water_network_study",
+  "version": 1,
+  "nodes": [
+    {"id":"I2:clean_cistern","capacity_ml":900000,"clean_ml":600000,"dirty_ml":0,"base_mm":6000,"area_cm2":3000},
+    {"id":"I2:rain_tank","capacity_ml":800000,"clean_ml":60000,"dirty_ml":240000,"base_mm":2000,"area_cm2":4000},
+    {"id":"I2:clinic_tank","capacity_ml":400000,"clean_ml":0,"dirty_ml":0,"base_mm":3500,"area_cm2":2000},
+    {"id":"I2:waste_sump","capacity_ml":1200000,"clean_ml":10000,"dirty_ml":190000,"base_mm":-2000,"area_cm2":6000}
+  ],
+  "edges": [
+    {"id":"I2:clean_to_clinic","from":"I2:clean_cistern","to":"I2:clinic_tank","kind":"gravity","max_rate_ml_s":12000,"conductance_ml_s_per_mm":8,"pump_head_mm":0,"initial_open_permille":0,"initial_powered":false,"bidirectional":false},
+    {"id":"I2:rain_to_clinic","from":"I2:rain_tank","to":"I2:clinic_tank","kind":"pump","max_rate_ml_s":6000,"conductance_ml_s_per_mm":0,"pump_head_mm":4500,"initial_open_permille":1000,"initial_powered":false,"bidirectional":false},
+    {"id":"I2:clinic_drain","from":"I2:clinic_tank","to":"I2:waste_sump","kind":"gravity","max_rate_ml_s":8000,"conductance_ml_s_per_mm":5,"pump_head_mm":0,"initial_open_permille":0,"initial_powered":false,"bidirectional":false},
+    {"id":"I2:rain_sump_link","from":"I2:rain_tank","to":"I2:waste_sump","kind":"gravity","max_rate_ml_s":4000,"conductance_ml_s_per_mm":3,"pump_head_mm":0,"initial_open_permille":0,"initial_powered":false,"bidirectional":true},
+    {"id":"I2:sump_return","from":"I2:waste_sump","to":"I2:rain_tank","kind":"pump","max_rate_ml_s":3000,"conductance_ml_s_per_mm":0,"pump_head_mm":7000,"initial_open_permille":0,"initial_powered":false,"bidirectional":false}
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "content_id": "opening_distribution_extension_v1",
+  "extends_content_id": "opening_v1",
+  "title": "核清配流，安排共用通路",
+  "status": "integrated_development",
+  "scope_note": "第九行动三目标；与既有八行动合并为9行动34目标。真实MAIN操作及保存整段已验证，实际镜头与联机按本批证据另记。5–8分钟是首次体验设计目标，未做人测；不延长放水、不重复返航或重做已保存观察凑时长。通路结果不代表已实现居民AI。",
+  "requires_action_ids": [
+    "I2:clinic_supply"
+  ],
+  "requires_character_ids": [
+    "npc:linlan",
+    "npc:ruanheng"
+  ],
+  "characters": [],
+  "markers": [],
+  "actions": [
+    {
+      "id": "I2:distribution_audit",
+      "title": "核清配流，安排共用通路",
+      "region_id": "I2",
+      "prerequisites": [
+        "I2:clinic_supply"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 双窗试样与通路分工已留存。\n病房供水保持，现场通路按已确认方案开放；无需返回港口领奖。",
+      "objectives": [
+        {
+          "id": "I2:distribution_audit:expose",
+          "text": "从上盖或低门，核对配流柜背面的两块标牌",
+          "hint": "可从高侧推开上盖观察，也可充能并接管低门电锁，换到能同时看清两块背标的位置按 G。标牌只是线索；先看清接头，再判断流向。先前已保存的观察无需重做。",
+          "after": [],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:distribution_back_exposed",
+              "options": [
+                "manual",
+                "service_lock"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I2:distribution_back_observed",
+              "value": true
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "I2:distribution_back_route",
+              "title": "配流柜背标与接头的现场观察记录"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:ruanheng",
+              "lines": [
+                "两块背标和检修接头都记下了。旧图上说的去向，得和实际走水核对；仅凭这两块牌子还不能归因。",
+                "柜前有一套隔离试流台。先猜一下选择柄两档会通往哪只接收箱，再放少量试水、靠近两侧刻度窗读数；不会动病房的水。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2:distribution_audit:trace",
+          "text": "分别试两档，近距读取两只接收箱的完整试样",
+          "hint": "先把隔离滑柄走到试流端，观察阀叶是否到位。可手动移动选择柄逐档放水，或充能后接管做交替脉冲。两侧各形成一份 20 L 样本后，分别靠近刻度窗按 G；只看水量、只读一侧都不算核对。回流可重试，已保存的完整读数仍有效。",
+          "after": [
+            "I2:distribution_audit:expose"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:distribution_route_verified",
+              "options": [
+                "manual_trial",
+                "pulse_trial",
+                "mixed_trial"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I2:distribution_trace_verified",
+              "value": true
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "I2:label_flow_disagreement",
+              "title": "隔离试流中，选择 A 的样本进入 B，选择 B 的样本进入 A"
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:ruanheng",
+              "memory": "I2:distribution_double_sample_checked"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:ruanheng",
+              "lines": [
+                "两份读数对上了：选 A，水到了 B；选 B，却到了 A。接头确实改过，背标还留着旧名字。",
+                "也许是应急抢修留下的。先把实测图带回去，查清是谁改的、又为什么没更新记录。"
+              ]
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:linlan",
+              "lines": [
+                "病房的水不要动。南边的共用桥还要安排：让住区到接诊台更直接，还是给南巡检落台更直接的路？先看两方实际怎么绕行，再一起确认。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2:distribution_audit:share_access",
+          "text": "把共用桥锁到一端，确认住区或巡检的短路分工",
+          "hint": "桥在病房南侧。可拉起锁销、沿轨推拉再插销；或充能后接管明确的一端，让电机完成退销、移桥、锁定。住区档：接诊路线 13.4 m，巡检绕行 19.8 m；巡检档：巡检路线 9.6 m，接诊绕行 39.6 m。两方都保留固定绕廊。从东落台内侧上方看清控制台，让开桥面与绕廊后按 G 确认当前桥位；联机需双方同意，飞机可自由飞越。",
+          "after": [
+            "I2:distribution_audit:trace"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "I2:distribution_access_committed",
+              "options": [
+                "public_span",
+                "service_span"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "I2:distribution_access_shared",
+              "value": true
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "I2:shared_access_plan",
+              "title": "共用桥的地区分工已确认，住区与巡检均保留可用通路"
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:linlan",
+              "memory": "I2:shared_access_compromise"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:linlan",
+              "lines": [
+                "桥位和两边的通路都已核对并保存。这次安排让一方更近，另一方有绕廊；病房供水保持原样。",
+                "这是本地通路的分工，不替整座水城或另一世界决定水权。之后遇到更大的取舍，仍要把证据和代价摊开。"
+              ]
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:ruanheng",
+              "lines": [
+                "试样记录和这次分工都留在这里，不用再回港口交差。后续查优先级指令时，要把标示、实际接管和原始记录分开核对。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "character_reply_extensions": [
+    {
+      "character_id": "npc:ruanheng",
+      "replies": [
+        {
+          "after": "I2:distribution_audit:expose",
+          "lines": [
+            "观察已经保存。去隔离试流台分别试两档，靠近两只刻度窗读取完整样本；不要先把猜测当结论。"
+          ]
+        },
+        {
+          "after": "I2:distribution_audit:trace",
+          "lines": [
+            "双窗试样已证实隔离支路的两档对应相反，原因仍待核查。回流不会抹掉这份首样记录。"
+          ]
+        },
+        {
+          "after": "I2:distribution_audit:share_access",
+          "lines": [
+            "两份试样和当地通路安排都已留存。现有证据说明对应关系有问题，还不能指认破坏者。"
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "npc:linlan",
+      "replies": [
+        {
+          "after": "I2:distribution_audit:trace",
+          "lines": [
+            "到南侧共用桥看两方的路长，住区和巡检都得留路。机体能飞过，不等于担架通路已经接好。"
+          ]
+        },
+        {
+          "after": "I2:distribution_audit:share_access",
+          "lines": [
+            "本地桥位分工已经确认，病房供水保持。后续的章节抉择仍由双方看过新证据后决定。"
+          ]
+        }
+      ]
+    }
+  ],
+  "host_bindings": {
+    "status": "declarative_integration_contract_not_executed_by_director",
+    "I2:distribution_back_exposed": {
+      "source": "durably_saved_distribution_history",
+      "history_path": "world.environment.I2_distribution.history",
+      "retain_before_objective": true,
+      "requires_back_observed": true,
+      "requires_explicit_original_observation": true,
+      "requires_original_line_of_sight": true,
+      "options": [
+        "manual",
+        "service_lock"
+      ],
+      "progress_fact_api": "TwinDistributionProgress.fact_for",
+      "reward_id": "I2:distribution_back_route"
+    },
+    "I2:distribution_route_verified": {
+      "source": "both_durably_saved_actual_gauge_records_and_immutable_opposite_first_samples",
+      "state_path": "world.environment.I2_trial_flow",
+      "retain_before_objective": true,
+      "required_records": [
+        "A",
+        "B"
+      ],
+      "sample_ml": 20000,
+      "matching": [
+        {
+          "record": "A",
+          "receiver_id": "I2:trial_receiver_a",
+          "selection_sample": "B"
+        },
+        {
+          "record": "B",
+          "receiver_id": "I2:trial_receiver_b",
+          "selection_sample": "A"
+        }
+      ],
+      "required_validation": [
+        "current_mechanism_envelope_valid",
+        "both_records_committed",
+        "original_manual_read_with_actual_distance_and_los",
+        "each_record_matches_immutable_opposite_sample",
+        "each_sample_clean_plus_dirty_equals_20000",
+        "each_sample_manual_plus_pulse_equals_20000",
+        "record_geometry_hashes_and_serial_valid"
+      ],
+      "method_derivation": {
+        "manual_trial": "sum_of_both_samples.manual_ml == 40000",
+        "pulse_trial": "sum_of_both_samples.pulse_ml == 40000",
+        "mixed_trial": "manual_ml > 0 and pulse_ml > 0 and their_sum == 40000"
+      },
+      "reject_as_sole_proof": [
+        "current_tank_volume",
+        "last_tick_transfer",
+        "one_gauge_only",
+        "selector_pose",
+        "powered_only",
+        "client_supplied_map"
+      ],
+      "return_preserves_evidence": true,
+      "required_current_tank_volume_ml": null,
+      "scope": "actual_connected_low_isolation_loop_only_not_high_pipe_gravity_or_clinic_supply",
+      "reward_id": "I2:label_flow_disagreement"
+    },
+    "I2:distribution_access_committed": {
+      "source": "explicit_local_confirm_after_actual_locked_bridge_and_both_supported_routes",
+      "requires_explicit_interaction": true,
+      "requires_line_of_sight": true,
+      "requires_two_player_consensus": true,
+      "revalidate_before_commit": true,
+      "required_status": {
+        "locked": true,
+        "pose_valid": true
+      },
+      "required_access_report": {
+        "choice_ready": true,
+        "public_access": true,
+        "service_access": true,
+        "width_m": 3,
+        "height_m": 2.8
+      },
+      "options": [
+        "public_span",
+        "service_span"
+      ],
+      "choice_scope": "regional_service_allocation",
+      "chapter_major_choice": false,
+      "consumes_major_choice_budget": 0,
+      "resident_ai_required": false,
+      "route_lengths_m": {
+        "public_span": {
+          "public": 13.4,
+          "service": 19.8
+        },
+        "service_span": {
+          "public": 39.6,
+          "service": 9.6
+        }
+      },
+      "permanent_bypass_lengths_m": {
+        "public": 39.6,
+        "service": 19.8
+      },
+      "mode_storage": "world.actions.opening.choices.I2:distribution_audit:share_access",
+      "committed_flag": "I2:distribution_access_shared",
+      "reward_id": "I2:shared_access_plan",
+      "same_transaction": [
+        "world.actions.opening",
+        "world.completed_objectives",
+        "world.flags",
+        "current_bridge_mechanism_and_confirmed_mode",
+        "world.environment.I2_distribution",
+        "world.environment.I2_trial_flow",
+        "personal.discoveries",
+        "guest_rewards"
+      ],
+      "note": "实际Bridge封套、现场确认与双人提案由Session/Story接入，不能以设flag或飞越完成。首次确认模式作为历史选择保存，后续物理调桥不改写历史、不重复领奖。Director只有bool flag，不向flags写mode字符串。"
+    },
+    "publish_rule": "Only publish completion dialogue and stable discovery receipts after the enclosing host Store transaction succeeds. Historical observations may precede objectives; do not repeat physical experiments after objective unlock.",
+    "branch_rule": "World objective/flags/confirmed choice stay with branch. Personal discoveries may predate this branch and survive Store.switch_branch; deduplicate each stable reward_id.",
+    "navigation_rule": "Reuse live cabinet/gauge targets and bridge entity positions. No invented static destination or origin fallback; this file adds no duplicate markers."
+  }
+}

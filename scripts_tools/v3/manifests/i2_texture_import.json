@@ -1,0 +1,3095 @@
+{
+  "status": "AUTHORING_ONLY_NOT_APPLIED_NOT_ENGINE_TESTED",
+  "scope": "Only 18 existing 3D PNG .import files, process/size_limit 0 -> 1024. No source PNG/GLB/blend or canonical file changed. No UI/font/standalone status image included.",
+  "candidate_count": 18,
+  "selected_texture_imports": [
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_BaseColor.png.import",
+      "import_sha256_before": "ec8fc44ac8f0c09e8280a93eb11865a0e42126abbc93f757cba5812a0a7cf32c",
+      "import_sha256_after": "38f6ffcbaae2ba34bdcaa2b9f80d20cf5549b9c08e5a0404f6239107ffc3c5c8",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_Normal.png.import",
+      "import_sha256_before": "4f8b13c29d18ad4e92e341eeed703cfb96713634083587b07d4a6ed2d9f4d229",
+      "import_sha256_after": "84edf72466b4355819ab8aee40e2530be272ea8acaaf13b2bcfbefeed6e873de",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_ORM.png.import",
+      "import_sha256_before": "d127ad24f904a9c889b50417e6f4cac2b1d10aa5ccdcf88f652db6fd7854fdec",
+      "import_sha256_after": "882608caa66d49e989bb6efe77bf752109dcda493646cf17841ceb221a4e3820",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "09f2be3fc6f345e7c0694579f7d75be1d79cf58a639ae43b3accf0ad21f6a95e",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_BaseColor.png.import",
+      "import_sha256_before": "e83c87df857dd01b479b258e8e6e7c9b1caafe03b37188d005771680b9abaec9",
+      "import_sha256_after": "a50faaf9891412f0907726993dc4c60846e3dd002646e04f343d3ea29a5d52a7",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_Normal.png.import",
+      "import_sha256_before": "938311f73c883eb2258a3adec139810ba8fda187ba7619dfb74aa21382cd2210",
+      "import_sha256_after": "28be736135b77551f207514d9de948f5d19037dd35cfd89c8fe2a8998733d660",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "55db4722d6347bbe3087412911a08bccef6ccd951856dd32975b19a8651ff3fc",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_ORM.png.import",
+      "import_sha256_before": "7d422c28ee6624f73c7213c4b0dac8f57678d30c79db609ad53e0edce9408674",
+      "import_sha256_after": "a10526d130c0a1fce9f2ff77ab991286ca4f8c2bc437950cd02d435e7cda7105",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "4a51429cf2a06c52f1dfa9634865ee68c2c4d6a54fc8ebc3be144c3d838d7f19",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_BaseColor.png.import",
+      "import_sha256_before": "408792f20e5e10224675470049cd096f674707847b32c0974f640d3eb7edd238",
+      "import_sha256_after": "a9cc80b382d7b1e84c3e1088c96083c260b46da743fb96638436d4d7fa88f9fc",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal.png.import",
+      "import_sha256_before": "c65c829e305b3a74f62ae5438873955f77be56ac284068027d59b0c0725824fc",
+      "import_sha256_after": "2c8045f0eb5b48a7d56445eb30e3c91263455b7a32a8ff031ad7827a1e37d6dd",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Metallic-MaintenancePaving_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "071b54786c2532ab12f16ee019f897a270537d122a665bd3cb8f5035b9c1a450",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Metallic-MaintenancePaving_Roughness.png.import",
+      "import_sha256_before": "ec6c68619b144e85bb86eeee4edc14bd8816cfbad23e47b2e97e45b5d1bec29b",
+      "import_sha256_after": "7a77e72113c978f8212e3f645d8b3aab2ea32120119babc06cbca0264dde08d9",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "60c52a8f4a82c5714be259c19e586c382cf21f46c72896f50f5aec90fa4e4156",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_BaseColor.png.import",
+      "import_sha256_before": "1d02fc990cbe12ba126d99af660b8a9e849396fd3bdfa61dcf78d6c1cfb2066f",
+      "import_sha256_after": "cfb6e366dae68f5c334fc6b17cbab228382c003f6cc92b2c69c1805c569f36c5",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "b92ce19af72b56a96012cf5027404b7d510000bba4672e545e53de28071af952",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_Normal.png.import",
+      "import_sha256_before": "315538f6eab86f514d0eb98bfa8d006c3cfe4136549e0e47eac72ae6d1dcbcf6",
+      "import_sha256_after": "bdecdb014b450f9266e8cb8ece8c267cebc3dca96cbbcfb459cd53fe64811333",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "d4d01b8217288ab9c7f49d16213c770713b1b49321e59d5b2b5a8a8a887003e7",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_ORM.png.import",
+      "import_sha256_before": "384b1f653778a05b766e756123888919e3a7d92859f770b813027f86e1a4ee80",
+      "import_sha256_after": "9db67129d9e5dacfd359e9f65f060886d92a5c29854cf74341548ec99c873ab0",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "4941c6c2f6b220bc2459eccfc2f0f545f101487ef021d5b0235a7fa7dbb3731a",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_BaseColor.png.import",
+      "import_sha256_before": "5f430c8007356b811b19f447c7f61524f9b7a8f9462dae57c25a160b1b8804a1",
+      "import_sha256_after": "8d7e8cdc86af836e55313f12fd3003ae9fc89685520a42050ea297f10b9176d1",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "13b3253404f80fa5c79a58b8c5ef9fb41f514b80af2da2d276fedac58f925d7e",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_Normal.png.import",
+      "import_sha256_before": "fcb84687bac1a4882c19d407721c812ce6b519032de76b2ff091bab110941e6b",
+      "import_sha256_after": "7080a3bd870d69c9d25d307eac27fb488e801e8c7f79e7abfdb911933656c5cf",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "29ff27b33624050142d10712e0c39d1d94aa9bdebb30db1c482b43772cdbfabb",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_ORM.png.import",
+      "import_sha256_before": "01e986aa66e8ddd9a7d06c2a542a84a1dfbd63eaca5aaadddaf276042fb71c4d",
+      "import_sha256_after": "2e3f516f77c3c07ccd057b2c81e1c80f7f6b0ab80f23c95b9bcf27e0c1bd3646",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "9e1e72966351e12d1d319c3e30f2545c15e74af96398c6f46f13909d3c4da381",
+      "import": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_BaseColor.png.import",
+      "import_sha256_before": "8c0f1427d61ff050516147f5c54f3297af9bbe09645425540f1a233f25ccaec9",
+      "import_sha256_after": "41aa6770d5691325ba21d0c24da890d5302cd3bdc8e12d5ffc50f4ef4bcd6dab",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "5eac61fe83c6066d1729410d89e94c63d4068e994ebca82479d3c49968b185cf",
+      "import": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_Normal.png.import",
+      "import_sha256_before": "f4c85dbf69ef47d23fe376959a0302b52757a4364e673e4085a9c6418c53d6b1",
+      "import_sha256_after": "8a442563ae896eb19132f0189863aa16928476e909be59fb84d35c9c368b320d",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    },
+    {
+      "texture": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "texture_sha256": "b0db068be48a3ee0845c7943abfed16bf92af34e475dbc854e25070b9bd32cbd",
+      "import": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_ORM.png.import",
+      "import_sha256_before": "956c50f886d66c1a345845a16e0ef933aef1d6fa1e7b89efe19c617311dfffdc",
+      "import_sha256_after": "f558fd73210a81fff9c476e61757f5135dc817ffd292fec6cb52bce4eaf25672",
+      "only_change": {
+        "process/size_limit": [
+          0,
+          1024
+        ]
+      },
+      "unchanged_import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "nominal_rgb8_full_mips_mib_before": 16,
+      "nominal_rgb8_full_mips_mib_after": 4,
+      "nominal_rgb8_full_mips_mib_saved": 12
+    }
+  ],
+  "nominal_estimate": {
+    "format": "RGB8 + complete mip chain, not measured GPU VRAM or guaranteed performance benefit",
+    "before_mib": 288,
+    "after_mib": 72,
+    "saved_mib": 216,
+    "rgba8_alternative_saved_mib": 288
+  },
+  "static_i2_inventory": {
+    "production_glb_count": 20,
+    "image_resource_count": 98,
+    "dimensions": {
+      "(2048, 2048, 'RGB')": 59,
+      "(1024, 1024, 'RGB')": 36,
+      "(1024, 256, 'RGB')": 3
+    },
+    "rgb8_full_mips_mib": 1090.9999237060547,
+    "notes": [
+      "Each GLB image resource counted separately; identical content under different paths is counted again.",
+      "Static references/imports, not an engine dependency dump. Runtime live GPU format and resource residency remain unmeasured.",
+      "Current four LOD paths replace old source models; source-only constants are not counted twice."
+    ]
+  },
+  "glb_inventory": [
+    {
+      "glb": "assets/v3/clinic_gravity/clinic_gravity.glb",
+      "glb_sha256": "87b596b5bb5f4cb66e40d7a019ce9167b1eb3c1d406a5d66d086d3728fa0710e",
+      "images": [
+        {
+          "name": "CG_V4_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CG_V4_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CG_V4_Metallic-CG_V4_Roughness",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "0a1f683a84f5d532e2ca7323aa13fd85d047cc8136b5ee4547c216e93055d048",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/clinic_ground/clinic_ground.glb",
+      "glb_sha256": "03e063e4f5e77468b9d1770c7a29686e600fdafce07a537a6018e45c1cc2a691",
+      "images": [
+        {
+          "name": "CGround_Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CGround_BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CGround_Metallic.png-CGround_Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "fbf75ebd885ddb02bbee30561e1a8a038c7f8b42df3048b090f4154071347901",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/clinic_ground/clinic_ground_plain_v2.glb",
+      "glb_sha256": "5356769cdcf540dc0b59f5f0ad94801df047eba4acf6945894a7833f4a80cc3f",
+      "images": [
+        {
+          "name": "CGround_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CGround_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CGround_Metallic.png-CGround_Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "fbf75ebd885ddb02bbee30561e1a8a038c7f8b42df3048b090f4154071347901",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck.glb",
+      "glb_sha256": "3326274d19063c0af717b9c2e766b834162fa5f1cc225c61494a0dcb78ffd1d7",
+      "images": [
+        {
+          "name": "Paint_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Paint_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "4daf3929b3cc1babe23c3de3c51f506c704857f2c68df7c70101f2fb8719b83d",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Paint_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "7888fba6e6275e3d8f260214c34ab0e7d6ba68ccd57ae7b3cfa061dc5469576a",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Steel_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "6724bacadf2875d8d50e6e3d7dce1736bdbd27cb6586a295a982218c887225b1",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "Steel_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "a1105d6c606d9fd7b296e8ddedbd26768b3c875282c7e97bb84f499416871af9",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "Steel_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "d3a81f791dd5e0c982020fa477ac58c126e3b297b0258a78548db946c96cfa35",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/clinic_pump_shell/clinic_pump_shell.glb",
+      "glb_sha256": "7d5d51d8134967b890c26b0cc7f541096e882bb0ce463a51c2fc52a534cb7100",
+      "images": [
+        {
+          "name": "PumpV8_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "5eac61fe83c6066d1729410d89e94c63d4068e994ebca82479d3c49968b185cf",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "PumpV8_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9e1e72966351e12d1d319c3e30f2545c15e74af96398c6f46f13909d3c4da381",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "PumpV8_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "b0db068be48a3ee0845c7943abfed16bf92af34e475dbc854e25070b9bd32cbd",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/clinic_reception/clinic_reception.glb",
+      "glb_sha256": "3e812dfa70c48585425ea1c9b572d4fb91340e588d96fa57a1ad048e7fd1db07",
+      "images": [
+        {
+          "name": "ReceptionV5_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "576a87b0e38072ab75cc50027c7cfeeeec99fe65f692c913f913e53203fce44c",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "ReceptionV5_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "81f6ebe6a29345a16f392b44005cdc266da4eb61c4967cb44deb70a71c8eeb10",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/clinic_reception/clinic_reception_support.glb",
+      "glb_sha256": "5d713b0bd4db083f674bdbcdffd280f60488eec35ea4ca275d4b547c427fa54b",
+      "images": [
+        {
+          "name": "CG_V4_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CG_V4_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "CG_V4_Metallic-CG_V4_Roughness",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "0a1f683a84f5d532e2ca7323aa13fd85d047cc8136b5ee4547c216e93055d048",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/central_service_apron/central_service_apron.glb",
+      "glb_sha256": "515d9b16c8239d0ddbf437bdb642b5fc6699d5fc50b18273090491ad4d68222a",
+      "images": [
+        {
+          "name": "concrete_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "concrete_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "concrete_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/i2_revetment_closure/revetment_closure.glb",
+      "glb_sha256": "9e3bce1d8871cb3c6778868cc9209d8042a7ecb8eac852d2f99b58e4ca02c67c",
+      "images": [
+        {
+          "name": "I2Revetment_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "I2Revetment_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "I2Revetment_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "ClosureCaps_Normal",
+          "size": [
+            1024,
+            256
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "b46892c7c910bbf936ecd5e718c5f4dd9439c992f629dea2863132ce00caad2f",
+          "rgb8_mips_mib": 1.000004768371582
+        },
+        {
+          "name": "ClosureCaps_BaseColor",
+          "size": [
+            1024,
+            256
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "c59610779daeac47580904c322ce28fc53369649212bb70d4b8b2948150879d2",
+          "rgb8_mips_mib": 1.000004768371582
+        },
+        {
+          "name": "ClosureCaps_ORM",
+          "size": [
+            1024,
+            256
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "e507ac686cc451f38e2a030c4388cd126de11bd428ef45df0389910650b7bd94",
+          "rgb8_mips_mib": 1.000004768371582
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/yard_connector/yard_connector_field.glb",
+      "glb_sha256": "180d8c5b07fca57169f164f829c5cbe00c05b740854c6f9dc3efa622d57957e0",
+      "images": [
+        {
+          "name": "concrete_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "concrete_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "concrete_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "local_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "5e3b3958fd4de6ca62d9aada4935d5081e546598f8d9f269129a969ab2fc3f97",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "local_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "f3dd31083e917c27d17a2c91bbee05bf1dbec30c6a988ba7cbde278dda60f216",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "local_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "a90c85430403a60f595a48c75a0dff30ccdf107a0bcdbca892709427c15138cf",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "soil_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "34e3cf794a427ec53c95b7700dfc930a13d6ffa4b0649697e432875e2395c52b",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "soil_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "c60550755e02bc13607510a9c7b4efe30739ebeb47b4bd1c6d8e1e66afa9e3c3",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "soil_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "79ab0e43ee489dce7670485d97363b6382ea9e1c25cec2bac221a73679a468fb",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/shared_access_bridge_deck/shared_access_bridge_deck.glb",
+      "glb_sha256": "ea8aa0e10f35a637c7deef341471de771e364d9db938f502bd387cb41b9a7c28",
+      "images": [
+        {
+          "name": "SharedBridgeDeck_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "bcae02918c836b6d57e6433b4a0855bf46a6b1b4ecd93e12ab5083b8e4256b0e",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "SharedBridgeDeck_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "a675fc9b57adf16fe9dbadbc7092eee8d15ed3c365eb47db283fbe7c78ba18f5",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "SharedBridgeDeck_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "94904cfe408a5801875f85323fffc90d7c8a21df99e26267380cbcab56f7c60b",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/shared_access_landings/shared_access_landings.glb",
+      "glb_sha256": "4aa040cff1325e9881387b23b7b6698f097ef2df6ae2b6bbcbd093a9ee23ac2a",
+      "images": [
+        {
+          "name": "SharedLandings_Deck_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d0755adcf3366f69cc35b2dc5ce1cd5273282c3d03a9d140f774a8ac2cc6db9",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "SharedLandings_Deck_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "4ae603145f57d0b6079d4c1d99a325a2e27bef458ccb0ea5a0d0208be08d130e",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "SharedLandings_Deck_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "e400104fd1218a8850fafaf43a02778970c348e9b33f30bc1e45a7408f997a89",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "SharedLandings_Coating_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "SharedLandings_Coating_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "659db1da334f873b1bed17f8d44441dacf8a893759b0473969ce6d9761b8db53",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "SharedLandings_Coating_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "17cca9da0061bdc61c05853b22cb504efb4815e09af9043b895fa315ee500ee7",
+          "rgb8_mips_mib": 3.9999990463256836
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/i2_maintenance_paving/maintenance_paving.glb",
+      "glb_sha256": "cbeb42fd6158e0f57c7b12c44740a1a3df482d72d3f1bbbc47d028b89374c60d",
+      "images": [
+        {
+          "name": "MaintenancePaving_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "MaintenancePaving_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "bdc52f85ce695b1feaa3ea7366d86c44ad34d43db7d60e1d6ef1269bd03e3250",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "MaintenancePaving_Metallic-MaintenancePaving_Roughness",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9ac576bf5579e6246d7d3f958a56a6943c429749ea4ce940668907b480872914",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/west_service_room/west_service_room.glb",
+      "glb_sha256": "e8b6b55b2ce6d8b780a51e867166c5ff9b04512c15399b65a41cdf9b05ae08c1",
+      "images": [
+        {
+          "name": "ConcreteBase_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "ConcreteBase_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "89ac4674243126e6e47c9c4de8580afed35bb497c4fb33bcacce320a1b9d8e7d",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "ConcreteBase_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9274f14f7390332cc48c9fab130f045979ee05f5648af379ef5d8de844f0fd3f",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "PaintedShell_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "PaintedShell_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "b2b9f311352e99c93c33626870e06115847050c48f8c7c4be31b1ab477a186d0",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "PaintedShell_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "67e87b18e962369d8eb6046f1df00bb419b05a75054bcaf066434a1c0a2dfa14",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "RoofMetal_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "cc3e5ef63db188b33ee2ff2abddd210f41b116ad8c11626067d6bf8054561677",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "RoofMetal_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "ed2b853dd3470bfa52a635cfb2962d71ad2de520e8479e605c9372e1991d4324",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "RoofMetal_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "e4def43a8f5314a1f5ca305b0fb3e77e17c0b83abf161aba9e4d28845ec5331b",
+          "rgb8_mips_mib": 3.9999990463256836
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/west_offset_room/west_offset_room.glb",
+      "glb_sha256": "bea2bb84e42705e8b38b229d5dde0e4417326e56fad91a9e43ff1632f3ad6c65",
+      "images": [
+        {
+          "name": "ConcreteBase_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "ConcreteBase_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "967e60cbc9b8946d42eb16b536b1922b0fbd02923f7d296cf279e7f2bd6249a0",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "ConcreteBase_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "c0b6cfdf5a84ad6632c9f59ae7ed49fbe571c9a7e1c49bf7cfa0413dfff0475a",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "PaintedShell_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "PaintedShell_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "2b78d85907afa9b0c29d55003614f34f0251cdbcd5989991d57858ae1db9df0e",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "PaintedShell_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "bc821feb0f71b99e0e8cb7f3aeae54133fd70d55a51cb2be22afa68306d12b30",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "RoofMetal_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "b712727997891dc11b5dd946be2305dece741d9696ec474ffc9b54be5eca6098",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "RoofMetal_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "00a2363fb145cc76052928cfab79bdb9e20f48dcebfa1f2b2cbf46dda10bef0f",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "RoofMetal_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "267f92dcddd0d5a6a41d9c19401212add7206dddbb385d23e6dcd1f0931b9a2a",
+          "rgb8_mips_mib": 3.9999990463256836
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/west_landing_platform/west_landing_platform.glb",
+      "glb_sha256": "a5291b3b620522550b0e59f1e48eb6f4e7c0a556eb05796c53c2f388c25e4af5",
+      "images": [
+        {
+          "name": "Paint_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Paint_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "3d120dfcbfd35f6aa4eb13da64282ca50c2511cd89507d40594d13cc5f7ecc22",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Paint_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "923637a325c59f667887b81679140e13d817420549f2ce92d8e4016562b570a9",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Steel_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "98a0da4566f0f4edd7073135e63d77bbab81bdd79ecb5e6d5cbbad041e127a3f",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "Steel_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "95cbefd2a115b3b33a7f2ccc99e24b19fbaa72b553351b66cd02e8861a564091",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "Steel_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "8f65db9d5dc74e90da0c9a5756db360596c143d5058a8d9daf76a998203d0583",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod.glb",
+      "glb_sha256": "aae8766469d50a5fc81cd0807f7d59d9907114db499f8be59b851d18930ab0f8",
+      "images": [
+        {
+          "name": "I2Revetment_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "I2Revetment_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "I2Revetment_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod.glb",
+      "glb_sha256": "be34e310c278c49db4c5bb51239ce04ecaf8c3cc07ef598cacdad2c6ae361e00",
+      "images": [
+        {
+          "name": "I2Revetment_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "I2Revetment_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "09f2be3fc6f345e7c0694579f7d75be1d79cf58a639ae43b3accf0ad21f6a95e",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "I2Revetment_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "55db4722d6347bbe3087412911a08bccef6ccd951856dd32975b19a8651ff3fc",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod.glb",
+      "glb_sha256": "5ff31121a8ce9e607e466582e0bc663c6bdff2dea3938a11728ffb6a44dd17d4",
+      "images": [
+        {
+          "name": "MaintenancePaving_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "MaintenancePaving_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "4a51429cf2a06c52f1dfa9634865ee68c2c4d6a54fc8ebc3be144c3d838d7f19",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "MaintenancePaving_Metallic-MaintenancePaving_Roughness",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "071b54786c2532ab12f16ee019f897a270537d122a665bd3cb8f5035b9c1a450",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "MaintenancePaving_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "MaintenancePaving_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "d84fe1ef7612007c52793c3be3fa4c3d16355010146a5de946d5349faf873a04",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "MaintenancePaving_Metallic.png-MaintenancePaving_Roughness.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "db6b721c135a6526d76ef930a45474b54a50aef2effc0feaad207217424160f1",
+          "rgb8_mips_mib": 3.9999990463256836
+        }
+      ]
+    },
+    {
+      "glb": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod.glb",
+      "glb_sha256": "2249b006c49ba536467f930478ee8f44beb8473d4f81d6fedb59081e00657711",
+      "images": [
+        {
+          "name": "FloorAndRamp_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "b92ce19af72b56a96012cf5027404b7d510000bba4672e545e53de28071af952",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "FloorAndRamp_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "60c52a8f4a82c5714be259c19e586c382cf21f46c72896f50f5aec90fa4e4156",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "FloorAndRamp_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "d4d01b8217288ab9c7f49d16213c770713b1b49321e59d5b2b5a8a8a887003e7",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "Hardware_Normal",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "f62e881041188af1c56be49f7e8b1045ddd9bd417e27d7dd26982710ea4d9471",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Hardware_BaseColor",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "4d42695fcd12f20195a8e831262d4ad72e597b889b01a59051fd2d33c290d225",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "Hardware_ORM",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "405d8d974c7389bd20a97f9b1ca27734d382d3586e675cf74b711fc56d39f19c",
+          "rgb8_mips_mib": 3.9999990463256836
+        },
+        {
+          "name": "WallConcrete_Normal",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "13b3253404f80fa5c79a58b8c5ef9fb41f514b80af2da2d276fedac58f925d7e",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "WallConcrete_BaseColor",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "4941c6c2f6b220bc2459eccfc2f0f545f101487ef021d5b0235a7fa7dbb3731a",
+          "rgb8_mips_mib": 15.999999046325684
+        },
+        {
+          "name": "WallConcrete_ORM",
+          "size": [
+            2048,
+            2048
+          ],
+          "channels": "RGB",
+          "embedded_png_sha256": "29ff27b33624050142d10712e0c39d1d94aa9bdebb30db1c482b43772cdbfabb",
+          "rgb8_mips_mib": 15.999999046325684
+        }
+      ]
+    }
+  ],
+  "verification_after_parent_apply": [
+    "Godot reimport only and assert all 18 imported texture dimensions are 1024x1024; PNG/GLB/blend hashes unchanged.",
+    "Keep mipmaps/compress/quality/shaders/collision and fixed camera unchanged.",
+    "Run original I2 visual/collision contracts and default-camera package view.",
+    "Export and repeat actual visible foreground I2 same-camera performance screening; compare texture_mem, frame times and physics scopes.",
+    "Record actual result; no benefit or visual fidelity claim before execution."
+  ],
+  "active_extracted_png_inventory": [
+    {
+      "texture": "assets/v3/clinic_gravity/clinic_gravity_CG_V4_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_gravity/clinic_gravity_CG_V4_Metallic-CG_V4_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "0a1f683a84f5d532e2ca7323aa13fd85d047cc8136b5ee4547c216e93055d048",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_gravity/clinic_gravity_CG_V4_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_ground/clinic_ground_CGround_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_ground/clinic_ground_CGround_Metallic.png-CGround_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "fbf75ebd885ddb02bbee30561e1a8a038c7f8b42df3048b090f4154071347901",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_ground/clinic_ground_CGround_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_Metallic.png-CGround_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "fbf75ebd885ddb02bbee30561e1a8a038c7f8b42df3048b090f4154071347901",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "9e1e72966351e12d1d319c3e30f2545c15e74af96398c6f46f13909d3c4da381",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "5eac61fe83c6066d1729410d89e94c63d4068e994ebca82479d3c49968b185cf",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_pump_shell/clinic_pump_shell_PumpV8_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "b0db068be48a3ee0845c7943abfed16bf92af34e475dbc854e25070b9bd32cbd",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_reception/clinic_reception_ReceptionV5_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "576a87b0e38072ab75cc50027c7cfeeeec99fe65f692c913f913e53203fce44c",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_reception/clinic_reception_ReceptionV5_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "81f6ebe6a29345a16f392b44005cdc266da4eb61c4967cb44deb70a71c8eeb10",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_reception/clinic_reception_support_CG_V4_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_reception/clinic_reception_support_CG_V4_Metallic-CG_V4_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "0a1f683a84f5d532e2ca7323aa13fd85d047cc8136b5ee4547c216e93055d048",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/clinic_reception/clinic_reception_support_CG_V4_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/central_service_apron/central_service_apron_concrete_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/central_service_apron/central_service_apron_concrete_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/central_service_apron/central_service_apron_concrete_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "4daf3929b3cc1babe23c3de3c51f506c704857f2c68df7c70101f2fb8719b83d",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "7888fba6e6275e3d8f260214c34ab0e7d6ba68ccd57ae7b3cfa061dc5469576a",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Steel_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "a1105d6c606d9fd7b296e8ddedbd26768b3c875282c7e97bb84f499416871af9",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Steel_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "6724bacadf2875d8d50e6e3d7dce1736bdbd27cb6586a295a982218c887225b1",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Steel_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "d3a81f791dd5e0c982020fa477ac58c126e3b297b0258a78548db946c96cfa35",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_ClosureCaps_BaseColor.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "channels": "RGB",
+      "sha256": "c59610779daeac47580904c322ce28fc53369649212bb70d4b8b2948150879d2",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_ClosureCaps_Normal.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "channels": "RGB",
+      "sha256": "b46892c7c910bbf936ecd5e718c5f4dd9439c992f629dea2863132ce00caad2f",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_ClosureCaps_ORM.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "channels": "RGB",
+      "sha256": "e507ac686cc451f38e2a030c4388cd126de11bd428ef45df0389910650b7bd94",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "4a51429cf2a06c52f1dfa9634865ee68c2c4d6a54fc8ebc3be144c3d838d7f19",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_BaseColor_4.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "d84fe1ef7612007c52793c3be3fa4c3d16355010146a5de946d5349faf873a04",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Metallic-MaintenancePaving_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "071b54786c2532ab12f16ee019f897a270537d122a665bd3cb8f5035b9c1a450",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Metallic.png-MaintenancePaving_Roughness.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "db6b721c135a6526d76ef930a45474b54a50aef2effc0feaad207217424160f1",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal_3.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "60c52a8f4a82c5714be259c19e586c382cf21f46c72896f50f5aec90fa4e4156",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "b92ce19af72b56a96012cf5027404b7d510000bba4672e545e53de28071af952",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_FloorAndRamp_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "d4d01b8217288ab9c7f49d16213c770713b1b49321e59d5b2b5a8a8a887003e7",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_Hardware_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "4d42695fcd12f20195a8e831262d4ad72e597b889b01a59051fd2d33c290d225",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_Hardware_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "f62e881041188af1c56be49f7e8b1045ddd9bd417e27d7dd26982710ea4d9471",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_Hardware_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "405d8d974c7389bd20a97f9b1ca27734d382d3586e675cf74b711fc56d39f19c",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "4941c6c2f6b220bc2459eccfc2f0f545f101487ef021d5b0235a7fa7dbb3731a",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "13b3253404f80fa5c79a58b8c5ef9fb41f514b80af2da2d276fedac58f925d7e",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/inspection_pit_lod_WallConcrete_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "29ff27b33624050142d10712e0c39d1d94aa9bdebb30db1c482b43772cdbfabb",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "09f2be3fc6f345e7c0694579f7d75be1d79cf58a639ae43b3accf0ad21f6a95e",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "55db4722d6347bbe3087412911a08bccef6ccd951856dd32975b19a8651ff3fc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "3d120dfcbfd35f6aa4eb13da64282ca50c2511cd89507d40594d13cc5f7ecc22",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "923637a325c59f667887b81679140e13d817420549f2ce92d8e4016562b570a9",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_landing_platform/west_landing_platform_Steel_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "95cbefd2a115b3b33a7f2ccc99e24b19fbaa72b553351b66cd02e8861a564091",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_landing_platform/west_landing_platform_Steel_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "98a0da4566f0f4edd7073135e63d77bbab81bdd79ecb5e6d5cbbad041e127a3f",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_landing_platform/west_landing_platform_Steel_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "8f65db9d5dc74e90da0c9a5756db360596c143d5058a8d9daf76a998203d0583",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "967e60cbc9b8946d42eb16b536b1922b0fbd02923f7d296cf279e7f2bd6249a0",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "c0b6cfdf5a84ad6632c9f59ae7ed49fbe571c9a7e1c49bf7cfa0413dfff0475a",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "2b78d85907afa9b0c29d55003614f34f0251cdbcd5989991d57858ae1db9df0e",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "bc821feb0f71b99e0e8cb7f3aeae54133fd70d55a51cb2be22afa68306d12b30",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_RoofMetal_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "00a2363fb145cc76052928cfab79bdb9e20f48dcebfa1f2b2cbf46dda10bef0f",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_RoofMetal_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "b712727997891dc11b5dd946be2305dece741d9696ec474ffc9b54be5eca6098",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_RoofMetal_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "267f92dcddd0d5a6a41d9c19401212add7206dddbb385d23e6dcd1f0931b9a2a",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "89ac4674243126e6e47c9c4de8580afed35bb497c4fb33bcacce320a1b9d8e7d",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9274f14f7390332cc48c9fab130f045979ee05f5648af379ef5d8de844f0fd3f",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "b2b9f311352e99c93c33626870e06115847050c48f8c7c4be31b1ab477a186d0",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "67e87b18e962369d8eb6046f1df00bb419b05a75054bcaf066434a1c0a2dfa14",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_RoofMetal_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "ed2b853dd3470bfa52a635cfb2962d71ad2de520e8479e605c9372e1991d4324",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_RoofMetal_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "cc3e5ef63db188b33ee2ff2abddd210f41b116ad8c11626067d6bf8054561677",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_RoofMetal_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "e4def43a8f5314a1f5ca305b0fb3e77e17c0b83abf161aba9e4d28845ec5331b",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_concrete_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_concrete_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_concrete_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_local_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "f3dd31083e917c27d17a2c91bbee05bf1dbec30c6a988ba7cbde278dda60f216",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_local_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "5e3b3958fd4de6ca62d9aada4935d5081e546598f8d9f269129a969ab2fc3f97",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_local_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "a90c85430403a60f595a48c75a0dff30ccdf107a0bcdbca892709427c15138cf",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_soil_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "c60550755e02bc13607510a9c7b4efe30739ebeb47b4bd1c6d8e1e66afa9e3c3",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_soil_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "34e3cf794a427ec53c95b7700dfc930a13d6ffa4b0649697e432875e2395c52b",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/environment/yard_connector/yard_connector_field_soil_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "79ab0e43ee489dce7670485d97363b6382ea9e1c25cec2bac221a73679a468fb",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "bdc52f85ce695b1feaa3ea7366d86c44ad34d43db7d60e1d6ef1269bd03e3250",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_Metallic-MaintenancePaving_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "9ac576bf5579e6246d7d3f958a56a6943c429749ea4ce940668907b480872914",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_bridge_deck/shared_access_bridge_deck_SharedBridgeDeck_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "a675fc9b57adf16fe9dbadbc7092eee8d15ed3c365eb47db283fbe7c78ba18f5",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_bridge_deck/shared_access_bridge_deck_SharedBridgeDeck_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "bcae02918c836b6d57e6433b4a0855bf46a6b1b4ecd93e12ab5083b8e4256b0e",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_bridge_deck/shared_access_bridge_deck_SharedBridgeDeck_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "94904cfe408a5801875f85323fffc90d7c8a21df99e26267380cbcab56f7c60b",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_BaseColor.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "659db1da334f873b1bed17f8d44441dacf8a893759b0473969ce6d9761b8db53",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_Normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_ORM.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "channels": "RGB",
+      "sha256": "17cca9da0061bdc61c05853b22cb504efb4815e09af9043b895fa315ee500ee7",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Deck_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "4ae603145f57d0b6079d4c1d99a325a2e27bef458ccb0ea5a0d0208be08d130e",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Deck_Normal.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "9d0755adcf3366f69cc35b2dc5ce1cd5273282c3d03a9d140f774a8ac2cc6db9",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    },
+    {
+      "texture": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Deck_ORM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": "RGB",
+      "sha256": "e400104fd1218a8850fafaf43a02778970c348e9b33f30bc1e45a7408f997a89",
+      "import_settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      }
+    }
+  ],
+  "observed_import_settings": [
+    {
+      "settings": {
+        "compress/mode": "0",
+        "mipmaps/generate": "true",
+        "process/size_limit": "0"
+      },
+      "count": 98
+    }
+  ],
+  "same_content_active_resource_aliases": [
+    {
+      "sha256": "5244cd3e20550aa4005238d36ee5e8cb268976dcb4773147bca4cf46098591ea",
+      "textures": [
+        "assets/v3/clinic_gravity/clinic_gravity_CG_V4_BaseColor.png",
+        "assets/v3/clinic_reception/clinic_reception_support_CG_V4_BaseColor.png"
+      ]
+    },
+    {
+      "sha256": "0a1f683a84f5d532e2ca7323aa13fd85d047cc8136b5ee4547c216e93055d048",
+      "textures": [
+        "assets/v3/clinic_gravity/clinic_gravity_CG_V4_Metallic-CG_V4_Roughness.png",
+        "assets/v3/clinic_reception/clinic_reception_support_CG_V4_Metallic-CG_V4_Roughness.png"
+      ]
+    },
+    {
+      "sha256": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "textures": [
+        "assets/v3/clinic_gravity/clinic_gravity_CG_V4_Normal.png",
+        "assets/v3/clinic_reception/clinic_reception_support_CG_V4_Normal.png",
+        "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_Normal.png",
+        "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal.png",
+        "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_Normal.png",
+        "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_Normal.png",
+        "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_Normal.png"
+      ]
+    },
+    {
+      "sha256": "683527576043893fc3d3f108654d4a8fb4a3328bf6c2b546b65b4c631fbd5d9f",
+      "textures": [
+        "assets/v3/clinic_ground/clinic_ground_CGround_BaseColor.png",
+        "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_BaseColor.png"
+      ]
+    },
+    {
+      "sha256": "fbf75ebd885ddb02bbee30561e1a8a038c7f8b42df3048b090f4154071347901",
+      "textures": [
+        "assets/v3/clinic_ground/clinic_ground_CGround_Metallic.png-CGround_Roughness.png",
+        "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_Metallic.png-CGround_Roughness.png"
+      ]
+    },
+    {
+      "sha256": "5615a45d0db99cf5ab28be85976be51962e9dcf7539eda36a18beaf39e5e5763",
+      "textures": [
+        "assets/v3/clinic_ground/clinic_ground_CGround_Normal.png",
+        "assets/v3/clinic_ground/clinic_ground_plain_v2_CGround_Normal.png"
+      ]
+    },
+    {
+      "sha256": "b17a7f8340681fa009315bca47b47eca05e971f7389540ce5f978f6abab62ccf",
+      "textures": [
+        "assets/v3/environment/central_service_apron/central_service_apron_concrete_BaseColor.png",
+        "assets/v3/environment/yard_connector/yard_connector_field_concrete_BaseColor.png"
+      ]
+    },
+    {
+      "sha256": "561ed01d8c732505ba2fe15ec8b7d09c39ed38a642660ca1e4b570c02ba381df",
+      "textures": [
+        "assets/v3/environment/central_service_apron/central_service_apron_concrete_Normal.png",
+        "assets/v3/environment/yard_connector/yard_connector_field_concrete_Normal.png"
+      ]
+    },
+    {
+      "sha256": "15a89c2c3558f0a3c350d03cdcc18e3ec41d1b164e14ff8e482cb1c6a5d08f78",
+      "textures": [
+        "assets/v3/environment/central_service_apron/central_service_apron_concrete_ORM.png",
+        "assets/v3/environment/yard_connector/yard_connector_field_concrete_ORM.png"
+      ]
+    },
+    {
+      "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "textures": [
+        "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_Normal.png",
+        "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal_3.png",
+        "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_Normal.png",
+        "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_Normal.png",
+        "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_Normal.png",
+        "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_Normal.png",
+        "assets/v3/environment/west_service_room/west_service_room_PaintedShell_Normal.png",
+        "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_Normal.png"
+      ]
+    },
+    {
+      "sha256": "f759078a2c5c5913ab04d6e61d0382a0ecba7d414d9c55c2d34c4e2830888c08",
+      "textures": [
+        "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_BaseColor.png",
+        "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_BaseColor.png"
+      ]
+    },
+    {
+      "sha256": "080a6e5d0855a6ae32e571508ba9c59b1766c94e3f104f2db4a2edd6f6fbe5b1",
+      "textures": [
+        "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_ORM.png",
+        "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_ORM.png"
+      ]
+    }
+  ],
+  "material_reuse_notes": [
+    "Ground and plain_v2: same three texture hashes and equivalent material settings/sampler after resolving glTF texture indices; promising full-material sharing candidate.",
+    "Gravity opaque PBR and reception_support: same three texture hashes and equivalent material settings/sampler; promising full-material sharing candidate. Gravity glass material must remain separate.",
+    "Long revetment and closure original4m: same three texture hashes, but sampler wrap differs: long default REPEAT versus closure CLAMP_TO_EDGE (33071). Share texture resource candidates only while preserving each material sampler; do not blindly share whole material.",
+    "Yard concrete and central apron: same three texture hashes and sampler/PBR values; Yard extras contain authoring metadata. Their other materials and art runtime adjustments still need verification before any full material reuse.",
+    "SHA 123eadc1c58faf31... normals are flat RGB(128,128,255) at all pixels; 1024 flat aliases are also constant. Sharing/removing flat normal textures is a separate future change, not part of this patch.",
+    "Original PumpV8_* PNG files equal prefixed GLB-extracted PNG bytes, but current production PumpArt loads only its GLB. No evidence the unprefixed PNG aliases are additionally live. Old canonical bank/east/pit source paths likewise are not counted as active solely for existing SOURCE constants."
+  ]
+}

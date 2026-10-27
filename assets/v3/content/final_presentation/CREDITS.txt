@@ -1,0 +1,29 @@
+Low Altitude / Twin Pulse - final presentation content
+
+Six later Boss identities, local weak-point shells, shutters and stopped poses
+are original project-authored low-detail procedural components.
+Editable source:
+  scripts/v3/content/final_presentation/twin_final_boss_visuals.gd
+  data/v3/content/final_presentation/boss_visuals.json
+
+Existing imported project GLB mesh pieces are reused by explicit path and node
+name. No GLB, texture or Blender source is copied, overwritten or re-exported.
+The original editable sources remain:
+  asset_sources/v3/thermal_bypass/thermal_bypass.blend
+  asset_sources/v3/crown/parasitic_crown.blend
+  asset_sources/v3/fantasy_kit/photosensitive_roots.blend
+  asset_sources/v3/industrial_kit/power_relay_cabinet.blend
+Original source materials and credits retain their existing terms.
+
+I-B industrial / F-B fantasy directions remain selected. The eight-region
+material pool and compact identity plates extend existing project colors;
+they do not replace water/ground shaders or automatically scatter more props.
+
+The module introduces no physics, gameplay rules, warning volumes, simulation
+clock, save mutation, network event, reward, automatic ending or input capture.
+Weak-point highlights belong only to original actual target bodies. Matte
+context rails have no target IDs. Dormant remnants are shown only from the
+original committed-victory boolean supplied by the main game.
+
+Development status: actual editable components authored; not run, rendered,
+playtested or reviewed during this content-only production phase.

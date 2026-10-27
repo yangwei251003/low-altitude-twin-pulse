@@ -1,0 +1,30 @@
+# Two reviewed non-secret source-file SHA-256 fingerprints only.
+# Keep the path AND exact-value condition; new hashes require fresh file checks.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Verified source-file content fingerprints, not service credentials"
+targetRules = ["generic-api-key"]
+condition = "AND"
+paths = ['''(?:^|/)scripts_tools/v3/candidates/yard_connector_layout/(?:input_contract\.json|exports/20261020_062538_edcbfd/geometry\.json)$''']
+regexes = ['''^(?:5bbde642e5d291718dbc0adddf3dd43cb001f05be3d904521f31f78efe16cf18|ad357fc68c68692a99f2d5394f8774569e3fa3caceaade0920a917468104b556)$''']
+
+[[allowlists]]
+description = "Exact frozen-source SHA-256 references in reviewed editable-asset contracts"
+targetRules = ["generic-api-key"]
+condition = "AND"
+paths = [
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p1/contract\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/delivery_contract\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/delivery_manifest\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/first_failure_20261020_012557/static_atlas_plan\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/prepare_passed_20261020_023431/delivery_contract\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/prepare_passed_20261020_023431/uv_checkpoint\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/static_atlas_plan\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/uv_area_diagnosis_20261020_021512_847127/delivery_contract\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/uv_area_diagnosis_20261020_021512_847127/uv_diagnosis_report\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/uv_area_failure_20261020_020336/delivery_contract\.json$''',
+  '''(?:^|[!/])asset_sources/v3/i2_east_maintenance_extension/delivery_p2/uv_checkpoint\.json$''',
+]
+regexes = ['''^(?:ad357fc68c68692a99f2d5394f8774569e3fa3caceaade0920a917468104b556)$''']

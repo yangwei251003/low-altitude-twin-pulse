@@ -1,0 +1,111 @@
+{
+	"capture_mode": true,
+	"checks": 170,
+	"driver": "WASAPI",
+	"failures": [],
+	"manifest_sha256": "aa4e359828aca9564ffea0ea01eb5f4ef3a19ab5d4fc834472912c6ddcfbffc0",
+	"passed": true,
+	"physical_listening_verified": false,
+	"scope": "Contract/real physics occlusion; optional real SFX pre-fader output capture. Synthetic stimuli do not prove gameplay event generation.",
+	"script_sha256": "1b9c6fbf86d1faa3e840e25b1d0885212e75f7c4238492ec49e327e0ffb8b94c",
+	"seconds_of_assets": 37.475,
+	"stages": [
+		{
+			"clipped_frames": 0,
+			"end_frame": 101376,
+			"kind": "shot",
+			"nonzero_frames": 20573,
+			"peak": 0.211960211396217,
+			"start_frame": 0
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 203264,
+			"kind": "near_pass",
+			"nonzero_frames": 20281,
+			"peak": 0.112303681671619,
+			"start_frame": 101376
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 304640,
+			"kind": "hit",
+			"nonzero_frames": 8625,
+			"peak": 0.192433580756187,
+			"start_frame": 203264
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 406016,
+			"kind": "impact",
+			"nonzero_frames": 58556,
+			"peak": 0.220415249466896,
+			"start_frame": 304640
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 507392,
+			"kind": "shield_absorbed",
+			"nonzero_frames": 44781,
+			"peak": 0.199745416641235,
+			"start_frame": 406016
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 609280,
+			"kind": "component_damaged",
+			"nonzero_frames": 40941,
+			"peak": 0.254917353391647,
+			"start_frame": 507392
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 710656,
+			"kind": "destroyed",
+			"nonzero_frames": 83455,
+			"peak": 0.259682774543762,
+			"start_frame": 609280
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 812032,
+			"kind": "wreck_impact",
+			"nonzero_frames": 69688,
+			"peak": 0.174369290471077,
+			"start_frame": 710656
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 913920,
+			"kind": "approach",
+			"nonzero_frames": 74707,
+			"peak": 0.140457987785339,
+			"start_frame": 812032
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 1015296,
+			"kind": "warning_started",
+			"nonzero_frames": 34948,
+			"peak": 0.145767048001289,
+			"start_frame": 913920
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 1116672,
+			"kind": "critical_warning",
+			"nonzero_frames": 53073,
+			"peak": 0.154628813266754,
+			"start_frame": 1015296
+		},
+		{
+			"clipped_frames": 0,
+			"end_frame": 1218560,
+			"kind": "twelve_close_simultaneous",
+			"nonzero_frames": 90554,
+			"peak": 0.48901829123497,
+			"start_frame": 1116672
+		}
+	],
+	"suite": "v22_combat_audio"
+}

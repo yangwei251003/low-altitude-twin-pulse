@@ -1,0 +1,25 @@
+{
+  "author": "Original project models; conveyor/robot_arm/scanner_gate are styled Kenney CC0 derivatives",
+  "units": "meters",
+  "palette": "ivory graphite teal ochre",
+  "roughness": 0.72,
+  "models": [
+    "battery.glb",
+    "container.glb",
+    "container_low.glb",
+    "container_offset.glb",
+    "conveyor.glb",
+    "crane.glb",
+    "research.glb",
+    "robot_arm.glb",
+    "scanner_gate.glb",
+    "service.glb",
+    "shore_rock.glb",
+    "solar.glb",
+    "substation.glb",
+    "test_frame.glb",
+    "turbine.glb",
+    "warehouse.glb",
+    "workshop.glb"
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "bodies": {
+    "I2:canal_beneficiary_0": {
+      "absorbent": false,
+      "angular_damp": 0.5,
+      "angular_damp_mode": 0,
+      "angular_velocity": [
+        -2.86219536960175e-09,
+        2.926226969068857e-12,
+        -3.315248076063426e-11
+      ],
+      "bounce": 0.11999999731779099,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze_mode": 0,
+      "friction": 0.4000000059604645,
+      "gravity_scale": 1.0,
+      "layer": 2,
+      "linear_damp": 0.1599999964237213,
+      "linear_damp_mode": 0,
+      "mask": 47,
+      "mass": 3.200000047683716,
+      "physics_process": false,
+      "pose": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.600011348724365,
+        0.5600000023841858,
+        5.999996662139893
+      ],
+      "process": true,
+      "rough": false,
+      "shape_size": [
+        1.399999976158142,
+        0.47999998927116394,
+        1.399999976158142
+      ],
+      "sleeping": false,
+      "velocity": [
+        -2.8176572186566773e-11,
+        -3.125413483573425e-09,
+        -6.97564672691442e-10
+      ]
+    },
+    "I2:canal_cassette_0": {
+      "absorbent": false,
+      "angular_damp": 0.0,
+      "angular_damp_mode": 0,
+      "angular_velocity": [
+        1.9649278328870423e-06,
+        -1.636169031371537e-07,
+        9.243024123861687e-08
+      ],
+      "bounce": 0.0,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze_mode": 0,
+      "friction": 0.550000011920929,
+      "gravity_scale": 1.0,
+      "layer": 8,
+      "linear_damp": 0.0,
+      "linear_damp_mode": 0,
+      "mask": 47,
+      "mass": 2.0,
+      "physics_process": false,
+      "pose": [
+        0.9571970105171204,
+        0.014072283171117306,
+        0.2890948951244354,
+        -0.013444648124277592,
+        0.9999009966850281,
+        -0.0041568102315068245,
+        -0.2891247570514679,
+        9.210780262947083e-05,
+        0.9572914242744446,
+        10.556241989135742,
+        0.4471474289894104,
+        6.069728851318359
+      ],
+      "process": false,
+      "rough": false,
+      "shape_size": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645
+      ],
+      "sleeping": false,
+      "velocity": [
+        -1.2237160262884572e-07,
+        -4.693847586167976e-07,
+        1.667368962898763e-07
+      ]
+    },
+    "I2:canal_cassette_1": {
+      "absorbent": false,
+      "angular_damp": 0.0,
+      "angular_damp_mode": 0,
+      "angular_velocity": [
+        1.529105361441907e-06,
+        2.3516074421081612e-08,
+        -3.305191285107867e-07
+      ],
+      "bounce": 0.0,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze_mode": 0,
+      "friction": 0.550000011920929,
+      "gravity_scale": 1.0,
+      "layer": 8,
+      "linear_damp": 0.0,
+      "linear_damp_mode": 0,
+      "mask": 47,
+      "mass": 2.0,
+      "physics_process": false,
+      "pose": [
+        0.9996753334999084,
+        0.011163937859237194,
+        0.022904960438609123,
+        -0.01115731056779623,
+        0.9999376535415649,
+        -0.0004171030013822019,
+        -0.02290819026529789,
+        0.0001614098291611299,
+        0.999737560749054,
+        7.535157203674316,
+        0.4477224349975586,
+        24.0023250579834
+      ],
+      "process": false,
+      "rough": false,
+      "shape_size": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645
+      ],
+      "sleeping": false,
+      "velocity": [
+        -9.654347365994909e-08,
+        -3.762520748296083e-07,
+        2.014922415582987e-07
+      ]
+    },
+    "carrier": {
+      "absorbent": false,
+      "angular_damp": 0.5,
+      "angular_damp_mode": 0,
+      "angular_velocity": [
+        -0.0016056654276326299,
+        -8.624406291346531e-06,
+        -0.005773702636361122
+      ],
+      "bounce": 0.11999999731779099,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze_mode": 0,
+      "friction": 0.4000000059604645,
+      "gravity_scale": 1.0,
+      "layer": 2,
+      "linear_damp": 0.1599999964237213,
+      "linear_damp_mode": 0,
+      "mask": 45,
+      "mass": 3.200000047683716,
+      "physics_process": false,
+      "pose": [
+        0.9999819993972778,
+        0.0059992000460624695,
+        -2.949673216789961e-08,
+        -0.005999183282256126,
+        0.9999791979789734,
+        0.002377348719164729,
+        1.4291686966316774e-05,
+        -0.002377305878326297,
+        0.9999971985816956,
+        10.625004768371582,
+        2.19999623298645,
+        5.9907450675964355
+      ],
+      "process": true,
+      "rough": false,
+      "shape_size": [
+        1.399999976158142,
+        0.47999998927116394,
+        1.399999976158142
+      ],
+      "sleeping": false,
+      "velocity": [
+        -0.007931206375360489,
+        4.343564796727151e-06,
+        0.0032053301110863686
+      ]
+    }
+  },
+  "carrier": {
+    "angular_velocity": [
+      -0.0016056654276326299,
+      -8.624406291346531e-06,
+      -0.005773702636361122
+    ],
+    "health": 100.0,
+    "id": "carrier",
+    "maximum_health": 100.0,
+    "pose": [
+      0.9999819993972778,
+      0.0059992000460624695,
+      -2.949673216789961e-08,
+      -0.005999183282256126,
+      0.9999791979789734,
+      0.002377348719164729,
+      1.4291686966316774e-05,
+      -0.002377305878326297,
+      0.9999971985816956,
+      10.625004768371582,
+      2.19999623298645,
+      5.9907450675964355
+    ],
+    "state": {
+      "ability_cooldown": 0.0,
+      "ability_left": 0.0,
+      "battery": 98.4974513227588,
+      "damage": {
+        "armor": 14.0,
+        "components": {
+          "power": {
+            "health": 32.0,
+            "maximum": 32.0
+          },
+          "rotor_left": {
+            "health": 28.000000000000004,
+            "maximum": 28.000000000000004
+          },
+          "rotor_right": {
+            "health": 28.000000000000004,
+            "maximum": 28.000000000000004
+          },
+          "sensor": {
+            "health": 32.0,
+            "maximum": 32.0
+          }
+        },
+        "health": 100.0,
+        "maximum_armor": 14.0,
+        "maximum_health": 100.0,
+        "serial": 0
+      },
+      "damage_taken": 0.0,
+      "flight_seconds": 177.4666759222746,
+      "heading": 0.0,
+      "heat": 0.0,
+      "hold_height": 2.1999985218049005,
+      "recovery_left": 0.0,
+      "safe_position": [
+        7.699999809265137,
+        1.5499999523162842,
+        21.0
+      ],
+      "shield_cooldown": 0.0,
+      "shield_left": 0.0
+    },
+    "velocity": [
+      -0.007931206375360489,
+      4.343564796727151e-06,
+      0.0032053301110863686
+    ],
+    "wait": {
+      "collision_count": 0,
+      "command": {
+        "active": true,
+        "body_relative": false,
+        "brake": false,
+        "fire": false,
+        "mode": "assisted",
+        "planar": [
+          -0.0017860276857391,
+          0.0,
+          0.0006610666168853641
+        ],
+        "vertical": 9.155273801297881e-07,
+        "yaw": 0.0
+      },
+      "last_velocity": [
+        -0.007931206375360489,
+        4.343564796727151e-06,
+        0.0032053301110863686
+      ]
+    }
+  },
+  "cooling": {
+    "axis": {
+      "algorithm": "guided_axis_v1",
+      "config_sha256": "9e5d7915ae1f9927a88fd2238558850a10369d223e686904f661e7de7f2da762",
+      "last_serial": {
+        "1": 2
+      },
+      "position_m": 0.28,
+      "velocity_mps": 0.0
+    },
+    "charge": 35.0,
+    "charge_serial": 1,
+    "contact_observation": {
+      "south_0": "",
+      "south_1": "I2:canal_cassette_1"
+    },
+    "id": "I2:canal_cooling_station_0",
+    "layout_sha256": "bad3d14bfcc40018c427f6b824f60449b3158383aab3db95af328e1ee5ef3ce6",
+    "paused": false,
+    "revision": 89,
+    "version": 1
+  },
+  "custody": {
+    "cargos": {
+      "I2:canal_cassette_0": {
+        "berth": "north_work",
+        "carrier": "",
+        "completed_serial": 45,
+        "fault": "",
+        "phase": "docked",
+        "serial": 45,
+        "stable_usec": 350000
+      },
+      "I2:canal_cassette_1": {
+        "berth": "south_1",
+        "carrier": "",
+        "completed_serial": 28,
+        "fault": "",
+        "phase": "docked",
+        "serial": 28,
+        "stable_usec": 350000
+      }
+    },
+    "last_serial": 45,
+    "revision": 118,
+    "version": 1
+  },
+  "device_serial": 3,
+  "executor": {
+    "action": {
+      "actor": "workbench",
+      "blocked": false,
+      "cassette_id": "I2:canal_cassette_0",
+      "destination": "north_work",
+      "job": 1,
+      "kind": "work",
+      "route": "stationary",
+      "serial": 11,
+      "source": "north_work"
+    },
+    "active_ticks": 9564,
+    "anchor": "north_work",
+    "controller": {
+      "clear_seconds": 0.0,
+      "mode": "route",
+      "serial": 46,
+      "settled_seconds": 9.483333333333384,
+      "state": "arrived",
+      "target": [
+        10.600000381469727,
+        2.200000047683716,
+        6.0
+      ],
+      "version": 1
+    },
+    "initial_collisions": 0,
+    "initial_health": 100.0,
+    "receipt_count": 10,
+    "serial": 46,
+    "version": 1
+  },
+  "kind": "canal_scan_checkpoint_v1",
+  "layout_sha256": "2b3614b9f1dcb9723ceb04d466d74ec053e69cebff89a1a4d038ea4d5a90e7d5",
+  "physics_hz": 60,
+  "rule_seconds": 160.9666666666869,
+  "rule_usec": 160966667,
+  "rules": {
+    "action_serial": 11,
+    "algorithm": "canal-service-work-priority-thermal-v2",
+    "buffer_enabled": false,
+    "carrier_anchor": "north_work",
+    "cassettes": {
+      "I2:canal_cassette_0": {
+        "energy_mj": 633074,
+        "holder": "north_work",
+        "mass_g": 2000
+      },
+      "I2:canal_cassette_1": {
+        "energy_mj": 1,
+        "holder": "south_1",
+        "mass_g": 2000
+      }
+    },
+    "command_serial": 0,
+    "flow_credit_usec": 66667,
+    "heat_credit": {
+      "I2:canal_cassette_0": {
+        "gain": 0,
+        "loss": 0
+      },
+      "I2:canal_cassette_1": {
+        "gain": 0,
+        "loss": 0
+      }
+    },
+    "job_requested": true,
+    "jobs_completed": 0,
+    "pending_action": {
+      "actor": "workbench",
+      "blocked": false,
+      "cassette_id": "I2:canal_cassette_0",
+      "destination": "north_work",
+      "job": 1,
+      "kind": "work",
+      "route": "stationary",
+      "serial": 11,
+      "source": "north_work"
+    },
+    "pending_usec": 66667,
+    "pilots": {
+      "pilot_a": {
+        "enabled": false,
+        "peer_id": 0
+      },
+      "pilot_b": {
+        "enabled": false,
+        "peer_id": 0
+      }
+    },
+    "policy": "staggered",
+    "pump_total_ml": 159200,
+    "revision": 9683,
+    "service_credit": 0,
+    "service_serial": 0,
+    "services_consumed": 0,
+    "thermal_ledger": {
+      "ability_added": 0,
+      "ability_removed": 0,
+      "ambient_added": 0,
+      "ambient_removed": 49366925,
+      "work_added": 0
+    },
+    "version": 1,
+    "water": {
+      "algorithm": "bounded-mix-v1",
+      "definition_digest": "c5a572a7de4f59fc41daa0e79703842932a8a9b59908c8032b0c554597e81df1",
+      "definition_id": "I2:canal_cooling_closed_v1",
+      "definition_version": 1,
+      "edges": {
+        "I2:canal_cooling_drain": {
+          "flow_carry": 0,
+          "last_direction": 1,
+          "last_transfer_ml": 100,
+          "open_permille": 0,
+          "powered": false
+        },
+        "I2:canal_cooling_pump": {
+          "flow_carry": 0,
+          "last_direction": 1,
+          "last_transfer_ml": 100,
+          "open_permille": 0,
+          "powered": false
+        },
+        "I2:canal_cooling_recirculate": {
+          "flow_carry": 0,
+          "last_direction": 1,
+          "last_transfer_ml": 100,
+          "open_permille": 0,
+          "powered": false
+        }
+      },
+      "nodes": {
+        "I2:canal_cooling_jacket": {
+          "clean_ml": 950,
+          "dirty_ml": 50
+        },
+        "I2:canal_cooling_reservoir": {
+          "clean_ml": 5700,
+          "dirty_ml": 300
+        },
+        "I2:canal_cooling_return": {
+          "clean_ml": 950,
+          "dirty_ml": 50
+        }
+      },
+      "pending_usec": 0,
+      "schema_version": 1,
+      "tick": 1609
+    },
+    "water_energy_mj": 0
+  },
+  "version": 1,
+  "workbench": {
+    "action": {
+      "actor": "workbench",
+      "blocked": false,
+      "cassette_id": "I2:canal_cassette_0",
+      "destination": "north_work",
+      "job": 1,
+      "kind": "work",
+      "route": "stationary",
+      "serial": 11,
+      "source": "north_work"
+    },
+    "beneficiary": {
+      "angular_velocity": [
+        -2.86219536960175e-09,
+        2.926226969068857e-12,
+        -3.315248076063426e-11
+      ],
+      "health": 100.0,
+      "id": "I2:canal_beneficiary_0",
+      "maximum_health": 100.0,
+      "pose": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.600011348724365,
+        0.5600000023841858,
+        5.999996662139893
+      ],
+      "state": {
+        "ability_cooldown": 0.0,
+        "ability_left": 0.0,
+        "battery": 100.0,
+        "damage": {
+          "armor": 14.0,
+          "components": {
+            "power": {
+              "health": 32.0,
+              "maximum": 32.0
+            },
+            "rotor_left": {
+              "health": 28.000000000000004,
+              "maximum": 28.000000000000004
+            },
+            "rotor_right": {
+              "health": 28.000000000000004,
+              "maximum": 28.000000000000004
+            },
+            "sensor": {
+              "health": 32.0,
+              "maximum": 32.0
+            }
+          },
+          "health": 100.0,
+          "maximum_armor": 14.0,
+          "maximum_health": 100.0,
+          "serial": 0
+        },
+        "damage_taken": 0.0,
+        "flight_seconds": 161.31667507998645,
+        "heading": 0.0,
+        "heat": 0.0,
+        "hold_height": 0.5600000023841858,
+        "recovery_left": 0.0,
+        "safe_position": [
+          6.600011348724365,
+          0.5600000023841858,
+          5.999996662139893
+        ],
+        "shield_cooldown": 0.0,
+        "shield_left": 0.0
+      },
+      "velocity": [
+        -2.8176572186566773e-11,
+        -3.125413483573425e-09,
+        -6.97564672691442e-10
+      ],
+      "wait": {
+        "collision_count": 0,
+        "command": {
+          "active": true,
+          "body_relative": false,
+          "brake": false,
+          "fire": false,
+          "mode": "manual_throttle",
+          "pitch": 0.0,
+          "planar": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "roll": 0.0,
+          "throttle": 0.0,
+          "vertical": 0.0,
+          "yaw": 0.0
+        },
+        "last_velocity": [
+          -2.8176572186566773e-11,
+          -3.125413483573425e-09,
+          -6.97564672691442e-10
+        ]
+      }
+    },
+    "bound_pose": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      6.600011348724365,
+      0.5600000023841858,
+      5.999996662139893
+    ],
+    "charge": 35.0,
+    "charge_serial": 3,
+    "collision_baseline": 0,
+    "health_baseline": 100.0,
+    "measurements": [
+      {
+        "bounds_position": [
+          5.9000115394592285,
+          0.3199999928474426,
+          5.299996852874756
+        ],
+        "bounds_size": [
+          1.3999996185302734,
+          0.48000001907348633,
+          1.3999996185302734
+        ],
+        "frame": 9348,
+        "gap_m": 0.09999996423721313,
+        "hit": [
+          6.25,
+          0.800000011920929,
+          6.0
+        ],
+        "source_observation": {},
+        "stage": 0,
+        "tool": [
+          6.25,
+          0.9399999976158142,
+          6.0
+        ]
+      },
+      {
+        "bounds_position": [
+          5.9000115394592285,
+          0.3199999928474426,
+          5.299996852874756
+        ],
+        "bounds_size": [
+          1.3999996185302734,
+          0.48000001907348633,
+          1.3999996185302734
+        ],
+        "frame": 9571,
+        "gap_m": 0.09999996423721313,
+        "hit": [
+          6.949999809265137,
+          0.800000011920929,
+          6.0
+        ],
+        "source_observation": {},
+        "stage": 1,
+        "tool": [
+          6.949999809265137,
+          0.9399999976158142,
+          6.0
+        ]
+      }
+    ],
+    "scan_distance_m": 0.8320074081420898,
+    "source_frame": 9610,
+    "stage": 2,
+    "support_observed_seconds": 160.1333333333529,
+    "tool": [
+      6.817992210388184,
+      0.9399999976158142,
+      6.0
+    ],
+    "tools": [
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.817992210388184,
+          0.9399999976158142,
+          6.0
+        ],
+        "size": [
+          0.11999999731779099,
+          0.07999999821186066,
+          0.11999999731779099
+        ]
+      },
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.817992210388184,
+          0.9900000095367432,
+          6.0
+        ],
+        "size": [
+          0.03999999910593033,
+          0.019999999552965164,
+          0.03999999910593033
+        ]
+      },
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.817992210388184,
+          1.0199999809265137,
+          5.325000286102295
+        ],
+        "size": [
+          0.03999999910593033,
+          0.03999999910593033,
+          1.4700000286102295
+        ]
+      },
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.817992210388184,
+          1.0525000095367432,
+          4.650000095367432
+        ],
+        "size": [
+          0.1599999964237213,
+          0.02500000037252903,
+          0.11999999731779099
+        ]
+      }
+    ],
+    "version": 1
+  }
+}

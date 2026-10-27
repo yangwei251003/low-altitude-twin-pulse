@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "f1_growth_crossing_v1",
+  "status": "replaceable_graybox_geometry_not_final_art",
+  "coordinate_system": "Godot world metres; Y up",
+  "west_join_evidence": "Actual RootstoneTerrace collision rays at X=-14.5; sampled 2026-10-18. Northern lip is lower than central path; no assumed Y4.5 plane.",
+  "approaches": [
+    {
+      "id": "west",
+      "bottom_y": 0.0,
+      "sections": [
+        {"x": -14.5, "top_zy": [[23.5, 2.925269127], [24.0, 4.129740238], [25.0, 4.070995331], [26.0, 4.065418243], [26.5, 4.081121445]]},
+        {"x": -13.0, "top_zy": [[23.5, 4.65], [24.0, 4.65], [25.0, 4.65], [26.0, 4.65], [26.5, 4.65]]},
+        {"x": -11.0, "top_zy": [[23.5, 5.25], [24.0, 5.25], [25.0, 5.25], [26.0, 5.25], [26.5, 5.25]]},
+        {"x": -10.75, "top_zy": [[23.51, 5.20], [24.0, 5.20], [25.0, 5.20], [26.0, 5.20], [26.49, 5.20]]}
+      ]
+    },
+    {
+      "id": "east",
+      "bottom_y": 2.2,
+      "sections": [
+        {"x": 10.75, "top_zy": [[23.51, 5.20], [26.49, 5.20]]},
+        {"x": 11.0, "top_zy": [[23.5, 5.25], [26.5, 5.25]]},
+        {"x": 12.7, "top_zy": [[24.05, 4.65], [27.05, 4.65]]},
+        {"x": 14.0, "top_zy": [[24.35, 3.8], [27.35, 3.8]]},
+        {"x": 16.0, "top_zy": [[24.7, 2.4], [27.7, 2.4]]}
+      ]
+    }
+  ],
+  "gate_foundation": {
+    "id": "south_gate",
+    "top_y": 2.9,
+    "bottom_y": -3.2,
+    "outer": [[4.75,22.75],[5.25,22.25],[6.75,22.25],[7.25,22.75],[7.25,29.25],[6.75,29.75],[5.25,29.75],[4.75,29.25]],
+    "holes": []
+  },
+  "preserved": {
+    "growth_bridge_center": [0.0,5.0,25.0],
+    "growth_bridge_size": [22.0,0.5,3.0],
+    "gate_closed_center": [6.0,5.4,26.0],
+    "gate_open_center": [6.0,11.4,26.0],
+    "gate_size": [1.0,5.0,7.0]
+  }
+}

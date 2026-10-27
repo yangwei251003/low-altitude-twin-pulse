@@ -1,0 +1,26 @@
+Low Altitude / Twin Pulse V3 audio bank
+
+Industrial Pulse: original project procedural composition, 110 BPM, eight bars.
+Editable source: scripts/v3/audio/build_audio_assets.py. No third-party samples.
+
+Existing reusable audio (CC0 1.0):
+Kenney - UI Audio and Impact Sounds
+https://kenney.nl/assets/ui-audio
+https://kenney.nl/assets/impact-sounds
+isaiah658 - Ambient Bird Sounds
+https://opengameart.org/content/ambient-bird-sounds
+jasinski; edited by qubodup - Beach Ocean Waves
+https://opengameart.org/content/beach-ocean-waves
+Chris Murphy (zesona) - Sherwood
+https://opengameart.org/content/sherwood
+Sheyvan - Drone Flying (publicly served HQ MP3 preview)
+https://freesound.org/people/Sheyvan/sounds/470127/
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+
+Existing audio also contains original project procedural feedback layers.
+No V2 synthesized speech or CC-BY music is used in this V3 cue bank.
+Source authors, exact file hashes and original local license evidence:
+data/v3/audio/sources.json
+assets/v2/audio/source_credits.json
+assets/audio/v22_combat/CREDITS.txt
+assets/source_audio/v22_combat/Kenney-License.txt

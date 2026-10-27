@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "content_id": "campaign_f3_extension_v1",
+  "extends_content_id": "opening_v1",
+  "status": "authored_candidate_not_scene_integrated",
+  "scope_note": "行动数据与真实状态绑定契约。目标数量、5–8分钟均为制作预算；本文件不证明地区可玩、实体机制、趣味或体验时长。坐标需Root以默认镜头及真实碰撞核对。",
+  "characters": [
+    {
+      "id": "npc:lingyin",
+      "name": "苓音",
+      "role": "菌谷养护人",
+      "region_id": "F3",
+      "greeting_lines": [
+        "菌网把消息和养分一起送出去。割断所有根，看似安静，明天的花也不会开了。"
+      ],
+      "replies": [
+        {
+          "after": "F3:mycelial_choir:record",
+          "lines": [
+            "行动完成 · 共生体记录揭示旧中枢的自动补偿失控，离岸阵列仍可改写这条协议。"
+          ]
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "npc:lingyin",
+      "region": "F3",
+      "position": [
+        -24,
+        5,
+        20
+      ],
+      "kind": "npc",
+      "label": "苓音 · 养护棚",
+      "radius": 3
+    },
+    {
+      "id": "F3:root_sample",
+      "region": "F3",
+      "position": [
+        -12,
+        4,
+        8
+      ],
+      "kind": "inspect",
+      "label": "带热痕的菌根样本",
+      "radius": 3
+    },
+    {
+      "id": "F3:network_junction",
+      "region": "F3",
+      "position": [
+        12,
+        7,
+        6
+      ],
+      "kind": "inspect",
+      "label": "光网隔离接口",
+      "radius": 3
+    },
+    {
+      "id": "F3:nursery_exit",
+      "region": "F3",
+      "position": [
+        20,
+        9,
+        -2
+      ],
+      "kind": "inspect",
+      "label": "养分试送接收台",
+      "radius": 3
+    },
+    {
+      "id": "F3:boss_briefing",
+      "region": "F3",
+      "position": [
+        0,
+        8,
+        -18
+      ],
+      "kind": "inspect",
+      "label": "鸣菌战区 · 静声台",
+      "radius": 3
+    },
+    {
+      "id": "F3:boss_record",
+      "region": "F3",
+      "position": [
+        0,
+        8,
+        -25
+      ],
+      "kind": "inspect",
+      "label": "共生体 · 重复指令根结",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "F3:separate_network",
+      "title": "断开噪声，留下养分",
+      "region_id": "F3",
+      "prerequisites": [
+        "I3:furnace_crawler"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 养分线保留，共生体的回声可以分离。",
+      "objectives": [
+        {
+          "id": "F3:separate_network:sample",
+          "text": "对照工厂热记录，检查仍在受伤的菌根",
+          "hint": "在菌谷低层读样本；发热来自重复脉冲，不能只归咎于工厂冷却。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "F3:root_sample",
+              "options": [
+                "record"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "F3:independent_feedback",
+              "title": "停止工业抽取后仍有重复脉冲，伤害还有另一来源"
+            }
+          ]
+        },
+        {
+          "id": "F3:separate_network:listen",
+          "text": "让苓音说明菌网维生与传信的两条路径",
+          "hint": "先确认哪条根在送养分，哪条在放大脉冲；不要一并烧断。",
+          "after": [
+            "F3:separate_network:sample"
+          ],
+          "events": [
+            {
+              "type": "talk",
+              "target_id": "npc:lingyin",
+              "options": [
+                "network_paths"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:lingyin",
+              "lines": [
+                "旧中枢把求援当成配额不足，于是越求援越抽取。我们保留养分根，只隔离那条放大声。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F3:separate_network:isolate",
+          "text": "维持一端，隔离重复信号根",
+          "hint": "先选4光束，Tab锁定养分枝桥后按F照明；再选7生长，按恢复节奏按F三次，让桥完全长成并支撑两端。随后在信号保持端用G锁定旁路，或用9协作分身维持，再从侧面靠近重复信号开关，Tab锁定后按G断开；双人也可分头维持。养分桥、保持端与开关须同时有效。",
+          "after": [
+            "F3:separate_network:listen"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F3:signal_isolation_verified",
+              "options": [
+                "echo_hold",
+                "two_pilots",
+                "latched_bypass"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F3:signal_isolated",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:lingyin",
+              "memory": "F3:kept_nutrient_path"
+            }
+          ]
+        },
+        {
+          "id": "F3:separate_network:feed",
+          "text": "保持养分通路，确认试送抵达育苗棚",
+          "hint": "保留已接通的光路和养分通路；缺路时再照明、催生。养护机实际送达育苗棚才算完成。",
+          "after": [
+            "F3:separate_network:isolate"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F3:nutrient_delivery_verified",
+              "options": [
+                "grown_path",
+                "existing_bypass"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "F3:living_isolation",
+              "title": "重复信号已隔离，菌谷的养分服务仍可抵达"
+            }
+          ]
+        }
+      ],
+      "effects": []
+    },
+    {
+      "id": "F3:mycelial_choir",
+      "title": "让不同的声音分开",
+      "region_id": "F3",
+      "prerequisites": [
+        "F3:separate_network"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 共生体记录揭示旧中枢的自动补偿失控，离岸阵列仍可改写这条协议。",
+      "objectives": [
+        {
+          "id": "F3:mycelial_choir:plan",
+          "text": "核对战区退路，确认停机方案",
+          "hint": "三个声结轮流放大脉冲；找到正在发亮的一结，维持隔离再处理它。分身或另一名队友可维持接口，锁定旁路也能单人操作。把全部根烧掉会关闭窗口，不是捷径。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "F3:boss_briefing",
+              "options": [
+                "plan"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:lingyin",
+              "lines": [
+                "三个声结轮流放大脉冲；找到正在发亮的一结，维持隔离再处理它。分身或另一名队友可维持接口，锁定旁路也能单人操作。把全部根烧掉会关闭窗口，不是捷径。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F3:mycelial_choir:engage",
+          "text": "进入战区，观察一次完整预警与恢复窗口",
+          "hint": "离开安全台才会交战；先看形状、高度和可用掩体。倒地可救援，全灭可整场重试，不扣已有资产。",
+          "after": [
+            "F3:mycelial_choir:plan"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F3:boss_observed",
+              "options": [
+                "observed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F3:boss_pattern_observed",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "F3:mycelial_choir:stop",
+          "text": "处理关键部件，停下失控核心",
+          "hint": "按本区机制创造窗口；射击、能力和环境操作可组合。半血后重新观察节奏；结算保存成功才算停机。",
+          "after": [
+            "F3:mycelial_choir:engage"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F3:boss_defeated",
+              "options": [
+                "committed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F3:boss_stopped",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:lingyin",
+              "lines": [
+                "失控核心已停下，先保留它的运行记录。停机不能替我们决定接下来把支脉交给谁。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F3:mycelial_choir:record",
+          "text": "近距读取停机记录，核对下一段真实去向",
+          "hint": "靠近核心侧记录台按 G；需看见目标。只有停机保存后才能读取；无需返回起点领奖。",
+          "after": [
+            "F3:mycelial_choir:stop"
+          ],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "F3:boss_record",
+              "options": [
+                "record"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "F3:operation_record",
+              "title": "共生体记录揭示旧中枢的自动补偿失控，离岸阵列仍可改写这条协议。"
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:lingyin",
+              "memory": "F3:record_shared"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:lingyin",
+              "lines": [
+                "共生体记录揭示旧中枢的自动补偿失控，离岸阵列仍可改写这条协议。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "type": "flag",
+          "key": "F3:region_route_open",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "character_reply_extensions": [],
+  "host_bindings": {
+    "F3:signal_isolation_verified": {
+      "source": "actual_two_point_signal_separation",
+      "options": [
+        "echo_hold",
+        "two_pilots",
+        "latched_bypass"
+      ],
+      "navigation_marker_id": "F3:network_junction",
+      "required_validation": [
+        "both_real_interface_states_maintained",
+        "signal_path_disconnected",
+        "nutrient_path_still_connected",
+        "no_required_second_human"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "F3:nutrient_delivery_verified": {
+      "source": "authored_npc_actual_delivery_event",
+      "options": [
+        "grown_path",
+        "existing_bypass"
+      ],
+      "navigation_marker_id": "F3:nursery_exit",
+      "required_validation": [
+        "passable_supported_route",
+        "named_carrier_completed_pickup_then_deliver",
+        "event_from_authoritative_ecology_not_client"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true
+    },
+    "F3:boss_observed": {
+      "source": "host_observed_full_telegraph_active_recovery_cycle",
+      "options": [
+        "observed"
+      ],
+      "navigation_marker_id": "F3:boss_briefing",
+      "required_validation": [
+        "real_arena_entry",
+        "player_present_and_alive",
+        "one_full_pattern_cycle"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "mycelial_choir"
+    },
+    "F3:boss_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "options": [
+        "committed"
+      ],
+      "navigation_marker_id": "F3:boss_briefing",
+      "required_validation": [
+        "authoritative_encounter_completed",
+        "same_store_victory_flag_and_receipt",
+        "guest_reward_deduplicated"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "mycelial_choir",
+      "campaign_receipt_id": "boss:F3:mycelial_choir:opening_v1",
+      "reward_id": "boss:F3:mycelial_choir",
+      "world_victory_flag": "F3_boss"
+    }
+  }
+}

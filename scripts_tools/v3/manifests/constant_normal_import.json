@@ -1,0 +1,836 @@
+{
+  "status": "STAGED_ONLY_NOT_APPLIED_NOT_ENGINE_TESTED",
+  "only_allowed_change": "15 square constant normal texture .import process/size_limit -> 1. No PNG/GLB/blend/material/sampler/normal flag/compression/mipmap change.",
+  "previous_full_scan_scope": "98 active PNGs; 32 Normal PNGs; 16 fully constant. This batch includes only 15 square constant Normal resources. No old-source PNG aliases counted.",
+  "candidate_count": 15,
+  "current_setting_counts": {
+    "size_limit_0": 12,
+    "size_limit_1024": 3
+  },
+  "square_textures": [
+    {
+      "texture": "assets/v3/clinic_gravity/clinic_gravity_CG_V4_Normal.png",
+      "import": "assets/v3/clinic_gravity/clinic_gravity_CG_V4_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        2048,
+        2048
+      ],
+      "source_sha256_at_prior_verified_scan": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        2048,
+        2048
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "d9b54a62a585955c874c22418ff9dfb38be7cdb819e7937ba9222ca316a9e565",
+      "import_sha256_after": "e84ef006192b09a26772fb95a2e72c0a7d3ad6fb6429f8ceecf1b02a730a4c37",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 16777215,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 16777212
+    },
+    {
+      "texture": "assets/v3/clinic_reception/clinic_reception_support_CG_V4_Normal.png",
+      "import": "assets/v3/clinic_reception/clinic_reception_support_CG_V4_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        2048,
+        2048
+      ],
+      "source_sha256_at_prior_verified_scan": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        2048,
+        2048
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "4b11b36e6af1ebdeeeda6efd66315e67de812018f06c08ecbd20b7348e20b990",
+      "import_sha256_after": "73bdce684a0e577a94fb7c48e79be4cf8da8da413a0e94eb77a88216f7974667",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 16777215,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 16777212
+    },
+    {
+      "texture": "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_Normal.png",
+      "import": "assets/v3/i2_maintenance_paving/maintenance_paving_MaintenancePaving_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        2048,
+        2048
+      ],
+      "source_sha256_at_prior_verified_scan": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        2048,
+        2048
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "aa445dab0074905105dbbc0a173a9ed8486b5a96b4c012baf1f7871b7ca6749f",
+      "import_sha256_after": "ac14564fa2a14b615feef405d50aee0d08b66ed87884353f90557545778d4694",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 16777215,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 16777212
+    },
+    {
+      "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_Normal.png",
+      "import": "assets/v3/environment/i2_revetment_closure/revetment_closure_I2Revetment_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        2048,
+        2048
+      ],
+      "source_sha256_at_prior_verified_scan": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        2048,
+        2048
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "d4ea01c61447213ab2e30b5c2e2601bbd90d4d7c6dfe60e3662b5a01a71c3641",
+      "import_sha256_after": "f16d60299778a88ee5052e9708772a511223667c9c4222fa4afabe35ce1ae852",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 16777215,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 16777212
+    },
+    {
+      "texture": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_Normal.png",
+      "import": "assets/v3/environment/clinic_lift_deck/clinic_lift_deck_Paint_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "2bc9ede09aae0ce01e552d3a4296c0cca85d188abc923b51c9390b2bc6f64646",
+      "import_sha256_after": "936b9d7a96c0d2f0c51eface6a617ab1e429022d9a0f9c5c12035eb422c62d50",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_Normal.png",
+      "import": "assets/v3/environment/west_landing_platform/west_landing_platform_Paint_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "61fdba4195bcbb3d073268bf4a9382fd2fb6685d8150412defb79290b4f0ef39",
+      "import_sha256_after": "384831176da4ff515044572a56513a7b7f9c21796d8f31ba9078d018df261203",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_Normal.png",
+      "import": "assets/v3/environment/west_offset_room/west_offset_room_ConcreteBase_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "15be30ca00839f8ef65112e539f40dcbca77a56dd075407a69971c3e6bb34806",
+      "import_sha256_after": "80723fcb78b01d529bc1a9fda08664fd27186e7a019fbe176623f610ea2538e9",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_Normal.png",
+      "import": "assets/v3/environment/west_offset_room/west_offset_room_PaintedShell_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "4da4ed6714b5951d89849a45d4ebaae2774303a89e2a835024c1467f683401da",
+      "import_sha256_after": "4a3a4dd0a380428b60d7232c777c1e85c73fe627c592ef1d2fe5cab7d614197f",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_Normal.png",
+      "import": "assets/v3/environment/west_service_room/west_service_room_ConcreteBase_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "bc7ff5d041aaa6f2bf683868a99e7549858c8ef782c6717cee00a469f62c5221",
+      "import_sha256_after": "aece89c7c426205bf66bc72b732cb0e612cc435fe7d6584bca9d74498fe67f97",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_Normal.png",
+      "import": "assets/v3/environment/west_service_room/west_service_room_PaintedShell_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "a84f91d868ca27a4c5c6b68b766f7d16088fb623f190717136781eeaf49b6124",
+      "import_sha256_after": "b554d7a68b8139b69b6ebb6c57e151e3455ba55fb9bd376f98561c8e4f7142df",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_Normal.png",
+      "import": "assets/v3/shared_access_landings/shared_access_landings_SharedLandings_Coating_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "d80da55dae39b78296c65370859faa3d86e232fce3904a50c516d9d0da4d382d",
+      "import_sha256_after": "be35c5e3f799ad6fd1cbf9a305cfc2b9d4dfdf1618b2d45b9c80415fffa2a40e",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal.png",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        2048,
+        2048
+      ],
+      "source_sha256_at_prior_verified_scan": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "1024",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "2c8045f0eb5b48a7d56445eb30e3c91263455b7a32a8ff031ad7827a1e37d6dd",
+      "import_sha256_after": "22aea17fccf2695aa6d99049f028e7487ff2011a036133d7d223a3439735e21d",
+      "change": {
+        "process/size_limit": {
+          "before": 1024,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal_3.png",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/east_maintenance_lod_MaintenancePaving_Normal_3.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        1024,
+        1024
+      ],
+      "source_sha256_at_prior_verified_scan": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "0",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "cdacdc7bf59ddb93f2376e3ae9275bb437b866914628f00684fba8f6f86ea4c5",
+      "import_sha256_after": "d76c68471cd792bc9fbe18aff0d4482030b7fd3a7c816108bf105e0dda60f0c9",
+      "change": {
+        "process/size_limit": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_Normal.png",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_1p3_lod_I2Revetment_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        2048,
+        2048
+      ],
+      "source_sha256_at_prior_verified_scan": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "1024",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "28be736135b77551f207514d9de948f5d19037dd35cfd89c8fe2a8998733d660",
+      "import_sha256_after": "5078d8046e2d70c7e64a065941433106de492da2adf0ef918ad31e02982953f0",
+      "change": {
+        "process/size_limit": {
+          "before": 1024,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    },
+    {
+      "texture": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_Normal.png",
+      "import": "assets/v3/environment/i2_visual_lod/20261021_021300_adedde/revetment_4m_lod_I2Revetment_Normal.png.import",
+      "source_dimensions_at_prior_verified_scan": [
+        2048,
+        2048
+      ],
+      "source_sha256_at_prior_verified_scan": "123eadc1c58faf317e13bbb0a6e11d0526740a2f4c733c6b41d7f952a9f1c704",
+      "source_pixel_evidence": "Prior full byte-for-byte comparison of every RGB pixel == (128,128,255); all cached CTEX mip pixels separately decoded and checked. No rescan during current foreground performance capture.",
+      "current_imported_dimensions_at_prior_ctex_verification": [
+        1024,
+        1024
+      ],
+      "current_import_settings": {
+        "compress/mode": "0",
+        "compress/high_quality": "false",
+        "compress/lossy_quality": "0.7",
+        "compress/normal_map": "0",
+        "compress/channel_pack": "0",
+        "mipmaps/generate": "true",
+        "mipmaps/limit": "-1",
+        "roughness/mode": "0",
+        "roughness/src_normal": "\"\"",
+        "process/channel_remap/red": "0",
+        "process/channel_remap/green": "1",
+        "process/channel_remap/blue": "2",
+        "process/channel_remap/alpha": "3",
+        "process/normal_map_invert_y": "false",
+        "process/size_limit": "1024",
+        "detect_3d/compress_to": "1"
+      },
+      "import_sha256_before": "84edf72466b4355819ab8aee40e2530be272ea8acaaf13b2bcfbefeed6e873de",
+      "import_sha256_after": "3aeed8edec81f6c9bdbccdd99b8358863a2088f7fd79bac845700786ddb318be",
+      "change": {
+        "process/size_limit": {
+          "before": 1024,
+          "after": 1
+        }
+      },
+      "expected_import_dimensions": [
+        1,
+        1
+      ],
+      "expected_rgb_pixel": [
+        128,
+        128,
+        255
+      ],
+      "rgb8_mipped_bytes_before": 4194303,
+      "rgb8_bytes_after": 3,
+      "rgb8_nominal_saved_bytes": 4194300
+    }
+  ],
+  "excluded_rectangle": {
+    "texture": "assets/v3/environment/i2_revetment_closure/revetment_closure_ClosureCaps_Normal.png",
+    "source_dimensions": [
+      1024,
+      256
+    ],
+    "reason": "Exact 4.7.2 importer aspect-preserving integer calculation gives height 0 for limit 1. Excluded, not modified. All 16 nonconstant Normal textures also excluded."
+  },
+  "exact_version_source": {
+    "tag": "4.7.2-stable",
+    "source": "https://github.com/godotengine/godot/blob/4.7.2-stable/editor/import/resource_importer_texture.cpp",
+    "size_limit_option_line": 237,
+    "size_rule_lines": [
+      754,
+      778
+    ],
+    "findings": [
+      "size_limit range includes 1.",
+      "Square image ratio yields 1x1 at limit1 with cubic resize.",
+      "Additional normalize runs only when compress/normal_map==1; current value0 is preserved.",
+      "No claim that this exact source inspection replaces import behavior verification in local pinned binary."
+    ]
+  },
+  "estimate": {
+    "basis": "RGB8 plus existing complete mip chain from prior CTEX decoding; nominal texture bytes, not physical GPU allocation or measured performance",
+    "before_bytes": 113246193,
+    "after_bytes": 45,
+    "saved_bytes": 113246148,
+    "saved_mib": 107.99994277954102
+  },
+  "visual_equivalence_limits": [
+    "For a texture whose every source/imported mip pixel is the identical encoded RGB normal, normalized-UV repeat/clamp and nearest/linear/trilinear samples produce that same value at any UV/LOD.",
+    "Keep the encoded value 128,128,255; do not replace with a null normal texture, change normal_scale/normalization/tangent basis, or merge materials/samplers. Encoded x/y=128 is not exact mathematical zero, so disabling the map is a different operation.",
+    "Equivalent-color reasoning excludes code that observes textureSize, integer texel coordinates, textureQueryLod or resource dimensions. Built-in material actual import/render must still be checked.",
+    "Cubic downsize, 1x1 mip generation/storage, runtime texture format and sampled normal must be confirmed using actual pinned 4.7.2 import. Mathematical inference is not a rendered comparison."
+  ],
+  "parent_validation": [
+    "Verify before import SHA per file; apply staged patch only.",
+    "Normal/texture compression/mipmap/sampler/material flags must remain unchanged. Original pixels remain in original PNG/GLB/blend.",
+    "Read actual 15 material-bound Texture2D dimensions and decoded pixel values after pinned engine import; expect1x1 and128,128,255.",
+    "Run same-camera visual/collision check and real foreground packaged performance screening; no current benefit claim.",
+    "Rollback only this candidate with git apply -R and verify original import hashes; reimport normally."
+  ],
+  "patch_sha256": "f20fbd5371245354da9e0075bc932c8ecdbfc5358c19390769fc0911f68c7898"
+}

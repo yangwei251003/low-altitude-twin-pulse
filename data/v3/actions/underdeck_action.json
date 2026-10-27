@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "content_id": "opening_underdeck_extension_v1",
+  "extends_content_id": "opening_v1",
+  "title": "潮下检修孔",
+  "status": "integrated_development_candidate",
+  "scope_note": "第七行动四个目标，按 opening_v1、whale、crown、underdeck 顺序合并，共七行动二十七目标。房主适配器观察真实机体穿面及连续控制，再经现有行动事务保存和同步。潮下是干式检修层名称，不表示已实现潮汐或潜水。5–8分钟仅为待真人验证的首次体验目标，不靠延长循环或强制返航凑时长。",
+  "requires_action_ids": ["F1:crown"],
+  "requires_character_ids": ["npc:ruanheng"],
+  "characters": [],
+  "markers": [
+    {
+      "id": "I1:underdeck_log",
+      "region": "I1",
+      "position": [-34, 1.6, -16.7],
+      "kind": "inspect",
+      "label": "潮下检修层 · 班组补修图",
+      "radius": 2.5
+    }
+  ],
+  "actions": [
+    {
+      "id": "I1:underdeck",
+      "title": "潮下检修孔",
+      "completion_text": "行动完成 · 北口贯通，班组的补修方案已留存。\n两端故障循环已解除，这条检修路会保留下来。",
+      "region_id": "I1",
+      "prerequisites": ["F1:crown"],
+      "target_minutes": [5, 8],
+      "objectives": [
+        {
+          "id": "I1:underdeck:read",
+          "text": "到港口西北仓台南口，查看班组留下的补修图",
+          "hint": "核对完恢复的老根后回港口，靠近仓台南口外的补修图，保持无遮挡视线，按 G 调查。这里是干式检修廊，不需要下水。",
+          "after": [],
+          "events": [{"type": "inspect", "target_id": "I1:underdeck_log", "options": ["read_plan"]}],
+          "effects": [
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["两岸的记录对上了，眼前还有能先修好的地方。班组把这段旧检修廊的补修方案留在南口，原锁本来是保养互锁，现在却在反复重试。", "有两条入口：看南口灯色，等门打开后飞入，也能用力场把正在打开或已打开的门片暂时固定；另一条在仓台东侧较高的侧窗，那里一直有路。", "进去后找西壁的安全锁。回声或机械接管都能让它连续工作一秒，再从北口真正穿出去，确认这条路能用。"]}
+          ]
+        },
+        {
+          "id": "I1:underdeck:enter",
+          "text": "从南口或东侧高窗飞入检修廊",
+          "hint": "南口可抓自然开门窗口，也可固定实际门片；东侧高窗可正常飞入，或沿无遮挡侧廊折跃。闭门不能穿越。侧窗始终可退出，单人也能完成。",
+          "after": ["I1:underdeck:read"],
+          "events": [{"type": "fact", "target_id": "I1:underdeck_entry", "options": ["held_grille", "main_flight", "side_flight", "side_blink"]}],
+          "effects": [
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["进来了。西壁上的控制面就是内锁，不是南口的移动门片。", "对内锁使用回声或机械接管，让有效信号连续保持一秒。这里不要求两人同时操作；需要退路就走东侧窗。"]}
+          ]
+        },
+        {
+          "id": "I1:underdeck:release",
+          "text": "用回声或机械接管解除内部安全锁",
+          "hint": "锁定廊内西壁控制面，使用回声或机械接管，让有效控制连续保持一秒。解除结果保存成功后，两端才永久收起；受阻的门会等通路让开，不会夹过机体。",
+          "after": ["I1:underdeck:enter"],
+          "events": [{"type": "fact", "target_id": "I1:underdeck_safety_lock", "options": ["released"]}],
+          "effects": [
+            {"type": "flag", "key": "opening:underdeck_latched", "value": true},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["互锁解除的记录留下了，两端正在收起。若门边有东西挡住，先让开它的移动范围。", "沿廊往北飞，实际穿过北口。我们要确认的是廊内这条路，不是绕到外面碰一下出口标记。"]}
+          ]
+        },
+        {
+          "id": "I1:underdeck:traverse",
+          "text": "沿检修廊向北，穿出已经解除互锁的北口",
+          "hint": "保持机体可飞行，从廊内穿过北口才算贯通；在外面绕到出口不算。确认后就地留存补修方案，无需返回人物处领奖。",
+          "after": ["I1:underdeck:release"],
+          "events": [{"type": "fact", "target_id": "I1:underdeck_transit", "options": ["verified"]}],
+          "effects": [
+            {"type": "discovery", "discovery_id": "opening:underdeck_worker_bypass", "title": "班组的局部补修方案保住了一条干式检修通路"},
+            {"type": "character_memory", "character_id": "npc:ruanheng", "memory": "opening:kept_worker_repair_route"},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["北口确实能穿过去了。班组没有另铺一套大管线，而是利用这段旧检修层，把可以修的地方接了起来。", "我先前把这份局部方案看得太轻了。把它留下，以后这条通路继续给大家用；上游抽取的问题，仍得靠两岸的证据往下查。"]}
+          ]
+        }
+      ],
+      "effects": [
+        {"type": "flag", "key": "opening:underdeck_route_verified", "value": true}
+      ]
+    }
+  ],
+  "character_reply_extensions": [
+    {
+      "character_id": "npc:ruanheng",
+      "replies": [
+        {"after": "I1:underdeck:read", "lines": ["南口可以等窗口或用力场固定门片，东侧高窗也能进。先读现场路线，不必为了证明一种能力而堵死另一条路。"]},
+        {"after": "I1:underdeck:enter", "lines": ["内锁在廊内西壁。回声或机械接管持续一秒都行；南口门片和内锁是两个不同的目标。"]},
+        {"after": "I1:underdeck:release", "lines": ["互锁解除记录已留下。请从廊内实际穿出北口，再确认班组这段补修路能一直使用。"]},
+        {"after": "I1:underdeck:traverse", "lines": ["这条检修路保住了，班组的局部修复值得留下。我会记住：能继续用的地方，不该只因为不够整齐就全拆重来。"]}
+      ]
+    }
+  ],
+  "host_bindings": {
+    "status": "runtime_contract_implemented_by_story_and_underdeck_adapter_not_director_metadata",
+    "I1:underdeck_log": {
+      "source": "host_verified_manual_inspection",
+      "required_action": "F1:crown",
+      "region": "I1",
+      "interaction_radius_m": 2.5,
+      "requires_line_of_sight": true,
+      "requires_explicit_interaction": true,
+      "option": "read_plan"
+    },
+    "I1:underdeck_entry": {
+      "source": "host_verified_enabled_body_directional_entry_crossing",
+      "required_objective": "I1:underdeck:read",
+      "accepted_routes": ["held_grille", "main_flight", "side_flight", "side_blink"],
+      "blink_evidence": "same_successful_host_physics_request_with_actual_from_and_to",
+      "route_policy": "one_goal_no_additional_route_reward",
+      "restore_policy": "reset_motion_sample_on_region_branch_respawn_or_connection_change"
+    },
+    "I1:underdeck_safety_lock": {
+      "source": "host_verified_continuous_control_signal",
+      "required_objective": "I1:underdeck:enter",
+      "entity_id": "I1:underdeck_latch",
+      "accepted_control_methods": ["echo", "takeover"],
+      "minimum_continuous_seconds": 1.0,
+      "requires_live_enabled_signal_owner": true,
+      "paused_time_counts": false,
+      "committed_world_flag": "opening:underdeck_latched",
+      "publish_space_change": "only_after_same_story_transaction_succeeds",
+      "option": "released"
+    },
+    "I1:underdeck_transit": {
+      "source": "host_verified_enabled_body_inside_to_outside_north_crossing",
+      "required_objective": "I1:underdeck:release",
+      "required_committed_world_flag": "opening:underdeck_latched",
+      "exit_plane_world_z": -35.5,
+      "crossing_direction": "negative_z",
+      "proximity_is_not_crossing": true,
+      "discovery_id": "opening:underdeck_worker_bypass",
+      "option": "verified"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "actual_run": "20261020_062538_edcbfd",
+  "manifest_sha256": "d337d057cda1beadfa45f915a2c33900713174440e52b4f3d38a759c4bd536f1",
+  "component_areas_m2": [
+    246.9556014616988,
+    20.391667556759785,
+    19.133341789243786,
+    10.100004577634536,
+    7.987023309397046e-07
+  ],
+  "nearest_boundaries": [
+    {
+      "components": [
+        0,
+        1
+      ],
+      "minimum_distance_m": 8.399999618530273,
+      "nearest_points_world_xz": [
+        [
+          -21.999998092651367,
+          24.0
+        ],
+        [
+          -21.999998092651367,
+          15.600000381469727
+        ]
+      ]
+    },
+    {
+      "components": [
+        0,
+        2
+      ],
+      "minimum_distance_m": 0.0,
+      "nearest_points_world_xz": [
+        [
+          -21.999998092651367,
+          28.0
+        ],
+        [
+          -21.999998092651367,
+          28.0
+        ]
+      ]
+    },
+    {
+      "components": [
+        0,
+        3
+      ],
+      "minimum_distance_m": 5.0,
+      "nearest_points_world_xz": [
+        [
+          -21.999998092651367,
+          24.0
+        ],
+        [
+          -21.999998092651367,
+          19.0
+        ]
+      ]
+    },
+    {
+      "components": [
+        0,
+        4
+      ],
+      "minimum_distance_m": 0.0,
+      "nearest_points_world_xz": [
+        [
+          -4.0,
+          15.600000381469727
+        ],
+        [
+          -4.0,
+          15.600000381469727
+        ]
+      ]
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "minimum_distance_m": 2.9580761210138693,
+      "nearest_points_world_xz": [
+        [
+          -21.999998092651367,
+          15.600000381469727
+        ],
+        [
+          -23.458366685333885,
+          18.173592304364586
+        ]
+      ]
+    },
+    {
+      "components": [
+        1,
+        3
+      ],
+      "minimum_distance_m": 0.0,
+      "nearest_points_world_xz": [
+        [
+          -22.0,
+          15.599996566772461
+        ],
+        [
+          -22.0,
+          15.599996566772461
+        ]
+      ]
+    },
+    {
+      "components": [
+        1,
+        4
+      ],
+      "minimum_distance_m": 8.253786532991214,
+      "nearest_points_world_xz": [
+        [
+          -12.25,
+          12.0
+        ],
+        [
+          -4.000000476837158,
+          12.25
+        ]
+      ]
+    },
+    {
+      "components": [
+        2,
+        3
+      ],
+      "minimum_distance_m": 1.3486991523486091e-06,
+      "nearest_points_world_xz": [
+        [
+          -22.0,
+          19.0
+        ],
+        [
+          -21.999999046325684,
+          18.999999046325684
+        ]
+      ]
+    },
+    {
+      "components": [
+        2,
+        4
+      ],
+      "minimum_distance_m": 18.31829679326127,
+      "nearest_points_world_xz": [
+        [
+          -22.0,
+          19.0
+        ],
+        [
+          -4.0,
+          15.600000381469727
+        ]
+      ]
+    },
+    {
+      "components": [
+        3,
+        4
+      ],
+      "minimum_distance_m": 17.99999999999717,
+      "nearest_points_world_xz": [
+        [
+          -21.999999999994337,
+          15.600010479198916
+        ],
+        [
+          -4.0,
+          15.600000381469727
+        ]
+      ]
+    }
+  ],
+  "holes": [
+    {
+      "area_m2": 2.2617938312536216e-16,
+      "bounds_world_xz": [
+        -11.999993629232574,
+        25.777777209761776,
+        -8.699999809265137,
+        26.032432556152344
+      ]
+    },
+    {
+      "area_m2": 0.46240041503915563,
+      "bounds_world_xz": [
+        8.559999465942383,
+        13.359999656677246,
+        9.239999771118164,
+        14.039999961853027
+      ]
+    }
+  ],
+  "limits": "Exact float32 triangle union includes micrometre cracks/point contacts and near-zero-area numerical rings. No repair performed. Component count is not a design instruction or physical ground gap proof. Canonical raw triangles must not be replaced by a hull or boundary fill.",
+  "source_original_court_overlap_m2": 2.179145258196513e-05
+}

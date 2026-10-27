@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "status": "rules_authored_physical_adapters_pending",
+  "note": "Six new encounters. Existing harbor_whale/parasitic_crown remain untouched. All attacks require scene warning geometry, real line of sight/collision and real host player damage. Conditions are sampled from physical mechanisms, never client or G confirmation.",
+  "bosses": [
+    {
+      "id": "twin_pump_guardian", "region_id": "I2", "name": "双泵守卫", "core_hp_milli": 160000, "part_hp_milli": 30000,
+      "parts": ["low_pump", "high_pump"], "exposure_ticks": 80, "recovery_ticks": 25,
+      "mechanic": "低水位低泵开罩，高水位高泵开罩；改变隔离战区水位后按窗口处理，民用水网不参与战斗。",
+      "environment_defaults": {"water_level_mm": 1000, "civilian_supply_isolated": false},
+      "part_conditions": {"low_pump": [{"field":"water_level_mm","op":"le","value":2000},{"field":"civilian_supply_isolated","op":"eq","value":true}], "high_pump": [{"field":"water_level_mm","op":"ge","value":3000},{"field":"civilian_supply_isolated","op":"eq","value":true}]},
+      "patterns": [
+        {"id":"low_sluice","shape":"ring","inner_mm":0,"outer_mm":14000,"y_min_mm":0,"y_max_mm":7000,"warning_ticks":24,"active_ticks":6,"damage_milli":18000,"counter":"升到7米以上、离开半径或借实体掩体"},
+        {"id":"high_jet","shape":"locked_disc","outer_mm":3000,"height_mm":2500,"warning_ticks":22,"active_ticks":5,"damage_milli":22000,"counter":"离开锁定圈或改变高度2.5米"}
+      ]
+    },
+    {
+      "id": "mirrorwing_warden", "region_id": "F2", "name": "折翼守望者", "core_hp_milli": 170000, "part_hp_milli": 30000,
+      "parts": ["true_left_wing", "true_right_wing"], "exposure_ticks": 75, "recovery_ticks": 24,
+      "mechanic": "只有真身投影和遮光连续；用真实光路或背光角度显露真翼。镜像无可受伤部件。",
+      "environment_defaults": {"true_body_revealed": false, "shadow_verified": false},
+      "part_conditions": {"true_left_wing": [{"field":"true_body_revealed","op":"eq","value":true},{"field":"shadow_verified","op":"eq","value":true}], "true_right_wing": [{"field":"true_body_revealed","op":"eq","value":true},{"field":"shadow_verified","op":"eq","value":true}]},
+      "patterns": [
+        {"id":"mirror_lance","shape":"locked_lane","axis":"z","length_mm":30000,"width_mm":4000,"height_mm":2500,"warning_ticks":25,"active_ticks":5,"damage_milli":22000,"counter":"横移离开光带，下降到实体檐后"},
+        {"id":"wing_circle","shape":"ring","inner_mm":6000,"outer_mm":14000,"y_min_mm":4000,"y_max_mm":13000,"warning_ticks":24,"active_ticks":7,"damage_milli":18000,"counter":"靠近内圈、飞出外圈或改变高度"}
+      ]
+    },
+    {
+      "id": "furnace_crawler", "region_id": "I3", "name": "熔炉履带兽", "core_hp_milli": 190000, "part_hp_milli": 35000,
+      "parts": ["radiator_west", "radiator_east"], "exposure_ticks": 80, "recovery_ticks": 28,
+      "mechanic": "冲锋锁线后横向避让，实际冷却且履带刹停才可处理散热片。",
+      "environment_defaults": {"radiator_temperature_milli_c": 80000, "crawler_speed_mm_s": 0},
+      "part_conditions": {"radiator_west": [{"field":"radiator_temperature_milli_c","op":"le","value":35000},{"field":"crawler_speed_mm_s","op":"le","value":250}], "radiator_east": [{"field":"radiator_temperature_milli_c","op":"le","value":35000},{"field":"crawler_speed_mm_s","op":"le","value":250}]},
+      "patterns": [
+        {"id":"rail_charge","shape":"locked_lane","axis":"z","length_mm":32000,"width_mm":5500,"height_mm":6000,"warning_ticks":28,"active_ticks":7,"damage_milli":28000,"counter":"横移离开轨线或升高越过；制动不抵消正面撞击"},
+        {"id":"vent_burst","shape":"locked_disc","outer_mm":4000,"height_mm":4000,"warning_ticks":24,"active_ticks":7,"damage_milli":20000,"counter":"离开热圈、换高度或借厂墙遮挡"}
+      ]
+    },
+    {
+      "id": "mycelial_choir", "region_id": "F3", "name": "鸣菌共生体", "core_hp_milli": 180000, "part_hp_milli": 25000,
+      "parts": ["west_voice", "upper_voice", "east_voice"], "exposure_ticks": 90, "recovery_ticks": 27,
+      "mechanic": "依次隔离当前声结，养分线路始终保留；可用协作分身、双人或锁定旁路维持。",
+      "environment_defaults": {"signal_isolated": false, "nutrient_connected": false},
+      "part_conditions": {"west_voice": [{"field":"signal_isolated","op":"eq","value":true},{"field":"nutrient_connected","op":"eq","value":true}], "upper_voice": [{"field":"signal_isolated","op":"eq","value":true},{"field":"nutrient_connected","op":"eq","value":true}], "east_voice": [{"field":"signal_isolated","op":"eq","value":true},{"field":"nutrient_connected","op":"eq","value":true}]},
+      "patterns": [
+        {"id":"pollen_column","shape":"locked_disc","outer_mm":3200,"height_mm":4000,"warning_ticks":26,"active_ticks":6,"damage_milli":18000,"counter":"换高度或横移离开花粉柱"},
+        {"id":"chorus_ring","shape":"ring","inner_mm":5000,"outer_mm":16000,"y_min_mm":0,"y_max_mm":10000,"warning_ticks":28,"active_ticks":8,"damage_milli":20000,"counter":"升高、靠近静声内圈或借根拱遮挡"}
+      ]
+    },
+    {
+      "id": "prism_array", "region_id": "I4", "name": "棱镜防御阵列", "core_hp_milli": 190000, "part_hp_milli": 30000,
+      "parts": ["west_prism", "east_prism"], "exposure_ticks": 75, "recovery_ticks": 25,
+      "mechanic": "真实移动遮光板切断攻击，反向光路照到接收器才开罩；民用馈线保持隔离。",
+      "environment_defaults": {"receiver_lit": false, "defence_isolated": false},
+      "part_conditions": {"west_prism": [{"field":"receiver_lit","op":"eq","value":true},{"field":"defence_isolated","op":"eq","value":true}], "east_prism": [{"field":"receiver_lit","op":"eq","value":true},{"field":"defence_isolated","op":"eq","value":true}]},
+      "patterns": [
+        {"id":"prism_lance","shape":"locked_lane","axis":"x","length_mm":32000,"width_mm":4000,"height_mm":3000,"warning_ticks":26,"active_ticks":7,"damage_milli":24000,"counter":"横移离开光带、改变高度或借固定掩体"},
+        {"id":"prism_cross","shape":"locked_cross","length_mm":30000,"width_mm":3500,"height_mm":3500,"warning_ticks":30,"active_ticks":6,"damage_milli":24000,"counter":"离开十字两条光带，留意实体挡板"}
+      ]
+    },
+    {
+      "id": "twin_vein_core", "region_id": "F4", "name": "共脉中枢", "core_hp_milli": 240000, "part_hp_milli": 30000,
+      "parts": ["charge_return", "thermal_return", "living_return"], "exposure_ticks": 90, "recovery_ticks": 30,
+      "mechanic": "轮换处理电荷重复馈线、散热回路和活脉支点；半血重组，再读当前部件。",
+      "environment_defaults": {"charge_loop_open": false, "thermal_sink_ready": false, "living_support_ready": false, "both_lifelines_connected": false},
+      "part_conditions": {"charge_return": [{"field":"charge_loop_open","op":"eq","value":true},{"field":"both_lifelines_connected","op":"eq","value":true}], "thermal_return": [{"field":"thermal_sink_ready","op":"eq","value":true},{"field":"both_lifelines_connected","op":"eq","value":true}], "living_return": [{"field":"living_support_ready","op":"eq","value":true},{"field":"both_lifelines_connected","op":"eq","value":true}]},
+      "patterns": [
+        {"id":"charge_column","shape":"locked_disc","outer_mm":3500,"height_mm":4000,"warning_ticks":28,"active_ticks":6,"damage_milli":24000,"counter":"横移换高度，保留与应急支脉的距离"},
+        {"id":"thermal_crown","shape":"ring","inner_mm":5500,"outer_mm":16000,"y_min_mm":0,"y_max_mm":15000,"warning_ticks":30,"active_ticks":6,"damage_milli":24000,"counter":"到内圈、升高或借根冠实体遮挡"},
+        {"id":"living_cross","shape":"locked_cross","length_mm":28000,"width_mm":4000,"height_mm":3500,"warning_ticks":32,"active_ticks":7,"damage_milli":24000,"counter":"离开交叉根脉，分头仍需留意各自锁定点"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "schema": 1,
+  "units": "meters",
+  "axis": "Godot Y-up",
+  "front": "+Z",
+  "models": [
+    {
+      "id": "bench",
+      "path": "res://assets/v2/streets/bench.glb",
+      "source_blend": "asset_sources/v2/streets/blend/bench.blend",
+      "footprint": [
+        2.057,
+        0.621
+      ],
+      "height": 1.04,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Pedestrian paths, bus stops, waterfront seating",
+      "triangles": 264,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "b3cf80c509f09cd2766823ace52d604b3bdeee1dd70f3a93219332045d847b00"
+    },
+    {
+      "id": "bus_stop",
+      "path": "res://assets/v2/streets/bus_stop.glb",
+      "source_blend": "asset_sources/v2/streets/blend/bus_stop.blend",
+      "footprint": [
+        5.6,
+        2.607
+      ],
+      "height": 2.785,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Sidewalk transit hub; face +Z toward road",
+      "triangles": 3948,
+      "surfaces": 3,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "54abd3d1f33ad2ee63f2c18d320d084507f638023174d68152669d6d4f0ac895"
+    },
+    {
+      "id": "street_lamp",
+      "path": "res://assets/v2/streets/street_lamp.glb",
+      "source_blend": "asset_sources/v2/streets/blend/street_lamp.blend",
+      "footprint": [
+        0.73,
+        1.99
+      ],
+      "height": 5.639,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Along sidewalks; outreach projects +Z",
+      "triangles": 608,
+      "surfaces": 3,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "3e48d74e45fc8a0b3c54d345de14cee724bbd64f52faa4eda9dd101c056047ef"
+    },
+    {
+      "id": "traffic_light",
+      "path": "res://assets/v2/streets/traffic_light.glb",
+      "source_blend": "asset_sources/v2/streets/blend/traffic_light.blend",
+      "footprint": [
+        0.46,
+        0.68
+      ],
+      "height": 3.32,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Road intersections; face +Z",
+      "triangles": 352,
+      "surfaces": 3,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "2ef890534f14a401e76b5b8a00dd6706236523412ba3d54635e122bfe320de75"
+    },
+    {
+      "id": "wayfinding_sign",
+      "path": "res://assets/v2/streets/wayfinding_sign.glb",
+      "source_blend": "asset_sources/v2/streets/blend/wayfinding_sign.blend",
+      "footprint": [
+        2.05,
+        0.122
+      ],
+      "height": 2.8,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Landmark navigation at junctions",
+      "triangles": 3804,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "0dcc06048a8a8bd5ca3dce38953e674f824c50294c31d7b3e0452d9b03f904e4"
+    },
+    {
+      "id": "recycling_bins",
+      "path": "res://assets/v2/streets/recycling_bins.glb",
+      "source_blend": "asset_sources/v2/streets/blend/recycling_bins.blend",
+      "footprint": [
+        1.59,
+        0.7
+      ],
+      "height": 1.08,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Civic detail near kiosks and walkways",
+      "triangles": 2124,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "3e9e895806a6eb148b3cfe3e4153f4fe7b54bc7a4afed0422cd4a7f8b24edb23"
+    },
+    {
+      "id": "planter",
+      "path": "res://assets/v2/streets/planter.glb",
+      "source_blend": "asset_sources/v2/streets/blend/planter.blend",
+      "footprint": [
+        3.02,
+        1.62
+      ],
+      "height": 1.4,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Sidewalk separation and gardens",
+      "triangles": 1004,
+      "surfaces": 1,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "a74d14e3b5f4ef0c786219bf74bea46f3e024d5d03bdd19e6e4a271d4aaa1c80"
+    },
+    {
+      "id": "coffee_kiosk",
+      "path": "res://assets/v2/streets/coffee_kiosk.glb",
+      "source_blend": "asset_sources/v2/streets/blend/coffee_kiosk.blend",
+      "footprint": [
+        3.8,
+        3.987
+      ],
+      "height": 3.25,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Public plazas, cafe waterfront; front service counter faces +Z",
+      "triangles": 2956,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "982450de475ec4ead08cadbfc3b3c3af7fb73f486fe73c4c38d9ef0d7a313804"
+    },
+    {
+      "id": "bicycle_rack",
+      "path": "res://assets/v2/streets/bicycle_rack.glb",
+      "source_blend": "asset_sources/v2/streets/blend/bicycle_rack.blend",
+      "footprint": [
+        2.461,
+        2.07
+      ],
+      "height": 1.26,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Bike parking with modeled bicycle beside shops",
+      "triangles": 2160,
+      "surfaces": 1,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "06fcb73b60a82f8d918869cf73bede7d74c240d9ab247ddd6d37410df54ab5b1"
+    },
+    {
+      "id": "bollards",
+      "path": "res://assets/v2/streets/bollards.glb",
+      "source_blend": "asset_sources/v2/streets/blend/bollards.blend",
+      "footprint": [
+        2.98,
+        0.38
+      ],
+      "height": 0.995,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Pedestrian curb boundaries; decorative, not flight blockers",
+      "triangles": 636,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "7cc9be913b83b5eebe6182ae3b8edea9383d353884c53e9912c33b26a3fc3f4e"
+    },
+    {
+      "id": "promenade_railing",
+      "path": "res://assets/v2/streets/promenade_railing.glb",
+      "source_blend": "asset_sources/v2/streets/blend/promenade_railing.blend",
+      "footprint": [
+        4.19,
+        0.23
+      ],
+      "height": 1.22,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Waterfront edge; 4m modules",
+      "triangles": 384,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "bfc0ccb5869f28f21319905dbb69011bf4b53363cfaf7d643f708e082b9f2775"
+    },
+    {
+      "id": "utility_cabinet",
+      "path": "res://assets/v2/streets/utility_cabinet.glb",
+      "source_blend": "asset_sources/v2/streets/blend/utility_cabinet.blend",
+      "footprint": [
+        1.4,
+        0.76
+      ],
+      "height": 1.48,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Utility detail beside warehouses and labs",
+      "triangles": 1660,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "c272a7e313c5c0633c1e8780f34bb13f100035f9a0af5f8482d8bfc74705b8ea"
+    },
+    {
+      "id": "cafe_table",
+      "path": "res://assets/v2/streets/cafe_table.glb",
+      "source_blend": "asset_sources/v2/streets/blend/cafe_table.blend",
+      "footprint": [
+        1.6,
+        2.078
+      ],
+      "height": 1.237,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Outdoor cafe seating for plaza life",
+      "triangles": 744,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "a5f8b032b69989af35a8808f1fc123679d6841a21e48537b539a5c6315af3e17"
+    },
+    {
+      "id": "street_tree",
+      "path": "res://assets/v2/streets/street_tree.glb",
+      "source_blend": "asset_sources/v2/streets/blend/street_tree.blend",
+      "footprint": [
+        2.836,
+        3.181
+      ],
+      "height": 4.807,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Shaded walkways; opaque stylized crown avoids alpha sorting",
+      "triangles": 1032,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "26b584494df7ca1e199a9a8485fd20728f256bd5d0115eb83b2022194c005feb"
+    },
+    {
+      "id": "street_tree_round",
+      "path": "res://assets/v2/streets/street_tree_round.glb",
+      "source_blend": "asset_sources/v2/streets/blend/street_tree_round.blend",
+      "footprint": [
+        3.337,
+        3.435
+      ],
+      "height": 5.225,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Street tree silhouette variant for mixed avenues",
+      "triangles": 1032,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "cfb0c581093ca7e9765c83cec92c1dc4df4de0e1bdc0ca1beea532c8b83d04ee"
+    },
+    {
+      "id": "street_tree_slender",
+      "path": "res://assets/v2/streets/street_tree_slender.glb",
+      "source_blend": "asset_sources/v2/streets/blend/street_tree_slender.blend",
+      "footprint": [
+        2.39,
+        2.64
+      ],
+      "height": 6.002,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Street tree silhouette variant for mixed avenues",
+      "triangles": 1032,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "d926047d72233302320ab09ac343b937e9b65efb28b7734c73258d6b6f73f95c"
+    },
+    {
+      "id": "pergola",
+      "path": "res://assets/v2/streets/pergola.glb",
+      "source_blend": "asset_sources/v2/streets/blend/pergola.blend",
+      "footprint": [
+        3.9,
+        2.35
+      ],
+      "height": 3.23,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Garden rest point with real open slatted canopy",
+      "triangles": 476,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "7a096e2132c4df9cd8141ceb2f6854e918f58106b93b2d4b40a76dfb8765ddcd"
+    },
+    {
+      "id": "office_pavilion",
+      "path": "res://assets/v2/streets/office_pavilion.glb",
+      "source_blend": "asset_sources/v2/streets/blend/office_pavilion.blend",
+      "footprint": [
+        10.72,
+        9.715
+      ],
+      "height": 8.693,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Tech park cornerstone; complete four-sided facade and rooftop equipment",
+      "triangles": 7468,
+      "surfaces": 3,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "acc866593feee605caa8b4fadf608ac6a8bb7d7e46e754769cd68ff91837a1b1"
+    },
+    {
+      "id": "waterfront_cafe",
+      "path": "res://assets/v2/streets/waterfront_cafe.glb",
+      "source_blend": "asset_sources/v2/streets/blend/waterfront_cafe.blend",
+      "footprint": [
+        8.92,
+        7.421
+      ],
+      "height": 5.612,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Low-rise waterside commercial landmark; outdoor seating fits in front",
+      "triangles": 3140,
+      "surfaces": 3,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "9463166c2038b2f74cee8b21096b45430ffe7b8375cba34dece83549a7d3a32c"
+    },
+    {
+      "id": "harbor_warehouse",
+      "path": "res://assets/v2/streets/harbor_warehouse.glb",
+      "source_blend": "asset_sources/v2/streets/blend/harbor_warehouse.blend",
+      "footprint": [
+        12.6,
+        10.425
+      ],
+      "height": 6.75,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Industrial harbor anchor with loading doors, ribs, seams, and ventilation",
+      "triangles": 5536,
+      "surfaces": 2,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "69e0e553fefe013bbef1bcbc7e6e6d4b0384a4ace4c2eaa52eaeb45557335bec"
+    },
+    {
+      "id": "canal_apartments",
+      "path": "res://assets/v2/streets/canal_apartments.glb",
+      "source_blend": "asset_sources/v2/streets/blend/canal_apartments.blend",
+      "footprint": [
+        9.92,
+        8.71
+      ],
+      "height": 12.775,
+      "front": "+Z",
+      "ground_y": 0.0,
+      "usage": "Urban residential anchor with actual balconies on the road facade",
+      "triangles": 10676,
+      "surfaces": 3,
+      "source": "Original model for Low Altitude Squad V2",
+      "license": "Project original",
+      "sha256": "dbd298141c78bb48095b909280c8e241610ecbb02c89e0533dab17b2dc4cc2a2"
+    },
+    {
+      "id": "car_sedan",
+      "path": "res://assets/v2/streets/car_sedan.glb",
+      "source_blend": "asset_sources/v2/streets/blend/car_sedan.blend",
+      "footprint": [
+        2.647,
+        4.5
+      ],
+      "height": 2.294,
+      "front": "+Z (inherited Kenney orientation)",
+      "ground_y": 0.0,
+      "usage": "Parked street vehicle; decorative",
+      "triangles": 2032,
+      "surfaces": 1,
+      "source": "https://kenney.nl/assets/car-kit",
+      "license": "CC0-1.0",
+      "source_file": "asset_sources/v2/streets/third_party/kenney_car_kit/Models/GLB format/sedan.glb",
+      "sha256": "aa9cf5383f0c20993882b64819927d4dea8962119d6e4443155d637c2c0e11f8"
+    },
+    {
+      "id": "car_suv",
+      "path": "res://assets/v2/streets/car_suv.glb",
+      "source_blend": "asset_sources/v2/streets/blend/car_suv.blend",
+      "footprint": [
+        2.611,
+        4.7
+      ],
+      "height": 2.263,
+      "front": "+Z (inherited Kenney orientation)",
+      "ground_y": 0.0,
+      "usage": "Parked street vehicle; decorative",
+      "triangles": 2474,
+      "surfaces": 1,
+      "source": "https://kenney.nl/assets/car-kit",
+      "license": "CC0-1.0",
+      "source_file": "asset_sources/v2/streets/third_party/kenney_car_kit/Models/GLB format/suv.glb",
+      "sha256": "cf1058eb9f65f825b6b6a2572247e1bb3a6d4647ad7e8ecc23fdfc30d627484d"
+    },
+    {
+      "id": "car_delivery",
+      "path": "res://assets/v2/streets/car_delivery.glb",
+      "source_blend": "asset_sources/v2/streets/blend/car_delivery.blend",
+      "footprint": [
+        2.492,
+        5.4
+      ],
+      "height": 2.742,
+      "front": "+Z (inherited Kenney orientation)",
+      "ground_y": 0.0,
+      "usage": "Parked street vehicle; decorative",
+      "triangles": 2476,
+      "surfaces": 1,
+      "source": "https://kenney.nl/assets/car-kit",
+      "license": "CC0-1.0",
+      "source_file": "asset_sources/v2/streets/third_party/kenney_car_kit/Models/GLB format/delivery.glb",
+      "sha256": "1bc50383f4ac6e80d5e3dc24da58fa7a29cbf8386d75a902568d3e5d495c386b"
+    },
+    {
+      "id": "car_van",
+      "path": "res://assets/v2/streets/car_van.glb",
+      "source_blend": "asset_sources/v2/streets/blend/car_van.blend",
+      "footprint": [
+        2.673,
+        4.9
+      ],
+      "height": 2.405,
+      "front": "+Z (inherited Kenney orientation)",
+      "ground_y": 0.0,
+      "usage": "Parked street vehicle; decorative",
+      "triangles": 2082,
+      "surfaces": 1,
+      "source": "https://kenney.nl/assets/car-kit",
+      "license": "CC0-1.0",
+      "source_file": "asset_sources/v2/streets/third_party/kenney_car_kit/Models/GLB format/van.glb",
+      "sha256": "9f931e44be0bf5a2be12cef6da16d8ede3a902e4350ec7f8483fffc079c534f3"
+    }
+  ]
+}

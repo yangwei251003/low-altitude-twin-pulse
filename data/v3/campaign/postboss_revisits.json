@@ -1,0 +1,199 @@
+{
+  "content_id": "postboss_revisits67",
+  "scope": "八区战后回访的纯显示短反应；13段，不增加主线目标、奖励或持久状态。条件只读已提交的原Director状态。",
+  "reactions": [
+    {
+      "region_id": "I1",
+      "target_id": "npc:linlan",
+      "character_id": "npc:linlan",
+      "after": "I1:whale:record",
+      "required_flags": [
+        "opening:whale_action_completed"
+      ],
+      "choice_objective_id": "",
+      "variants": [
+        {
+          "option": "",
+          "lines": [
+            "你又回南岸了。最初是接回一声失联的呼叫，后来连鲸机收到的原始指令也带回来了。",
+            "检修机的返航记录和那份指令，我都留着。下次有人只说‘机器停了’，我们还能一起问：它为什么会失控？"
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": "F1",
+      "target_id": "npc:atai",
+      "character_id": "npc:atai",
+      "after": "F1:crown:restore",
+      "required_flags": [
+        "opening:crown_action_completed"
+      ],
+      "choice_objective_id": "",
+      "variants": [
+        {
+          "option": "",
+          "lines": [
+            "你回来了。老根恢复承重的记录还在，我也记得你们先查清寄主，再解除冠兽控制的做法。",
+            "卷进失控的活物，不该都算成敌人。这件事，我想一直记住。"
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": "I2",
+      "target_id": "I2:canal_briefing",
+      "character_id": "npc:linlan",
+      "after": "I2:twin_pump_guardian:decision",
+      "required_flags": [
+        "I2:boss_stopped",
+        "I2:chapter_decision_saved"
+      ],
+      "choice_objective_id": "I2:twin_pump_guardian:decision",
+      "variants": [
+        {
+          "option": "clinic_reserve",
+          "lines": [
+            "你们把病房储备放在前面，这个决定已经留下。南湾日常补给要多等一等，不能只记好处、不记这份负担。",
+            "轮换表是承诺，实际水位和通路还得现场看。欢迎你回来核对。"
+          ]
+        },
+        {
+          "option": "balanced_service",
+          "lines": [
+            "你们选了两线均衡轮换。南湾能早些接回日常服务，病房额外储备补得慢些，这一项我也记着。",
+            "轮换表是承诺，实际水位和通路还得现场看。欢迎你回来核对。"
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": "F2",
+      "target_id": "npc:shuyao",
+      "character_id": "npc:shuyao",
+      "after": "F2:mirrorwing_warden:record",
+      "required_flags": [
+        "F2:boss_stopped",
+        "F2:region_route_open"
+      ],
+      "choice_objective_id": "F2:mirror_evidence:decision",
+      "variants": [
+        {
+          "option": "publish_raw",
+          "lines": [
+            "你们选择先公开原件，我留下了这个决定，也留下了还需要补齐的校时说明。记录相同，读法仍可能不同。",
+            "巡守的那份记录也在。回来时，我们可以再对一次；有争议，不等于该把原件收走。"
+          ]
+        },
+        {
+          "option": "publish_context",
+          "lines": [
+            "你们选择带着校时说明共同发布。解释需要时间，等待本身也是代价，我不会把它写成毫无负担的办法。",
+            "巡守的那份记录也在。回来时，我们可以再对一次；说明可以补，原件不能替换。"
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": "I3",
+      "target_id": "npc:qiaoshu",
+      "character_id": "npc:qiaoshu",
+      "after": "I3:furnace_crawler:record",
+      "required_flags": [
+        "I3:boss_stopped",
+        "I3:region_route_open"
+      ],
+      "choice_objective_id": "",
+      "variants": [
+        {
+          "option": "",
+          "lines": [
+            "你又来换班台了。那只匣子的交接和履带兽的指令记录都留下了，停机以后的事，也终于有人接着看。",
+            "我不想只在出事故时才被问起这一班。你愿意回来听，和修好一台机器一样要紧。"
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": "F3",
+      "target_id": "npc:lingyin",
+      "character_id": "npc:lingyin",
+      "after": "F3:mycelial_choir:record",
+      "required_flags": [
+        "F3:boss_stopped",
+        "F3:region_route_open"
+      ],
+      "choice_objective_id": "",
+      "variants": [
+        {
+          "option": "",
+          "lines": [
+            "命令线和养分支路分开过，共生体的记录也留下了。安静下来，不必以割断所有根为代价。",
+            "我在意的不是以后再没有声音，而是下次声音乱了，我们仍肯分清：哪一条在传命令，哪一条还养着生活。"
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": "I4",
+      "target_id": "npc:wenxu",
+      "character_id": "npc:wenxu",
+      "after": "I4:prism_array:decision",
+      "required_flags": [
+        "I4:boss_stopped",
+        "I4:chapter_decision_saved"
+      ],
+      "choice_objective_id": "I4:prism_array:decision",
+      "variants": [
+        {
+          "option": "public_caps",
+          "lines": [
+            "公开统一上限，是你们签下的决定。它让大家能核查同一个数，也可能漏掉某处的特殊需要。",
+            "所以例外和异常都得留在记录里。不能再让‘系统会补偿’替我们回答所有问题。"
+          ]
+        },
+        {
+          "option": "regional_cosign",
+          "lines": [
+            "你们把跨界改动留给地区共同签署。多听一边的需要，就要承担回应慢一些的负担。",
+            "我会记住这份取舍。不能因为等签字，就把应急底线也一起拖住。"
+          ]
+        }
+      ]
+    },
+    {
+      "region_id": "F4",
+      "target_id": "npc:guanzhi",
+      "character_id": "npc:guanzhi",
+      "after": "F4:twin_vein_core:decision",
+      "required_flags": [
+        "F4:boss_stopped",
+        "F4:chapter_decision_saved"
+      ],
+      "choice_objective_id": "F4:twin_vein_core:decision",
+      "variants": [
+        {
+          "option": "shared_stewardship",
+          "lines": [
+            "共同照料，不是一声答应就算完。你们留下的方案，把两边的维护责任都留在了记录里。",
+            "今天你回来，我想问的已经不只是‘修好了吗’，还有‘下一次谁来照看’。脉络要靠一次次回应接下去。"
+          ]
+        },
+        {
+          "option": "industrial_lifeline",
+          "lines": [
+            "你们决定先接回应急与生产，活脉扩展要等得久些。这个先后已经写下，不能把等候的一端从故事里省掉。",
+            "幼根的底线仍在方案里。你回来看它，也是在提醒我们：先恢复什么，不等于只剩什么值得照料。"
+          ]
+        },
+        {
+          "option": "living_vein",
+          "lines": [
+            "你们决定先接回活脉，工业扩产要慢一些。把根的恢复放在前面，另一岸的轮班与需要也不能被忘掉。",
+            "应急线仍在方案里。你回来看它，也是在提醒我们：先恢复什么，不等于只剩什么值得照料。"
+          ]
+        }
+      ]
+    }
+  ]
+}

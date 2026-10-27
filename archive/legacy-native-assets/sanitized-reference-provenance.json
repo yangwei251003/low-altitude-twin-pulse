@@ -1,0 +1,458 @@
+[
+  {
+    "original_sha256": "721d9af03ef2b64394599ef8db102d5ad937699abc7dda025675a3e267784fbf",
+    "source_relative_path": "asset_sources/v3/rising_seal/p3/rising_seal_p3_export_ready.blend",
+    "purified_sha256": "3235e4fe0bfe6079744d6e5fc375280f7d1e9990b3aa35c0190a1750374840a5",
+    "removed_packed_reference_sha256": "6f139127394eb9c59913f6fdd66dec510c18a658460efd594a9fd73475c939a8",
+    "removed_reference_bytes": 2836953,
+    "neutral_placeholder_packed_sha256": "ebb81dddb02274a5de3b60ca6d3fbd21c5d1ed3c83d2ebde8f28f0e13aa0c952",
+    "neutral_placeholder_dimensions": [
+      8,
+      8
+    ],
+    "source_previews_cleared": 0,
+    "viewer_datablocks_removed": 2,
+    "base_geometry_UV_object_transforms_and_material_node_scalar_links_identical": true,
+    "snapshot_sha256": "d7acd9b4e244f5e4aafd0efc7e2c241afe0575a514698be91b168ad881ff567a",
+    "reference_image_usages": [
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      },
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      },
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      }
+    ],
+    "original_reference_visual_missing": true,
+    "source_or_embedded_code_executed": false,
+    "original_written": false,
+    "save_preview_disabled": true,
+    "original_packed_bytes_absence_check_pending": false,
+    "neutral_placeholder_created_by_this_audit": true,
+    "original_packed_bytes_absent": true,
+    "saved_file_has_no_thumbnail_block": true,
+    "canonical_public_path": "archive/legacy-native-assets/sanitized-reference/rising-seal-p3-export-ready.blend",
+    "final_sha256": "9452d100211e62951b7cf0dadc9ad5697a29fa16f225f811111f54a784c8827e",
+    "final_bytes": 5936473,
+    "path_fields_changed": [
+      {
+        "offset": 176532,
+        "original_field_bytes": 26,
+        "original_field_sha256": "c1d9e145fc077be40c76e8a8611de04808fd35467cae49f321f7c2dd4b412bfb",
+        "replacement_bytes": 12,
+        "replacement_sha256": "e4bfdeead0de4ad3704b35c8086f5dcbee950b002e5556642b6bed80e955e692",
+        "public_target": null,
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3029351,
+        "original_field_bytes": 120,
+        "original_field_sha256": "a944a3d094c656b4e4e67ee4e188aaf7cb662141432a52bc3074887ee19b0457",
+        "replacement_bytes": 73,
+        "replacement_sha256": "5a6422528a39e265d865d20cb08e7c0364d6c0e4a82e028d7e0bdf07c5e4ad6e",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_bronze_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3030711,
+        "original_field_bytes": 120,
+        "original_field_sha256": "a944a3d094c656b4e4e67ee4e188aaf7cb662141432a52bc3074887ee19b0457",
+        "replacement_bytes": 73,
+        "replacement_sha256": "5a6422528a39e265d865d20cb08e7c0364d6c0e4a82e028d7e0bdf07c5e4ad6e",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_bronze_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3324632,
+        "original_field_bytes": 117,
+        "original_field_sha256": "4748c96a52129da3bd7797d4862a4c820f7d9001b22483c3e36cdfeb0da13b75",
+        "replacement_bytes": 70,
+        "replacement_sha256": "dc27da0771eef0e33d3fd9fe998a021533335f885b9526c7f5078f66b93ef5c6",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_bronze_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3325992,
+        "original_field_bytes": 117,
+        "original_field_sha256": "4748c96a52129da3bd7797d4862a4c820f7d9001b22483c3e36cdfeb0da13b75",
+        "replacement_bytes": 70,
+        "replacement_sha256": "dc27da0771eef0e33d3fd9fe998a021533335f885b9526c7f5078f66b93ef5c6",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_bronze_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3353536,
+        "original_field_bytes": 120,
+        "original_field_sha256": "c21aa583465ec055548c978c74ff0de5bb7c8e76793801b46d69c40980ef5723",
+        "replacement_bytes": 80,
+        "replacement_sha256": "e25a96a36246ae535446c0e591291b0dbfe83d1bf57350bc2d1b24e2eaf4ad5a",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_bronze_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3354896,
+        "original_field_bytes": 120,
+        "original_field_sha256": "c21aa583465ec055548c978c74ff0de5bb7c8e76793801b46d69c40980ef5723",
+        "replacement_bytes": 80,
+        "replacement_sha256": "e25a96a36246ae535446c0e591291b0dbfe83d1bf57350bc2d1b24e2eaf4ad5a",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_bronze_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3530269,
+        "original_field_bytes": 118,
+        "original_field_sha256": "4200b3f41228c952b4091ce20f849393d01e5492f6c7d0ff3c10c5eeac1e1d24",
+        "replacement_bytes": 71,
+        "replacement_sha256": "c18a9c31440ad6dd053b8917b599b80f59070cf99caa9ebb7e43e8ba69fb6869",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_core_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3531629,
+        "original_field_bytes": 118,
+        "original_field_sha256": "4200b3f41228c952b4091ce20f849393d01e5492f6c7d0ff3c10c5eeac1e1d24",
+        "replacement_bytes": 71,
+        "replacement_sha256": "c18a9c31440ad6dd053b8917b599b80f59070cf99caa9ebb7e43e8ba69fb6869",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_core_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3624420,
+        "original_field_bytes": 115,
+        "original_field_sha256": "ff60de0257c60aa224d69b8f15402e65b14bc35b97cec13ab66c21d986436c36",
+        "replacement_bytes": 68,
+        "replacement_sha256": "6427ffb373af2c767224b6be2d9e22febe2dbbc98efe4ef6c74fde9a39f4c72a",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_core_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3625780,
+        "original_field_bytes": 115,
+        "original_field_sha256": "ff60de0257c60aa224d69b8f15402e65b14bc35b97cec13ab66c21d986436c36",
+        "replacement_bytes": 68,
+        "replacement_sha256": "6427ffb373af2c767224b6be2d9e22febe2dbbc98efe4ef6c74fde9a39f4c72a",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_core_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3632136,
+        "original_field_bytes": 118,
+        "original_field_sha256": "ccf138d03f3748b90c8b7edd68e6e336a5623d02cf0e97cd6d4fec7d1b06e771",
+        "replacement_bytes": 78,
+        "replacement_sha256": "3b40fa05614eacc1efacc3c4d5ab0c36c3f66b5475875a125b8be446f4e2c17b",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_core_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3633496,
+        "original_field_bytes": 118,
+        "original_field_sha256": "ccf138d03f3748b90c8b7edd68e6e336a5623d02cf0e97cd6d4fec7d1b06e771",
+        "replacement_bytes": 78,
+        "replacement_sha256": "3b40fa05614eacc1efacc3c4d5ab0c36c3f66b5475875a125b8be446f4e2c17b",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_core_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3643504,
+        "original_field_bytes": 119,
+        "original_field_sha256": "a665cd7efa06cb6dab129f0480bf2e1ed3aaed540d281d231bac50b6011f6bff",
+        "replacement_bytes": 72,
+        "replacement_sha256": "ec9dad5c90c5a5950a77c8c9decc3f55de159133b487fd809ba21f2ba97236d0",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_stone_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 3644864,
+        "original_field_bytes": 119,
+        "original_field_sha256": "a665cd7efa06cb6dab129f0480bf2e1ed3aaed540d281d231bac50b6011f6bff",
+        "replacement_bytes": 72,
+        "replacement_sha256": "ec9dad5c90c5a5950a77c8c9decc3f55de159133b487fd809ba21f2ba97236d0",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_stone_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 6396050,
+        "original_field_bytes": 116,
+        "original_field_sha256": "659d7962d1bd71ae0776d37ad9d029e2bdd5466b315ab36082ad38aadcc3b65d",
+        "replacement_bytes": 69,
+        "replacement_sha256": "f4cc47fe726967171a8b708c7db01ae9780de24e062a2abb383a2a7d8c03c0ba",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_stone_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 6397410,
+        "original_field_bytes": 116,
+        "original_field_sha256": "659d7962d1bd71ae0776d37ad9d029e2bdd5466b315ab36082ad38aadcc3b65d",
+        "replacement_bytes": 69,
+        "replacement_sha256": "f4cc47fe726967171a8b708c7db01ae9780de24e062a2abb383a2a7d8c03c0ba",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_stone_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 6438221,
+        "original_field_bytes": 119,
+        "original_field_sha256": "4a20d95fc954df3b942f0a0436558449ec2f1a38dbc1246ca7d539e98b88ffd1",
+        "replacement_bytes": 79,
+        "replacement_sha256": "a8c4eba3b4b9d48c92dc4baa1d521bd05b3e583b925559efcc12fe4924830439",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_stone_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 6439581,
+        "original_field_bytes": 119,
+        "original_field_sha256": "4a20d95fc954df3b942f0a0436558449ec2f1a38dbc1246ca7d539e98b88ffd1",
+        "replacement_bytes": 79,
+        "replacement_sha256": "a8c4eba3b4b9d48c92dc4baa1d521bd05b3e583b925559efcc12fe4924830439",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_stone_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 6803100,
+        "original_field_bytes": 118,
+        "original_field_sha256": "a581512dd379a914281c6a7278e8d8a6914838d4df31653d8a73e21d8fb31a42",
+        "replacement_bytes": 71,
+        "replacement_sha256": "0657ce95de0de92fe51270b4049b711a1e2ef2f809d694078a980dd10b2c2ca1",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_wood_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 6804460,
+        "original_field_bytes": 118,
+        "original_field_sha256": "a581512dd379a914281c6a7278e8d8a6914838d4df31653d8a73e21d8fb31a42",
+        "replacement_bytes": 71,
+        "replacement_sha256": "0657ce95de0de92fe51270b4049b711a1e2ef2f809d694078a980dd10b2c2ca1",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_wood_basecolor_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 7584881,
+        "original_field_bytes": 115,
+        "original_field_sha256": "52729b69ca9e54a70669bc5a69eab1dc5bab796db483d1037e02a41c9bf0bf56",
+        "replacement_bytes": 68,
+        "replacement_sha256": "1457d7f9bc656563567b47d7b009ce0335c2249566227240c20260da5dd43a86",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_wood_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 7586241,
+        "original_field_bytes": 115,
+        "original_field_sha256": "52729b69ca9e54a70669bc5a69eab1dc5bab796db483d1037e02a41c9bf0bf56",
+        "replacement_bytes": 68,
+        "replacement_sha256": "1457d7f9bc656563567b47d7b009ce0335c2249566227240c20260da5dd43a86",
+        "public_target": "assets/v3/rising_seal/rising_seal_seal_wood_normal_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 8095219,
+        "original_field_bytes": 118,
+        "original_field_sha256": "16fd9665e841381ef8947b66218c4abcd0518fc109d679edebf94a61061b3e68",
+        "replacement_bytes": 78,
+        "replacement_sha256": "e2d8a1225c31fcd114a0d9e87033f8b45bf787e3000d0518427c5371569cfb36",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_wood_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      },
+      {
+        "offset": 8096579,
+        "original_field_bytes": 118,
+        "original_field_sha256": "16fd9665e841381ef8947b66218c4abcd0518fc109d679edebf94a61061b3e68",
+        "replacement_bytes": 78,
+        "replacement_sha256": "e2d8a1225c31fcd114a0d9e87033f8b45bf787e3000d0518427c5371569cfb36",
+        "public_target": "asset_sources/v3/rising_seal/p3/textures/seal_wood_roughness_p3.png",
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      }
+    ],
+    "only_expected_path_bytes_changed_after_purification": true,
+    "full_evaluated_geometry_verified": false,
+    "final_native_snapshot_validation_pending": false,
+    "final_native_snapshot_validation_passed": true
+  },
+  {
+    "original_sha256": "39040b2272ae1d16e2aed2b106339bbf664101b10f99fd33b2b8f9bccda58e42",
+    "source_relative_path": "asset_sources/v3/rising_seal/p3/rising_seal_source_p3.blend",
+    "purified_sha256": "dd4992354b0d0c238d567d50f5a88f3f9d4797429e389bc77af814d5ff86f89e",
+    "removed_packed_reference_sha256": "6f139127394eb9c59913f6fdd66dec510c18a658460efd594a9fd73475c939a8",
+    "removed_reference_bytes": 2836953,
+    "neutral_placeholder_packed_sha256": "ebb81dddb02274a5de3b60ca6d3fbd21c5d1ed3c83d2ebde8f28f0e13aa0c952",
+    "neutral_placeholder_dimensions": [
+      8,
+      8
+    ],
+    "source_previews_cleared": 0,
+    "viewer_datablocks_removed": 2,
+    "base_geometry_UV_object_transforms_and_material_node_scalar_links_identical": true,
+    "snapshot_sha256": "610cebe94bc08729b78d240a5b48fb9ffe41a8327dad4f22f9a60495d2c35f27",
+    "reference_image_usages": [
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      },
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      },
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      }
+    ],
+    "original_reference_visual_missing": true,
+    "source_or_embedded_code_executed": false,
+    "original_written": false,
+    "save_preview_disabled": true,
+    "original_packed_bytes_absence_check_pending": false,
+    "neutral_placeholder_created_by_this_audit": true,
+    "original_packed_bytes_absent": true,
+    "saved_file_has_no_thumbnail_block": true,
+    "canonical_public_path": "archive/legacy-native-assets/sanitized-reference/rising-seal-source-p3.blend",
+    "final_sha256": "db6ff735fa8b9ea4db608316e0ae64e9bd2e67160f4025cbd03ef782c296064e",
+    "final_bytes": 523793,
+    "path_fields_changed": [
+      {
+        "offset": 176532,
+        "original_field_bytes": 26,
+        "original_field_sha256": "c1d9e145fc077be40c76e8a8611de04808fd35467cae49f321f7c2dd4b412bfb",
+        "replacement_bytes": 12,
+        "replacement_sha256": "e4bfdeead0de4ad3704b35c8086f5dcbee950b002e5556642b6bed80e955e692",
+        "public_target": null,
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      }
+    ],
+    "only_expected_path_bytes_changed_after_purification": true,
+    "full_evaluated_geometry_verified": false,
+    "final_native_snapshot_validation_pending": false,
+    "final_native_snapshot_validation_passed": true
+  },
+  {
+    "original_sha256": "2189499c5a0c7c51a217761fa740fe95c3476ab72ea1346b694b1713b9848c2f",
+    "source_relative_path": "asset_sources/v3/rising_seal/p3/low_grain_v1/rising_seal_source_p3.blend",
+    "purified_sha256": "df0447927edec332dc5b3a4c1338e8877ad3df2d6f4d339ebf0d9b3420fe91b4",
+    "removed_packed_reference_sha256": "6f139127394eb9c59913f6fdd66dec510c18a658460efd594a9fd73475c939a8",
+    "removed_reference_bytes": 2836953,
+    "neutral_placeholder_packed_sha256": "ebb81dddb02274a5de3b60ca6d3fbd21c5d1ed3c83d2ebde8f28f0e13aa0c952",
+    "neutral_placeholder_dimensions": [
+      8,
+      8
+    ],
+    "source_previews_cleared": 0,
+    "viewer_datablocks_removed": 2,
+    "base_geometry_UV_object_transforms_and_material_node_scalar_links_identical": true,
+    "snapshot_sha256": "42e08436c4067efe44e3462b4f35ef6060f28408427b21f682ea76cfa68162aa",
+    "reference_image_usages": [
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      },
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      },
+      {
+        "tree_type": "ShaderNodeTree",
+        "tree_name_sha256": "a34094010940e1151675ac8aae9aa45698e92fff3b73aba7686b98b84ab86257",
+        "image_node_type": "ShaderNodeTexImage",
+        "reachable_output_sockets": [
+          {
+            "output_node_type": "ShaderNodeOutputMaterial",
+            "socket": "Surface"
+          }
+        ],
+        "known_dependency_on_displacement_or_geometry_nodes": false
+      }
+    ],
+    "original_reference_visual_missing": true,
+    "source_or_embedded_code_executed": false,
+    "original_written": false,
+    "save_preview_disabled": true,
+    "original_packed_bytes_absence_check_pending": false,
+    "neutral_placeholder_created_by_this_audit": true,
+    "original_packed_bytes_absent": true,
+    "saved_file_has_no_thumbnail_block": true,
+    "canonical_public_path": "archive/legacy-native-assets/sanitized-reference/rising-seal-low-grain-v1.blend",
+    "final_sha256": "27ea7fa9327be9b00f96b7fca8c5973a90d6a12a31ba1262f56a74af981cd1e0",
+    "final_bytes": 523720,
+    "path_fields_changed": [
+      {
+        "offset": 176532,
+        "original_field_bytes": 26,
+        "original_field_sha256": "c1d9e145fc077be40c76e8a8611de04808fd35467cae49f321f7c2dd4b412bfb",
+        "replacement_bytes": 12,
+        "replacement_sha256": "e4bfdeead0de4ad3704b35c8086f5dcbee950b002e5556642b6bed80e955e692",
+        "public_target": null,
+        "kind": "purified-source-relative-path-or-private-metadata-placeholder"
+      }
+    ],
+    "only_expected_path_bytes_changed_after_purification": true,
+    "full_evaluated_geometry_verified": false,
+    "final_native_snapshot_validation_pending": false,
+    "final_native_snapshot_validation_passed": true
+  }
+]

@@ -1,0 +1,13 @@
+# P8 — REJECTED_ART, source frozen, no GLB
+
+Root and the asset author actually viewed the full and close images against the approved V2 reference. The wider deposit and three relatively clear beds now read, but the 4,909 small stones have overly consistent scale, spacing and brightness. The hard-ended deposit regions look like inset gravel paving. Larger-stone islands repeat along the three channels. P8 is rejected; increasing the count again is not the chosen remedy.
+
+The successful bounded run was Blender PID 39768, CPU2, natural exit 0, 129.8744 seconds. Two earlier interface failures were retained: a missing local helper import (before geometry), then a library-load list mutation in the new comparator (after geometry, before bake). Both failed scripts/logs and the second failed geometry checkpoint remain in their named folders. No final failure was hidden or replaced by an approval claim.
+
+Actual source: 7,638 low triangles, 159 editable low parts; their float32 vertices, original polygon index order and object matrices equal P7 exactly. All 166 source checks passed. The 4,909 high-only grains contain 98,180 triangles and are excluded from runtime. Every source grain's checked vertices include actual soil penetration and protrusion. Global low bounds remain X ±3m, Y −0.18..+0.027m, Z 0..2.398788m. This is not game physics verification.
+
+The same 5mm top-down exposed-triangle measurement gives 3.1744m² high-only grain coverage, 3.80765m² combined coverage (40.98% of 9.292275m² soil). The broad deposit-domain occupancy is 71.64%; bed occupancy is 9.29%. These figures quantify the new distribution but do not make it aesthetically correct. The density is now a visible problem rather than a missing numerical target.
+
+Native BaseColor/ORM/Normal maps were saved and the actual blend reopened with relative paths resolved through Blender. Tangent NormalMap uses BakeUV at strength 1. At 390 selected grain UV samples the AO range is 0.336–1, median 0.887; none is below 0.2. This does not certify every pixel. The whole mud surface is not black, but some unchanged large-fragment contacts retain strong dark lips. The standard glTF AO material is separate from the preview multiplication approximation. No albedo shadows were painted into the input image. `orm_repack_check.json` confirms exact G/B at covered UV pixel centers; differences are confined to padding.
+
+Original imagegen V2 remains the shape/color reference. P9 will replace the failed high-only pebble blanket with a documented soil PBR input and continuous material transition while retaining the real low grooves and large stones. No P8 GLB, collision package, runtime installation or performance conclusion exists.

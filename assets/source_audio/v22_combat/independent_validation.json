@@ -1,0 +1,9 @@
+{
+  "scope": "Independent offline WAV decode/hash/source/fade/headroom validation; not engine or listening",
+  "files": 37,
+  "families": 13,
+  "seconds": 37.475,
+  "bytes": 3599228,
+  "failures": [],
+  "manifest_sha256": "aa4e359828aca9564ffea0ea01eb5f4ef3a19ab5d4fc834472912c6ddcfbffc0"
+}

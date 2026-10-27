@@ -1,0 +1,38 @@
+{
+	"checks": {
+		"catalog_and_all_streams_loaded": true,
+		"fantasy_context_accepted": true,
+		"in_range_event_accepted": true,
+		"invalid_network_position_rejected": true,
+		"low_priority_cannot_steal_warnings": true,
+		"nonfinite_rejected": true,
+		"out_of_range_dropped": true,
+		"release_requires_new_listener": true,
+		"release_stops_spatial_voices": true,
+		"same_emitter_cooldown": true,
+		"same_frame_pool_slots_reserved": true,
+		"settings_mute_and_sfx_zero": true,
+		"shared_pause_blocks_gameplay_cues": true,
+		"shared_pause_keeps_ui": true,
+		"shutdown_rejects_events": true,
+		"spatial_voice_limit": true,
+		"unknown_cue_rejected": true,
+		"unmute_preserves_channel_zero": true
+	},
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failed": [],
+	"headless_is_not_physical_output_evidence": true,
+	"human_listening": "not_performed",
+	"passed": true,
+	"schema": 1
+}

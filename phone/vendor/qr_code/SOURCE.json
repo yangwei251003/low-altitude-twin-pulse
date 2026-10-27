@@ -1,0 +1,18 @@
+{
+  "project": "Kenyoni Godot Addons / QR Code",
+  "repository": "https://github.com/kenyoni-software/godot-addons",
+  "revision": "3d92d1bab93c0a8cb58951c039ddb17acd70a449",
+  "upstream_directory": "addons/kenyoni/qr_code",
+  "acquired_date": "2026-10-14",
+  "license": "MIT",
+  "license_file": "LICENSE.md",
+  "additional_notice": "shift_jis.gd retains the original Project X0213 free-use/modify/distribute mapping-table notice in its source.",
+  "modifications": ["qr_code.gd: use relative preload paths for isolated vendoring; algorithm unchanged"],
+  "upstream_sha256": {
+    "bit_stream.gd": "489323852f7d2d257ba22e14ef4ef607c110abd4bd7be0d9c82e382d3188b19f",
+    "LICENSE.md": "631845873e1cf2a2507f4c48833688b86ce7ca7c15c68e7e6c82bb13b108dbf7",
+    "qr_code.gd": "46e2a06d8e18af254e7cacc75eaa4c939f0dacf57b5632f6937ec8d7c00b52fe",
+    "reed_solomon.gd": "c411cd67b820935f058247e44b633b31b9d12dc25b81fa17f0e4d13744062327",
+    "shift_jis.gd": "e8ba29440a92e158c49fbd1913c0019703798aa7851766be110863e4bef6b421"
+  }
+}

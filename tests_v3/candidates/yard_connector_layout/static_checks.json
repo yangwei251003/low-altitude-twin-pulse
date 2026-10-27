@@ -1,0 +1,14 @@
+{
+  "kind": "static_preparation_only",
+  "python_ast_files": [
+    "scripts_tools\\v3\\candidates\\yard_connector_layout\\build_blender_input.py",
+    "scripts_tools\\v3\\candidates\\yard_connector_layout\\run_export.py",
+    "tests_v3\\candidates\\yard_connector_layout\\test_boundary_cpu.py"
+  ],
+  "synthetic_boundary_tests": 7,
+  "synthetic_result": "PASS; unittest actual exit0 0.010s",
+  "production_geometry_hash_changed": {},
+  "engine_executed": false,
+  "actual_visible_area_m2": null,
+  "scope": "No production area or render verdict"
+}

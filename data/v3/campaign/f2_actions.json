@@ -1,0 +1,489 @@
+{
+  "schema_version": 1,
+  "content_id": "campaign_f2_extension_v1",
+  "extends_content_id": "opening_v1",
+  "status": "authored_candidate_not_scene_integrated",
+  "scope_note": "行动数据与真实状态绑定契约。目标数量、5–8分钟均为制作预算；本文件不证明地区可玩、实体机制、趣味或体验时长。坐标需Root以默认镜头及真实碰撞核对。",
+  "characters": [
+    {
+      "id": "npc:shuyao",
+      "name": "疏谣",
+      "role": "镜湖档案守护者",
+      "region_id": "F2",
+      "greeting_lines": [
+        "湖上的倒影会换方向，记过的事不会自己变。先拿出原件，我们再说是谁伤了谁。"
+      ],
+      "replies": [
+        {
+          "after": "F2:mirrorwing_warden:record",
+          "lines": [
+            "行动完成 · 巡守记录把重复配额指向热崖冷却中继；疏谣愿随无线电继续核对。"
+          ]
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "npc:shuyao",
+      "region": "F2",
+      "position": [
+        -22,
+        8,
+        20
+      ],
+      "kind": "npc",
+      "label": "疏谣 · 镜湖档案庭",
+      "radius": 3
+    },
+    {
+      "id": "F2:record_low",
+      "region": "F2",
+      "position": [
+        -12,
+        3,
+        10
+      ],
+      "kind": "inspect",
+      "label": "湖檐 · 原始记录",
+      "radius": 3
+    },
+    {
+      "id": "F2:record_high",
+      "region": "F2",
+      "position": [
+        16,
+        13,
+        -4
+      ],
+      "kind": "inspect",
+      "label": "悬庭 · 原始记录",
+      "radius": 3
+    },
+    {
+      "id": "F2:clock_stone",
+      "region": "F2",
+      "position": [
+        21,
+        8,
+        15
+      ],
+      "kind": "inspect",
+      "label": "校时刻度石",
+      "radius": 3
+    },
+    {
+      "id": "F2:choice_terminal",
+      "region": "F2",
+      "position": [
+        -22,
+        8,
+        18
+      ],
+      "kind": "inspect",
+      "label": "原件与校时 · 公开确认",
+      "radius": 3
+    },
+    {
+      "id": "F2:boss_briefing",
+      "region": "F2",
+      "position": [
+        0,
+        10,
+        -19
+      ],
+      "kind": "inspect",
+      "label": "镜翼战区 · 安全檐",
+      "radius": 3
+    },
+    {
+      "id": "F2:boss_record",
+      "region": "F2",
+      "position": [
+        0,
+        10,
+        -24
+      ],
+      "kind": "inspect",
+      "label": "巡守核心 · 中继记录",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "F2:mirror_evidence",
+      "title": "镜面记录没有说完的话",
+      "region_id": "F2",
+      "prerequisites": [
+        "I2:twin_pump_guardian"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 校时与公开方案已留存。北庭可辨认真身的影子，前往停下镜翼巡守。",
+      "objectives": [
+        {
+          "id": "F2:mirror_evidence:records",
+          "text": "从不同高度读取两份相反的镜面记录",
+          "hint": "一份在低湖檐，一份在上层悬庭；分别靠近按 G。倒影只提示路径，不能替代读取真实记录。",
+          "after": [],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F2:paired_records",
+              "options": [
+                "both_read"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "F2:contradictory_records",
+              "title": "停电与枯根的两份记录缺少同一段校时"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:shuyao",
+              "lines": [
+                "两份记录都是真的，却没有记同一段时间。别急着拿其中一份指认另一边。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F2:mirror_evidence:archive",
+          "text": "向疏谣核对缺失的校时与镜翼巡守",
+          "hint": "档案守护者在西侧悬庭；靠近交谈。她能说明记录的来源，也会提醒你镜翼守卫的真身有固定投影。",
+          "after": [
+            "F2:mirror_evidence:records"
+          ],
+          "events": [
+            {
+              "type": "talk",
+              "target_id": "npc:shuyao",
+              "options": [
+                "clock_gap"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "character_memory",
+              "character_id": "npc:shuyao",
+              "memory": "F2:evidence_before_blame"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:shuyao",
+              "lines": [
+                "抽取开始前，校时曾被同一个中继延迟。巡守因此把两边都当成入侵者。把光路接回刻度石，缺失的时间会显出来。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F2:mirror_evidence:light",
+          "text": "转动导光镜，让光束照亮校时刻度石",
+          "hint": "选光照并锁定镜体，施放后每次转动30°。可用原镜直达，或借东侧旁路镜把光再转回来；沿每段实际落点对齐接收石前面。中途遮挡会截断光路，对接收石直接发光不能替代。",
+          "after": [
+            "F2:mirror_evidence:archive"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F2:clock_light_path",
+              "options": [
+                "manual_mirror",
+                "takeover_mirror"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F2:clock_path_restored",
+              "value": true
+            },
+            {
+              "type": "discovery",
+              "discovery_id": "F2:aligned_timeline",
+              "title": "两界失流与上游配额覆盖处于同一条时间线"
+            }
+          ]
+        },
+        {
+          "id": "F2:mirror_evidence:decision",
+          "text": "决定立即公开原始证据，或附校时说明共同发布",
+          "hint": "立即公开：两界居民马上看到原件，疏谣须处理未校时的争议；共同发布：阮衡与疏谣先补说明，延后本区公告。原件始终保留，不销毁、不封锁后续调查。联机双方确认，提交前建立分支。",
+          "after": [
+            "F2:mirror_evidence:light"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F2:chapter_choice",
+              "options": [
+                "publish_raw",
+                "publish_context"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F2:chapter_decision_saved",
+              "value": true
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:shuyao",
+              "memory": "F2:publication_consent"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:shuyao",
+              "lines": [
+                "原件会留下。我们记住怎样公开，也记住谁需要把遗漏的解释补上。现在去让巡守停下来，别让它继续攻击过路人。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": []
+    },
+    {
+      "id": "F2:mirrorwing_warden",
+      "title": "只有真身会遮住光",
+      "region_id": "F2",
+      "prerequisites": [
+        "F2:mirror_evidence"
+      ],
+      "target_minutes": [
+        5,
+        8
+      ],
+      "completion_text": "行动完成 · 巡守记录把重复配额指向热崖冷却中继；疏谣愿随无线电继续核对。",
+      "objectives": [
+        {
+          "id": "F2:mirrorwing_warden:plan",
+          "text": "核对战区退路，确认停机方案",
+          "hint": "巡守会留下两个镜像。先选4光照，Tab锁定辨真光源后按F，让真身挡住通往背光传感面的光束，形成真实投影；验证后，恢复窗口的真翼才会开放。再绕到无遮挡的一侧射击，不要向镜像浪费火力。",
+          "after": [],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "F2:boss_briefing",
+              "options": [
+                "plan"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "dialogue",
+              "character_id": "npc:shuyao",
+              "lines": [
+                "巡守会留下两个镜像。先选4光照，Tab锁定辨真光源后按F，让真身挡住通往背光传感面的光束，形成真实投影；验证后，恢复窗口的真翼才会开放。再绕到无遮挡的一侧射击，不要向镜像浪费火力。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F2:mirrorwing_warden:engage",
+          "text": "进入战区，观察一次完整预警与恢复窗口",
+          "hint": "离开安全台才会交战；先看形状、高度和可用掩体。倒地可救援，全灭可整场重试，不扣已有资产。",
+          "after": [
+            "F2:mirrorwing_warden:plan"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F2:boss_observed",
+              "options": [
+                "observed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F2:boss_pattern_observed",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "F2:mirrorwing_warden:stop",
+          "text": "处理关键部件，停下失控核心",
+          "hint": "按本区机制创造窗口；射击、能力和环境操作可组合。半血后重新观察节奏；结算保存成功才算停机。",
+          "after": [
+            "F2:mirrorwing_warden:engage"
+          ],
+          "events": [
+            {
+              "type": "fact",
+              "target_id": "F2:boss_defeated",
+              "options": [
+                "committed"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "flag",
+              "key": "F2:boss_stopped",
+              "value": true
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:shuyao",
+              "lines": [
+                "失控核心已停下，先保留它的运行记录。停机不能替我们决定接下来把支脉交给谁。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F2:mirrorwing_warden:record",
+          "text": "近距读取停机记录，核对下一段真实去向",
+          "hint": "靠近核心侧记录台按 G；需看见目标。只有停机保存后才能读取；无需返回起点领奖。",
+          "after": [
+            "F2:mirrorwing_warden:stop"
+          ],
+          "events": [
+            {
+              "type": "inspect",
+              "target_id": "F2:boss_record",
+              "options": [
+                "record"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "discovery",
+              "discovery_id": "F2:operation_record",
+              "title": "巡守记录把重复配额指向热崖冷却中继；疏谣愿随无线电继续核对。"
+            },
+            {
+              "type": "character_memory",
+              "character_id": "npc:shuyao",
+              "memory": "F2:record_shared"
+            },
+            {
+              "type": "dialogue",
+              "character_id": "npc:shuyao",
+              "lines": [
+                "巡守记录把重复配额指向热崖冷却中继；疏谣愿随无线电继续核对。"
+              ]
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "type": "flag",
+          "key": "F2:region_route_open",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "character_reply_extensions": [],
+  "host_bindings": {
+    "F2:paired_records": {
+      "source": "two_host_manual_inspection_receipts",
+      "options": [
+        "both_read"
+      ],
+      "navigation_marker_id": "F2:record_low",
+      "required_validation": [
+        "both_markers_explicitly_read",
+        "actual_range_and_los_each",
+        "same_branch"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "required_markers": [
+        "F2:record_low",
+        "F2:record_high"
+      ]
+    },
+    "F2:clock_light_path": {
+      "source": "actual_two_segment_reflection_and_receiver_hit",
+      "options": [
+        "manual_mirror",
+        "takeover_mirror"
+      ],
+      "navigation_marker_id": "F2:clock_stone",
+      "required_validation": [
+        "mirror_actual_pose",
+        "source_mirror_receiver_segments_unoccluded",
+        "receiver_front_face_hit"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "reject_as_proof": [
+        "direct_ability_target",
+        "player_position_in_reflection"
+      ]
+    },
+    "F2:chapter_choice": {
+      "source": "host_consensus_after_evidence_cost_panels",
+      "options": [
+        "publish_raw",
+        "publish_context"
+      ],
+      "navigation_marker_id": "F2:choice_terminal",
+      "required_validation": [
+        "aligned_timeline_committed",
+        "both_cost_panels_inspected",
+        "branch_created_before_commit",
+        "party_consensus_if_two_players"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "consumes_major_choice_budget": 1
+    },
+    "F2:boss_observed": {
+      "source": "host_observed_full_telegraph_active_recovery_cycle",
+      "options": [
+        "observed"
+      ],
+      "navigation_marker_id": "F2:boss_briefing",
+      "required_validation": [
+        "real_arena_entry",
+        "player_present_and_alive",
+        "one_full_pattern_cycle"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "mirrorwing_warden"
+    },
+    "F2:boss_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "options": [
+        "committed"
+      ],
+      "navigation_marker_id": "F2:boss_briefing",
+      "required_validation": [
+        "authoritative_encounter_completed",
+        "same_store_victory_flag_and_receipt",
+        "guest_reward_deduplicated"
+      ],
+      "requires_authority": true,
+      "retain_before_objective": true,
+      "commit_before_publish": true,
+      "boss_id": "mirrorwing_warden",
+      "campaign_receipt_id": "boss:F2:mirrorwing_warden:opening_v1",
+      "reward_id": "boss:F2:mirrorwing_warden",
+      "world_victory_flag": "F2_boss"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "content_id": "opening_v1",
+  "title": "断流之后",
+  "scope_note": "首段四行动、十五目标单元。5–8分钟是每行动的设计目标，尚未通过人玩计时；不代表八区主线、NPC人物模型或10–15小时内容完成。",
+  "characters": [
+    {
+      "id": "npc:linlan", "name": "林岚", "role": "港口救援调度", "region_id": "I1",
+      "greeting_lines": ["桥面的检修无人机失去联络了。先接通它，我来安排南岸接应。"],
+      "replies": [
+        {"after": "I1:rescue:brief", "lines": ["供电、热旁路、接管控制台都能试。你也可以从上方绕过去，别为开门冒不必要的险。"]},
+        {"after": "I1:rescue:contact", "lines": ["听到检修机的信标了。它还能自己返航，把南岸的安全路线传回来。"]},
+        {"after": "I1:rescue:evacuate", "lines": ["接应点收到指引。检修机已切回返航程序，谢谢。", "还有一件事：断电前，港口电表反而在向外倒转。阮衡守着那段线路。"]},
+        {"after": "F1:repair:confirm", "lines": ["港口的应急灯稳定了，另一边也保住了育苗棚。", "这只是这一段支路。是谁让两边互相失血，我们继续查。"]}
+      ]
+    },
+    {
+      "id": "npc:ruanheng", "name": "阮衡", "role": "港口值班工程师", "region_id": "I1",
+      "greeting_lines": ["这条线还连着居民区的应急电。要检查可以，别把总闸直接拔掉。"],
+      "replies": [
+        {"after": "I1:evidence:trace", "lines": ["烧痕朝着港外，不像普通过载。你找到的回流痕迹，和我的记录对上了。"]},
+        {"after": "I1:evidence:engineer", "lines": ["桥面记录匣里有断流前的方向记录。先看清流向，再决定改哪条线。"]},
+        {"after": "I1:evidence:ledger", "lines": ["港口没有收到这笔能量，它被更远的阵列截走了。东岸信标能追到另一端。"]},
+        {"after": "F1:repair:plan", "lines": ["不切总线。先让另一边的光路自行供养，再把本地支路设成双向限流。"]},
+        {"after": "F1:repair:confirm", "lines": ["局部回流已经停止。阵列上的异常指令还在；下一步需要它的原始记录。"]}
+      ]
+    },
+    {
+      "id": "npc:atai", "name": "阿苔", "role": "根谷守林人", "region_id": "F1",
+      "greeting_lines": ["你的机器发出和断流前一样的鸣声。先别取走这里的光，我们还要靠它养活幼根。"],
+      "replies": [
+        {"after": "F1:needs:listen", "lines": ["南边育苗棚的根正在干枯。你可以自己看，再决定要不要帮忙。"]},
+        {"after": "F1:needs:nursery", "lines": ["东岸的根台还能接住光。从空中过去也行，借枝桥或折跃也行，不必折断活根。"]},
+        {"after": "F1:needs:route", "lines": ["原来你们的应急灯也靠同一条脉络。争着抽干它，最后两边都会暗下来。"]},
+        {"after": "F1:repair:plan", "lines": ["先把环上的光导回幼根，再让枝桥接起来。等根能自己供养，我们才改支路。"]},
+        {"after": "F1:repair:grow", "lines": ["枝桥恢复了。我会照料这段根，你去东岸接口检查两边的读数。"]},
+        {"after": "F1:repair:confirm", "lines": ["幼根重新有了光。这次你带来的是一条活路。", "北面的老根仍在失血；这股抽取不是从港口结束的。"]}
+      ]
+    }
+  ],
+  "markers": [
+    {"id":"npc:linlan", "region":"I1", "position":[-18,1.2,35], "kind":"npc", "label":"林岚 · 救援无线电", "radius":4},
+    {"id":"npc:ruanheng", "region":"I1", "position":[-10.5,1.2,18], "kind":"npc", "label":"阮衡 · 工程联络台", "radius":3},
+    {"id":"I1:rescue_pocket", "region":"I1", "position":[-24,6.15,21.2], "kind":"reach", "label":"失联检修机", "radius":2.2},
+    {"id":"I1:rescue_exit", "region":"I1", "position":[-20,2,32], "kind":"reach", "label":"南岸接应航标", "radius":3},
+    {"id":"I1:burn_trace", "region":"I1", "position":[-12,1.1,14], "kind":"inspect", "label":"反向烧蚀的线路", "radius":3},
+    {"id":"I1:energy_ledger", "region":"I1", "position":[-21,5.5,25], "kind":"inspect", "label":"桥面流向记录匣", "radius":2.5},
+    {"id":"I1:beacon_echo", "region":"I1", "position":[29,3.8,32], "kind":"inspect", "label":"跨界回声", "radius":3},
+    {"id":"npc:atai", "region":"F1", "position":[-29,1.2,31], "kind":"npc", "label":"阿苔 · 守林联络处", "radius":3},
+    {"id":"F1:dry_nursery", "region":"F1", "position":[-18.5,2,31], "kind":"inspect", "label":"失光的幼根", "radius":3},
+    {"id":"F1:nursery_landing", "region":"F1", "position":[13,3.8,32], "kind":"reach", "label":"东岸育根台", "radius":3},
+    {"id":"F1:shared_junction", "region":"F1", "position":[29,3.8,32], "kind":"inspect", "label":"两界支路接口", "radius":3}
+  ],
+  "actions": [
+    {
+      "id":"I1:rescue", "title":"先接回失联的声音", "region_id":"I1", "prerequisites":[], "target_minutes":[5,8],
+      "completion_text":"行动完成 · 检修机已恢复返航。\n发现能量倒流；沿继电器旁的烧痕查原因。",
+      "objectives":[
+        {
+          "id":"I1:rescue:brief", "text":"接听林岚的救援呼叫", "hint":"南岸救援无线电处按交互键；检修无人机停在桥后高处。", "after":[],
+          "events":[{"type":"talk","target_id":"npc:linlan","options":["rescue_brief"]}],
+          "effects":[{"type":"dialogue","character_id":"npc:linlan","lines":["检修机困在桥后。开闸可以恢复常规通道，你也能从上方绕过去接通它。", "南岸由我接应；先找到它，别急着追事故原因。"]},{"type":"character_memory","character_id":"npc:linlan","memory":"opening:accepted_rescue"}]
+        },
+        {
+          "id":"I1:rescue:channel", "text":"建立桥后救援通路", "hint":"供能、加热旁路或接管开闸；也可从上方飞到桥后高处。", "after":["I1:rescue:brief"],
+          "events":[{"type":"fact","target_id":"I1:rescue_channel","options":["charge","heat","takeover","aerial"]}],
+          "effects":[{"type":"flag","key":"opening:rescue_channel_known","value":true},{"type":"dialogue","character_id":"npc:linlan","lines":["你已经找到可接近的路线。靠近桥后检修机，重新握手它的信标。"]}]
+        },
+        {
+          "id":"I1:rescue:contact", "text":"靠近桥后的检修无人机，恢复联络", "hint":"目标在桥面以上，不在桥下；接近后自动连接。", "after":["I1:rescue:channel"],
+          "events":[{"type":"reach","target_id":"I1:rescue_pocket","options":[""]}],
+          "effects":[{"type":"flag","key":"opening:rescue_contact","value":true},{"type":"dialogue","character_id":"npc:linlan","lines":["信标回来了，它还能自行返航。请飞到南岸航标，给它确认最后一段安全路线。"]}]
+        },
+        {
+          "id":"I1:rescue:evacuate", "text":"抵达南岸航标，完成撤离联络", "hint":"返回河湾南侧接应点；无需搬运无人机或人员。", "after":["I1:rescue:contact"],
+          "events":[{"type":"reach","target_id":"I1:rescue_exit","options":[""]}],
+          "effects":[{"type":"character_memory","character_id":"npc:linlan","memory":"opening:route_confirmed"},{"type":"dialogue","character_id":"npc:linlan","lines":["接应点收到，检修机已恢复返航程序。", "刚才的停电不对劲：沿继电器旁那段烧黑的线看看。"]}]
+        }
+      ],
+      "effects":[{"type":"flag","key":"opening:rescue_completed","value":true},{"type":"discovery","discovery_id":"opening:rescue_log","title":"一场伴随能量倒流的事故"}]
+    },
+    {
+      "id":"I1:evidence", "title":"电表倒转的方向", "region_id":"I1", "prerequisites":["I1:rescue"], "target_minutes":[5,8],
+      "completion_text":"行动完成 · 流向记录指向港外的第三接收端。\n另一界也在求援；通航后前往巨木神殿。",
+      "objectives":[
+        {
+          "id":"I1:evidence:trace", "text":"检查继电器旁的反向烧蚀痕迹", "hint":"烧痕指向港外；靠近线路按交互键读取。", "after":[],
+          "events":[{"type":"inspect","target_id":"I1:burn_trace","options":[""]}],
+          "effects":[{"type":"discovery","discovery_id":"opening:reverse_burn","title":"烧蚀方向与普通过载相反"},{"type":"dialogue","character_id":"npc:ruanheng","lines":["对，这不是简单断电。电荷离开了港口，却没有经过我们的配电支路。"]}]
+        },
+        {
+          "id":"I1:evidence:engineer", "text":"向阮衡核实回流与居民供电的关系", "hint":"工程联络台在继电器附近；了解为什么不能直接切断总线。", "after":["I1:evidence:trace"],
+          "events":[{"type":"talk","target_id":"npc:ruanheng","options":["reverse_flow"]}],
+          "effects":[{"type":"character_memory","character_id":"npc:ruanheng","memory":"opening:kept_emergency_power"},{"type":"dialogue","character_id":"npc:ruanheng","lines":["拔掉总线能止住回流，也会熄掉居民区的应急灯。", "桥面的记录匣留着断流前的流向，先找出是谁在抽走能量。"]}]
+        },
+        {
+          "id":"I1:evidence:ledger", "text":"登上桥面读取断流前的流向记录", "hint":"记录匣在桥面侧翼；飞行升高，留意卷帘与桥框。", "after":["I1:evidence:engineer"],
+          "events":[{"type":"inspect","target_id":"I1:energy_ledger","options":[""]}],
+          "effects":[{"type":"discovery","discovery_id":"opening:extraction_record","title":"能量被更远的共振阵列截走"},{"type":"dialogue","character_id":"npc:ruanheng","lines":["记录里有第三个接收端。港口没拿到这笔能量，另一边恐怕也一样。", "东岸信标还保留着来路的回声。"]}]
+        },
+        {
+          "id":"I1:evidence:echo", "text":"在东岸信标辨认另一界的求援回声", "hint":"检查信标回声，随后可与同伴共同前往巨木神殿。", "after":["I1:evidence:ledger"],
+          "events":[{"type":"inspect","target_id":"I1:beacon_echo","options":[""]}],
+          "effects":[{"type":"dialogue","character_id":"npc:atai","lines":["……幼根又暗了。听得见吗？别再抽走这段脉络里的光。"]}]
+        }
+      ],
+      "effects":[{"type":"flag","key":"opening:crossing_known","value":true},{"type":"discovery","discovery_id":"opening:other_shore_call","title":"巨木居民也在承受断流"}]
+    },
+    {
+      "id":"F1:needs", "title":"光照着谁的生活", "region_id":"F1", "prerequisites":["I1:evidence"], "target_minutes":[5,8],
+      "completion_text":"行动完成 · 找到了能接光的东岸育根台。\n接通阿苔和阮衡，商量两岸都能用的修复办法。",
+      "objectives":[
+        {
+          "id":"F1:needs:listen", "text":"听阿苔说明幼根与居民的需要", "hint":"守林联络处在神殿西南；交互了解对方为什么不愿让出光。", "after":[],
+          "events":[{"type":"talk","target_id":"npc:atai","options":["needs"]}],
+          "effects":[{"type":"character_memory","character_id":"npc:atai","memory":"opening:listened_before_taking"},{"type":"dialogue","character_id":"npc:atai","lines":["这里不是一座给机器充电的空殿。幼根要靠这道光活过旱季，根下还住着人。", "去看南侧的育苗棚。看过以后，我们再谈你们的需要。"]}]
+        },
+        {
+          "id":"F1:needs:nursery", "text":"检查失光幼根，辨认尚存的生长方向", "hint":"检查幼根留下的亮纹；它们朝东岸仍活着的根台延伸。", "after":["F1:needs:listen"],
+          "events":[{"type":"inspect","target_id":"F1:dry_nursery","options":[""]}],
+          "effects":[{"type":"discovery","discovery_id":"opening:nursery_dependency","title":"根谷生活与港口应急灯依赖同一支脉"},{"type":"dialogue","character_id":"npc:atai","lines":["根没有死，东岸还留着能接光的一段。先找到那块根台，我们一起看清能救什么。"]}]
+        },
+        {
+          "id":"F1:needs:route", "text":"选择路线抵达东岸育根台", "hint":"自由飞行、沿已生长的枝桥、或用短距折跃接近；抵达后自动记录。", "after":["F1:needs:nursery"],
+          "events":[{"type":"reach","target_id":"F1:nursery_landing","options":["flight","growth","blink"]}],
+          "effects":[{"type":"flag","key":"opening:nursery_route_known","value":true},{"type":"dialogue","character_id":"npc:atai","lines":["就是这里。你们不是唯一失去光的人，我们也不能只顾自己。", "我在西岸联络处。让你们的工程师一起听，我们试着保住两边。"]}]
+        }
+      ],
+      "effects":[{"type":"character_memory","character_id":"npc:atai","memory":"opening:saw_living_roots"},{"type":"flag","key":"opening:shared_need_understood","value":true}]
+    },
+    {
+      "id":"F1:repair", "title":"让支脉先活下来", "region_id":"F1", "prerequisites":["F1:needs"], "target_minutes":[5,8],
+      "completion_text":"行动完成 · 光路与枝桥已恢复，局部回流停止。\n在东岸信标提交本区通航修复，按 M 回潮湾北港，再联络阮衡截停鲸机。",
+      "objectives":[
+        {
+          "id":"F1:repair:plan", "text":"与阿苔和阮衡商定局部修复顺序", "hint":"回到西岸联络处接通双方；这次局部修复不替你决定未来阵营。", "after":[],
+          "events":[{"type":"talk","target_id":"npc:atai","options":["repair_plan"]}],
+          "effects":[{"type":"dialogue","character_id":"npc:atai","lines":["先让环上的光照回幼根，再接起枝桥。不要把光只引向你们那边。"]},{"type":"dialogue","character_id":"npc:ruanheng","lines":["同意。本地根台恢复后，再检查东岸支路接口，确认两边没有继续互相抽取。"]},{"type":"character_memory","character_id":"npc:ruanheng","memory":"opening:local_repair_partner"}]
+        },
+        {
+          "id":"F1:repair:light", "text":"转动神殿光环，让真实光束照到幼根", "hint":"对光环使用光能以转向；光路需对齐且没有遮挡，照亮自身不能代替。", "after":["F1:repair:plan"],
+          "events":[{"type":"fact","target_id":"F1:light_receiver","options":["aligned"]}],
+          "effects":[{"type":"flag","key":"opening:light_route_observed","value":true},{"type":"dialogue","character_id":"npc:atai","lines":["光接上了。让幼根顺着这条亮路生长；如果被挡住，先恢复光路。"]}]
+        },
+        {
+          "id":"F1:repair:grow", "text":"催生幼根，接起可承重的枝桥", "hint":"保持光路有效，对幼根使用生长；枝桥形成碰撞通路后自动确认。", "after":["F1:repair:light"],
+          "events":[{"type":"fact","target_id":"F1:growth_bridge","options":["grown"]}],
+          "effects":[{"type":"flag","key":"opening:living_bridge_restored","value":true},{"type":"dialogue","character_id":"npc:atai","lines":["枝桥接起来了。它留在这里，后来的人也能用。", "请到东岸支路接口检查读数，我看着这边的幼根。"]}]
+        },
+        {
+          "id":"F1:repair:confirm", "text":"检查东岸接口，核对两界局部回流停止", "hint":"枝桥与光路恢复后检查接口。核对后，先对身旁跨界信标使用机械接管，或给本地继电器供电，再点“提交通航修复”。这只修复本地支路，上游抽取仍待追查。", "after":["F1:repair:grow"],
+          "events":[{"type":"inspect","target_id":"F1:shared_junction","options":[""]}],
+          "effects":[{"type":"dialogue","character_id":"npc:ruanheng","lines":["本地回流止住了，应急灯也稳定下来。先回北港截停鲸机，取出它收到的原始指令，再追老根上的抽取来源。"]},{"type":"dialogue","character_id":"npc:atai","lines":["幼根亮了。我在根道等你们的记录；查清指令，才能知道该改哪一段脉络。"]},{"type":"character_memory","character_id":"npc:atai","memory":"opening:repair_partner"},{"type":"character_memory","character_id":"npc:linlan","memory":"opening:both_shores_answered"}]
+        }
+      ],
+      "effects":[{"type":"flag","key":"opening:local_repair_completed","value":true},{"type":"discovery","discovery_id":"opening:shared_repair_record","title":"第一条共同修复的支路与仍在抽取的上游阵列"}]
+    }
+  ]
+}

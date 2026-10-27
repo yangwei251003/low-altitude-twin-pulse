@@ -1,0 +1,319 @@
+{
+  "version": "V2.2 combat",
+  "units": "meters",
+  "up_axis": "Y",
+  "front_axis": "-Z",
+  "license": "CC0-1.0",
+  "author": "Low Altitude Squad project original procedural art",
+  "models": [
+    {
+      "id": "enemy_scout",
+      "scene": "res://assets/models/v22_combat/enemy_scout.glb",
+      "source": "assets/source_models/v22_combat/enemy_scout.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        1.544,
+        0.8612,
+        1.345
+      ],
+      "triangles": 12776,
+      "surface_count": 5,
+      "mesh_nodes": [
+        "Body",
+        "Rotor_0",
+        "Rotor_1",
+        "Rotor_2",
+        "Lights"
+      ],
+      "rotor_nodes": {
+        "Rotor_0": [
+          -0.48,
+          0.04,
+          -0.24
+        ],
+        "Rotor_1": [
+          0.48,
+          0.04,
+          -0.24
+        ],
+        "Rotor_2": [
+          0,
+          0.04,
+          0.52
+        ]
+      },
+      "usage": "Scout / visible sensor head, three ducted motors, amber IFF",
+      "sha256": "271d24ca1bdf383d3ee5e2aa117c4e1dacafb4a03647dd2fe6e3c6efbcc48332",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "enemy_harasser",
+      "scene": "res://assets/models/v22_combat/enemy_harasser.glb",
+      "source": "assets/source_models/v22_combat/enemy_harasser.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        1.724,
+        0.7627,
+        1.425
+      ],
+      "triangles": 15752,
+      "surface_count": 6,
+      "mesh_nodes": [
+        "Body",
+        "Rotor_0",
+        "Rotor_1",
+        "Rotor_2",
+        "Rotor_3",
+        "Lights"
+      ],
+      "rotor_nodes": {
+        "Rotor_0": [
+          -0.58,
+          0.04,
+          -0.3
+        ],
+        "Rotor_1": [
+          0.58,
+          0.04,
+          -0.3
+        ],
+        "Rotor_2": [
+          -0.47,
+          0.04,
+          0.43
+        ],
+        "Rotor_3": [
+          0.47,
+          0.04,
+          0.43
+        ]
+      },
+      "usage": "Harasser / long hull, swept ducts, twin tail fins",
+      "sha256": "ff09020cb95e49ae75bb0db4f1274b0fc6969956f44c38d80b1035045831a498",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "enemy_suppressor",
+      "scene": "res://assets/models/v22_combat/enemy_suppressor.glb",
+      "source": "assets/source_models/v22_combat/enemy_suppressor.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        2.184,
+        0.9525,
+        1.644
+      ],
+      "triangles": 17504,
+      "surface_count": 6,
+      "mesh_nodes": [
+        "Body",
+        "Rotor_0",
+        "Rotor_1",
+        "Rotor_2",
+        "Rotor_3",
+        "Lights"
+      ],
+      "rotor_nodes": {
+        "Rotor_0": [
+          -0.74,
+          0.02,
+          -0.47
+        ],
+        "Rotor_1": [
+          0.74,
+          0.02,
+          -0.47
+        ],
+        "Rotor_2": [
+          -0.74,
+          0.02,
+          0.47
+        ],
+        "Rotor_3": [
+          0.74,
+          0.02,
+          0.47
+        ]
+      },
+      "usage": "Suppression / wide low armor, four large ducts, paired barrels",
+      "sha256": "e8ea6fbc9e1cf4357823938fdf875dd2ff7f1d5900b0e5f3b4acfdbdde2ed4b7",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "enemy_support",
+      "scene": "res://assets/models/v22_combat/enemy_support.glb",
+      "source": "assets/source_models/v22_combat/enemy_support.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        1.794,
+        0.9912,
+        1.334
+      ],
+      "triangles": 17224,
+      "surface_count": 6,
+      "mesh_nodes": [
+        "Body",
+        "Rotor_0",
+        "Rotor_1",
+        "Rotor_2",
+        "Rotor_3",
+        "Lights"
+      ],
+      "rotor_nodes": {
+        "Rotor_0": [
+          -0.59,
+          0.03,
+          -0.36
+        ],
+        "Rotor_1": [
+          0.59,
+          0.03,
+          -0.36
+        ],
+        "Rotor_2": [
+          -0.59,
+          0.03,
+          0.36
+        ],
+        "Rotor_3": [
+          0.59,
+          0.03,
+          0.36
+        ]
+      },
+      "usage": "Support / circular service body, reservoirs, repair nozzles",
+      "sha256": "d063a308eb24e48fc857f49ede5f2400669c4e89e088bda291bcc9276fa7dfc7",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "weapon_pulse",
+      "scene": "res://assets/models/v22_combat/weapon_pulse.glb",
+      "source": "assets/source_models/v22_combat/weapon_pulse.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        0.34,
+        0.2337,
+        0.6
+      ],
+      "triangles": 820,
+      "surface_count": 1,
+      "mesh_nodes": [
+        "Body"
+      ],
+      "rotor_nodes": {},
+      "usage": "Modular pulse weapon; mounting origin is pivot, Muzzle points -Z",
+      "sha256": "bf928c10d5efa39a09e43067fc47df5cf601af355f1c42576406e7b8c991d6f3",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "weapon_burst",
+      "scene": "res://assets/models/v22_combat/weapon_burst.glb",
+      "source": "assets/source_models/v22_combat/weapon_burst.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        0.43,
+        0.2737,
+        0.68
+      ],
+      "triangles": 1308,
+      "surface_count": 1,
+      "mesh_nodes": [
+        "Body"
+      ],
+      "rotor_nodes": {},
+      "usage": "Modular burst weapon; mounting origin is pivot, Muzzle points -Z",
+      "sha256": "308609d917ec92d9676356642ee9ba621d3372efd59f9af053566f9ac7504e06",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "weapon_lance",
+      "scene": "res://assets/models/v22_combat/weapon_lance.glb",
+      "source": "assets/source_models/v22_combat/weapon_lance.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        0.34,
+        0.2587,
+        0.745
+      ],
+      "triangles": 1464,
+      "surface_count": 2,
+      "mesh_nodes": [
+        "Body",
+        "Lights"
+      ],
+      "rotor_nodes": {},
+      "usage": "Modular lance weapon; mounting origin is pivot, Muzzle points -Z",
+      "sha256": "ef625e45ee199b6a3394a0fd8f419647bba3a9c35a559fc1ebf42097b0410814",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "wreck_core",
+      "scene": "res://assets/models/v22_combat/wreck_core.glb",
+      "source": "assets/source_models/v22_combat/wreck_core.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        0.4765,
+        0.3226,
+        0.6737
+      ],
+      "triangles": 1328,
+      "surface_count": 1,
+      "mesh_nodes": [
+        "Body"
+      ],
+      "rotor_nodes": {},
+      "usage": "Shared collision wreck core / exposed battery and broken bus",
+      "sha256": "40d105b3755ec7ce516d4e273666c0764cf9b288dda9423c9071811c0db0885a",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "wreck_rotor",
+      "scene": "res://assets/models/v22_combat/wreck_rotor.glb",
+      "source": "assets/source_models/v22_combat/wreck_rotor.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        0.8074,
+        0.1941,
+        0.51
+      ],
+      "triangles": 1040,
+      "surface_count": 1,
+      "mesh_nodes": [
+        "Body"
+      ],
+      "rotor_nodes": {},
+      "usage": "Shared rotor arm wreck / duct, hub and bent blade",
+      "sha256": "52aba4c2946532f8e2aff4ea604a2fbc19c4ae2f1fb4aa8af953b9c11ba43a3c",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "wreck_panel",
+      "scene": "res://assets/models/v22_combat/wreck_panel.glb",
+      "source": "assets/source_models/v22_combat/wreck_panel.blend",
+      "scale": 1.0,
+      "front": "-Z",
+      "size_xyz": [
+        0.3298,
+        0.0795,
+        0.4075
+      ],
+      "triangles": 532,
+      "surface_count": 1,
+      "mesh_nodes": [
+        "Body"
+      ],
+      "rotor_nodes": {},
+      "usage": "Shared detached enamel panel / underside rib and retained bolts",
+      "sha256": "8b59e1fa79ef971f34121ad82ded9e521578500c95c5fe4bfadee05e433de996",
+      "license": "CC0-1.0"
+    }
+  ]
+}

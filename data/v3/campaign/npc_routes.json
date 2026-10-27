@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "status": "authored_route_corridors_not_physics_verified",
+  "regions": [
+    {
+      "id": "I2",
+      "nodes": [
+        {
+          "id": "supply",
+          "position": [
+            -20,
+            7,
+            18
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "hub",
+          "position": [
+            -6,
+            9,
+            18
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        },
+        {
+          "id": "service",
+          "position": [
+            16,
+            8,
+            13
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "upper",
+          "position": [
+            -2,
+            12,
+            5
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "shelter",
+          "position": [
+            -20,
+            10,
+            22
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "nodes": [
+        {
+          "id": "supply",
+          "position": [
+            -25,
+            12,
+            24
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "hub",
+          "position": [
+            -8,
+            15,
+            17
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        },
+        {
+          "id": "service",
+          "position": [
+            23,
+            14,
+            15
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "upper",
+          "position": [
+            12,
+            18,
+            0
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "shelter",
+          "position": [
+            -28,
+            15,
+            26
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "nodes": [
+        {
+          "id": "supply",
+          "position": [
+            -25,
+            9,
+            24
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "hub",
+          "position": [
+            -6,
+            12,
+            17
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        },
+        {
+          "id": "service",
+          "position": [
+            23,
+            12,
+            12
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "upper",
+          "position": [
+            12,
+            18,
+            0
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "shelter",
+          "position": [
+            -28,
+            12,
+            26
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "nodes": [
+        {
+          "id": "supply",
+          "position": [
+            -25,
+            12,
+            24
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "hub",
+          "position": [
+            -8,
+            15,
+            17
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        },
+        {
+          "id": "service",
+          "position": [
+            23,
+            14,
+            15
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "upper",
+          "position": [
+            12,
+            18,
+            0
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "shelter",
+          "position": [
+            -28,
+            15,
+            26
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I4",
+      "nodes": [
+        {
+          "id": "supply",
+          "position": [
+            -25,
+            12,
+            24
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "hub",
+          "position": [
+            -8,
+            15,
+            17
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        },
+        {
+          "id": "service",
+          "position": [
+            23,
+            16,
+            15
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "upper",
+          "position": [
+            12,
+            20,
+            0
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "shelter",
+          "position": [
+            -28,
+            15,
+            26
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "nodes": [
+        {
+          "id": "supply",
+          "position": [
+            -25,
+            14,
+            24
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "hub",
+          "position": [
+            -8,
+            17,
+            17
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        },
+        {
+          "id": "service",
+          "position": [
+            23,
+            18,
+            15
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "upper",
+          "position": [
+            12,
+            22,
+            0
+          ],
+          "neighbors": [
+            "hub",
+            "shelter"
+          ]
+        },
+        {
+          "id": "shelter",
+          "position": [
+            -28,
+            17,
+            26
+          ],
+          "neighbors": [
+            "supply",
+            "service",
+            "upper"
+          ]
+        }
+      ]
+    }
+  ],
+  "actors": [
+    {
+      "id": "I2:service_01",
+      "name": "南湾检修运送机",
+      "region": "I2",
+      "role": "service_transport",
+      "purpose": "在南湾服务恢复后运送检修用品，断供时回供应点，不介入病房水量。",
+      "start_node": "supply",
+      "shelter_node": "shelter",
+      "speed": 2.5,
+      "power_policy": {
+        "channel": "supply_powered",
+        "loss": "return_supply",
+        "reserve_seconds": 0,
+        "supply_node": "supply"
+      },
+      "shelter_weather": [
+        "storm"
+      ],
+      "jobs": [
+        {
+          "node": "supply",
+          "kind": "pickup",
+          "target_id": "I2:service_supply",
+          "work_seconds": 3
+        },
+        {
+          "node": "service",
+          "kind": "deliver",
+          "target_id": "I2:service_receiver",
+          "work_seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "F2:lamp_01",
+      "name": "镜庭送灯机",
+      "region": "F2",
+      "role": "light_care",
+      "purpose": "维持低檐与上庭的路灯，风暴时绕回西庭避风。",
+      "start_node": "supply",
+      "shelter_node": "shelter",
+      "speed": 2.5,
+      "power_policy": {
+        "channel": "powered",
+        "loss": "ignore",
+        "reserve_seconds": 0,
+        "supply_node": "supply"
+      },
+      "shelter_weather": [
+        "storm"
+      ],
+      "jobs": [
+        {
+          "node": "service",
+          "kind": "repair",
+          "target_id": "F2:path_lamp",
+          "work_seconds": 5
+        },
+        {
+          "node": "upper",
+          "kind": "inspect",
+          "target_id": "F2:clock_stone",
+          "work_seconds": 3
+        }
+      ]
+    },
+    {
+      "id": "I3:coolant_01",
+      "name": "热崖冷却巡检机",
+      "region": "I3",
+      "role": "cooling_inspection",
+      "purpose": "巡查工人冷却与高台泊位；断供先用备用电完成一段再等待。",
+      "start_node": "supply",
+      "shelter_node": "shelter",
+      "speed": 2.5,
+      "power_policy": {
+        "channel": "maintenance_powered",
+        "loss": "reserve",
+        "reserve_seconds": 45,
+        "supply_node": "supply"
+      },
+      "shelter_weather": [
+        "storm"
+      ],
+      "jobs": [
+        {
+          "node": "service",
+          "kind": "repair",
+          "target_id": "I3:worker_cooling",
+          "work_seconds": 5
+        },
+        {
+          "node": "upper",
+          "kind": "inspect",
+          "target_id": "I3:loaded_dock",
+          "work_seconds": 3
+        }
+      ]
+    },
+    {
+      "id": "F3:nutrient_01",
+      "name": "菌谷养分运送机",
+      "region": "F3",
+      "role": "nutrient_transport",
+      "purpose": "取养分后向育苗台送达；只在保持养分线时工作。此真实到货可成为任务证据。",
+      "start_node": "supply",
+      "shelter_node": "shelter",
+      "speed": 2.5,
+      "power_policy": {
+        "channel": "supply_powered",
+        "loss": "return_supply",
+        "reserve_seconds": 0,
+        "supply_node": "supply"
+      },
+      "shelter_weather": [
+        "storm"
+      ],
+      "jobs": [
+        {
+          "node": "supply",
+          "kind": "pickup",
+          "target_id": "F3:nutrient_supply",
+          "work_seconds": 3
+        },
+        {
+          "node": "service",
+          "kind": "deliver",
+          "target_id": "F3:nutrient_receiver",
+          "work_seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "F3:pollinator_01",
+      "name": "菌谷授粉飞虫",
+      "region": "F3",
+      "role": "pollination",
+      "purpose": "往返两处保留的花簇，危险时回棚，不自动消耗剧情角色。",
+      "start_node": "supply",
+      "shelter_node": "shelter",
+      "speed": 2.5,
+      "power_policy": {
+        "channel": "powered",
+        "loss": "ignore",
+        "reserve_seconds": 0,
+        "supply_node": "supply"
+      },
+      "shelter_weather": [
+        "storm"
+      ],
+      "jobs": [
+        {
+          "node": "service",
+          "kind": "pollinate",
+          "target_id": "F3:east_bloom",
+          "work_seconds": 4
+        },
+        {
+          "node": "upper",
+          "kind": "pollinate",
+          "target_id": "F3:upper_bloom",
+          "work_seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "I4:watch_01",
+      "name": "阵列值守巡检机",
+      "region": "I4",
+      "role": "array_inspection",
+      "purpose": "巡查见证接收器和避风路，警示风暴的实际旁路。",
+      "start_node": "supply",
+      "shelter_node": "shelter",
+      "speed": 2.5,
+      "power_policy": {
+        "channel": "maintenance_powered",
+        "loss": "reserve",
+        "reserve_seconds": 45,
+        "supply_node": "supply"
+      },
+      "shelter_weather": [
+        "storm"
+      ],
+      "jobs": [
+        {
+          "node": "service",
+          "kind": "inspect",
+          "target_id": "I4:witness_receiver",
+          "work_seconds": 3
+        },
+        {
+          "node": "upper",
+          "kind": "repair",
+          "target_id": "I4:shelter_lamp",
+          "work_seconds": 5
+        }
+      ]
+    },
+    {
+      "id": "F4:care_01",
+      "name": "共脉接续看护机",
+      "region": "F4",
+      "role": "vein_care",
+      "purpose": "在两界接口间照料支脉，把故事修复转成可持续的地区服务。",
+      "start_node": "supply",
+      "shelter_node": "shelter",
+      "speed": 2.5,
+      "power_policy": {
+        "channel": "maintenance_powered",
+        "loss": "reserve",
+        "reserve_seconds": 45,
+        "supply_node": "supply"
+      },
+      "shelter_weather": [
+        "storm"
+      ],
+      "jobs": [
+        {
+          "node": "service",
+          "kind": "inspect",
+          "target_id": "F4:living_socket",
+          "work_seconds": 4
+        },
+        {
+          "node": "upper",
+          "kind": "repair",
+          "target_id": "F4:shared_test",
+          "work_seconds": 5
+        }
+      ]
+    }
+  ]
+}

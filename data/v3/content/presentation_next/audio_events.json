@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "developed_not_playtested",
+  "description": "Event definitions to merge into the existing V3 cue catalog. Existing TwinAudioV3 buses, limiter, settings, voice slots and event delivery remain authoritative.",
+  "events": {
+    "radio_f2_entry":{"files":["res://assets/v3/content/presentation_next/voices/radio_f2_entry.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":7,"cooldown_ms":1500},
+    "radio_i3_entry":{"files":["res://assets/v3/content/presentation_next/voices/radio_i3_entry.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":7,"cooldown_ms":1500},
+    "radio_f3_entry":{"files":["res://assets/v3/content/presentation_next/voices/radio_f3_entry.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":7,"cooldown_ms":1500},
+    "radio_i4_entry":{"files":["res://assets/v3/content/presentation_next/voices/radio_i4_entry.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":7,"cooldown_ms":1500},
+    "radio_f4_entry":{"files":["res://assets/v3/content/presentation_next/voices/radio_f4_entry.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":7,"cooldown_ms":1500},
+    "radio_final":{"files":["res://assets/v3/content/presentation_next/voices/radio_final.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":8,"cooldown_ms":2500},
+    "radio_f4_victory":{"files":["res://assets/v3/content/presentation_next/voices/radio_f4_victory.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":8,"cooldown_ms":2500},
+    "radio_ending_care":{"files":["res://assets/v3/content/presentation_next/voices/radio_ending_care.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":9,"cooldown_ms":3000},
+    "radio_ending_industry":{"files":["res://assets/v3/content/presentation_next/voices/radio_ending_industry.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":9,"cooldown_ms":3000},
+    "radio_ending_living":{"files":["res://assets/v3/content/presentation_next/voices/radio_ending_living.wav"],"bus":"ui","gain_db":-5.0,"range_m":1.0,"priority":9,"cooldown_ms":3000}
+  },
+  "loops": {},
+  "notes": ["Temporary locally synthesized Mandarin radio, not full character voiceover.","No new buses, mixers, gameplay flags or Store fields.","Text captions live in radio_lines.json and remain available without voice."]
+}

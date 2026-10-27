@@ -1,0 +1,4 @@
+Original V2.2 combat models, editable sources and generator are dedicated to CC0 1.0 Universal.
+Authoring: Low Altitude Squad project, 2026-10-15.
+No external geometry, textures, fonts or images used.
+https://creativecommons.org/publicdomain/zero/1.0/

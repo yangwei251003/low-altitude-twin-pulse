@@ -1,0 +1,21 @@
+{
+  "schema":1,
+  "status":"developed_not_playtested",
+  "entry":"res://scripts/v3/content/final_presentation/twin_final_boss_visuals.gd",
+  "calls":[
+    {"when":"after all six-later-Boss arena targets are built; after the I3 existing physical chassis exists","api":"decorate(arena: Node3D) -> Dictionary","result":"root, original_meshes, target_ids; Root may hide only the old MeshInstance3D nodes returned in original_meshes"},
+    {"when":"end of the original arena.apply_view(state,open_parts,defeated)","api":"apply_view(arena: Node3D,state: Dictionary,open_parts: Array,defeated: bool) -> void","result":"closed/open/broken local target skins; matte context structure; independent dormant remains"},
+    {"when":"reuse on an additive untextured finish, without overriding original ground/water shaders","api":"region_material(region: String,role: String='casing',emissive: bool=false) -> StandardMaterial3D","roles":["casing","dark","trim","accent","organic","mirror","signal","broken","scar"]},
+    {"when":"reuse a small district face on an existing landmark; already used on the new Boss cores","api":"make_region_badge(region: String) -> Node3D","result":"1.1m by 0.6m matte plate, no collider or script processing"}
+  ],
+  "state_contract":{
+    "empty_state":"original spec full HP and closed weak points, not destroyed",
+    "part_health":"state.parts[original_part_id] only",
+    "core_health":"state.core_hp_milli only",
+    "open_window":"only original open_parts membership; no mechanism or timing inference",
+    "defeated":"only the caller-supplied original authoritative committed-victory projection",
+    "no_new_state":"no saves, facts, events, flags, cooldowns, timers or client simulation"
+  },
+  "preserved":["all target IDs","all body transforms","all collision shapes/layers under original arena ownership","all hit and exposure rules","all original attack/warning geometry","all health and damage values","the F4 charge-return clearance offset","I3 existing rigid chassis ownership","selected I-B/F-B styles","all existing editable source assets"],
+  "limitations":["No engine, render, human comfort, play or performance test was run in this production subtask.","Existing mesh pieces are normalized into new low-detail assemblies; their appearances need the Root's eventual unified verification, not a separate Agent validation loop.","This subtask finishes the six-Boss presentation assets only and does not mark the overall game Goal complete."]
+}

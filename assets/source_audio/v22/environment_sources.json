@@ -1,0 +1,46 @@
+[
+  {
+    "id": "rain",
+    "author": "Ylmir",
+    "source_page": "https://opengameart.org/content/rain-loopable",
+    "download_url": "https://opengameart.org/sites/default/files/Rain%20OGG.zip",
+    "original_file": "Rain OGG.zip",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_sha256": "e68f3e1c77493cf43bec84cebff5043bff6be9ce16d59b24caa988cd460aa75b",
+    "license_page_sha256": "e0f0c444caa0ddeaeb34fb954c5a6ed3c52eb498028cd1a80b85d7afbe35be31"
+  },
+  {
+    "id": "vehicle_start",
+    "author": "looneybits",
+    "source_page": "https://opengameart.org/content/car-engine-start-up-02",
+    "download_url": "https://opengameart.org/sites/default/files/engine_start_up_01.wav",
+    "original_file": "engine_start_up_01.wav",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_sha256": "026311134479a4bb21f7f9a4a64c2b47791373c6e3613d36045387eee0fa0b23",
+    "license_page_sha256": "ed9e4e6e6529ec84c95b8b0a817d3e62f4ac2ad5a506e5b30095bc96d9109eae"
+  },
+  {
+    "id": "vehicle_loop",
+    "author": "domasx2",
+    "source_page": "https://opengameart.org/content/racing-car-engine-sound-loops",
+    "download_url": "https://opengameart.org/sites/default/files/loop_0.wav",
+    "original_file": "loop_0.wav",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_sha256": "69d74b106509037ce547429e4c3f9ae906b0fffe88d0bb8b3b5a8b0cfc239048",
+    "license_page_sha256": "5aeef005d8977a1e65678eaab501ee15461cad97ffb47f8b9329463b73aadb4b"
+  },
+  {
+    "id": "traffic",
+    "author": "IgnasD",
+    "source_page": "https://opengameart.org/content/high-traffic-road-sounds",
+    "download_url": "https://opengameart.org/sites/default/files/gatve%20Varniu_2.ogg",
+    "original_file": "gatve Varniu.ogg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_sha256": "1c7ce49677ade7ebc4c7f3bd58657a730b892713382d197ea96a2c0f4ead0c51",
+    "license_page_sha256": "aa026ea1984700a1384d24ae5331bb8210bb4ec666c4e4665c6b32e98692fe9a"
+  }
+]

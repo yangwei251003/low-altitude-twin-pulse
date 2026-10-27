@@ -1,0 +1,14 @@
+Low Altitude / Twin Pulse - original Dev93 flight-deck UI
+
+twinpulse_emblem.svg and the procedural flight-deck / airframe line drawing
+are original project-authored vector and CanvasItem artwork.
+Editable source: this SVG and scripts/v3/ui/front/twin_front_backdrop.gd.
+The selected aircraft outline uses its real catalog identity, dimensions,
+rotor count and silhouette family. It is labelled as a UI schematic and is
+not presented as a live game screenshot or a new 3D aircraft asset.
+
+No external image, logo, product UI copy, screenshot or stock texture is used.
+Noto Sans SC remains the project's existing font, with its existing license.
+
+This content Agent does not launch the engine, operate a pointer, render
+screenshots or run tests. Root owns integration and subsequent validation.

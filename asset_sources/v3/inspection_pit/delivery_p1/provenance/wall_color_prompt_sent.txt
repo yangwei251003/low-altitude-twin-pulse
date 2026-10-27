@@ -1,0 +1,15 @@
+Use case: precise-object-edit
+Asset type: targeted correction of a flat orthographic concrete-wall base-color texture, not a scene or model.
+Input image 1 is the EDIT TARGET. Preserve its edge-to-edge concrete, overall warm dry / cool damp palette, broad vertical runoff and rust trails, lower ecological staining, material grain, and front-on framing. Make only the three corrections below. No extra images or maps. Keep the same approximate 10:7 aspect and full image extent; do not add a border, side face or backdrop.
+
+1. Correct the mean salt/waterline to a HORIZONTAL datum at exactly 42.857% of image height measured from the top. It currently slopes down to the right. Remove that overall slope. The average centre of the broken salt crust must sit at this datum across left, middle and right. Natural interrupted fragments and local irregular up/down movement may remain within approximately plus or minus 2% of total image height; not a ruler-straight white stripe. Keep dry warm concrete above and cooler wet concrete below this level. Reconstruct the old wrongly placed salt band into appropriate dry/wet concrete so there is only ONE waterline, no ghost parallel stripe. Retain the other vertical stains as far as this correction permits.
+
+2. Relocate/reshape the existing lower-right repair to match the frozen model's real local repair region, without a second patch. These coordinates are measured from the TOP LEFT of the full image in PERCENT:
+bounding rectangle x=75.0..94.0%, y=51.0714..82.1429%; area centroid x=83.9256%, y=66.3300%.
+Its irregular perimeter follows this approximate 11-point sequence:
+(75.0,56.0714), (79.0,52.5), (82.0,54.6429), (88.0,51.0714), (92.0,58.2143), (90.25,64.6429), (94.0,71.0714), (90.0,79.6429), (83.0,82.1429), (78.5,75.3571), (75.0,70.3571).
+This is a shallow repair in the SAME concrete: preserve its neutral-grey rough cement and a few mixed aggregate fragments, irregular blending at its perimeter; no uniform black outline or illustrated pit shadow. Its uppermost edge must remain BELOW the corrected waterline, separated by at least 8% of image height. Restore the former high patch area to surrounding concrete, with no duplicate/ghost repair. For clarity these coordinates are not a request to print a diagram, numbers, or outline.
+
+3. Remove consistently directional bright rims and dark cast shading from small pores and aggregate. This must remain a de-lit BASE COLOR reference. Retain intrinsic mineral/cement colour variation and genuine dark staining; do not erase the texture, make it blurry, or turn it into uniform grey. Do not create a normal-map look, rim highlights, ambient-occlusion halos, baked lighting gradients, vignette or specular shine.
+
+All other material colours, vertical flow locations and the bottom uneven brown-green ecology should remain as close to the input as possible. No bolts, anchor plates, hardware, black construction seams, panel grid, depth silhouette, loose objects, water plane, text, logos, captions, measurements or scene context. Do not alter the source by an overall skew or global perspective warp. Exactly one corrected full-frame wall colour texture.

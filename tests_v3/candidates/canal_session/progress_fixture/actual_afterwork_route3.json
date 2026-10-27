@@ -1,0 +1,920 @@
+{
+  "bodies": {
+    "I2:canal_beneficiary_0": {
+      "absorbent": false,
+      "angular_damp": 0.5,
+      "angular_damp_mode": 0.0,
+      "angular_velocity": [
+        0.00290713924914598,
+        9.500281157670544e-05,
+        -0.10638663172721864
+      ],
+      "bounce": 0.119999997317791,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze": false,
+      "freeze_mode": 0.0,
+      "friction": 0.4000000059604645,
+      "gravity_scale": 1.0,
+      "layer": 2.0,
+      "linear_damp": 0.1599999964237213,
+      "linear_damp_mode": 0.0,
+      "mask": 47.0,
+      "mass": 3.200000047683716,
+      "physics_process": false,
+      "pose": [
+        0.9996301531791688,
+        0.02719551511108875,
+        5.343752036424121e-06,
+        -0.02719550766050815,
+        0.9996300339698792,
+        -0.00049439200665801,
+        -1.8787020962918177e-05,
+        0.00049406383186578,
+        0.9999998807907104,
+        12.206171989440918,
+        1.7999666929244995,
+        11.111834526062012
+      ],
+      "process": true,
+      "rough": false,
+      "shape_size": [
+        1.399999976158142,
+        0.47999998927116394,
+        1.399999976158142
+      ],
+      "sleeping": false,
+      "velocity": [
+        0.00676216976717114,
+        5.234011041466147e-05,
+        0.00148556276690214
+      ]
+    },
+    "I2:canal_cassette_0": {
+      "absorbent": false,
+      "angular_damp": 0.0,
+      "angular_damp_mode": 0.0,
+      "angular_velocity": [
+        -1.9058452732645395e-13,
+        7.314200460573073e-12,
+        7.625901863109187e-13
+      ],
+      "bounce": 0.0,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze": false,
+      "freeze_mode": 0.0,
+      "friction": 0.550000011920929,
+      "gravity_scale": 1.0,
+      "layer": 8.0,
+      "linear_damp": 0.0,
+      "linear_damp_mode": 0.0,
+      "mask": 47.0,
+      "mass": 2.0,
+      "physics_process": false,
+      "pose": [
+        0.9571971893310548,
+        0.01406958792358636,
+        0.2890944480895996,
+        -0.01344081293791532,
+        0.999900996685028,
+        -0.00416018441319465,
+        -0.28912436962127686,
+        9.645218960940838e-05,
+        0.957291543483734,
+        10.556236267089844,
+        0.4471469819545746,
+        6.069734573364258
+      ],
+      "process": false,
+      "rough": false,
+      "shape_size": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645
+      ],
+      "sleeping": false,
+      "velocity": [
+        -4.710898338089464e-12,
+        0.0,
+        -6.661338147750939e-13
+      ]
+    },
+    "I2:canal_cassette_1": {
+      "absorbent": false,
+      "angular_damp": 0.0,
+      "angular_damp_mode": 0.0,
+      "angular_velocity": [
+        0.0,
+        1.1425527191022413e-11,
+        0.0
+      ],
+      "bounce": 0.0,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze": false,
+      "freeze_mode": 0.0,
+      "friction": 0.550000011920929,
+      "gravity_scale": 1.0,
+      "layer": 8.0,
+      "linear_damp": 0.0,
+      "linear_damp_mode": 0.0,
+      "mask": 47.0,
+      "mass": 2.0,
+      "physics_process": false,
+      "pose": [
+        0.9996753931045532,
+        0.01116005051881074,
+        0.02290210127830505,
+        -0.01115327235311269,
+        0.9999377131462096,
+        -0.0004237025277689,
+        -0.02290540188550949,
+        0.00016813162073958,
+        0.9997376203536988,
+        7.535154342651367,
+        0.4477218985557556,
+        24.002336502075195
+      ],
+      "process": false,
+      "rough": false,
+      "shape_size": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645
+      ],
+      "sleeping": false,
+      "velocity": [
+        1.4228618283596006e-12,
+        0.0,
+        -4.654054919228656e-13
+      ]
+    },
+    "carrier": {
+      "absorbent": false,
+      "angular_damp": 0.5,
+      "angular_damp_mode": 0.0,
+      "angular_velocity": [
+        0.00010345526243327,
+        1.9360302871973545e-07,
+        0.00032510826713405
+      ],
+      "bounce": 0.119999997317791,
+      "can_sleep": false,
+      "continuous_cd": true,
+      "freeze": false,
+      "freeze_mode": 0.0,
+      "friction": 0.4000000059604645,
+      "gravity_scale": 1.0,
+      "layer": 2.0,
+      "linear_damp": 0.1599999964237213,
+      "linear_damp_mode": 0.0,
+      "mask": 45.0,
+      "mass": 3.200000047683716,
+      "physics_process": false,
+      "pose": [
+        0.9999982714653016,
+        0.00187340041156858,
+        -2.9945113055873657e-10,
+        -0.00187339505646377,
+        0.9999954104423524,
+        -0.00237507093697786,
+        -4.449158950592391e-06,
+        0.00237506674602627,
+        0.9999971985816956,
+        10.68027114868164,
+        2.0865702629089355,
+        6.177859783172607
+      ],
+      "process": true,
+      "rough": false,
+      "shape_size": [
+        1.399999976158142,
+        0.47999998927116394,
+        1.399999976158142
+      ],
+      "sleeping": false,
+      "velocity": [
+        0.00963741727173328,
+        -8.016309394065502e-09,
+        0.01148662436753511
+      ]
+    }
+  },
+  "carrier": {
+    "angular_velocity": [
+      0.00010345526243327,
+      1.9360302871973545e-07,
+      0.00032510826713405
+    ],
+    "health": 100.0,
+    "id": "carrier",
+    "maximum_health": 100.0,
+    "pose": [
+      0.9999982714653016,
+      0.00187340041156858,
+      -2.9945113055873657e-10,
+      -0.00187339505646377,
+      0.9999954104423524,
+      -0.00237507093697786,
+      -4.449158950592391e-06,
+      0.00237506674602627,
+      0.9999971985816956,
+      10.68027114868164,
+      2.0865702629089355,
+      6.177859783172607
+    ],
+    "state": {
+      "ability_cooldown": 0.0,
+      "ability_left": 0.0,
+      "battery": 98.35152411349394,
+      "damage": {
+        "armor": 14.0,
+        "components": {
+          "power": {
+            "health": 32.0,
+            "maximum": 32.0
+          },
+          "rotor_left": {
+            "health": 28.000000000000004,
+            "maximum": 28.000000000000004
+          },
+          "rotor_right": {
+            "health": 28.000000000000004,
+            "maximum": 28.000000000000004
+          },
+          "sensor": {
+            "health": 32.0,
+            "maximum": 32.0
+          }
+        },
+        "health": 100.0,
+        "maximum_armor": 14.0,
+        "maximum_health": 100.0,
+        "serial": 0.0
+      },
+      "damage_taken": 0.0,
+      "flight_seconds": 201.3000104986131,
+      "heading": 0.0,
+      "heat": 0.0,
+      "hold_height": 2.0865702629089355,
+      "recovery_left": 0.0,
+      "safe_position": [
+        7.699999809265137,
+        1.5499999523162842,
+        21.0
+      ],
+      "shield_cooldown": 0.0,
+      "shield_left": 0.0
+    },
+    "velocity": [
+      0.00963741727173328,
+      -8.016309394065502e-09,
+      0.01148662436753511
+    ],
+    "wait": {
+      "collision_count": 0.0,
+      "command": {
+        "active": true,
+        "body_relative": false,
+        "brake": true,
+        "fire": false,
+        "mode": "assisted",
+        "planar": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertical": 0.0,
+        "yaw": 0.0
+      },
+      "last_velocity": [
+        0.00963741727173328,
+        -8.016309394065502e-09,
+        0.01148662436753511
+      ]
+    }
+  },
+  "cooling": {
+    "axis": {
+      "algorithm": "guided_axis_v1",
+      "config_sha256": "9e5d7915ae1f9927a88fd2238558850a10369d223e686904f661e7de7f2da762",
+      "last_serial": {
+        "1": 2.0
+      },
+      "position_m": 0.28,
+      "velocity_mps": 0.0
+    },
+    "charge": 35.0,
+    "charge_serial": 1.0,
+    "contact_observation": {
+      "south_0": "",
+      "south_1": "I2:canal_cassette_1"
+    },
+    "id": "I2:canal_cooling_station_0",
+    "layout_sha256": "bad3d14bfcc40018c427f6b824f60449b3158383aab3db95af328e1ee5ef3ce6",
+    "paused": false,
+    "revision": 99.0,
+    "version": 1.0
+  },
+  "custody": {
+    "cargos": {
+      "I2:canal_cassette_0": {
+        "berth": "north_work",
+        "carrier": "",
+        "completed_serial": 45.0,
+        "fault": "",
+        "phase": "docked",
+        "serial": 45.0,
+        "stable_usec": 350000.0
+      },
+      "I2:canal_cassette_1": {
+        "berth": "south_1",
+        "carrier": "",
+        "completed_serial": 28.0,
+        "fault": "",
+        "phase": "docked",
+        "serial": 28.0,
+        "stable_usec": 350000.0
+      }
+    },
+    "joint": {},
+    "last_serial": 45.0,
+    "revision": 316.0,
+    "version": 3.0
+  },
+  "device_serial": 3.0,
+  "executor": {
+    "dock": {},
+    "fields": {
+      "_action": {
+        "actor": "carrier",
+        "blocked": true,
+        "cassette_id": "I2:canal_cassette_0",
+        "destination": "carrier",
+        "job": 0.0,
+        "kind": "pick",
+        "route": "low",
+        "serial": 12.0,
+        "source": "north_work"
+      },
+      "_active_ticks": 10952.0,
+      "_alignment_seconds": 0.0,
+      "_blocked_seconds": 13.416666666666911,
+      "_code": "pickup_alignment_precondition",
+      "_departure": {},
+      "_initial_collisions": 0.0,
+      "_initial_health": 100.0,
+      "_leg_started": false,
+      "_path_complete": false,
+      "_path_index": 0.0,
+      "_phase": "awaiting_external",
+      "_receipt_count": 10.0,
+      "_release_y": 0.0,
+      "_released": false,
+      "_restored_hold_only": false,
+      "_serial": 813.0,
+      "_waiting_for_beneficiary": false
+    },
+    "hold": {},
+    "path": [],
+    "pickup_supported_history": false,
+    "pilot": {
+      "alignment_cargo": "",
+      "alignment_origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "clear_seconds": 0.0,
+      "mode": "route",
+      "serial": 48.0,
+      "settled_seconds": 0.0,
+      "state": "arrived",
+      "target": [
+        10.600000381469728,
+        2.200000047683716,
+        6.0
+      ],
+      "version": 1.0
+    },
+    "version": 1.0
+  },
+  "kind": "canal_progress_checkpoint_v1",
+  "layout_sha256": "2b3614b9f1dcb9723ceb04d466d74ec053e69cebff89a1a4d038ea4d5a90e7d5",
+  "physics_hz": 60.0,
+  "rule_seconds": 184.10000000003868,
+  "rule_usec": 184100000.0,
+  "rules": {
+    "action_serial": 12.0,
+    "algorithm": "canal-service-work-priority-thermal-v2",
+    "buffer_enabled": false,
+    "carrier_anchor": "north_work",
+    "cassettes": {
+      "I2:canal_cassette_0": {
+        "energy_mj": 25633074.0,
+        "holder": "north_work",
+        "mass_g": 2000.0
+      },
+      "I2:canal_cassette_1": {
+        "energy_mj": 1.0,
+        "holder": "south_1",
+        "mass_g": 2000.0
+      }
+    },
+    "command_serial": 0.0,
+    "flow_credit_usec": 0.0,
+    "heat_credit": {
+      "I2:canal_cassette_0": {
+        "gain": 0.0,
+        "loss": 0.0
+      },
+      "I2:canal_cassette_1": {
+        "gain": 0.0,
+        "loss": 0.0
+      }
+    },
+    "job_requested": false,
+    "jobs_completed": 1.0,
+    "pending_action": {
+      "actor": "carrier",
+      "blocked": true,
+      "cassette_id": "I2:canal_cassette_0",
+      "destination": "carrier",
+      "job": 0.0,
+      "kind": "pick",
+      "route": "low",
+      "serial": 12.0,
+      "source": "north_work"
+    },
+    "pending_usec": 0.0,
+    "pilots": {
+      "pilot_a": {
+        "enabled": false,
+        "peer_id": 0.0
+      },
+      "pilot_b": {
+        "enabled": false,
+        "peer_id": 0.0
+      }
+    },
+    "policy": "staggered",
+    "pump_total_ml": 182400.0,
+    "revision": 11074.0,
+    "service_credit": 1.0,
+    "service_serial": 0.0,
+    "services_consumed": 0.0,
+    "thermal_ledger": {
+      "ability_added": 0.0,
+      "ability_removed": 0.0,
+      "ambient_added": 0.0,
+      "ambient_removed": 49366925.0,
+      "work_added": 25000000.0
+    },
+    "version": 1.0,
+    "water": {
+      "algorithm": "bounded-mix-v1",
+      "definition_digest": "c5a572a7de4f59fc41daa0e79703842932a8a9b59908c8032b0c554597e81df1",
+      "definition_id": "I2:canal_cooling_closed_v1",
+      "definition_version": 1.0,
+      "edges": {
+        "I2:canal_cooling_drain": {
+          "flow_carry": 0.0,
+          "last_direction": 1.0,
+          "last_transfer_ml": 100.0,
+          "open_permille": 0.0,
+          "powered": false
+        },
+        "I2:canal_cooling_pump": {
+          "flow_carry": 0.0,
+          "last_direction": 1.0,
+          "last_transfer_ml": 100.0,
+          "open_permille": 0.0,
+          "powered": false
+        },
+        "I2:canal_cooling_recirculate": {
+          "flow_carry": 0.0,
+          "last_direction": 1.0,
+          "last_transfer_ml": 100.0,
+          "open_permille": 0.0,
+          "powered": false
+        }
+      },
+      "nodes": {
+        "I2:canal_cooling_jacket": {
+          "clean_ml": 950.0,
+          "dirty_ml": 50.0
+        },
+        "I2:canal_cooling_reservoir": {
+          "clean_ml": 5700.0,
+          "dirty_ml": 300.0
+        },
+        "I2:canal_cooling_return": {
+          "clean_ml": 950.0,
+          "dirty_ml": 50.0
+        }
+      },
+      "pending_usec": 0.0,
+      "schema_version": 1.0,
+      "tick": 1841.0
+    },
+    "water_energy_mj": 0.0
+  },
+  "source_frame": 1437.0,
+  "version": 1.0,
+  "workbench": {
+    "action": {
+      "actor": "workbench",
+      "blocked": false,
+      "cassette_id": "I2:canal_cassette_0",
+      "destination": "north_work",
+      "job": 1.0,
+      "kind": "work",
+      "route": "stationary",
+      "serial": 11.0,
+      "source": "north_work"
+    },
+    "beneficiary": {
+      "angular_velocity": [
+        0.00290713924914598,
+        9.500281157670544e-05,
+        -0.10638663172721864
+      ],
+      "health": 100.0,
+      "id": "I2:canal_beneficiary_0",
+      "maximum_health": 100.0,
+      "pose": [
+        0.9996301531791688,
+        0.02719551511108875,
+        5.343752036424121e-06,
+        -0.02719550766050815,
+        0.9996300339698792,
+        -0.00049439200665801,
+        -1.8787020962918177e-05,
+        0.00049406383186578,
+        0.9999998807907104,
+        12.206171989440918,
+        1.7999666929244995,
+        11.111834526062012
+      ],
+      "state": {
+        "ability_cooldown": 0.0,
+        "ability_left": 0.0,
+        "battery": 99.9140492257172,
+        "damage": {
+          "armor": 14.0,
+          "components": {
+            "power": {
+              "health": 32.0,
+              "maximum": 32.0
+            },
+            "rotor_left": {
+              "health": 28.000000000000004,
+              "maximum": 28.000000000000004
+            },
+            "rotor_right": {
+              "health": 28.000000000000004,
+              "maximum": 28.000000000000004
+            },
+            "sensor": {
+              "health": 32.0,
+              "maximum": 32.0
+            }
+          },
+          "health": 100.0,
+          "maximum_armor": 14.0,
+          "maximum_health": 100.0,
+          "serial": 0.0
+        },
+        "damage_taken": 0.0,
+        "flight_seconds": 185.15000965632495,
+        "heading": 0.0,
+        "heat": 0.0,
+        "hold_height": 1.7999866485588427,
+        "recovery_left": 0.0,
+        "safe_position": [
+          6.600011348724365,
+          0.5600000023841858,
+          5.999996662139893
+        ],
+        "shield_cooldown": 0.0,
+        "shield_left": 0.0
+      },
+      "velocity": [
+        0.00676216976717114,
+        5.234011041466147e-05,
+        0.00148556276690214
+      ],
+      "wait": {
+        "collision_count": 0.0,
+        "command": {
+          "active": true,
+          "body_relative": false,
+          "brake": false,
+          "fire": false,
+          "mode": "assisted",
+          "planar": [
+            -0.00027476411196403,
+            0.0,
+            0.12857113778591156
+          ],
+          "vertical": 7.982253737282009e-06,
+          "yaw": 0.0
+        },
+        "last_velocity": [
+          0.00676216976717114,
+          5.234011041466147e-05,
+          0.00148556276690214
+        ]
+      }
+    },
+    "bound_pose": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      6.600011348724365,
+      0.5600000023841858,
+      5.999996662139893
+    ],
+    "charge": 35.0,
+    "charge_serial": 3.0,
+    "code": "service_kept:flying",
+    "collision_baseline": 0.0,
+    "departure": {
+      "code": "flying",
+      "collisions": 0.0,
+      "health": 100.0,
+      "index": 3.0,
+      "leg_started": true,
+      "phase": "route",
+      "pilot": {
+        "alignment_cargo": "",
+        "alignment_origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "clear_seconds": 0.0,
+        "mode": "route",
+        "serial": 3.0,
+        "settled_seconds": 0.0,
+        "state": "traveling",
+        "target": [
+          12.199999809265137,
+          1.7999999523162842,
+          14.0
+        ],
+        "version": 1.0
+      },
+      "serial": 3.0,
+      "stable_seconds": 0.0,
+      "support_pose": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.599999904632568,
+        0.1599999964237213,
+        6.0
+      ],
+      "support_position": [
+        5.399999618530273,
+        0.0,
+        4.800000190734863
+      ],
+      "support_size": [
+        2.40000057220459,
+        0.3199999928474426,
+        2.3999996185302734
+      ],
+      "version": 1.0
+    },
+    "health_baseline": 100.0,
+    "history": {
+      "first_departure": {
+        "beneficiary_id": "I2:canal_beneficiary_0",
+        "route_end": [
+          12.199999809265137,
+          1.7999999523162842,
+          14.0
+        ],
+        "work_serial": 11.0
+      },
+      "first_work": {
+        "action": {
+          "actor": "workbench",
+          "cassette_id": "I2:canal_cassette_0",
+          "destination": "north_work",
+          "job": 1.0,
+          "kind": "work",
+          "route": "stationary",
+          "serial": 11.0,
+          "source": "north_work"
+        },
+        "beneficiary_id": "I2:canal_beneficiary_0",
+        "beneficiary_pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.600011348724365,
+          0.5600000023841858,
+          5.999996662139893
+        ],
+        "frame": 595.0,
+        "measurements": [
+          {
+            "bounds_position": [
+              5.9000115394592285,
+              0.3199999928474426,
+              5.299996852874756
+            ],
+            "bounds_size": [
+              1.3999996185302734,
+              0.48000001907348633,
+              1.3999996185302734
+            ],
+            "frame": 592.0,
+            "gap_m": 0.09999996423721312,
+            "hit": [
+              6.25,
+              0.800000011920929,
+              6.0
+            ],
+            "stage": 0.0,
+            "tool": [
+              6.25,
+              0.9399999976158142,
+              6.0
+            ]
+          },
+          {
+            "bounds_position": [
+              5.9000115394592285,
+              0.3199999928474426,
+              5.299996852874756
+            ],
+            "bounds_size": [
+              1.3999996185302734,
+              0.48000001907348633,
+              1.3999996185302734
+            ],
+            "frame": 593.0,
+            "gap_m": 0.09999996423721312,
+            "hit": [
+              6.949999809265137,
+              0.800000011920929,
+              6.0
+            ],
+            "stage": 1.0,
+            "tool": [
+              6.949999809265137,
+              0.9399999976158142,
+              6.0
+            ]
+          },
+          {
+            "bounds_position": [
+              5.9000115394592285,
+              0.3199999928474426,
+              5.299996852874756
+            ],
+            "bounds_size": [
+              1.3999996185302734,
+              0.48000001907348633,
+              1.3999996185302734
+            ],
+            "frame": 594.0,
+            "gap_m": 0.09999996423721312,
+            "hit": [
+              6.25,
+              0.800000011920929,
+              6.0
+            ],
+            "stage": 2.0,
+            "tool": [
+              6.25,
+              0.9399999976158142,
+              6.0
+            ]
+          }
+        ],
+        "scan_distance_m": 1.3999996185302734
+      },
+      "source_frame": 595.0
+    },
+    "phase": "departing",
+    "scan_distance_m": 1.3999996185302734,
+    "stage": 4.0,
+    "support_observed_seconds": 0.0,
+    "terminal_pilot": {},
+    "tool": [
+      6.25,
+      0.9399999976158142,
+      4.650000095367432
+    ],
+    "tools": [
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.25,
+          0.9399999976158142,
+          4.650000095367432
+        ],
+        "size": [
+          0.119999997317791,
+          0.07999999821186066,
+          0.119999997317791
+        ]
+      },
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.25,
+          0.9900000095367432,
+          4.650000095367432
+        ],
+        "size": [
+          0.03999999910593033,
+          0.01999999955296516,
+          0.03999999910593033
+        ]
+      },
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.25,
+          1.0199999809265137,
+          4.650000095367432
+        ],
+        "size": [
+          0.03999999910593033,
+          0.03999999910593033,
+          0.12000009417533876
+        ]
+      },
+      {
+        "pose": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.25,
+          1.0525000095367432,
+          4.650000095367432
+        ],
+        "size": [
+          0.1599999964237213,
+          0.02500000037252903,
+          0.119999997317791
+        ]
+      }
+    ],
+    "version": 3.0
+  }
+}

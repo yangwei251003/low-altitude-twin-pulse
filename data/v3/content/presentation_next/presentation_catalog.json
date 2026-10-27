@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "status": "developed_not_playtested",
+  "factory": "res://scripts/v3/content/presentation_next/twin_content_prop_factory.gd",
+  "origin": "ground_center",
+  "collision": "none; world content owns physical support and flight clearance",
+  "palettes": {
+    "I-B":{"body":"b8c3bd","dark":"455d68","trim":"719095","accent":"d2ad69","signal":"78d4c0","soft":"9aab9e","warm":"a77151"},
+    "F-B":{"body":"b3b69b","dark":"596c5a","trim":"829173","accent":"d2c48c","signal":"8edcc6","soft":"a18fba","warm":"af876b"}
+  },
+  "props": {
+    "route_beacon":{"role":"route identity and safe side-route sign","width_m":1.6,"height_m":3.2,"depth_m":1.3,"variants":"one, two or three light bars"},
+    "archive_stela":{"role":"recognizable record / optional event landmark","width_m":2.0,"height_m":2.9,"depth_m":2.0},
+    "refuge_shelter":{"role":"a sheltered rest / worker encounter point","width_m":4.5,"height_m":3.5,"depth_m":3.3},
+    "maintenance_niche":{"role":"workbench, ordered tools and field repairs backdrop","width_m":3.6,"height_m":2.6,"depth_m":2.2},
+    "coolant_stack":{"role":"visible coolant supply / heavy freight destination backdrop","width_m":3.2,"height_m":1.9,"depth_m":2.5},
+    "resonance_pylon":{"role":"offshore resonator / crown-peak navigation landmark","width_m":2.2,"height_m":4.8,"depth_m":2.1},
+    "fungus_garden":{"role":"five mature fungi and quiet bioluminescent ecology patch","width_m":3.5,"height_m":2.4,"depth_m":3.5},
+    "root_canopy":{"role":"living overlook / side-route visual arch","width_m":5.1,"height_m":4.3,"depth_m":1.9},
+    "memorial_lantern":{"role":"small inhabited / remembered place marker","width_m":1.2,"height_m":2.9,"depth_m":1.2},
+    "signal_gate":{"role":"open route crossing, never a locked invisible blocker","width_m":8.3,"height_m":5.6,"depth_m":1.6,"inner_clearance_width_m":6.4,"inner_clearance_height_m":4.6},
+    "freight_buoy":{"role":"offshore supply / returned cargo landmark","width_m":2.4,"height_m":2.8,"depth_m":2.4},
+    "wind_vane":{"role":"readable coast / high-route windward worksite marker","width_m":2.3,"height_m":3.9,"depth_m":1.2},
+    "relay_cabinet":{"role":"existing editable industrial GLB, no new collider","glb":"res://assets/v3/industrial_kit/power_relay_cabinet.glb"},
+    "root_cluster":{"role":"existing editable living-root GLB, no new collider","glb":"res://assets/v3/fantasy_kit/photosensitive_roots.glb"},
+    "work_terrace":{"role":"existing editable work terrace GLB, no new collider","glb":"res://assets/v3/industrial_kit/coastal_work_terrace.glb"},
+    "root_terrace":{"role":"existing editable root terrace GLB, no new collider","glb":"res://assets/v3/fantasy_kit/rootstone_terrace.glb"}
+  },
+  "region_sets": {
+    "F2":{"name":"镜湖悬庭 · 送灯人的记录地","primary":"archive_stela","support":["route_beacon","memorial_lantern","root_canopy","refuge_shelter"],"ambient_loop":"ambient_fantasy","music_loop":"music_fantasy","entry_cue":"radio_f2_entry"},
+    "I3":{"name":"热崖制造带 · 换班与冷却补给","primary":"coolant_stack","support":["maintenance_niche","refuge_shelter","wind_vane","route_beacon"],"ambient_loop":"ambient_industrial","music_loop":"music_industrial","entry_cue":"radio_i3_entry"},
+    "F3":{"name":"鸣菌幽谷 · 营养互助小景","primary":"fungus_garden","support":["root_canopy","memorial_lantern","archive_stela","route_beacon"],"ambient_loop":"ambient_fantasy","music_loop":"music_fantasy","entry_cue":"radio_f3_entry"},
+    "I4":{"name":"离岸阵列 · 共签航路与补给线","primary":"resonance_pylon","support":["wind_vane","freight_buoy","archive_stela","signal_gate"],"ambient_loop":"ambient_industrial","music_loop":"music_industrial","entry_cue":"radio_i4_entry"},
+    "F4":{"name":"天脉冠峰 · 两界同行与记忆灯","primary":"root_canopy","support":["resonance_pylon","archive_stela","memorial_lantern","signal_gate"],"ambient_loop":"ambient_fantasy","music_loop":"music_fantasy","entry_cue":"radio_f4_entry"}
+  },
+  "sound_routes": {
+    "record_read":"interaction",
+    "refuge_contact":"interaction",
+    "workbench_contact":"interaction",
+    "cargo_received":"mechanism",
+    "cooling_stabilized":"mechanism",
+    "root_route_opened":"mechanism",
+    "resonance_aligned":"mechanism",
+    "native_proof_ready":"task_step",
+    "committed_optional_reward":"task_complete",
+    "committed_boss_victory":"boss_defeated",
+    "final_choice_explanation":"radio_final",
+    "final_boss_victory_radio":"radio_f4_victory",
+    "ending_care":"radio_ending_care",
+    "ending_industry":"radio_ending_industry",
+    "ending_living":"radio_ending_living"
+  },
+  "integration_notes": [
+    "make(kind, region, variant=0) returns a fresh Node3D. Add to an existing region and supply its transform; do not add collision through this factory.",
+    "set_signal(root, enabled) replaces only marked local indicator materials after a committed state change.",
+    "Existing loops are already selected by TwinAudioV3.set_context; this table must not instantiate duplicate ambience or music players.",
+    "New radio events are defined in audio_events.json for the existing cue catalog. Use the original Host event delivery and a unique committed event ID.",
+    "Exploration ready / completion cues are alternatives for the caller's original event, not a second success sound on the same commit.",
+    "No new physics, simulations, Store writes, input capture or network transport are introduced by presentation."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "native_candidates_read_only": 380,
+  "base_mesh_buffers_and_data_blocks_checked": 380,
+  "purified_reference_derivatives": [
+    {
+      "original_sha256": "721d9af03ef2b64394599ef8db102d5ad937699abc7dda025675a3e267784fbf",
+      "final_sha256": "9452d100211e62951b7cf0dadc9ad5697a29fa16f225f811111f54a784c8827e",
+      "canonical_public_path": "archive/legacy-native-assets/sanitized-reference/rising-seal-p3-export-ready.blend",
+      "snapshot_matches_base_geometry_UV_transforms_and_material_nodes": true,
+      "original_reference_packed_hash_absent": true,
+      "self_authored_neutral_placeholder_present": true,
+      "autoexec_disabled": true,
+      "embedded_code_executed": false,
+      "evaluated_render_geometry_or_original_visual_not_verified": true,
+      "passed": true
+    },
+    {
+      "original_sha256": "39040b2272ae1d16e2aed2b106339bbf664101b10f99fd33b2b8f9bccda58e42",
+      "final_sha256": "db6ff735fa8b9ea4db608316e0ae64e9bd2e67160f4025cbd03ef782c296064e",
+      "canonical_public_path": "archive/legacy-native-assets/sanitized-reference/rising-seal-source-p3.blend",
+      "snapshot_matches_base_geometry_UV_transforms_and_material_nodes": true,
+      "original_reference_packed_hash_absent": true,
+      "self_authored_neutral_placeholder_present": true,
+      "autoexec_disabled": true,
+      "embedded_code_executed": false,
+      "evaluated_render_geometry_or_original_visual_not_verified": true,
+      "passed": true
+    },
+    {
+      "original_sha256": "2189499c5a0c7c51a217761fa740fe95c3476ab72ea1346b694b1713b9848c2f",
+      "final_sha256": "27ea7fa9327be9b00f96b7fca8c5973a90d6a12a31ba1262f56a74af981cd1e0",
+      "canonical_public_path": "archive/legacy-native-assets/sanitized-reference/rising-seal-low-grain-v1.blend",
+      "snapshot_matches_base_geometry_UV_transforms_and_material_nodes": true,
+      "original_reference_packed_hash_absent": true,
+      "self_authored_neutral_placeholder_present": true,
+      "autoexec_disabled": true,
+      "embedded_code_executed": false,
+      "evaluated_render_geometry_or_original_visual_not_verified": true,
+      "passed": true
+    }
+  ],
+  "final_published_asset_entries": 396,
+  "final_asset_security": {
+    "gitleaks": 0,
+    "personal_machine_paths": 0,
+    "original_reference_PNG_bytes_present": 0,
+    "independent_literal_findings": 0
+  },
+  "restorer_synthetic_protection_tests": {
+    "checks": [
+      {
+        "test": "actual-synthetic-restore",
+        "passed": true
+      },
+      {
+        "test": "reject-part-checksum-before-destination-writes",
+        "passed": true
+      },
+      {
+        "test": "reject-traversal-entry",
+        "passed": true
+      },
+      {
+        "test": "protect-existing-file-and-preflight-all-entries",
+        "passed": true
+      },
+      {
+        "test": "reject-real-Windows-junction-target",
+        "passed": true,
+        "fixture_junction_left_only_inside_owned_audit_directory": true
+      }
+    ],
+    "passed": true,
+    "originals_touched": false,
+    "actual_Office_game_or_business_services_used": false
+  },
+  "four_archive_verify_only": {
+    "parts_verified": 4,
+    "entries_verified": 396,
+    "destination_written": false
+  },
+  "actual_isolated_restore": {
+    "parts_verified": 4,
+    "entries_verified": 396,
+    "restored_files": 396,
+    "originals_written": false
+  },
+  "source_model_preview": {
+    "source_path": "asset_sources/blend/boss.blend",
+    "source_sha256": "5c09472acb110bdfe5d1e2fd59bc52c76d2e6fbba0692d158a87505362bf60f1",
+    "renderer": "5.2.1 LTS",
+    "render_kind": "Actual source-model render with isolated audit camera/lights; not a gameplay screenshot",
+    "source_file_saved": false,
+    "original_game_or_code_executed": false,
+    "image": "figures/boss-source-render.png",
+    "resolution": [
+      960,
+      640
+    ]
+  },
+  "unresolved_image_usage": {
+    "native_files": 22,
+    "recorded_path_references": 155,
+    "related_image_datablocks": 158,
+    "strictly_orphan_datablocks": 12,
+    "image_datablocks_with_nonzero_user_material_references": 129,
+    "indirect_uses_not_fully_evaluated": true
+  },
+  "whole_legacy_gameplay_verified": false,
+  "all_materials_visually_verified": false,
+  "all_generation_steps_reproduced": false,
+  "original_three_release_packages_modified": false,
+  "originals_or_remote_modified": false,
+  "local_originals_deletable": false
+}

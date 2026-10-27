@@ -1,0 +1,2890 @@
+{
+  "schema_version": 1,
+  "content_batch": "content_next_20261022",
+  "status": "developed_not_playtested",
+  "notes_contract": "All note rows are compatible with the original Story marker shape. requires is Host-only AND of target_id/field/op/value; player_speed samples the requesting Host body. Already found notes replay without new requirements or rewards.",
+  "storage_policy": "Editable source data only; no saves, histories or progression fields are authored here.",
+  "regions": [
+    {
+      "id": "F2",
+      "name": "镜湖悬庭",
+      "status": "developed_not_playtested",
+      "style": "F-B",
+      "main_route_policy": "Original main targets, optics, thermal cargo, Boss arena and spawn remain in place. All new routes are optional and reversible.",
+      "palette": {
+        "stone": "748a83",
+        "support": "5e726c",
+        "route": "bdc4a1",
+        "work": "a0b6a2"
+      },
+      "pads": [
+        {
+          "id": "F2_WestWorkShelf",
+          "position": [
+            -35,
+            2.1,
+            14
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F2_WestNorthShelf",
+          "position": [
+            -35,
+            2.1,
+            -10
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F2_EastWorkShelf",
+          "position": [
+            32,
+            15.8,
+            25
+          ],
+          "size": [
+            8,
+            0.8,
+            8
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F2_NorthLookoutShelf",
+          "position": [
+            32,
+            13.8,
+            -10
+          ],
+          "size": [
+            7,
+            0.8,
+            7
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F2_NpcContactShelf",
+          "position": [
+            -29,
+            4.6,
+            18
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F2_NpcHighReadShelf",
+          "position": [
+            32,
+            17.7,
+            10
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        }
+      ],
+      "supports": [
+        {
+          "id": "F2_WestWorkSupport",
+          "position": [
+            -37.3,
+            0.85,
+            14
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "F2_WestNorthSupport",
+          "position": [
+            -37.3,
+            0.85,
+            -10
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "F2_EastWorkSupport",
+          "position": [
+            35.2,
+            7.7,
+            25
+          ],
+          "size": [
+            1.1,
+            15.4,
+            1.1
+          ]
+        },
+        {
+          "id": "F2_LookoutSupport",
+          "position": [
+            34.8,
+            6.7,
+            -10
+          ],
+          "size": [
+            0.9,
+            13.4,
+            0.9
+          ]
+        },
+        {
+          "id": "F2_NpcContactSupport",
+          "position": [
+            -28.1,
+            2.2,
+            18
+          ],
+          "size": [
+            0.65,
+            4.4,
+            0.65
+          ]
+        },
+        {
+          "id": "F2_NpcReadSupport",
+          "position": [
+            32,
+            16.1,
+            10
+          ],
+          "size": [
+            0.6,
+            3.2,
+            0.6
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "id": "F2_Landmark1",
+          "kind": "archive_stela",
+          "position": [
+            -37,
+            2.5,
+            20
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "F2_Landmark2",
+          "kind": "root_canopy",
+          "position": [
+            -36.5,
+            2.5,
+            -10
+          ],
+          "variant": 1,
+          "scale": 0.8
+        },
+        {
+          "id": "F2_Landmark3",
+          "kind": "resonance_pylon",
+          "position": [
+            36.4,
+            16.2,
+            25
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "F2_Landmark4",
+          "kind": "memorial_lantern",
+          "position": [
+            34.5,
+            14.2,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        }
+      ],
+      "routes": [
+        {
+          "id": "F2_WestServiceLoop",
+          "name": "湖檐旧园环路",
+          "kind": "optional_low_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -32,
+              5,
+              24
+            ],
+            [
+              -35,
+              5,
+              14
+            ],
+            [
+              -34,
+              6.3,
+              2
+            ],
+            [
+              -35,
+              5,
+              -10
+            ],
+            [
+              -30,
+              8,
+              -13
+            ],
+            [
+              -27,
+              8,
+              -6
+            ],
+            [
+              -27,
+              8,
+              10
+            ],
+            [
+              -29,
+              7,
+              18
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "At the north shelf turn south along the same west deck or follow the inner return dashes; neither enters the north Boss arena.",
+          "minimum_target_altitude": 5,
+          "skill": "braking, close-range work, optional ability combination"
+        },
+        {
+          "id": "F2_EastLookoutLoop",
+          "name": "高镜归航环路",
+          "kind": "optional_high_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              32,
+              20,
+              25
+            ],
+            [
+              32,
+              20,
+              10
+            ],
+            [
+              32,
+              16.2,
+              -10
+            ],
+            [
+              25,
+              19,
+              -12
+            ],
+            [
+              25,
+              21,
+              6
+            ],
+            [
+              22,
+              21,
+              24
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "The south aerial approach is two-way. The high route ends outside the Boss arena; descend at the north shelf for the record, then return south.",
+          "minimum_target_altitude": 16.2,
+          "skill": "height changes, braking before inspection, clear return line"
+        }
+      ],
+      "signs": [
+        {
+          "id": "F2_WestJunctionSign",
+          "position": [
+            -30,
+            8.3,
+            24
+          ],
+          "text": "湖檐旧园环路\n西侧低路 → 操作台 / 调查点\n北端可原路回南泊位"
+        },
+        {
+          "id": "F2_HighJunctionSign",
+          "position": [
+            24,
+            22.7,
+            30
+          ],
+          "text": "高镜归航环路\n先升至约20m，沿东侧灯线\n操作台 → 中观察台 → 北端降至16m"
+        },
+        {
+          "id": "F2_NorthReadSign",
+          "position": [
+            34.5,
+            17.4,
+            -10
+          ],
+          "text": "北观察台 · 回程向南\n靠近并制动到2.5m/s以下，G读取\n北庭Boss入口仍在中央"
+        }
+      ],
+      "entities": [
+        {
+          "id": "F2:next_west_work",
+          "region": "F2",
+          "name": "背光幼苗台",
+          "position": [
+            -35,
+            2.85,
+            14
+          ],
+          "size": [
+            0.6,
+            0.4,
+            3
+          ],
+          "tags": [
+            "photosensitive",
+            "plant",
+            "growable",
+            "organic"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁苗床 · 4 光 F → 7 生长 F 两次 · G 读根纹"
+        },
+        {
+          "id": "F2:next_east_work",
+          "region": "F2",
+          "name": "双源归航灯",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "tags": [
+            "photosensitive",
+            "solar",
+            "conductive",
+            "electrical",
+            "sustained_light_source"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁归航灯 · 4 光 F + 6 电荷 F · G 读校时"
+        }
+      ],
+      "notes": [
+        {
+          "id": "F2:next_west_work",
+          "region": "F2",
+          "kind": "inspect",
+          "position": [
+            -35,
+            2.85,
+            14
+          ],
+          "physical_target": true,
+          "label": "背光幼苗台 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:F2:west_work",
+          "title": "背光处也能接续",
+          "character_id": "npc:shuyao",
+          "lines": [
+            "被旧镜影遮住的幼苗重新舒展，叶缘露出与档案庭同一批次的校时划痕。",
+            "园丁没有把褪色叶子一概剪去。先补光，再看是否还能生长，保存下来的活叶比一张整齐的统计表更可靠。",
+            "根纹背面标着回程：沿西侧低台向南即可返回泊位，无须穿越北庭巡守。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "F2:next_west_work",
+              "field": "growth",
+              "op": "gte",
+              "value": 0.69
+            }
+          ],
+          "requires_hint": "Tab 锁苗床 · 4 光 F → 7 生长 F 两次 · G 读根纹",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "F2:next_east_work",
+          "region": "F2",
+          "kind": "inspect",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "physical_target": true,
+          "label": "双源归航灯 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:F2:east_work",
+          "title": "同一盏灯，两份凭据",
+          "character_id": "npc:shuyao",
+          "lines": [
+            "光源与备用电同时工作，归航灯的两列刻度终于可以互相核对。",
+            "镜面记录的是发生过什么，电池记录的是何时仍有人在维护。把两者放在一起，才看得出那段缺失的夜班。",
+            "灯背刻着巡守提示：北庭的真翼不依赖幻像亮度，先观察真实受光面，再决定何时开火。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "F2:next_east_work",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            },
+            {
+              "target_id": "F2:next_east_work",
+              "field": "charge",
+              "op": "gte",
+              "value": 35.0
+            }
+          ],
+          "requires_hint": "Tab 锁归航灯 · 4 光 F + 6 电荷 F · G 读校时",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "F2:next_high_record",
+          "region": "F2",
+          "kind": "inspect",
+          "position": [
+            32,
+            16.2,
+            -10
+          ],
+          "label": "北观察台 · 稳住后G读取",
+          "radius": 2.8,
+          "discovery_id": "world_next:F2:high_record",
+          "title": "上庭留给后来者的空白",
+          "character_id": "npc:shuyao",
+          "lines": [
+            "高台上有一页没写结论的镜背拓片，边缘注明了观测位置和误差。",
+            "疏谣：我宁愿后来的人能复核，也不替他们把争议涂掉。",
+            "台南侧的金线通向归航灯，沿东侧高路下降即可回到南泊位。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "kind": "player_speed",
+              "op": "lte",
+              "value": 2.5
+            }
+          ],
+          "requires_hint": "高镜线约20m · 北端降至16m · 制动稳住再 G 读镜背"
+        }
+      ],
+      "encounters": [
+        {
+          "id": "F2:next_west_work",
+          "kind": "ability_recovery",
+          "authority": "original_host_ability_rules",
+          "goal": "背光处也能接续",
+          "hint": "Tab 锁苗床 · 4 光 F → 7 生长 F 两次 · G 读根纹",
+          "reward_marker": "F2:next_west_work",
+          "completion": "Explicit G plus real current entity requirements; no proximity completion, extra currency or repeated discovery reward."
+        },
+        {
+          "id": "F2:next_east_work",
+          "kind": "ability_combination",
+          "authority": "original_host_ability_rules",
+          "goal": "同一盏灯，两份凭据",
+          "hint": "Tab 锁归航灯 · 4 光 F + 6 电荷 F · G 读校时",
+          "reward_marker": "F2:next_east_work",
+          "completion": "Explicit G plus real current entity requirements; temporary control/echo is read beside the same entity."
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "name": "热崖制造带",
+      "status": "developed_not_playtested",
+      "style": "I-B",
+      "main_route_policy": "Original main targets, optics, thermal cargo, Boss arena and spawn remain in place. All new routes are optional and reversible.",
+      "palette": {
+        "stone": "667273",
+        "support": "465b63",
+        "route": "b6a36b",
+        "work": "b6a078"
+      },
+      "pads": [
+        {
+          "id": "I3_WestWorkShelf",
+          "position": [
+            -35,
+            2.1,
+            14
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I3_WestNorthShelf",
+          "position": [
+            -35,
+            2.1,
+            -10
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I3_EastWorkShelf",
+          "position": [
+            32,
+            15.8,
+            25
+          ],
+          "size": [
+            8,
+            0.8,
+            8
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I3_NorthLookoutShelf",
+          "position": [
+            32,
+            13.8,
+            -10
+          ],
+          "size": [
+            7,
+            0.8,
+            7
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I3_NpcContactShelf",
+          "position": [
+            -29,
+            4.6,
+            18
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I3_NpcHighReadShelf",
+          "position": [
+            32,
+            17.7,
+            10
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        }
+      ],
+      "supports": [
+        {
+          "id": "I3_WestWorkSupport",
+          "position": [
+            -37.3,
+            0.85,
+            14
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "I3_WestNorthSupport",
+          "position": [
+            -37.3,
+            0.85,
+            -10
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "I3_EastWorkSupport",
+          "position": [
+            35.2,
+            7.7,
+            25
+          ],
+          "size": [
+            1.1,
+            15.4,
+            1.1
+          ]
+        },
+        {
+          "id": "I3_LookoutSupport",
+          "position": [
+            34.8,
+            6.7,
+            -10
+          ],
+          "size": [
+            0.9,
+            13.4,
+            0.9
+          ]
+        },
+        {
+          "id": "I3_NpcContactSupport",
+          "position": [
+            -28.1,
+            2.2,
+            18
+          ],
+          "size": [
+            0.65,
+            4.4,
+            0.65
+          ]
+        },
+        {
+          "id": "I3_NpcReadSupport",
+          "position": [
+            32,
+            16.1,
+            10
+          ],
+          "size": [
+            0.6,
+            3.2,
+            0.6
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "id": "I3_Landmark1",
+          "kind": "coolant_stack",
+          "position": [
+            -36.6,
+            2.5,
+            20
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "I3_Landmark2",
+          "kind": "maintenance_niche",
+          "position": [
+            -36.5,
+            2.5,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        },
+        {
+          "id": "I3_Landmark3",
+          "kind": "coolant_stack",
+          "position": [
+            36,
+            16.2,
+            25
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "I3_Landmark4",
+          "kind": "wind_vane",
+          "position": [
+            35,
+            14.2,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        }
+      ],
+      "routes": [
+        {
+          "id": "I3_WestServiceLoop",
+          "name": "崖脚检修环路",
+          "kind": "optional_low_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -32,
+              5,
+              24
+            ],
+            [
+              -35,
+              5,
+              14
+            ],
+            [
+              -34,
+              6.3,
+              2
+            ],
+            [
+              -35,
+              5,
+              -10
+            ],
+            [
+              -30,
+              8,
+              -13
+            ],
+            [
+              -27,
+              8,
+              -6
+            ],
+            [
+              -27,
+              8,
+              10
+            ],
+            [
+              -29,
+              7,
+              18
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "At the north shelf turn south along the same west deck or follow the inner return dashes; neither enters the north Boss arena.",
+          "minimum_target_altitude": 5,
+          "skill": "braking, close-range work, optional ability combination"
+        },
+        {
+          "id": "I3_EastLookoutLoop",
+          "name": "高台换班环路",
+          "kind": "optional_high_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              32,
+              20,
+              25
+            ],
+            [
+              32,
+              20,
+              10
+            ],
+            [
+              32,
+              16.2,
+              -10
+            ],
+            [
+              25,
+              19,
+              -12
+            ],
+            [
+              25,
+              21,
+              6
+            ],
+            [
+              22,
+              21,
+              24
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "The south aerial approach is two-way. The high route ends outside the Boss arena; descend at the north shelf for the record, then return south.",
+          "minimum_target_altitude": 16.2,
+          "skill": "height changes, braking before inspection, clear return line"
+        }
+      ],
+      "signs": [
+        {
+          "id": "I3_WestJunctionSign",
+          "position": [
+            -30,
+            8.3,
+            24
+          ],
+          "text": "崖脚检修环路\n西侧低路 → 操作台 / 调查点\n北端可原路回南泊位"
+        },
+        {
+          "id": "I3_HighJunctionSign",
+          "position": [
+            24,
+            22.7,
+            30
+          ],
+          "text": "高台换班环路\n先升至约20m，沿东侧灯线\n操作台 → 中观察台 → 北端降至16m"
+        },
+        {
+          "id": "I3_NorthReadSign",
+          "position": [
+            34.5,
+            17.4,
+            -10
+          ],
+          "text": "北观察台 · 回程向南\n靠近并制动到2.5m/s以下，G读取\n北庭Boss入口仍在中央"
+        }
+      ],
+      "entities": [
+        {
+          "id": "I3:next_west_work",
+          "region": "I3",
+          "name": "停炉冷却检修箱",
+          "position": [
+            -35,
+            3.6,
+            14
+          ],
+          "size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "tags": [
+            "thermal",
+            "conductive",
+            "electrical",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 80.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁检修箱 · 5 热量 X 两次降温 → 6 电荷 F · G 核对"
+        },
+        {
+          "id": "I3:next_east_work",
+          "region": "I3",
+          "name": "高台交班回声端",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "tags": [
+            "conductive",
+            "electrical",
+            "mechanical",
+            "echo_operable"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁交班端 · 6 电荷 F → 9 回声 F · 保持时 G 读取"
+        }
+      ],
+      "notes": [
+        {
+          "id": "I3:next_west_work",
+          "region": "I3",
+          "kind": "inspect",
+          "position": [
+            -35,
+            3.6,
+            14
+          ],
+          "physical_target": true,
+          "label": "停炉冷却检修箱 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:I3:west_work",
+          "title": "停炉不是丢下岗位",
+          "character_id": "npc:qiaoshu",
+          "lines": [
+            "外壳降到可检修温度后，备用电送进记录回路，交班页显出上一班写下的停炉原因。",
+            "乔述：冷却跟不上就先停，少产的一班还能补。把过热当作正常值，下一班就没有安全位置了。",
+            "西侧架上的标线预留了空载回程；吊运热匣仍走原来的三个安全航点，不要从这条窄检修线抄近路。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "I3:next_west_work",
+              "field": "temperature",
+              "op": "lte",
+              "value": 45.0
+            },
+            {
+              "target_id": "I3:next_west_work",
+              "field": "charge",
+              "op": "gte",
+              "value": 35.0
+            }
+          ],
+          "requires_hint": "Tab 锁检修箱 · 5 热量 X 两次降温 → 6 电荷 F · G 核对",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "I3:next_east_work",
+          "region": "I3",
+          "kind": "inspect",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "physical_target": true,
+          "label": "高台交班回声端 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:I3:east_work",
+          "title": "把一只手留给下一班",
+          "character_id": "npc:qiaoshu",
+          "lines": [
+            "交班端有了电，回声替你保持住读数柄，第二列记录才完整展开。",
+            "旧表里没有“多撑一会”这一项，只有冷却流量、承载上限和当班签名。",
+            "乔述在末页补了一句：高台交付要让货架真正接住重量；人到了，并不等于货到了。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "I3:next_east_work",
+              "field": "charge",
+              "op": "gte",
+              "value": 35.0
+            },
+            {
+              "target_id": "I3:next_east_work",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "requires_hint": "Tab 锁交班端 · 6 电荷 F → 9 回声 F · 保持时 G 读取",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "I3:next_high_record",
+          "region": "I3",
+          "kind": "inspect",
+          "position": [
+            32,
+            16.2,
+            -10
+          ],
+          "label": "北观察台 · 稳住后G读取",
+          "radius": 2.8,
+          "discovery_id": "world_next:I3:high_record",
+          "title": "温度计旁的晚餐名单",
+          "character_id": "npc:qiaoshu",
+          "lines": [
+            "制动稳住后，薄片上的小字能看清：这是各班共用休息棚的送餐顺序。",
+            "名单把主动停炉的班组也算在内，没有因少报产量而划掉谁。",
+            "从这里可看见炉轨两侧散热片的高差。提前换好高度，比贴着车架追赶更容易留住退路。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "kind": "player_speed",
+              "op": "lte",
+              "value": 2.5
+            }
+          ],
+          "requires_hint": "高台线约20m · 北观察台16m · 松油门/制动到2.5m/s以下再 G"
+        }
+      ],
+      "encounters": [
+        {
+          "id": "I3:next_west_work",
+          "kind": "ability_recovery",
+          "authority": "original_host_ability_rules",
+          "goal": "停炉不是丢下岗位",
+          "hint": "Tab 锁检修箱 · 5 热量 X 两次降温 → 6 电荷 F · G 核对",
+          "reward_marker": "I3:next_west_work",
+          "completion": "Explicit G plus real current entity requirements; no proximity completion, extra currency or repeated discovery reward."
+        },
+        {
+          "id": "I3:next_east_work",
+          "kind": "ability_combination",
+          "authority": "original_host_ability_rules",
+          "goal": "把一只手留给下一班",
+          "hint": "Tab 锁交班端 · 6 电荷 F → 9 回声 F · 保持时 G 读取",
+          "reward_marker": "I3:next_east_work",
+          "completion": "Explicit G plus real current entity requirements; temporary control/echo is read beside the same entity."
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "name": "鸣菌幽谷",
+      "status": "developed_not_playtested",
+      "style": "F-B",
+      "main_route_policy": "Original main targets, optics, thermal cargo, Boss arena and spawn remain in place. All new routes are optional and reversible.",
+      "palette": {
+        "stone": "607353",
+        "support": "756344",
+        "route": "9ab48c",
+        "work": "8fa87c"
+      },
+      "pads": [
+        {
+          "id": "F3_WestWorkShelf",
+          "position": [
+            -35,
+            2.1,
+            14
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F3_WestNorthShelf",
+          "position": [
+            -35,
+            2.1,
+            -10
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F3_EastWorkShelf",
+          "position": [
+            32,
+            15.8,
+            25
+          ],
+          "size": [
+            8,
+            0.8,
+            8
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F3_NorthLookoutShelf",
+          "position": [
+            32,
+            13.8,
+            -10
+          ],
+          "size": [
+            7,
+            0.8,
+            7
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F3_NpcContactShelf",
+          "position": [
+            -29,
+            4.6,
+            18
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F3_NpcHighReadShelf",
+          "position": [
+            32,
+            17.7,
+            10
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        }
+      ],
+      "supports": [
+        {
+          "id": "F3_WestWorkSupport",
+          "position": [
+            -37.3,
+            0.85,
+            14
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "F3_WestNorthSupport",
+          "position": [
+            -37.3,
+            0.85,
+            -10
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "F3_EastWorkSupport",
+          "position": [
+            35.2,
+            7.7,
+            25
+          ],
+          "size": [
+            1.1,
+            15.4,
+            1.1
+          ]
+        },
+        {
+          "id": "F3_LookoutSupport",
+          "position": [
+            34.8,
+            6.7,
+            -10
+          ],
+          "size": [
+            0.9,
+            13.4,
+            0.9
+          ]
+        },
+        {
+          "id": "F3_NpcContactSupport",
+          "position": [
+            -28.1,
+            2.2,
+            18
+          ],
+          "size": [
+            0.65,
+            4.4,
+            0.65
+          ]
+        },
+        {
+          "id": "F3_NpcReadSupport",
+          "position": [
+            32,
+            16.1,
+            10
+          ],
+          "size": [
+            0.6,
+            3.2,
+            0.6
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "id": "F3_Landmark1",
+          "kind": "fungus_garden",
+          "position": [
+            -36.6,
+            2.5,
+            20
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "F3_Landmark2",
+          "kind": "fungus_garden",
+          "position": [
+            -36.8,
+            2.5,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        },
+        {
+          "id": "F3_Landmark3",
+          "kind": "root_canopy",
+          "position": [
+            36.4,
+            16.2,
+            25
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "F3_Landmark4",
+          "kind": "memorial_lantern",
+          "position": [
+            34.5,
+            14.2,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        }
+      ],
+      "routes": [
+        {
+          "id": "F3_WestServiceLoop",
+          "name": "菌床保育环路",
+          "kind": "optional_low_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -32,
+              5,
+              24
+            ],
+            [
+              -35,
+              5,
+              14
+            ],
+            [
+              -34,
+              6.3,
+              2
+            ],
+            [
+              -35,
+              5,
+              -10
+            ],
+            [
+              -30,
+              8,
+              -13
+            ],
+            [
+              -27,
+              8,
+              -6
+            ],
+            [
+              -27,
+              8,
+              10
+            ],
+            [
+              -29,
+              7,
+              18
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "At the north shelf turn south along the same west deck or follow the inner return dashes; neither enters the north Boss arena.",
+          "minimum_target_altitude": 5,
+          "skill": "braking, close-range work, optional ability combination"
+        },
+        {
+          "id": "F3_EastLookoutLoop",
+          "name": "风铃观察环路",
+          "kind": "optional_high_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              32,
+              20,
+              25
+            ],
+            [
+              32,
+              20,
+              10
+            ],
+            [
+              32,
+              16.2,
+              -10
+            ],
+            [
+              25,
+              19,
+              -12
+            ],
+            [
+              25,
+              21,
+              6
+            ],
+            [
+              22,
+              21,
+              24
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "The south aerial approach is two-way. The high route ends outside the Boss arena; descend at the north shelf for the record, then return south.",
+          "minimum_target_altitude": 16.2,
+          "skill": "height changes, braking before inspection, clear return line"
+        }
+      ],
+      "signs": [
+        {
+          "id": "F3_WestJunctionSign",
+          "position": [
+            -30,
+            8.3,
+            24
+          ],
+          "text": "菌床保育环路\n西侧低路 → 操作台 / 调查点\n北端可原路回南泊位"
+        },
+        {
+          "id": "F3_HighJunctionSign",
+          "position": [
+            24,
+            22.7,
+            30
+          ],
+          "text": "风铃观察环路\n先升至约20m，沿东侧灯线\n操作台 → 中观察台 → 北端降至16m"
+        },
+        {
+          "id": "F3_NorthReadSign",
+          "position": [
+            34.5,
+            17.4,
+            -10
+          ],
+          "text": "北观察台 · 回程向南\n靠近并制动到2.5m/s以下，G读取\n北庭Boss入口仍在中央"
+        }
+      ],
+      "entities": [
+        {
+          "id": "F3:next_west_work",
+          "region": "F3",
+          "name": "休眠菌床",
+          "position": [
+            -35,
+            2.85,
+            14
+          ],
+          "size": [
+            0.6,
+            0.4,
+            3
+          ],
+          "tags": [
+            "thermal",
+            "photosensitive",
+            "plant",
+            "growable",
+            "organic"
+          ],
+          "properties": {
+            "temperature": -10.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁菌床 · 5 热量 F 回温 → 4 光 F → 7 生长 F 两次 · G"
+        },
+        {
+          "id": "F3:next_east_work",
+          "region": "F3",
+          "name": "双声观察匣",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "tags": [
+            "photosensitive",
+            "solar",
+            "echo_operable",
+            "mechanical",
+            "sustained_light_source"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁观察匣 · 4 光 F → 9 回声 F · 保持时 G 辨声"
+        }
+      ],
+      "notes": [
+        {
+          "id": "F3:next_west_work",
+          "region": "F3",
+          "kind": "inspect",
+          "position": [
+            -35,
+            2.85,
+            14
+          ],
+          "physical_target": true,
+          "label": "休眠菌床 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:F3:west_work",
+          "title": "醒来需要合适的季节",
+          "character_id": "npc:atai",
+          "lines": [
+            "低温菌床回暖，在光下长出两圈新褶，老菌盖里的保育记录重新露出。",
+            "阿苔：只催它长，不管冷暖，等来的还是沉默。幽谷不是每一处都该在同一刻醒来。",
+            "新褶保留了独立的脉冲间隔；北谷里若所有声簇开始同时重复，要先找重复信号的来源。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "F3:next_west_work",
+              "field": "growth",
+              "op": "gte",
+              "value": 0.69
+            }
+          ],
+          "requires_hint": "Tab 锁菌床 · 5 热量 F 回温 → 4 光 F → 7 生长 F 两次 · G",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "F3:next_east_work",
+          "region": "F3",
+          "kind": "inspect",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "physical_target": true,
+          "label": "双声观察匣 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:F3:east_work",
+          "title": "听到两次，不等于来自两处",
+          "character_id": "npc:atai",
+          "lines": [
+            "补光让观察匣的薄膜可读，回声保持住其中一片，另一片的迟拍便能分开听见。",
+            "旧采集人把“声量更大”划掉，改成了“是否存在不同的反馈”。",
+            "匣侧留着通路图：东高台向南下降可回泊位；向北只能旁观声簇，别把观察位当作战斗掩体。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "F3:next_east_work",
+              "field": "light_level",
+              "op": "gte",
+              "value": 0.5
+            },
+            {
+              "target_id": "F3:next_east_work",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "requires_hint": "Tab 锁观察匣 · 4 光 F → 9 回声 F · 保持时 G 辨声",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "F3:next_high_record",
+          "region": "F3",
+          "kind": "inspect",
+          "position": [
+            32,
+            16.2,
+            -10
+          ],
+          "label": "北观察台 · 稳住后G读取",
+          "radius": 2.8,
+          "discovery_id": "world_next:F3:high_record",
+          "title": "没有被采走的一簇",
+          "character_id": "npc:atai",
+          "lines": [
+            "高处菌盖背面系着一条空袋，袋口一直没有收紧。",
+            "袋签写着：留一簇给授粉虫，留一簇给明年的听声人。",
+            "阿苔：能带走全部，不代表应当带走全部。等你回到低谷，再看看新生的那一圈。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "kind": "player_speed",
+              "op": "lte",
+              "value": 2.5
+            }
+          ],
+          "requires_hint": "风铃线约20m · 北端降至16m · 制动后 G 读菌盖背面"
+        }
+      ],
+      "encounters": [
+        {
+          "id": "F3:next_west_work",
+          "kind": "ability_recovery",
+          "authority": "original_host_ability_rules",
+          "goal": "醒来需要合适的季节",
+          "hint": "Tab 锁菌床 · 5 热量 F 回温 → 4 光 F → 7 生长 F 两次 · G",
+          "reward_marker": "F3:next_west_work",
+          "completion": "Explicit G plus real current entity requirements; no proximity completion, extra currency or repeated discovery reward."
+        },
+        {
+          "id": "F3:next_east_work",
+          "kind": "ability_combination",
+          "authority": "original_host_ability_rules",
+          "goal": "听到两次，不等于来自两处",
+          "hint": "Tab 锁观察匣 · 4 光 F → 9 回声 F · 保持时 G 辨声",
+          "reward_marker": "F3:next_east_work",
+          "completion": "Explicit G plus real current entity requirements; temporary control/echo is read beside the same entity."
+        }
+      ]
+    },
+    {
+      "id": "I4",
+      "name": "离岸共振阵列",
+      "status": "developed_not_playtested",
+      "style": "I-B",
+      "main_route_policy": "Original main targets, optics, thermal cargo, Boss arena and spawn remain in place. All new routes are optional and reversible.",
+      "palette": {
+        "stone": "647d85",
+        "support": "435b6a",
+        "route": "c0b383",
+        "work": "9ebbc0"
+      },
+      "pads": [
+        {
+          "id": "I4_WestWorkShelf",
+          "position": [
+            -35,
+            2.1,
+            14
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I4_WestNorthShelf",
+          "position": [
+            -35,
+            2.1,
+            -10
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I4_EastWorkShelf",
+          "position": [
+            32,
+            15.8,
+            25
+          ],
+          "size": [
+            8,
+            0.8,
+            8
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I4_NorthLookoutShelf",
+          "position": [
+            32,
+            13.8,
+            -10
+          ],
+          "size": [
+            7,
+            0.8,
+            7
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I4_NpcContactShelf",
+          "position": [
+            -29,
+            4.6,
+            18
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "I4_NpcHighReadShelf",
+          "position": [
+            32,
+            17.7,
+            10
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        }
+      ],
+      "supports": [
+        {
+          "id": "I4_WestWorkSupport",
+          "position": [
+            -37.3,
+            0.85,
+            14
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "I4_WestNorthSupport",
+          "position": [
+            -37.3,
+            0.85,
+            -10
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "I4_EastWorkSupport",
+          "position": [
+            35.2,
+            7.7,
+            25
+          ],
+          "size": [
+            1.1,
+            15.4,
+            1.1
+          ]
+        },
+        {
+          "id": "I4_LookoutSupport",
+          "position": [
+            34.8,
+            6.7,
+            -10
+          ],
+          "size": [
+            0.9,
+            13.4,
+            0.9
+          ]
+        },
+        {
+          "id": "I4_NpcContactSupport",
+          "position": [
+            -28.1,
+            2.2,
+            18
+          ],
+          "size": [
+            0.65,
+            4.4,
+            0.65
+          ]
+        },
+        {
+          "id": "I4_NpcReadSupport",
+          "position": [
+            32,
+            16.1,
+            10
+          ],
+          "size": [
+            0.6,
+            3.2,
+            0.6
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "id": "I4_Landmark1",
+          "kind": "refuge_shelter",
+          "position": [
+            -36.6,
+            2.5,
+            20
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "I4_Landmark2",
+          "kind": "resonance_pylon",
+          "position": [
+            -36.5,
+            2.5,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        },
+        {
+          "id": "I4_Landmark3",
+          "kind": "resonance_pylon",
+          "position": [
+            36.2,
+            16.2,
+            25
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "I4_Landmark4",
+          "kind": "wind_vane",
+          "position": [
+            35,
+            14.2,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        }
+      ],
+      "routes": [
+        {
+          "id": "I4_WestServiceLoop",
+          "name": "避险维护环路",
+          "kind": "optional_low_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -32,
+              5,
+              24
+            ],
+            [
+              -35,
+              5,
+              14
+            ],
+            [
+              -34,
+              6.3,
+              2
+            ],
+            [
+              -35,
+              5,
+              -10
+            ],
+            [
+              -30,
+              8,
+              -13
+            ],
+            [
+              -27,
+              8,
+              -6
+            ],
+            [
+              -27,
+              8,
+              10
+            ],
+            [
+              -29,
+              7,
+              18
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "At the north shelf turn south along the same west deck or follow the inner return dashes; neither enters the north Boss arena.",
+          "minimum_target_altitude": 5,
+          "skill": "braking, close-range work, optional ability combination"
+        },
+        {
+          "id": "I4_EastLookoutLoop",
+          "name": "高架馈线环路",
+          "kind": "optional_high_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              32,
+              20,
+              25
+            ],
+            [
+              32,
+              20,
+              10
+            ],
+            [
+              32,
+              16.2,
+              -10
+            ],
+            [
+              25,
+              19,
+              -12
+            ],
+            [
+              25,
+              21,
+              6
+            ],
+            [
+              22,
+              21,
+              24
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "The south aerial approach is two-way. The high route ends outside the Boss arena; descend at the north shelf for the record, then return south.",
+          "minimum_target_altitude": 16.2,
+          "skill": "height changes, braking before inspection, clear return line"
+        }
+      ],
+      "signs": [
+        {
+          "id": "I4_WestJunctionSign",
+          "position": [
+            -30,
+            8.3,
+            24
+          ],
+          "text": "避险维护环路\n西侧低路 → 操作台 / 调查点\n北端可原路回南泊位"
+        },
+        {
+          "id": "I4_HighJunctionSign",
+          "position": [
+            24,
+            22.7,
+            30
+          ],
+          "text": "高架馈线环路\n先升至约20m，沿东侧灯线\n操作台 → 中观察台 → 北端降至16m"
+        },
+        {
+          "id": "I4_NorthReadSign",
+          "position": [
+            34.5,
+            17.4,
+            -10
+          ],
+          "text": "北观察台 · 回程向南\n靠近并制动到2.5m/s以下，G读取\n北庭Boss入口仍在中央"
+        }
+      ],
+      "entities": [
+        {
+          "id": "I4:next_west_work",
+          "region": "I4",
+          "name": "风暴避险备用台",
+          "position": [
+            -35,
+            3.6,
+            14
+          ],
+          "size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "tags": [
+            "conductive",
+            "electrical",
+            "hackable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁备用台 · 6 电荷 F → 0 接管 F · 接管时 G 读权限"
+        },
+        {
+          "id": "I4:next_east_work",
+          "region": "I4",
+          "name": "高架馈线冷却箱",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "tags": [
+            "thermal",
+            "conductive",
+            "electrical",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 80.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁冷却箱 · 5 热量 X 两次 → 6 电荷 F · G 读馈线"
+        }
+      ],
+      "notes": [
+        {
+          "id": "I4:next_west_work",
+          "region": "I4",
+          "kind": "inspect",
+          "position": [
+            -35,
+            3.6,
+            14
+          ],
+          "physical_target": true,
+          "label": "风暴避险备用台 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:I4:west_work",
+          "title": "权限也应有返还的时候",
+          "character_id": "npc:wenxu",
+          "lines": [
+            "备用电恢复，短时接管让你读到了避险台的本地权限页。",
+            "闻序：接管是借用一双手，不是把整个地区变成自己的。权限会自然返还，避险底线仍留在公开记录里。",
+            "这份记录只增加可核查的服务说明，不替任何地区签配额；北阵列后的公开上限或共同签署仍由你决定。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "I4:next_west_work",
+              "field": "charge",
+              "op": "gte",
+              "value": 35.0
+            },
+            {
+              "target_id": "I4:next_west_work",
+              "field": "controlled",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "requires_hint": "Tab 锁备用台 · 6 电荷 F → 0 接管 F · 接管时 G 读权限",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "I4:next_east_work",
+          "region": "I4",
+          "kind": "inspect",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "physical_target": true,
+          "label": "高架馈线冷却箱 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:I4:east_work",
+          "title": "谁来照看不会发言的馈线",
+          "character_id": "npc:wenxu",
+          "lines": [
+            "先冷却外壳再送入备用电，维护表显出了被风盐侵蚀的一列。",
+            "最先报错的不是主阵列，是一条反复替它承担回流的小馈线。维护人没有把那一列删掉。",
+            "表尾提醒：平台是实体掩护；阵列攻击换层时，先看预警的高度范围，再决定升降或制动。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "I4:next_east_work",
+              "field": "temperature",
+              "op": "lte",
+              "value": 45.0
+            },
+            {
+              "target_id": "I4:next_east_work",
+              "field": "charge",
+              "op": "gte",
+              "value": 35.0
+            }
+          ],
+          "requires_hint": "Tab 锁冷却箱 · 5 热量 X 两次 → 6 电荷 F · G 读馈线",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "I4:next_high_record",
+          "region": "I4",
+          "kind": "inspect",
+          "position": [
+            32,
+            16.2,
+            -10
+          ],
+          "label": "北观察台 · 稳住后G读取",
+          "radius": 2.8,
+          "discovery_id": "world_next:I4:high_record",
+          "title": "风里留下的共签空栏",
+          "character_id": "npc:wenxu",
+          "lines": [
+            "天线高台的纸带只有各区维护人的名字，签署栏仍然空着。",
+            "闻序：我能让所有人看见同一份记录，不能替他们同意同一个代价。",
+            "南侧黄线回到维护台。终章之前还可以返航核对居民服务，不必用最后一场战斗替每个人回答。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "kind": "player_speed",
+              "op": "lte",
+              "value": 2.5
+            }
+          ],
+          "requires_hint": "高架线约20m · 降至北台16m · 制动稳定后 G 查共签空栏"
+        }
+      ],
+      "encounters": [
+        {
+          "id": "I4:next_west_work",
+          "kind": "ability_recovery",
+          "authority": "original_host_ability_rules",
+          "goal": "权限也应有返还的时候",
+          "hint": "Tab 锁备用台 · 6 电荷 F → 0 接管 F · 接管时 G 读权限",
+          "reward_marker": "I4:next_west_work",
+          "completion": "Explicit G plus real current entity requirements; no proximity completion, extra currency or repeated discovery reward."
+        },
+        {
+          "id": "I4:next_east_work",
+          "kind": "ability_combination",
+          "authority": "original_host_ability_rules",
+          "goal": "谁来照看不会发言的馈线",
+          "hint": "Tab 锁冷却箱 · 5 热量 X 两次 → 6 电荷 F · G 读馈线",
+          "reward_marker": "I4:next_east_work",
+          "completion": "Explicit G plus real current entity requirements; temporary control/echo is read beside the same entity."
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "name": "天脉冠峰",
+      "status": "developed_not_playtested",
+      "style": "F-B",
+      "main_route_policy": "Original main targets, optics, thermal cargo, Boss arena and spawn remain in place. All new routes are optional and reversible.",
+      "palette": {
+        "stone": "758a8b",
+        "support": "5b7b83",
+        "route": "b8c7a4",
+        "work": "b6c2a3"
+      },
+      "pads": [
+        {
+          "id": "F4_WestWorkShelf",
+          "position": [
+            -35,
+            2.1,
+            14
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F4_WestNorthShelf",
+          "position": [
+            -35,
+            2.1,
+            -10
+          ],
+          "size": [
+            6,
+            0.8,
+            9
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F4_EastWorkShelf",
+          "position": [
+            32,
+            15.8,
+            25
+          ],
+          "size": [
+            8,
+            0.8,
+            8
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F4_NorthLookoutShelf",
+          "position": [
+            32,
+            13.8,
+            -10
+          ],
+          "size": [
+            7,
+            0.8,
+            7
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F4_NpcContactShelf",
+          "position": [
+            -29,
+            4.6,
+            18
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        },
+        {
+          "id": "F4_NpcHighReadShelf",
+          "position": [
+            32,
+            17.7,
+            10
+          ],
+          "size": [
+            3,
+            0.4,
+            3
+          ],
+          "tone": "stone"
+        }
+      ],
+      "supports": [
+        {
+          "id": "F4_WestWorkSupport",
+          "position": [
+            -37.3,
+            0.85,
+            14
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "F4_WestNorthSupport",
+          "position": [
+            -37.3,
+            0.85,
+            -10
+          ],
+          "size": [
+            0.8,
+            1.7,
+            0.8
+          ]
+        },
+        {
+          "id": "F4_EastWorkSupport",
+          "position": [
+            35.2,
+            7.7,
+            25
+          ],
+          "size": [
+            1.1,
+            15.4,
+            1.1
+          ]
+        },
+        {
+          "id": "F4_LookoutSupport",
+          "position": [
+            34.8,
+            6.7,
+            -10
+          ],
+          "size": [
+            0.9,
+            13.4,
+            0.9
+          ]
+        },
+        {
+          "id": "F4_NpcContactSupport",
+          "position": [
+            -28.1,
+            2.2,
+            18
+          ],
+          "size": [
+            0.65,
+            4.4,
+            0.65
+          ]
+        },
+        {
+          "id": "F4_NpcReadSupport",
+          "position": [
+            32,
+            16.1,
+            10
+          ],
+          "size": [
+            0.6,
+            3.2,
+            0.6
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "id": "F4_Landmark1",
+          "kind": "memorial_lantern",
+          "position": [
+            -36.6,
+            2.5,
+            20
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "F4_Landmark2",
+          "kind": "root_canopy",
+          "position": [
+            -36.5,
+            2.5,
+            -10
+          ],
+          "variant": 1,
+          "scale": 0.8
+        },
+        {
+          "id": "F4_Landmark3",
+          "kind": "resonance_pylon",
+          "position": [
+            36.2,
+            16.2,
+            25
+          ],
+          "variant": 0,
+          "scale": 1.0
+        },
+        {
+          "id": "F4_Landmark4",
+          "kind": "memorial_lantern",
+          "position": [
+            34.5,
+            14.2,
+            -10
+          ],
+          "variant": 1,
+          "scale": 1.0
+        }
+      ],
+      "routes": [
+        {
+          "id": "F4_WestServiceLoop",
+          "name": "共养回望环路",
+          "kind": "optional_low_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -32,
+              5,
+              24
+            ],
+            [
+              -35,
+              5,
+              14
+            ],
+            [
+              -34,
+              6.3,
+              2
+            ],
+            [
+              -35,
+              5,
+              -10
+            ],
+            [
+              -30,
+              8,
+              -13
+            ],
+            [
+              -27,
+              8,
+              -6
+            ],
+            [
+              -27,
+              8,
+              10
+            ],
+            [
+              -29,
+              7,
+              18
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "At the north shelf turn south along the same west deck or follow the inner return dashes; neither enters the north Boss arena.",
+          "minimum_target_altitude": 5,
+          "skill": "braking, close-range work, optional ability combination"
+        },
+        {
+          "id": "F4_EastLookoutLoop",
+          "name": "冠峰交接环路",
+          "kind": "optional_high_loop",
+          "points": [
+            [
+              -24,
+              5,
+              31
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              32,
+              20,
+              25
+            ],
+            [
+              32,
+              20,
+              10
+            ],
+            [
+              32,
+              16.2,
+              -10
+            ],
+            [
+              25,
+              19,
+              -12
+            ],
+            [
+              25,
+              21,
+              6
+            ],
+            [
+              22,
+              21,
+              24
+            ],
+            [
+              19,
+              18,
+              33
+            ],
+            [
+              -5,
+              11,
+              33
+            ],
+            [
+              -24,
+              5,
+              31
+            ]
+          ],
+          "return": "The south aerial approach is two-way. The high route ends outside the Boss arena; descend at the north shelf for the record, then return south.",
+          "minimum_target_altitude": 16.2,
+          "skill": "height changes, braking before inspection, clear return line"
+        }
+      ],
+      "signs": [
+        {
+          "id": "F4_WestJunctionSign",
+          "position": [
+            -30,
+            8.3,
+            24
+          ],
+          "text": "共养回望环路\n西侧低路 → 操作台 / 调查点\n北端可原路回南泊位"
+        },
+        {
+          "id": "F4_HighJunctionSign",
+          "position": [
+            24,
+            22.7,
+            30
+          ],
+          "text": "冠峰交接环路\n先升至约20m，沿东侧灯线\n操作台 → 中观察台 → 北端降至16m"
+        },
+        {
+          "id": "F4_NorthReadSign",
+          "position": [
+            34.5,
+            17.4,
+            -10
+          ],
+          "text": "北观察台 · 回程向南\n靠近并制动到2.5m/s以下，G读取\n北庭Boss入口仍在中央"
+        }
+      ],
+      "entities": [
+        {
+          "id": "F4:next_west_work",
+          "region": "F4",
+          "name": "两界共养试床",
+          "position": [
+            -35,
+            2.85,
+            14
+          ],
+          "size": [
+            0.6,
+            0.4,
+            3
+          ],
+          "tags": [
+            "thermal",
+            "photosensitive",
+            "plant",
+            "growable",
+            "organic"
+          ],
+          "properties": {
+            "temperature": 80.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁试床 · 5 热量 X 两次 → 4 光 F → 7 生长 F 两次 · G"
+        },
+        {
+          "id": "F4:next_east_work",
+          "region": "F4",
+          "name": "登峰交接记录端",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "tags": [
+            "conductive",
+            "electrical",
+            "echo_operable",
+            "mechanical"
+          ],
+          "properties": {
+            "temperature": 20.0,
+            "charge": 0.0,
+            "charge_capacity": 100.0,
+            "growth": 0.0,
+            "light_level": 0.0,
+            "environment_light": 0.0,
+            "angle": 0.0,
+            "powered": false
+          },
+          "hint": "Tab 锁交接端 · 6 电荷 F → 9 回声 F · 保持时 G 留存"
+        }
+      ],
+      "notes": [
+        {
+          "id": "F4:next_west_work",
+          "region": "F4",
+          "kind": "inspect",
+          "position": [
+            -35,
+            2.85,
+            14
+          ],
+          "physical_target": true,
+          "label": "两界共养试床 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:F4:west_work",
+          "title": "先照料眼前能照料的",
+          "character_id": "npc:atai",
+          "lines": [
+            "过热的试床降温，在补光后长出了活脉和工业固定环共同支撑的新芽。",
+            "阮衡留下的标签只有实际温度，阿苔补上了萌发的光照范围。两份记录没有互相盖住。",
+            "这不是终章方案的预选。应急线、活脉和共同照护各有代价，眼前这一小床只说明协作能从具体工作开始。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "F4:next_west_work",
+              "field": "growth",
+              "op": "gte",
+              "value": 0.69
+            }
+          ],
+          "requires_hint": "Tab 锁试床 · 5 热量 X 两次 → 4 光 F → 7 生长 F 两次 · G",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "F4:next_east_work",
+          "region": "F4",
+          "kind": "inspect",
+          "position": [
+            32,
+            17.3,
+            25
+          ],
+          "physical_target": true,
+          "label": "登峰交接记录端 · 操作后G读取",
+          "radius": 3.1,
+          "discovery_id": "world_next:F4:east_work",
+          "title": "回来的人知道下一步怎么接",
+          "character_id": "npc:atai",
+          "lines": [
+            "备用电与回声同时维持住双页记录，登峰者可以把前几区的维护交接一起读完。",
+            "纸页上没有“永久恢复”，而是下一班该看哪一只表、哪一段根、哪一处避险灯。",
+            "终章之后仍可从机库返回各区。你留下的选择、居民服务和已找到的记录都会继续存在，不需要重新抹去旅途。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "target_id": "F4:next_east_work",
+              "field": "charge",
+              "op": "gte",
+              "value": 35.0
+            },
+            {
+              "target_id": "F4:next_east_work",
+              "field": "operated",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "requires_hint": "Tab 锁交接端 · 6 电荷 F → 9 回声 F · 保持时 G 留存",
+          "replay_policy": "already_found_note_replays_without_requiring_expiring_effects"
+        },
+        {
+          "id": "F4:next_high_record",
+          "region": "F4",
+          "kind": "inspect",
+          "position": [
+            32,
+            16.2,
+            -10
+          ],
+          "label": "北观察台 · 稳住后G读取",
+          "radius": 2.8,
+          "discovery_id": "world_next:F4:high_record",
+          "title": "冠峰上的三条回程线",
+          "character_id": "npc:atai",
+          "lines": [
+            "稳住后能看清观峰台上的三条线：工业应急、活体脉络，以及在两者之间共同维护的支路。",
+            "线旁写着同一句话：先把承担的代价说清，再让受影响的人看得见。",
+            "这里没有替你选好的答案。回到共脉中枢，读完三个方案的负载与后果，再亲自确认。"
+          ],
+          "optional": true,
+          "requires": [
+            {
+              "kind": "player_speed",
+              "op": "lte",
+              "value": 2.5
+            }
+          ],
+          "requires_hint": "冠峰线约20m · 观峰台16m · 制动稳住后 G 查三条回程线"
+        }
+      ],
+      "encounters": [
+        {
+          "id": "F4:next_west_work",
+          "kind": "ability_recovery",
+          "authority": "original_host_ability_rules",
+          "goal": "先照料眼前能照料的",
+          "hint": "Tab 锁试床 · 5 热量 X 两次 → 4 光 F → 7 生长 F 两次 · G",
+          "reward_marker": "F4:next_west_work",
+          "completion": "Explicit G plus real current entity requirements; no proximity completion, extra currency or repeated discovery reward."
+        },
+        {
+          "id": "F4:next_east_work",
+          "kind": "ability_combination",
+          "authority": "original_host_ability_rules",
+          "goal": "回来的人知道下一步怎么接",
+          "hint": "Tab 锁交接端 · 6 电荷 F → 9 回声 F · 保持时 G 留存",
+          "reward_marker": "F4:next_east_work",
+          "completion": "Explicit G plus real current entity requirements; temporary control/echo is read beside the same entity."
+        }
+      ]
+    }
+  ]
+}

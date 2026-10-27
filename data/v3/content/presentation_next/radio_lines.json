@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "developed_not_playtested",
+  "voice_status": "temporary_local_synthetic_radio_not_full_character_voiceover",
+  "generator_voice": "Microsoft Huihui Desktop",
+  "sample_rate": 22050,
+  "lines": [
+    {"id":"radio_f2_entry","region":"F2","speaker":"无线电引导 · 临时合成语音","text":"镜湖悬庭就在前面。对好双镜，再听听送灯人的记录。","trigger":"first authored F2 chapter entry text displayed"},
+    {"id":"radio_i3_entry","region":"I3","speaker":"无线电引导 · 临时合成语音","text":"前面是热崖换班台。重载时先制动，再找落点。","trigger":"first authored I3 chapter entry text displayed"},
+    {"id":"radio_f3_entry","region":"F3","speaker":"无线电引导 · 临时合成语音","text":"菌谷还在呼吸。分清命令线，给养分留一条路。","trigger":"first authored F3 chapter entry text displayed"},
+    {"id":"radio_i4_entry","region":"I4","speaker":"无线电引导 · 临时合成语音","text":"航路的上限应该看得见。先保住应急，再谈配额。","trigger":"first authored I4 chapter entry text displayed"},
+    {"id":"radio_f4_entry","region":"F4","speaker":"无线电引导 · 临时合成语音","text":"两条生命线都在眼前。读清三种方案，再共同决定。","trigger":"first authored F4 chapter entry text displayed"},
+    {"id":"radio_final","region":"F4","speaker":"无线电引导 · 临时合成语音","text":"共脉中枢已接通。共同照护、工业生命线、活体脉络。三种方案都要看清，再作选择。","trigger":"final choice explanation actually displayed, never auto-selects"},
+    {"id":"radio_f4_victory","region":"F4","speaker":"无线电引导 · 临时合成语音","text":"风暴退下去了。把通航和选择带回每个人身边。","trigger":"committed final boss victory, before ending selection"},
+    {"id":"radio_ending_care","region":"F4","speaker":"无线电引导 · 临时合成语音","text":"共同照护方案已经确认。让两界的人一起守住通路，也一起承担明天。","trigger":"committed ending choice shared_care only"},
+    {"id":"radio_ending_industry","region":"F4","speaker":"无线电引导 · 临时合成语音","text":"工业生命线方案已经确认。先守住供能与运输，也别忘了继续照看活着的脉络。","trigger":"committed ending choice industrial_lifeline only"},
+    {"id":"radio_ending_living","region":"F4","speaker":"无线电引导 · 临时合成语音","text":"活体脉络方案已经确认。给生命留出恢复的路，也把必要的补给送到需要的人身边。","trigger":"committed ending choice living_pulse only"}
+  ],
+  "notes": [
+    "Original project text. Entry phrases do not claim unsolved mechanisms or Bosses are complete.",
+    "Locally generated with an installed Windows SAPI voice; the engine and voice package are not redistributed.",
+    "Synthetic placeholder radio only. Full character dialogue, performances and human mix evaluation remain incomplete.",
+    "Caller retains subtitles and supplies a one-time content event ID. Save/load baselines do not replay old voice lines."
+  ]
+}

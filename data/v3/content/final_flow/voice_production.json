@@ -1,0 +1,10 @@
+{
+  "production": "offline speech authoring; no playback, game execution or tests",
+  "files": 177,
+  "bytes": 68238540,
+  "format": "22050 Hz PCM16 mono",
+  "voices": {
+    "Microsoft Kangkang": 177
+  },
+  "status": "developed_not_listened"
+}

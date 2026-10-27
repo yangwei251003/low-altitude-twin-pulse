@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "static_ready_no_engine_export_yet",
+  "route_id": "5e455d78-37b2-423b-b660-0cc3185eae49",
+  "baseline_inputs_path": "docs/v3/evidence/dev27-production/i2-production-20261020_053306_a22acf-driver/inputs.json",
+  "baseline_inputs_sha256": "2f5e9fce5e537b13ac6127ec1f8daa0b6dbdd449fd45a547b831b8b99d5def75",
+  "geometry_inputs_sha256": {
+    "scripts/v3/twin_test_world.gd": "1a4e83184dc5dc32894f467683b7bdc206f1117773a38cf2f8022e18b3125e25",
+    "scripts/v3/world/twin_i2_waterfront_terrain.gd": "59aff35004d318ab7b5838cf333467998dc99ce2b22cc5da03c2f6780b9f580d",
+    "scripts/v3/world/twin_i2_inspection_pit.gd": "20a365d07d34360603b5d415647d284f9b8c9b132c36fef6ace2a3275cba5954",
+    "scripts/v3/world/twin_clinic_waterworks.gd": "3760cdbf35366d6ac5b01cd572830112041970d5b491288ed6e6ebe178f296e5",
+    "scripts/v3/world/twin_shared_access_bridge.gd": "5bbde642e5d291718dbc0adddf3dd43cb001f05be3d904521f31f78efe16cf18",
+    "scripts/v3/art/twin_clinic_ground_art.gd": "00ab16498a7f9a439875ed8e52d3bdc7860b2dc86bc4a10af44f7469a232f4fe",
+    "scripts/v3/art/twin_maintenance_paving_art.gd": "a51d7988289994c97b71e52926509852f61044ae2fa47fc8857b3c1baa903f2d",
+    "scripts/v3/art/twin_clinic_pump_art.gd": "a16d4c84bdcccb3f46c524140a35f8af3690f80f531daf96ad1eac206e2f3706",
+    "scripts/v3/art/twin_i2_revetment_art.gd": "c9386963f3a8d94ee9e22441b49f5babd5427b0b2a79c25afd13411f0cc7b7d2",
+    "scripts/v3/art/twin_i2_revetment_partition.gd": "b2f0a69f150dc62222a6608f08cef57c2189f7d925b7b58fefd1fe2f5465bdac",
+    "scripts/v3/art/twin_i2_east_revetment_art.gd": "e7ed76bedac404a54ad0f59f5fef802497b66ce892182ffba13b0ab48a6bda05",
+    "scripts/v3/art/twin_i2_east_maintenance_art.gd": "6a09645bd5d413c1391de672626038b9d2707cb667360490124d8b8fa8ee99ce",
+    "scripts/v3/art/twin_i2_revetment_closure_art.gd": "b0a106b0cd0e0b89a24fed4e03bd24ca5ee2da5ed3826143c937fada9b266101",
+    "scripts/v3/art/twin_i2_inspection_pit_art.gd": "a69686f137da9e322726464a75fb0c583f340e0faec9ee12c7f01c9343f270d4",
+    "data/v3/terrain/i2_clinic_layout.json": "c239fc9b45a00ee9166bad429b3923ac95340b883cb757099b76f40db0e8ed55",
+    "data/v3/terrain/i2_shared_access_layout.json": "ad357fc68c68692a99f2d5394f8774569e3fa3caceaade0920a917468104b556",
+    "data/v3/terrain/i2_revetment_closure_layout.json": "90246f5528d31d73633a4b22fc69ff0cd61330489ede112e33d908d8097fff7b",
+    "data/v3/terrain/i2_revetment_closure_delivery.json": "06caba2e11f88856e054c5b05e44559c47e9d7603db07e6ff15655820846c0e2"
+  },
+  "source_required": "World.build(I2) final installed.meshes.dry_surface after all six installers; exact match to inspection_pit.remaining_visual",
+  "requested_rect_xz": [
+    -24,
+    10.5,
+    36.6,
+    17.5
+  ],
+  "godot_origin": [
+    -5.7,
+    0,
+    19.25
+  ],
+  "actual_visible_area_m2": null,
+  "raw_final_mesh_available_in_existing_evidence": false,
+  "protected_source_contracts": "Existing court/approach 288m2, inspection pit and authored revetment tops are already absent in final mesh; verify rather than subtract guessed shore offsets. WestFoot2 and six pump structural footprints come from actual live BoxShape3D."
+}

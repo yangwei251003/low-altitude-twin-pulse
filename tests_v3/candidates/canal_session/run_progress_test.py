@@ -1,0 +1,71 @@
+"""Bounded first-batch actual moving transport restore, isolated MAIN/Store."""
+import datetime
+import hashlib
+import json
+from pathlib import Path
+import re
+import sys
+import uuid
+
+sys.dont_write_bytecode = True
+ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(ROOT / "scripts_tools/v3"))
+import dev
+
+
+def main():
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    startup = "--startup" in sys.argv
+    departure = "--departure" in sys.argv
+    service_pickup = "--service-pickup" in sys.argv
+    service = "--service" in sys.argv or service_pickup
+    boundary = "--pause-boundary" in sys.argv
+    local_cooling = "--local-cooling" in sys.argv
+    inspect = next((a for a in sys.argv if a.startswith("--inspect=")), "")
+    stamp = ("local_cooling_" if local_cooling else ("boundary_" if boundary else ("inspect_" if inspect else ("service_" if service else ("departure_" if departure else ("startup_" if startup else "progress_")))))) + datetime.datetime.now().strftime("%Y%m%d_%H%M%S") + "_" + uuid.uuid4().hex[:6]
+    folder = Path(__file__).parent / "evidence" / stamp
+    folder.mkdir(parents=True, exist_ok=False)
+    entry = "tests_v3/candidates/canal_session/test_canal_local_cooling.gd" if local_cooling else ("tests_v3/candidates/canal_session/test_canal_pause_boundary.gd" if boundary else ("tests_v3/candidates/canal_session/inspect_canal_progress.gd" if inspect else ("tests_v3/candidates/canal_session/test_canal_service.gd" if service else ("tests_v3/candidates/canal_session/test_canal_departure.gd" if departure else ("tests_v3/candidates/canal_session/test_canal_startup.gd" if startup else "tests_v3/candidates/canal_session/test_canal_progress.gd")))))
+    pending = [entry, "project.godot", "scripts_tools/v3/dev.py", Path(__file__).resolve().relative_to(ROOT).as_posix()]
+    paths = set()
+    while pending:
+        path = pending.pop()
+        if path in paths or not (ROOT / path).is_file():
+            continue
+        paths.add(path)
+        if Path(path).suffix in (".gd", ".tscn", ".tres"):
+            pending.extend(re.findall(r'res://([^"\s\)]+)', (ROOT / path).read_text(encoding="utf-8")))
+    def hashes():
+        return {p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(paths)}
+    before = hashes()
+    for path in paths:
+        if Path(path).suffix not in (".gd", ".json", ".godot", ".tscn", ".py"):
+            continue
+        target = folder / "source" / path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes((ROOT / path).read_bytes())
+    dev.EVIDENCE = folder
+    process = None
+    code = 0
+    try:
+        process = dev.execute(["--headless", "--script", "res://" + entry, "--"] + (["--commit-pickup"] if service_pickup else []) + ([inspect] if inspect else []) + [
+                               "--qa-profile=qa_canal_session_" + stamp,
+                               "--output=res://" + folder.relative_to(ROOT).as_posix()], "engine", 30 if local_cooling else (5 if boundary else (135 if service else 105)))
+    except SystemExit as error:
+        code = int(error.code or 1)
+    finally:
+        after = hashes()
+        (folder / "inputs.json").write_text(json.dumps({"before": before, "after": after,
+            "unchanged": before == after, "process": process,
+            "scope": "actual MAIN transport-progress closure; isolated profile; no network"}, indent=2), encoding="utf-8")
+    report_file = folder / "result.json"
+    report = json.loads(report_file.read_text(encoding="utf-8")) if report_file.exists() else {"failures": ["no test result"], "engine_errors": []}
+    print(json.dumps({"evidence": str(folder), "process": process, "checks": report.get("checks", 0),
+                      "failures": report["failures"], "engine_errors": report["engine_errors"],
+                      "input_count": len(before), "inputs_unchanged": before == after}, ensure_ascii=False))
+    if code or report["failures"] or report["engine_errors"] or before != after:
+        raise SystemExit(code or 1)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "content_id": "opening_whale_extension_v1",
+  "extends_content_id": "opening_v1",
+  "title": "截停抽能鲸机",
+  "status": "integrated_dev4",
+  "scope_note": "第五行动四个目标，合并 opening_v1 使用。dev.4 已接入18m战区、实际模型锚点、房主战斗事实和存档；68项脚本场景接线检查及22项真实射击/物理检查通过。3–5分钟仍是设计目标，难度、趣味与首胜时长未做人测。",
+  "requires_action_ids": ["F1:repair"],
+  "requires_character_ids": ["npc:ruanheng", "npc:linlan", "npc:atai"],
+  "characters": [],
+  "markers": [
+    {
+      "id": "I1:whale_briefing",
+      "region": "I1",
+      "position": [-9, 5, -17],
+      "kind": "inspect",
+      "label": "阮衡 · 北港检修联络台",
+      "radius": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "I1:whale",
+      "title": "截停抽能鲸机",
+      "completion_text": "行动完成 · 原始抽取指令已留存。\n回巨木神殿根桥南侧，与阿苔核对老根读数。",
+      "region_id": "I1",
+      "prerequisites": ["F1:repair"],
+      "target_minutes": [3, 5],
+      "objectives": [
+        {
+          "id": "I1:whale:brief",
+          "text": "在北港入口接通阮衡，确认截停方案",
+          "hint": "完成两界局部修复后返回港口；靠近北港检修联络台，按 G 听取方案。",
+          "after": [],
+          "events": [{"type": "inspect", "target_id": "I1:whale_briefing", "options": ["confirm_plan"]}],
+          "effects": [
+            {"type": "flag", "key": "opening:whale_briefed", "value": true},
+            {"type": "character_memory", "character_id": "npc:ruanheng", "memory": "opening:whale_plan_confirmed"},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["两界这一段支路已经稳住了。北港的鲸机仍在接收远端抽取指令，它的记录匣能告诉我们指令从哪来。", "别切居民总线。先停它两侧的供能舱，再处理暴露的核心；射击和接管都能试。", "从检修台出去再接近它。停机后靠近核心侧的记录匣，把原始记录取回来。"]}
+          ]
+        },
+        {
+          "id": "I1:whale:engage",
+          "text": "离开检修台，接近鲸机并辨认两侧供能舱",
+          "hint": "进入北港真实战区才会启动交战。先读预警，换高度或借实体掩体避开攻击；舱门开启后锁定一侧。",
+          "after": ["I1:whale:brief"],
+          "events": [{"type": "fact", "target_id": "I1:whale_engaged", "options": ["started"]}],
+          "effects": [
+            {"type": "flag", "key": "opening:whale_engaged", "value": true},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["它注意到你们了。先看供能舱怎么开，别把火力都浪费在核心外罩上。"]}
+          ]
+        },
+        {
+          "id": "I1:whale:disable",
+          "text": "停掉两侧供能舱，攻破重组后的核心",
+          "hint": "攻击、抽能或接管可混合使用。核心半血会强制重组，重新观察供能舱和预警；胜利须由房主完成保存。",
+          "after": ["I1:whale:engage"],
+          "events": [{"type": "fact", "target_id": "I1:whale_defeated", "options": ["committed"]}],
+          "effects": [
+            {"type": "flag", "key": "opening:whale_stopped", "value": true},
+            {"type": "character_memory", "character_id": "npc:linlan", "memory": "opening:whale_stopped_without_cutting_bus"},
+            {"type": "dialogue", "character_id": "npc:linlan", "lines": ["北港抽取读数停了，居民应急线还在供电。检修机已经回到救援台，我来留意这边的变化。"]},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["先别走。鲸机停了，记录还在机体里；靠近核心侧的记录匣，再按 G 提取。"]}
+          ]
+        },
+        {
+          "id": "I1:whale:record",
+          "text": "靠近停机鲸体，提取原始抽取指令记录",
+          "hint": "沿停机后开放的路线接近记录匣，按 G 提取；需要真实距离和无遮挡视线，远处锁定或击败首领本身不会自动取证。",
+          "after": ["I1:whale:disable"],
+          "events": [{"type": "fact", "target_id": "I1:whale_raw_record", "options": ["retrieved"]}],
+          "effects": [
+            {"type": "discovery", "discovery_id": "opening:whale_raw_command_record", "title": "抽取指令来自上游中继，持续覆盖本地限流设定"},
+            {"type": "character_memory", "character_id": "npc:ruanheng", "memory": "opening:whale_raw_record_shared"},
+            {"type": "character_memory", "character_id": "npc:atai", "memory": "opening:upstream_trace_partner"},
+            {"type": "dialogue", "character_id": "npc:ruanheng", "lines": ["拿到了。我们改过的本地限流设定，一直被远端的抽取配额覆盖；这台鲸机是在执行收到的命令。", "记录只留下上游中继的转发地址，还不能证明是谁下令。下一步沿这条线找原始发送端。"]},
+            {"type": "dialogue", "character_id": "npc:atai", "lines": ["记录上的时刻，和老根失光的时刻对得上。幼根活下来了，上游的问题还没有结束。", "回巨木神殿，在根桥南侧联络点找我。我们把这份指令和宿主读数对上，再决定怎么改整条脉络。"]}
+          ]
+        }
+      ],
+      "effects": [
+        {"type": "flag", "key": "opening:whale_action_completed", "value": true},
+        {"type": "flag", "key": "opening:upstream_command_trace_known", "value": true}
+      ]
+    }
+  ],
+  "character_reply_extensions": [
+    {
+      "character_id": "npc:ruanheng",
+      "replies": [
+        {"after": "I1:whale:brief", "lines": ["两界本地支路先保住了。这次只截停北港鲸机，别拔掉居民总线；原始指令记录要等停机后近距读取。"]},
+        {"after": "I1:whale:disable", "lines": ["鲸机停了，取证还没完成。记录匣在核心侧，换到无遮挡的一面靠近，再提取。"]},
+        {"after": "I1:whale:record", "lines": ["远端配额在覆盖本地限流。我们已有上游中继地址，还没有下令者的证据；先追来源。"]}
+      ]
+    },
+    {
+      "character_id": "npc:linlan",
+      "replies": [
+        {"after": "I1:whale:disable", "lines": ["检修机已返航，鲸机也停下了；北港应急读数暂时稳定。我守着居民这条线，你们继续查来源。"]}
+      ]
+    },
+    {
+      "character_id": "npc:atai",
+      "replies": [
+        {"after": "I1:whale:record", "lines": ["幼根已能接光，老根的失光时刻又和记录对上了。我会带你们找旧根道，但还不能断定上游的人为什么这么做。"]}
+      ]
+    }
+  ],
+  "host_bindings": {
+    "status": "integration_contract_not_interpreted_by_current_director",
+    "I1:whale_engaged": {
+      "source": "host_verified_encounter_start",
+      "encounter_id": "harbor_whale",
+      "required_objective": "I1:whale:brief",
+      "trigger_role": "WhaleEngagementVolume",
+      "trigger_position": "resolve_from_real_arena_not_briefing_marker",
+      "option": "started"
+    },
+    "I1:whale_defeated": {
+      "source": "durably_committed_campaign_boss_victory",
+      "encounter_id": "harbor_whale",
+      "required_objective": "I1:whale:engage",
+      "world_victory_flag": "I1_boss",
+      "campaign_receipt_id": "boss:I1:harbor_whale:opening_v1",
+      "option": "committed"
+    },
+    "I1:whale_raw_record": {
+      "source": "host_verified_manual_inspection",
+      "required_objective": "I1:whale:disable",
+      "region": "I1",
+      "interaction_kind": "inspect",
+      "input_action": "explore",
+      "input_key_hint": "G",
+      "anchor_role": "CoreWeakpoint",
+      "preferred_child_anchor": "RawCommandRecordAnchor",
+      "anchor_position": "resolve_live_from_defeated_model",
+      "interaction_radius_m": 3,
+      "requires_line_of_sight": true,
+      "requires_explicit_interaction": true,
+      "missing_anchor_policy": "unavailable_no_origin_fallback",
+      "option": "retrieved"
+    }
+  }
+}

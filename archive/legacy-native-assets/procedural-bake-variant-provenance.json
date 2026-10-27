@@ -1,0 +1,92 @@
+{
+  "packed_variants": [
+    {
+      "packed_sha256": "39b3289d36f0d993e947faf1ffa41a61a64c9e05c9d5caf738d1df324f49e743",
+      "current_project_relative_path": "asset_sources/v3/rising_seal/p2/textures/seal_stone_basecolor_p2.png",
+      "current_sha256": "1c95909b91733978338b6673614a3a1166a0a3ed5ba8242ea3dd6b073cfcb8dc",
+      "packed_pixels": {
+        "size": [
+          1536,
+          1536
+        ],
+        "rgba_sha256": "79eab18f5993bbf60ee792b1d77628d0b9d4bdee85b92102b4fc78d31184f0d9"
+      },
+      "current_pixels": {
+        "size": [
+          1536,
+          1536
+        ],
+        "rgba_sha256": "cce723a49043210844bfaec80126d9d6eb884991340f516e8d3cf22f1705314e"
+      },
+      "pixel_equivalent": false,
+      "packed_metadata_has_no_GPS_private_or_credential_shapes": true
+    },
+    {
+      "packed_sha256": "525b48ad3c0bbc186bf8efea355e91b703617a4d39640473a5cb65235b3f4b2b",
+      "current_project_relative_path": "asset_sources/v3/rising_seal/p2/textures/seal_stone_normal_p2.png",
+      "current_sha256": "f00065c0442cf939741c078d7f106a7ebffd85b7f4004b2cc29d4953753f939f",
+      "packed_pixels": {
+        "size": [
+          1536,
+          1536
+        ],
+        "rgba_sha256": "aec0a6e7b550d1c633c1bd4eca7b3f290fc8558324d89df2d588101e07bc1d35"
+      },
+      "current_pixels": {
+        "size": [
+          1536,
+          1536
+        ],
+        "rgba_sha256": "23c0704a406c8e7902bcf27d4b971ea2645729a21591ad2590c63158d705d301"
+      },
+      "pixel_equivalent": false,
+      "packed_metadata_has_no_GPS_private_or_credential_shapes": true
+    },
+    {
+      "packed_sha256": "87ba746c7cdc9d0a0f4de99ad225c1f1d93e6efeccf3d47e9c6b3553c20c1481",
+      "current_project_relative_path": "asset_sources/v3/rising_seal/p2/textures/seal_stone_roughness_p2.png",
+      "current_sha256": "036fe618e7ae3d89364bc00fdf6e896a0ea6f68a95f82847a1b7568237ecadd4",
+      "packed_pixels": {
+        "size": [
+          1536,
+          1536
+        ],
+        "rgba_sha256": "49f1243f966f7227f6ba909a4e9b2abf843c4c5e0ec4bb1aa19dc04a3281ce5c"
+      },
+      "current_pixels": {
+        "size": [
+          1536,
+          1536
+        ],
+        "rgba_sha256": "66650ecb32cac710207dc7b12d8b82cdd8b7972a32d771f74bf1c920b9564b35"
+      },
+      "pixel_equivalent": false,
+      "packed_metadata_has_no_GPS_private_or_credential_shapes": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "asset_sources/v3/rising_seal/p2/build_rising_seal_p2.py",
+      "sha256": "5939e250b6aee27827d877b85fac88c4a828ca791a617a8a6f5be0243de11f87",
+      "external_image_load_calls": false,
+      "procedural_stone_noise_constructed": true,
+      "creates_and_packs_bake_images": false
+    },
+    {
+      "path": "asset_sources/v3/rising_seal/p2/bake_export_p2.py",
+      "sha256": "44f35303f70a70877bbe325658b81af132e64ccb808c915aeeba7e020bb06e43",
+      "external_image_load_calls": false,
+      "procedural_stone_noise_constructed": false,
+      "creates_and_packs_bake_images": true
+    }
+  ],
+  "classification": "project-authored-procedural-stone-bake-variants",
+  "license": "MIT-project-asset",
+  "scope": "Stone basecolor/normal/roughness P2 variants; distinct from newer on-disk bake pixels. Their source constructs stone from noise nodes and bakes into newly created images; no external image load calls in these two producers. P3 packed temple reference excluded independently.",
+  "not_pixel_equivalent_to_current_files": true,
+  "reviewed_packed_sha256": [
+    "39b3289d36f0d993e947faf1ffa41a61a64c9e05c9d5caf738d1df324f49e743",
+    "525b48ad3c0bbc186bf8efea355e91b703617a4d39640473a5cb65235b3f4b2b",
+    "87ba746c7cdc9d0a0f4de99ad225c1f1d93e6efeccf3d47e9c6b3553c20c1481"
+  ]
+}

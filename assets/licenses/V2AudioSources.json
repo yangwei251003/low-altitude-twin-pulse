@@ -1,0 +1,80 @@
+[
+  {
+    "id": "kenney_ui",
+    "author": "Kenney",
+    "title": "UI Audio",
+    "source_page": "https://kenney.nl/assets/ui-audio",
+    "download_url": "https://kenney.nl/media/pages/assets/ui-audio/490d233f68-1677590494/kenney_ui-audio.zip",
+    "source_file": "kenney_ui-audio.zip",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "946fc23a63d535d693eb31b2eabb80c8c28d6351e2186b344ceb71b2cb1d5eb6",
+    "retrieved": "2026-10-14",
+    "note": "Official publicly downloadable asset."
+  },
+  {
+    "id": "kenney_impacts",
+    "author": "Kenney",
+    "title": "Impact Sounds",
+    "source_page": "https://kenney.nl/assets/impact-sounds",
+    "download_url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "source_file": "kenney_impact-sounds.zip",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+    "retrieved": "2026-10-14",
+    "note": "Official publicly downloadable asset."
+  },
+  {
+    "id": "birds",
+    "author": "isaiah658",
+    "title": "Ambient Bird Sounds",
+    "source_page": "https://opengameart.org/content/ambient-bird-sounds",
+    "download_url": "https://opengameart.org/sites/default/files/birds-isaiah658_0.ogg",
+    "source_file": "birds-isaiah658.ogg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "359e4e3f9da9d75aac64cede511c7e3ef8b461f9d9f8c230f8f80e44c4b3e35f",
+    "retrieved": "2026-10-14",
+    "note": "Official publicly downloadable asset."
+  },
+  {
+    "id": "waves",
+    "author": "jasinski; edited by qubodup",
+    "title": "Beach Ocean Waves",
+    "source_page": "https://opengameart.org/content/beach-ocean-waves",
+    "download_url": "https://opengameart.org/sites/default/files/wave_01_cc0-18363__jasinski__alkaibeach.flac",
+    "source_file": "wave_01.flac",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "fcfca178eca2eac536e8c2a4ed5cf8096e44c921acd587047b3d9f1d7845435c",
+    "retrieved": "2026-10-14",
+    "note": "Official publicly downloadable asset."
+  },
+  {
+    "id": "music",
+    "author": "Chris Murphy (zesona)",
+    "title": "Sherwood",
+    "source_page": "https://opengameart.org/content/sherwood",
+    "download_url": "https://opengameart.org/sites/default/files/sherwood_0.ogg",
+    "source_file": "sherwood.ogg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "a7796c847682f5fd00041ffc0b0d71b67d95a41b4d6d914cd8e11bc37fe29a88",
+    "retrieved": "2026-10-14",
+    "note": "Official publicly downloadable asset."
+  },
+  {
+    "id": "rotor",
+    "author": "Sheyvan",
+    "title": "Drone Flying",
+    "source_page": "https://freesound.org/people/Sheyvan/sounds/470127/",
+    "download_url": "https://cdn.freesound.org/previews/470/470127_3248005-hq.mp3",
+    "source_file": "drone_flying_sheyvan_hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "6225a631a60953fd1532bc6fb7b24d1530bd3b6c02ad8c70280b1f188ea4bab4",
+    "retrieved": "2026-10-14",
+    "note": "Publicly served HQ MP3 preview; original WAV requires login and was not fetched."
+  }
+]

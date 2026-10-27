@@ -1,0 +1,23 @@
+Low Altitude / Twin Pulse - presentation content batch
+
+The reusable low-detail prop set is original project-authored primitive geometry.
+Editable source: scripts/v3/content/presentation_next/twin_content_prop_factory.gd.
+It follows the already selected I-B industrial and F-B fantasy directions.
+Imported kit references reuse the existing project GLBs without copying or
+changing their editable sources, textures, materials, or credits.
+
+Temporary synthetic radio:
+Original project Mandarin text: data/v3/content/presentation_next/radio_lines.json.
+Local generator: scripts/v3/content/presentation_next/build_radio_assets.ps1.
+Generated locally with the installed Microsoft Huihui Desktop Windows SAPI voice.
+Only produced WAV files are included; no Microsoft speech engine or voice package
+is redistributed. No actor is imitated and no recording was uploaded or bought.
+This is explicitly synthetic placeholder radio, not completed character dubbing.
+Full dialogue performances, human listening and final mixing remain incomplete.
+
+Existing ambience, interaction and music routes reuse the formal V3 audio bank;
+its original project / CC0 source credits remain in assets/v3/audio/CREDITS.txt
+and data/v3/audio/sources.json. No new third-party sample is introduced here.
+
+Development status: authored for the main content batch;
+not playtested or human-mix evaluated in this content-only continuation.
